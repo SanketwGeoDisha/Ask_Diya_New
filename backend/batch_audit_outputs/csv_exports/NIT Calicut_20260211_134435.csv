@@ -1,0 +1,50 @@
+College Name,"NIT Calicut"
+
+=== AUDIT OVERVIEW ===
+Audit Date,"2026-02-11 13:44:35"
+Total KPIs,24
+Data Found,24
+Data Not Found,0
+High Confidence,24
+Coverage Percentage,100.0%
+
+=== CATEGORY BREAKDOWN ===
+Category,Found,Total,Percentage
+"Student Demographics",4,4,100%
+"Placements",3,3,100%
+"Student Outcomes",1,1,100%
+"Faculty",3,3,100%
+"Academic Infrastructure",2,2,100%
+"Campus Facilities",3,3,100%
+"Technology Infrastructure",1,1,100%
+"Academic Programs",2,2,100%
+"Admissions",2,2,100%
+"Student Life",1,1,100%
+"Accreditations & Rankings",2,2,100%
+
+=== KPI DETAILS ===
+KPI Name,Category,Value,Evidence,Source URL,System Confidence,LLM Confidence,Source Priority,Data Year,Recency
+Total Graduate Students (2025),Student Demographics,"1501 [UG 4Y: 902, UG 5Y: 51, PG 2Y: 548]",Extracted from NIRF Overall document,https://nitc.ac.in/imgserver/uploads/attachments/overall_233_0.pdf,low,low,critical,,unknown
+Placed Students Count,Placements,"1304 [UG: 831, PG: 473]",Extracted from NIRF Overall document,https://nitc.ac.in/imgserver/uploads/attachments/overall_233_0.pdf,low,low,critical,,unknown
+Median Compensation (Last Batch),Placements,11.10 LPA,Extracted from NIRF Overall document,https://nitc.ac.in/imgserver/uploads/attachments/overall_233_0.pdf,low,low,critical,,unknown
+Students Pursuing Higher Education,Student Outcomes,"154 [UG: 92, PG: 62]",Extracted from NIRF Overall document,https://nitc.ac.in/imgserver/uploads/attachments/overall_233_0.pdf,low,low,critical,,unknown
+Total Students Enrolled,Student Demographics,5318,Extracted from NIRF Overall document,https://nitc.ac.in/imgserver/uploads/attachments/overall_233_0.pdf,low,low,critical,,unknown
+Female Students Enrolled,Student Demographics,1450,Extracted from NIRF Overall document,https://nitc.ac.in/imgserver/uploads/attachments/overall_233_0.pdf,low,low,critical,,unknown
+Total Faculty,Faculty,365,Extracted from NIRF Overall document,https://nitc.ac.in/imgserver/uploads/attachments/overall_233_0.pdf,low,low,critical,,unknown
+PhD Faculty,Faculty,355,Extracted from NIRF Overall document,https://nitc.ac.in/imgserver/uploads/attachments/overall_233_0.pdf,low,low,critical,,unknown
+Average Teaching Experience of Faculty,Faculty,12.53,Extracted from NIRF Overall document,https://nitc.ac.in/imgserver/uploads/attachments/overall_233_0.pdf,low,low,critical,,unknown
+PhD Students Enrolled,Student Demographics,"1017 [Full Time: 956, Part Time: 61]",Extracted from NIRF Overall document,https://nitc.ac.in/imgserver/uploads/attachments/overall_233_0.pdf,low,low,critical,,unknown
+ICT-Enabled Learning Infrastructure,Academic Infrastructure,True,The institute has smart classrooms and ICT-enabled facilities across various departments and the central library.,https://nitc.ac.in/infrastructure,medium,high,high,,unknown
+Digital Library Access,Academic Infrastructure,True,"The Central Library provides access to various digital resources including e-journals, e-books, and online databases.",https://nitc.ac.in/library,medium,high,high,,unknown
+Male Hostels Managed by College,Campus Facilities,11,"There are 11 hostels for men (A, B, C, D, E, F, G, H, I, J, and M) and a Mega Hostel.",https://nitc.ac.in/hostels,medium,high,high,,unknown
+Female Hostels Managed by College,Campus Facilities,2,There are 2 hostels for women (LH and Mega Hostel for Ladies).,https://nitc.ac.in/hostels,medium,high,high,,unknown
+Smart Campus / ERP Implementation,Technology Infrastructure,True,NITC uses an Integrated Institute Management System (IIMS) for academic and administrative processes.,https://nitc.ac.in/digital-initiatives,medium,high,high,,unknown
+List of Courses,Academic Programs,"B.Tech(CE, CH, CSE, ECE, EEE, EP, ME, PE, BT), B.Arch, M.Tech(AI, VLSI, CS, EE, ME, CE, CH, BT, EP), M.Plan, MCA, M.Sc, MBA, Ph.D","NIT Calicut offers B.Tech in 10 branches, B.Arch, M.Tech in 25 specializations, M.Plan, MCA, M.Sc, MBA, and PhD programs.",https://www.nitc.ac.in/academics/programs,medium,high,high,,unknown
+Fees for Each Course,Academic Programs,"{'B.Tech': '1,25,000', 'M.Tech': '70,000', 'MBA': '1,50,000', 'MCA': '70,000', 'B.Arch': '1,25,000'}","Tuition fee for B.Tech is Rs. 62,500 per semester. M.Tech tuition fee is Rs. 35,000 per semester.",https://www.nitc.ac.in/admissions/fee-structure,medium,high,high,,unknown
+Maximum Compensation (Last Placement Season),Placements,50.00 LPA,The highest package offered during NIT Calicut placements 2024 was INR 50 LPA.,https://www.nitc.ac.in/placements/statistics,medium,high,high,2024,medium
+Entrance Exam Name,Admissions,JEE Main,"Admission to B.Tech and B.Arch programs is based on the rank secured in the Joint Entrance Examination, JEE (Main).",https://www.nitc.ac.in/admissions/undergraduate,medium,high,high,,unknown
+Entrance Exam Cutoff by Program,Admissions,"{'CSE': '10512', 'ECE': '16450', 'EEE': '23120', 'ME': '32150', 'CE': '45600'}",Closing ranks for Gender-Neutral Open category (Home State) in JoSAA Round 6.,https://josaa.admissions.nic.in/selection/closingrank/cr_p.aspx,medium,high,high,,unknown
+Sports Infrastructure & Achievements,Campus Facilities,"{'facilities': ['International standard swimming pool', 'Indoor sports complex', 'Gymnasium', 'Football ground', 'Cricket ground', 'Basketball courts', 'Tennis courts', 'Volleyball courts', 'Badminton courts'], 'achievements': ['Regular participation in Inter-NIT Sports Meets', 'Host of various national level technical and cultural sports events']}","The institute has a well-equipped gymnasium, an international standard swimming pool, and facilities for various outdoor and indoor games.",https://nitc.ac.in/campus-life/facilities/sports,medium,high,high,,unknown
+List of Active Clubs,Student Life,"['Literary & Debating Club', 'Indian Cultural Association', 'Western Music Band', 'Dance Club', 'Dramatics Club', 'Cinema Club', 'Photography Club', 'Robotics Interest Group', 'IEEE Student Branch', 'ISTE Student Chapter', 'ACM Student Chapter', 'Aero Unwired', 'Club Unwired', 'Enquire Quiz Club']","The Student Affairs Council (SAC) oversees various technical and cultural clubs including LDC, ICA, and RIG.",https://nitc.ac.in/campus-life/student-activities/clubs,medium,high,high,,unknown
+NIRF Ranking,Accreditations & Rankings,"Engineering: 38, Architecture: 2","In NIRF 2024, NIT Calicut secured 38th rank in Engineering and 2nd rank in Architecture.",https://www.nirfindia.org/Rankings/2024/EngineeringRanking.html,medium,high,critical,2024,medium
+Institutional Status,Accreditations & Rankings,Institute of National Importance,National Institute of Technology Calicut is one of the premier national institutions for technical education in India and is an Institute of National Importance.,https://nitc.ac.in/about/introduction,medium,high,high,,unknown

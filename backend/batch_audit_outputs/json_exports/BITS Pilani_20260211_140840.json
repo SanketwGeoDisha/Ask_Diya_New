@@ -1,0 +1,1051 @@
+{
+  "college_name": "BITS Pilani",
+  "audit_date": "2026-02-11T14:08:40.745493",
+  "summary": {
+    "total_kpis": 21,
+    "data_found": 21,
+    "data_not_found": 0,
+    "high_confidence": 17,
+    "medium_confidence": 8,
+    "coverage_percentage": 100.0,
+    "source_priority_breakdown": {
+      "high": 13,
+      "medium": 0,
+      "low": 0
+    },
+    "categories": {
+      "Student Demographics": {
+        "total": 4,
+        "found": 4
+      },
+      "Placements": {
+        "total": 3,
+        "found": 3
+      },
+      "Student Outcomes": {
+        "total": 1,
+        "found": 1
+      },
+      "Academic Infrastructure": {
+        "total": 2,
+        "found": 2
+      },
+      "Campus Facilities": {
+        "total": 3,
+        "found": 3
+      },
+      "Technology Infrastructure": {
+        "total": 1,
+        "found": 1
+      },
+      "Academic Programs": {
+        "total": 2,
+        "found": 2
+      },
+      "Admissions": {
+        "total": 2,
+        "found": 2
+      },
+      "Student Life": {
+        "total": 1,
+        "found": 1
+      },
+      "Accreditations & Rankings": {
+        "total": 2,
+        "found": 2
+      }
+    }
+  },
+  "results": [
+    {
+      "kpi_name": "Total Graduate Students (2025)",
+      "field_name": "total_graduate_students_2025",
+      "category": "Student Demographics",
+      "value": "3753 [UG 4Y: 2883, PG 2Y: 870]",
+      "confidence": "high",
+      "source_type": "NIRF",
+      "source_priority": "critical",
+      "source_url": "https://www.bits-pilani.ac.in/wp-content/uploads/Overall_NIRF-2025.pdf",
+      "evidence_quote": "Extracted from NIRF 2025 document",
+      "sources": [
+        {
+          "title": "NIRF 2025 Overall PDF",
+          "url": "https://www.bits-pilani.ac.in/wp-content/uploads/Overall_NIRF-2025.pdf",
+          "snippet": "Data extracted from NIRF 2025 document",
+          "relevance": "high",
+          "recency": 2025
+        }
+      ],
+      "reasoning": "Direct pattern extraction from NIRF Overall document",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 3753,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.47,
+        "evidence_breakdown": {
+          "length": 0.8,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.25,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.583,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.7
+        }
+      },
+      "system_confidence": "low",
+      "confidence_score": 0.583
+    },
+    {
+      "kpi_name": "Placed Students Count",
+      "field_name": "placed_students_count",
+      "category": "Placements",
+      "value": "3394 [UG: 2554, PG: 840]",
+      "confidence": "high",
+      "source_type": "NIRF",
+      "source_priority": "critical",
+      "source_url": "https://www.bits-pilani.ac.in/wp-content/uploads/Overall_NIRF-2025.pdf",
+      "evidence_quote": "Extracted from NIRF 2025 document",
+      "sources": [
+        {
+          "title": "NIRF 2025 Overall PDF",
+          "url": "https://www.bits-pilani.ac.in/wp-content/uploads/Overall_NIRF-2025.pdf",
+          "snippet": "Data extracted from NIRF 2025 document",
+          "relevance": "high",
+          "recency": 2025
+        }
+      ],
+      "reasoning": "Direct pattern extraction from NIRF Overall document",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 3394,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.42,
+        "evidence_breakdown": {
+          "length": 0.8,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.583,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.7
+        }
+      },
+      "system_confidence": "low",
+      "confidence_score": 0.583
+    },
+    {
+      "kpi_name": "Median Compensation (Last Batch)",
+      "field_name": "median_compensation_last_batch",
+      "category": "Placements",
+      "value": "17.70 LPA",
+      "confidence": "high",
+      "source_type": "NIRF",
+      "source_priority": "critical",
+      "source_url": "https://www.bits-pilani.ac.in/wp-content/uploads/Overall_NIRF-2025.pdf",
+      "evidence_quote": "Extracted from NIRF 2025 document",
+      "sources": [
+        {
+          "title": "NIRF 2025 Overall PDF",
+          "url": "https://www.bits-pilani.ac.in/wp-content/uploads/Overall_NIRF-2025.pdf",
+          "snippet": "Data extracted from NIRF 2025 document",
+          "relevance": "high",
+          "recency": 2025
+        }
+      ],
+      "reasoning": "Direct pattern extraction from NIRF Overall document",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid currency",
+        "normalized_value": 1770000,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.42,
+        "evidence_breakdown": {
+          "length": 0.8,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.583,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.7
+        }
+      },
+      "system_confidence": "low",
+      "confidence_score": 0.583
+    },
+    {
+      "kpi_name": "Students Pursuing Higher Education",
+      "field_name": "students_higher_education",
+      "category": "Student Outcomes",
+      "value": "330 [UG: 310, PG: 20]",
+      "confidence": "high",
+      "source_type": "NIRF",
+      "source_priority": "critical",
+      "source_url": "https://www.bits-pilani.ac.in/wp-content/uploads/Overall_NIRF-2025.pdf",
+      "evidence_quote": "Extracted from NIRF 2025 document",
+      "sources": [
+        {
+          "title": "NIRF 2025 Overall PDF",
+          "url": "https://www.bits-pilani.ac.in/wp-content/uploads/Overall_NIRF-2025.pdf",
+          "snippet": "Data extracted from NIRF 2025 document",
+          "relevance": "high",
+          "recency": 2025
+        }
+      ],
+      "reasoning": "Direct pattern extraction from NIRF Overall document",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 330,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.42,
+        "evidence_breakdown": {
+          "length": 0.8,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.583,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.7
+        }
+      },
+      "system_confidence": "low",
+      "confidence_score": 0.583
+    },
+    {
+      "kpi_name": "Total Students Enrolled",
+      "field_name": "total_students_enrolled",
+      "category": "Student Demographics",
+      "value": "13551",
+      "confidence": "high",
+      "source_type": "NIRF",
+      "source_priority": "critical",
+      "source_url": "https://www.bits-pilani.ac.in/wp-content/uploads/Overall_NIRF-2025.pdf",
+      "evidence_quote": "Extracted from NIRF 2025 document",
+      "sources": [
+        {
+          "title": "NIRF 2025 Overall PDF",
+          "url": "https://www.bits-pilani.ac.in/wp-content/uploads/Overall_NIRF-2025.pdf",
+          "snippet": "Data extracted from NIRF 2025 document",
+          "relevance": "high",
+          "recency": 2025
+        }
+      ],
+      "reasoning": "Direct pattern extraction from NIRF Overall document",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 13551,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.42,
+        "evidence_breakdown": {
+          "length": 0.8,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.583,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.7
+        }
+      },
+      "system_confidence": "low",
+      "confidence_score": 0.583
+    },
+    {
+      "kpi_name": "Female Students Enrolled",
+      "field_name": "female_students_enrolled",
+      "category": "Student Demographics",
+      "value": "2307",
+      "confidence": "high",
+      "source_type": "NIRF",
+      "source_priority": "critical",
+      "source_url": "https://www.bits-pilani.ac.in/wp-content/uploads/Overall_NIRF-2025.pdf",
+      "evidence_quote": "Extracted from NIRF 2025 document",
+      "sources": [
+        {
+          "title": "NIRF 2025 Overall PDF",
+          "url": "https://www.bits-pilani.ac.in/wp-content/uploads/Overall_NIRF-2025.pdf",
+          "snippet": "Data extracted from NIRF 2025 document",
+          "relevance": "high",
+          "recency": 2025
+        }
+      ],
+      "reasoning": "Direct pattern extraction from NIRF Overall document",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 2307,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.42,
+        "evidence_breakdown": {
+          "length": 0.8,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.583,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.7
+        }
+      },
+      "system_confidence": "low",
+      "confidence_score": 0.583
+    },
+    {
+      "kpi_name": "PhD Students Enrolled",
+      "field_name": "phd_students_enrolled",
+      "category": "Student Demographics",
+      "value": "2126 [Full Time: 1651, Part Time: 475]",
+      "confidence": "high",
+      "source_type": "NIRF",
+      "source_priority": "critical",
+      "source_url": "https://www.bits-pilani.ac.in/wp-content/uploads/Overall_NIRF-2025.pdf",
+      "evidence_quote": "Extracted from NIRF 2025 document",
+      "sources": [
+        {
+          "title": "NIRF 2025 Overall PDF",
+          "url": "https://www.bits-pilani.ac.in/wp-content/uploads/Overall_NIRF-2025.pdf",
+          "snippet": "Data extracted from NIRF 2025 document",
+          "relevance": "high",
+          "recency": 2025
+        }
+      ],
+      "reasoning": "Direct pattern extraction from NIRF Overall document",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 2126,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.42,
+        "evidence_breakdown": {
+          "length": 0.8,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.583,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.7
+        }
+      },
+      "system_confidence": "low",
+      "confidence_score": 0.583
+    },
+    {
+      "kpi_name": "ICT-Enabled Learning Infrastructure",
+      "category": "Academic Infrastructure",
+      "value": true,
+      "evidence_quote": "All classrooms are centrally air conditioned and are equipped with computers, projectors, screens, speakers and black-boards.",
+      "source_url": "https://www.bits-pilani.ac.in/pilani/management/facilities/",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Direct description of classrooms equipped with computers and projectors in official facility list.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "True",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.35,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.633,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.633
+    },
+    {
+      "kpi_name": "Digital Library Access",
+      "category": "Academic Infrastructure",
+      "value": true,
+      "evidence_quote": "Over 20,000 electronic resources, including databases, journals and ebooks. ... Library e-services",
+      "source_url": "https://www.bits-pilani.ac.in/pilani/management/facilities/",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Explicit mention of electronic resources and e-services in the library section.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "True",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.517,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.3333333333333333,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.633,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.633
+    },
+    {
+      "kpi_name": "Male Hostels Managed by College",
+      "category": "Campus Facilities",
+      "value": 1,
+      "evidence_quote": "The Higher Degree Students... will get a hostel room allotted... male student, his parents may stay with him... male guardian will get to stay temporarily in a boys’ hostel",
+      "source_url": "https://www.bits-pilani.ac.in/wp-content/uploads/Information_anti_ragging_hostel_allotment_July_2017.pdf",
+      "source_type": "Official Website",
+      "llm_confidence": "medium",
+      "llm_confidence_reason": "Existence of boys' hostels is confirmed, but the exact count of individual buildings is not stated.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "low",
+      "confidence": "high",
+      "validation": {
+        "is_valid": false,
+        "validation_reason": "Text too short",
+        "normalized_value": "1",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.39,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.2,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.467,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 0.3,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.7
+        }
+      },
+      "confidence_score": 0.467
+    },
+    {
+      "kpi_name": "Female Hostels Managed by College",
+      "category": "Campus Facilities",
+      "value": 1,
+      "evidence_quote": "Dr. Surekha Bhanot Warden, Meera Bhawan (Girls)... Ms Mallika Upadhaya Hostel Superintendent (Girls)",
+      "source_url": "https://www.bits-pilani.ac.in/wp-content/uploads/Information_anti_ragging_hostel_allotment_July_2017.pdf",
+      "source_type": "Official Website",
+      "llm_confidence": "medium",
+      "llm_confidence_reason": "Meera Bhawan is explicitly named as a girls' hostel, but total building count is not provided.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "low",
+      "confidence": "high",
+      "validation": {
+        "is_valid": false,
+        "validation_reason": "Text too short",
+        "normalized_value": "1",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.35,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.467,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 0.3,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.7
+        }
+      },
+      "confidence_score": 0.467
+    },
+    {
+      "kpi_name": "Smart Campus / ERP Implementation",
+      "category": "Technology Infrastructure",
+      "value": true,
+      "evidence_quote": "The allotment of rooms is random and computerized. ... Computer software development for student records, time-table, admission process",
+      "source_url": "https://www.bits-pilani.ac.in/centre-for-research-on-educational-innovation-institutional-development/",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Mentions computerized allotment and software for student records and admissions.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "True",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.35,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.633,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.633
+    },
+    {
+      "kpi_name": "List of Courses",
+      "category": "Academic Programs",
+      "value": "B.E.(Chemical, Civil, CS, EE, Electronics & Computer, ECE, E&I, Manufacturing, ME), B.Pharm, M.Sc.(Biological Sciences, Chemistry, Economics, General Studies, Mathematics, Physics), MBA, M.E.(Biotechnology, Chemical, Civil, CS, Design, Embedded Systems, Manufacturing, ME, Microelectronics, Software Systems), M.Pharm, MPH, Ph.D",
+      "evidence_quote": "B.E.(Chemical) B.E.(Civil) B.E.(Computer Science) B.E.(Electrical and Electronics)... Higher Degree MBA... Doctoral Programmes",
+      "source_url": "https://www.bits-pilani.ac.in/",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Comprehensive list of programs explicitly detailed on the official homepage and department pages.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "B.E.(Chemical, Civil, CS, EE, Electronics & Computer, ECE, E&I, Manufacturing, ME), B.Pharm, M.Sc.(Biological Sciences, Chemistry, Economics, General Studies, Mathematics, Physics), MBA, M.E.(Biotechnology, Chemical, Civil, CS, Design, Embedded Systems, Manufacturing, ME, Microelectronics, Software Systems), M.Pharm, MPH, Ph.D",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.35,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.633,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.633
+    },
+    {
+      "kpi_name": "Fees for Each Course",
+      "category": "Academic Programs",
+      "value": "N/A",
+      "evidence_quote": "The provided text mentions a scrutiny fee of Rs. 100 but does not list annual tuition fees for academic programs.",
+      "source_url": "https://www.bits-pilani.ac.in/wp-content/uploads/Scrutiny_Form_REVISED.pdf",
+      "source_type": "Official Website",
+      "llm_confidence": "low",
+      "llm_confidence_reason": "Only administrative fees (scrutiny) were found; annual tuition fees are absent from the sources.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "low",
+      "confidence": "low",
+      "validation": {
+        "is_valid": false,
+        "validation_reason": "Value indicates data not found",
+        "normalized_value": null,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.55,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.5,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.417,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 0.3,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.4
+        }
+      },
+      "confidence_score": 0.417
+    },
+    {
+      "kpi_name": "Maximum Compensation (Last Placement Season)",
+      "category": "Placements",
+      "value": "N/A",
+      "evidence_quote": "Average annual salary was ‡ 20.7 LPA... approximately 3,000 students secured offers... 3200 placement offers.",
+      "source_url": "https://www.bits-pilani.ac.in/BITSology/BITSology-Jan-2024/",
+      "source_type": "Official Website",
+      "llm_confidence": "medium",
+      "llm_confidence_reason": "Average salary (20.7 LPA) is explicitly stated, but the absolute maximum CTC is not mentioned.",
+      "source_priority": "high",
+      "data_year": 2024,
+      "recency": "medium",
+      "system_confidence": "low",
+      "confidence": "low",
+      "validation": {
+        "is_valid": false,
+        "validation_reason": "Value indicates data not found",
+        "normalized_value": null,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.49,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.2,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.467,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 0.3,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.7
+        }
+      },
+      "confidence_score": 0.467
+    },
+    {
+      "kpi_name": "Entrance Exam Name",
+      "category": "Admissions",
+      "value": "BITSAT",
+      "evidence_quote": "Admission Integrated first degree... BITSAT IMPORTANT CONTACTS",
+      "source_url": "https://www.bits-pilani.ac.in/",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "BITSAT is prominently listed as the primary entrance portal for integrated first-degree admissions.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "BITSAT",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 1.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.7,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 1.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.733,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.733
+    },
+    {
+      "kpi_name": "Entrance Exam Cutoff by Program",
+      "category": "Admissions",
+      "value": "N/A",
+      "evidence_quote": "BITSAT Admissions and Aspirants Alert... How many students are in your Class: 1050 (First Degree)",
+      "source_url": "https://www.bits-pilani.ac.in/wp-content/uploads/Information_anti_ragging_hostel_allotment_July_2017.pdf",
+      "source_type": "Official Website",
+      "llm_confidence": "low",
+      "llm_confidence_reason": "Student intake numbers are provided, but specific BITSAT score cutoffs are not in the provided text.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "low",
+      "confidence": "low",
+      "validation": {
+        "is_valid": false,
+        "validation_reason": "Value indicates data not found",
+        "normalized_value": null,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.45,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.417,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 0.3,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.4
+        }
+      },
+      "confidence_score": 0.417
+    },
+    {
+      "kpi_name": "Sports Infrastructure & Achievements",
+      "category": "Campus Facilities",
+      "value": {
+        "facilities": [
+          "Sports festivals",
+          "Playgrounds",
+          "Gymnasium"
+        ],
+        "achievements": [
+          "Project Kratos ranked first in India and second in Asia at International University Rover challenge",
+          "Ranked first in All India Case Study competition at IIM Ahmedabad"
+        ]
+      },
+      "evidence_quote": "Students organize International-level festivals (sports,cultural & technical)... Project Kratos, a student run team ranked first in India, and second all over Asia",
+      "source_url": "https://www.bits-pilani.ac.in/placements/goa/",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Directly mentioned achievements and facilities in the placement and campus overview sections.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "{'facilities': ['Sports festivals', 'Playgrounds', 'Gymnasium'], 'achievements': ['Project Kratos ranked first in India and second in Asia at International University Rover challenge', 'Ranked first in All India Case Study competition at IIM Ahmedabad']}",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 0.5
+      },
+      "quality_scores": {
+        "evidence_quality": 0.417,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.3333333333333333,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.733,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.733
+    },
+    {
+      "kpi_name": "List of Active Clubs",
+      "category": "Student Life",
+      "value": [
+        "Business and Entrepreneurship Clubs",
+        "Consulting Competitions",
+        "180 DC",
+        "IFSA",
+        "ShARE",
+        "BITS Embryo"
+      ],
+      "evidence_quote": "many Business and Entrepreneurship Clubs have flourished... 180 DC, IFSA, ShARE chapters of the BITS Pilani campus partner... BITS Embryo",
+      "source_url": "https://www.bits-pilani.ac.in/wp-content/uploads/BITS_Pilani_Placement_Brochure_2024-25.pdf",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Clubs are explicitly named in the placement brochure and campus facility pages.",
+      "source_priority": "high",
+      "data_year": 2024,
+      "recency": "medium",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "['Business and Entrepreneurship Clubs', 'Consulting Competitions', '180 DC', 'IFSA', 'ShARE', 'BITS Embryo']",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 0.8
+      },
+      "quality_scores": {
+        "evidence_quality": 0.9,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 1.0,
+          "context": 0.5,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.733,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.733
+    },
+    {
+      "kpi_name": "NIRF Ranking",
+      "category": "Accreditations & Rankings",
+      "value": "N/A",
+      "evidence_quote": "Invalid source URL",
+      "source_url": "",
+      "source_type": "N/A",
+      "llm_confidence": "low",
+      "llm_confidence_reason": "No source available",
+      "system_confidence": "low",
+      "source_priority": "unknown",
+      "confidence": "low",
+      "data_year": null,
+      "recency": "unknown",
+      "validation": {
+        "is_valid": false,
+        "validation_reason": "Value indicates data not found",
+        "normalized_value": null,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.275,
+        "evidence_breakdown": {
+          "length": 0.5,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.417,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 0.3,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.4
+        }
+      },
+      "confidence_score": 0.417
+    },
+    {
+      "kpi_name": "Institutional Status",
+      "category": "Accreditations & Rankings",
+      "value": "Deemed University",
+      "evidence_quote": "This centre was established with financial support from the University Grants Commission, New Delhi... possibly the highest among self-sustained institutions.",
+      "source_url": "https://www.bits-pilani.ac.in/centre-for-research-on-educational-innovation-institutional-development/",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Reference to UGC support and 'self-sustained institution' status confirms its Deemed University standing.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "Deemed University",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 0.5
+      },
+      "quality_scores": {
+        "evidence_quality": 0.35,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.733,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.733
+    }
+  ]
+}

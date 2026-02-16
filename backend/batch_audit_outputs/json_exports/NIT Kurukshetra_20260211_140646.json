@@ -1,0 +1,1210 @@
+{
+  "college_name": "NIT Kurukshetra",
+  "audit_date": "2026-02-11T14:06:46.840089",
+  "summary": {
+    "total_kpis": 25,
+    "data_found": 25,
+    "data_not_found": 0,
+    "high_confidence": 25,
+    "medium_confidence": 24,
+    "coverage_percentage": 100.0,
+    "source_priority_breakdown": {
+      "high": 14,
+      "medium": 0,
+      "low": 0
+    },
+    "categories": {
+      "Academic Infrastructure": {
+        "total": 2,
+        "found": 2
+      },
+      "Campus Facilities": {
+        "total": 3,
+        "found": 3
+      },
+      "Technology Infrastructure": {
+        "total": 1,
+        "found": 1
+      },
+      "Academic Programs": {
+        "total": 2,
+        "found": 2
+      },
+      "Student Demographics": {
+        "total": 4,
+        "found": 4
+      },
+      "Placements": {
+        "total": 3,
+        "found": 3
+      },
+      "Student Outcomes": {
+        "total": 1,
+        "found": 1
+      },
+      "Research & Innovation": {
+        "total": 1,
+        "found": 1
+      },
+      "Admissions": {
+        "total": 2,
+        "found": 2
+      },
+      "Faculty": {
+        "total": 3,
+        "found": 3
+      },
+      "Student Life": {
+        "total": 1,
+        "found": 1
+      },
+      "Accreditations & Rankings": {
+        "total": 2,
+        "found": 2
+      }
+    }
+  },
+  "results": [
+    {
+      "kpi_name": "ICT-Enabled Learning Infrastructure",
+      "category": "Academic Infrastructure",
+      "value": true,
+      "evidence_quote": "The Institute has 11 Lecture Halls (L-1 to L-11) equipped with ICT facilities like Projectors, Audio systems and Internet connectivity.",
+      "source_url": "https://nitkkr.ac.in/?page_id=581",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Explicit mention of ICT-equipped lecture halls on the official institute website.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "True",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.5,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.25,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.633,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.633
+    },
+    {
+      "kpi_name": "Digital Library Access",
+      "category": "Academic Infrastructure",
+      "value": true,
+      "evidence_quote": "The Library has a rich collection of e-resources including e-journals, e-books and databases accessible through the campus network.",
+      "source_url": "https://nitkkr.ac.in/?page_id=457",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Direct confirmation of e-resources and digital library access on the official site.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "True",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.417,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.3333333333333333,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.633,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.633
+    },
+    {
+      "kpi_name": "Male Hostels Managed by College",
+      "category": "Campus Facilities",
+      "value": 11,
+      "evidence_quote": "There are 11 Boys' Hostels (H-1 to H-11) in the Institute campus.",
+      "source_url": "https://nitkkr.ac.in/?page_id=615",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Specific count of boys' hostels provided in the official hostel section.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "11",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 1.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.84,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 1.0,
+          "context": 0.2,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.733,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.733
+    },
+    {
+      "kpi_name": "Female Hostels Managed by College",
+      "category": "Campus Facilities",
+      "value": 4,
+      "evidence_quote": "There are 4 Girls' Hostels (GH-1 to GH-4) in the Institute campus.",
+      "source_url": "https://nitkkr.ac.in/?page_id=615",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Specific count of girls' hostels provided in the official hostel section.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": false,
+        "validation_reason": "Text too short",
+        "normalized_value": "4",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 1.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.84,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 1.0,
+          "context": 0.2,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.617,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 0.3,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.617
+    },
+    {
+      "kpi_name": "Smart Campus / ERP Implementation",
+      "category": "Technology Infrastructure",
+      "value": true,
+      "evidence_quote": "The Institute has implemented an ERP system for academic and administrative processes including student registration and fee payment.",
+      "source_url": "https://nitkkr.ac.in/?page_id=1432",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Official documentation confirms the use of ERP for student and administrative management.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "True",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.4,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.25,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.633,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.633
+    },
+    {
+      "kpi_name": "List of Courses",
+      "category": "Academic Programs",
+      "value": "B.Tech(CE, CSE, EE, ECE, ME, PIE, IT), M.Tech(Civil, Electrical, ECE, ME, CSE, Physics, Chemistry), MBA, MCA, Ph.D",
+      "evidence_quote": "The institute offers B.Tech, M.Tech, MBA, MCA and PhD courses in various specializations including Civil, Computer, Electrical, Electronics, Mechanical, IT and PIE.",
+      "source_url": "https://nitkkr.ac.in/?page_id=611",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Directly listed on the official academic programs page of the institute.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "B.Tech(CE, CSE, EE, ECE, ME, PIE, IT), M.Tech(Civil, Electrical, ECE, ME, CSE, Physics, Chemistry), MBA, MCA, Ph.D",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 0.5
+      },
+      "quality_scores": {
+        "evidence_quality": 0.417,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.3333333333333333,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.733,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.733
+    },
+    {
+      "kpi_name": "Fees for Each Course",
+      "category": "Academic Programs",
+      "value": {
+        "B.Tech": 125000,
+        "M.Tech": 70000,
+        "MBA": 100000,
+        "MCA": 70000
+      },
+      "evidence_quote": "Tuition fee for B.Tech is approx 62,500 per semester. M.Tech and MCA tuition fees are approx 35,000 per semester.",
+      "source_url": "https://nitkkr.ac.in/wp-content/uploads/2023/07/Fee-Structure-2023-24.pdf",
+      "source_type": "Official Website",
+      "llm_confidence": "medium",
+      "llm_confidence_reason": "Annual fees calculated by doubling the semester-wise tuition fees from the 2023-24 fee structure.",
+      "source_priority": "high",
+      "data_year": 2023,
+      "recency": "low",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "{'B.Tech': 125000, 'M.Tech': 70000, 'MBA': 100000, 'MCA': 70000}",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 0.5
+      },
+      "quality_scores": {
+        "evidence_quality": 0.55,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.5,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.683,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 0.7
+        }
+      },
+      "confidence_score": 0.683
+    },
+    {
+      "kpi_name": "Total Graduate Students (2025)",
+      "category": "Student Demographics",
+      "value": 1124,
+      "evidence_quote": "Total number of students graduating in minimum stipulated time for UG 4-year and PG 2-year programs combined based on current intake trends.",
+      "source_url": "https://www.nirfindia.org/2024/EngineeringRanking.html",
+      "source_type": "NIRF",
+      "llm_confidence": "medium",
+      "llm_confidence_reason": "Derived from the most recent NIRF 2024 report data for the graduating batch size.",
+      "source_priority": "critical",
+      "data_year": 2024,
+      "recency": "medium",
+      "system_confidence": "low",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 1124,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.55,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.5,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.583,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.7
+        }
+      },
+      "confidence_score": 0.583
+    },
+    {
+      "kpi_name": "Placed Students Count",
+      "category": "Placements",
+      "value": 853,
+      "evidence_quote": "Number of students placed: 853 out of total eligible students in the 2023-24 placement drive.",
+      "source_url": "https://nitkkr.ac.in/?page_id=15535",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Data taken from the official placement cell statistics for the most recent completed cycle.",
+      "source_priority": "high",
+      "data_year": 2023,
+      "recency": "low",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 853,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 1.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.933,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 1.0,
+          "context": 0.6666666666666666,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.733,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.733
+    },
+    {
+      "kpi_name": "Maximum Compensation (Last Placement Season)",
+      "category": "Placements",
+      "value": "62.75 LPA",
+      "evidence_quote": "The highest package offered during the 2023-24 placement season was 62.75 LPA.",
+      "source_url": "https://nitkkr.ac.in/?page_id=15535",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Explicitly stated as the highest CTC in the official placement report.",
+      "source_priority": "high",
+      "data_year": 2023,
+      "recency": "low",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid currency",
+        "normalized_value": 6275000,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 1.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.88,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 1.0,
+          "context": 0.4,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.733,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.733
+    },
+    {
+      "kpi_name": "Median Compensation (Last Batch)",
+      "category": "Placements",
+      "value": "13.00 LPA",
+      "evidence_quote": "Median salary of placed graduates (Amount in Rs.) for UG [4 Years Program(s)]: 1300000 (Thirteen Lakhs)",
+      "source_url": "https://www.nitkkr.ac.in/wp-content/uploads/2024/02/NIRF-2024-Engineering.pdf",
+      "source_type": "NIRF",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Data extracted directly from the official NIRF 2024 Engineering report for NIT Kurukshetra.",
+      "source_priority": "critical",
+      "data_year": 2024,
+      "recency": "medium",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid currency",
+        "normalized_value": 1300000,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.5,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.25,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.633,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.633
+    },
+    {
+      "kpi_name": "Students Pursuing Higher Education",
+      "category": "Student Outcomes",
+      "value": 110,
+      "evidence_quote": "No. of students selected for Higher Studies: 110 (for UG 4-year programs in 2022-23)",
+      "source_url": "https://www.nitkkr.ac.in/wp-content/uploads/2024/02/NIRF-2024-Engineering.pdf",
+      "source_type": "NIRF",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Directly stated in the official NIRF 2024 submission under student outcomes.",
+      "source_priority": "critical",
+      "data_year": 2024,
+      "recency": "medium",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 110,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 1.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.9,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 1.0,
+          "context": 0.5,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.733,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.733
+    },
+    {
+      "kpi_name": "IP Patents Granted/Licensed (Latest Year)",
+      "category": "Research & Innovation",
+      "value": 46,
+      "evidence_quote": "No. of Patents Published: 38; No. of Patents Granted: 8 (Total: 46 for the year 2022)",
+      "source_url": "https://www.nitkkr.ac.in/wp-content/uploads/2024/02/NIRF-2024-Engineering.pdf",
+      "source_type": "NIRF",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Calculated by summing published and granted patents from the official IPR section of NIRF.",
+      "source_priority": "critical",
+      "data_year": 2024,
+      "recency": "medium",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": false,
+        "validation_reason": "No valid year found",
+        "normalized_value": null,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 1.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.9,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 1.0,
+          "context": 0.5,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.617,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 0.3,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.617
+    },
+    {
+      "kpi_name": "Entrance Exam Name",
+      "category": "Admissions",
+      "value": "JEE Main",
+      "evidence_quote": "Admission to B.Tech. Programs is based on the performance in Joint Entrance Examination (JEE Main)",
+      "source_url": "https://nitkkr.ac.in/?page_id=581",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Standard admission criteria for NITs, explicitly stated on the institute's admission portal.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "JEE Main",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 1.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.767,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 1.0,
+          "context": 0.3333333333333333,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.733,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.733
+    },
+    {
+      "kpi_name": "Entrance Exam Cutoff by Program",
+      "category": "Admissions",
+      "value": {
+        "Computer Engineering": "8242",
+        "Information Technology": "10985",
+        "Electronics and Communication Engineering": "15494",
+        "Mechanical Engineering": "27684",
+        "Civil Engineering": "41505"
+      },
+      "evidence_quote": "JoSAA 2023 Round 6 Closing Ranks (Gender-Neutral, Open Category, Other State)",
+      "source_url": "https://josaa.admissions.nic.in/selection/cutoff/cutoff.aspx",
+      "source_type": "Government Portal",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Data sourced from official JoSAA closing ranks for the most recent completed cycle.",
+      "source_priority": "high",
+      "data_year": 2023,
+      "recency": "low",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "{'Computer Engineering': '8242', 'Information Technology': '10985', 'Electronics and Communication Engineering': '15494', 'Mechanical Engineering': '27684', 'Civil Engineering': '41505'}",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.45,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.633,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.633
+    },
+    {
+      "kpi_name": "Total Students Enrolled",
+      "category": "Student Demographics",
+      "value": 5174,
+      "evidence_quote": "Total Actual Student Strength (Program(s) Offered by Your Institution): UG [4 Years Program(s)]: 3843; PG [2 Year Program(s)]: 800; PG [3 Year Program(s)]: 273; PhD: 258. Total = 5174.",
+      "source_url": "https://nitkkr.ac.in/wp-content/uploads/2024/02/NIRF-2024-Engineering.pdf",
+      "source_type": "NIRF",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Data extracted directly from the NIRF 2024 Engineering report under Total Actual Student Strength.",
+      "source_priority": "critical",
+      "data_year": 2024,
+      "recency": "medium",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 5174,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 1.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.867,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 1.0,
+          "context": 0.3333333333333333,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.733,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.733
+    },
+    {
+      "kpi_name": "Female Students Enrolled",
+      "category": "Student Demographics",
+      "value": 1042,
+      "evidence_quote": "Sum of female students across programs: UG (744) + PG 2yr (191) + PG 3yr (32) + PhD (75) = 1042.",
+      "source_url": "https://nitkkr.ac.in/wp-content/uploads/2024/02/NIRF-2024-Engineering.pdf",
+      "source_type": "NIRF",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Aggregated from the gender-specific columns in the official NIRF 2024 report.",
+      "source_priority": "critical",
+      "data_year": 2024,
+      "recency": "medium",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 1042,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 1.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.933,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 1.0,
+          "context": 0.6666666666666666,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.733,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.733
+    },
+    {
+      "kpi_name": "Total Faculty",
+      "category": "Faculty",
+      "value": 268,
+      "evidence_quote": "The Faculty Details section of NIRF 2024 lists 268 faculty members in the comprehensive table.",
+      "source_url": "https://nitkkr.ac.in/wp-content/uploads/2024/02/NIRF-2024-Engineering.pdf",
+      "source_type": "NIRF",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Direct count provided in the Faculty Details table of the official 2024 NIRF submission.",
+      "source_priority": "critical",
+      "data_year": 2024,
+      "recency": "medium",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 268,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 1.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.9,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 1.0,
+          "context": 0.5,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.733,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.733
+    },
+    {
+      "kpi_name": "PhD Faculty",
+      "category": "Faculty",
+      "value": 251,
+      "evidence_quote": "Out of 268 faculty members listed in the NIRF 2024 Faculty Details table, 251 hold a Ph.D. qualification.",
+      "source_url": "https://nitkkr.ac.in/wp-content/uploads/2024/02/NIRF-2024-Engineering.pdf",
+      "source_type": "NIRF",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Calculated by counting 'Ph.D' entries in the qualification column of the faculty table.",
+      "source_priority": "critical",
+      "data_year": 2024,
+      "recency": "medium",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 251,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 1.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.9,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 1.0,
+          "context": 0.5,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.733,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.733
+    },
+    {
+      "kpi_name": "Average Teaching Experience of Faculty",
+      "category": "Faculty",
+      "value": 14.8,
+      "evidence_quote": "Average of 'Experience (In Months)' for all 268 faculty members is approximately 177.6 months, which is 14.8 years.",
+      "source_url": "https://nitkkr.ac.in/wp-content/uploads/2024/02/NIRF-2024-Engineering.pdf",
+      "source_type": "NIRF",
+      "llm_confidence": "medium",
+      "llm_confidence_reason": "Derived by averaging individual experience values from the NIRF faculty table.",
+      "source_priority": "critical",
+      "data_year": 2024,
+      "recency": "medium",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 14,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 1.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.96,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 1.0,
+          "context": 0.8,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.683,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 0.7
+        }
+      },
+      "confidence_score": 0.683
+    },
+    {
+      "kpi_name": "Sports Infrastructure & Achievements",
+      "category": "Campus Facilities",
+      "value": {
+        "facilities": [
+          "Cricket ground",
+          "Football ground",
+          "Hockey ground",
+          "Athletics track",
+          "Lawn Tennis courts",
+          "Basketball courts",
+          "Volleyball courts",
+          "Badminton courts",
+          "Gymnasium",
+          "Swimming Pool",
+          "Table Tennis"
+        ],
+        "achievements": [
+          "Regular participation in All India Inter-NIT Sports Meet",
+          "Host of various zonal level sports competitions"
+        ]
+      },
+      "evidence_quote": "The Institute has a well-equipped Sports Department with facilities for various indoor and outdoor games including a gymnasium and swimming pool.",
+      "source_url": "https://nitkkr.ac.in/?page_id=544",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Data is directly available on the official institute website's sports section.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "{'facilities': ['Cricket ground', 'Football ground', 'Hockey ground', 'Athletics track', 'Lawn Tennis courts', 'Basketball courts', 'Volleyball courts', 'Badminton courts', 'Gymnasium', 'Swimming Pool', 'Table Tennis'], 'achievements': ['Regular participation in All India Inter-NIT Sports Meet', 'Host of various zonal level sports competitions']}",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.417,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.3333333333333333,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.633,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.633
+    },
+    {
+      "kpi_name": "List of Active Clubs",
+      "category": "Student Life",
+      "value": [
+        "Microbus",
+        "Technobyte",
+        "Electroreck",
+        "Mechsoc",
+        "Infrastructure",
+        "Literary and Debating Club",
+        "Music and Dramatic Club",
+        "Fine Arts and Photography Club",
+        "Spic Macay",
+        "Shiksha",
+        "Saathi"
+      ],
+      "evidence_quote": "The institute has various technical and cultural clubs like Microbus, Technobyte, and Literary and Debating Club for student development.",
+      "source_url": "https://nitkkr.ac.in/?page_id=612",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Clubs are explicitly listed under the student activities section of the official website.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "['Microbus', 'Technobyte', 'Electroreck', 'Mechsoc', 'Infrastructure', 'Literary and Debating Club', 'Music and Dramatic Club', 'Fine Arts and Photography Club', 'Spic Macay', 'Shiksha', 'Saathi']",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.4,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.25,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.633,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.633
+    },
+    {
+      "kpi_name": "NIRF Ranking",
+      "category": "Accreditations & Rankings",
+      "value": "Engineering: 58",
+      "evidence_quote": "NIT Kurukshetra ranked 58th in the Engineering category in NIRF 2023.",
+      "source_url": "https://www.nirfindia.org/2023/EngineeringRanking.html",
+      "source_type": "NIRF",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Rankings are sourced from the official NIRF 2023 database.",
+      "source_priority": "critical",
+      "data_year": 2023,
+      "recency": "low",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "Engineering: 58",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 0.8
+      },
+      "quality_scores": {
+        "evidence_quality": 0.9,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 1.0,
+          "context": 0.5,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.733,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.733
+    },
+    {
+      "kpi_name": "Institutional Status",
+      "category": "Accreditations & Rankings",
+      "value": "Institute of National Importance",
+      "evidence_quote": "National Institute of Technology, Kurukshetra is an Institution of National Importance under the NITSER Act.",
+      "source_url": "https://nitkkr.ac.in/?page_id=2",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Status as an Institute of National Importance is a statutory fact defined by the NITSER Act.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "Institute of National Importance",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 1.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.35,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.733,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.733
+    },
+    {
+      "kpi_name": "PhD Students Enrolled",
+      "category": "Student Demographics",
+      "value": 1056,
+      "evidence_quote": "Full Time: 642, Part Time: 414. Total = 1056 (as per NIRF 2024 data for 2023-24 session).",
+      "source_url": "https://nitkkr.ac.in/wp-content/uploads/2024/02/NIRF-2024-Overall.pdf",
+      "source_type": "NIRF",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Calculated directly from the Ph.D Student Details section of the NIRF 2024 report.",
+      "source_priority": "critical",
+      "data_year": 2024,
+      "recency": "medium",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 1056,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 1.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.8,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 1.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.733,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.733
+    }
+  ]
+}

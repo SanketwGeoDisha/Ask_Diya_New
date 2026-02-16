@@ -1,0 +1,1183 @@
+{
+  "college_name": "Delhi Technological University",
+  "audit_date": "2026-02-11T14:18:30.665949",
+  "summary": {
+    "total_kpis": 25,
+    "data_found": 25,
+    "data_not_found": 0,
+    "high_confidence": 9,
+    "medium_confidence": 7,
+    "coverage_percentage": 100.0,
+    "source_priority_breakdown": {
+      "high": 22,
+      "medium": 0,
+      "low": 0
+    },
+    "categories": {
+      "Academic Infrastructure": {
+        "total": 2,
+        "found": 2
+      },
+      "Campus Facilities": {
+        "total": 3,
+        "found": 3
+      },
+      "Technology Infrastructure": {
+        "total": 1,
+        "found": 1
+      },
+      "Academic Programs": {
+        "total": 2,
+        "found": 2
+      },
+      "Student Demographics": {
+        "total": 4,
+        "found": 4
+      },
+      "Placements": {
+        "total": 3,
+        "found": 3
+      },
+      "Student Outcomes": {
+        "total": 1,
+        "found": 1
+      },
+      "Research & Innovation": {
+        "total": 1,
+        "found": 1
+      },
+      "Admissions": {
+        "total": 2,
+        "found": 2
+      },
+      "Faculty": {
+        "total": 3,
+        "found": 3
+      },
+      "Student Life": {
+        "total": 1,
+        "found": 1
+      },
+      "Accreditations & Rankings": {
+        "total": 2,
+        "found": 2
+      }
+    }
+  },
+  "results": [
+    {
+      "kpi_name": "ICT-Enabled Learning Infrastructure",
+      "category": "Academic Infrastructure",
+      "value": true,
+      "evidence_quote": "Digital Education... EDUSAT Hub... The combination of a flexible curriculum, a wide array of learning opportunities and a conducive learning environment",
+      "source_url": "https://www.dtu.ac.in/Web/Departments/DSM/tnp/",
+      "source_type": "Official College Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Direct mention of 'Digital Education' and 'EDUSAT Hub' in the official website navigation and text.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "True",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.4,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.25,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.633,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.633
+    },
+    {
+      "kpi_name": "Digital Library Access",
+      "category": "Academic Infrastructure",
+      "value": true,
+      "evidence_quote": "Facilities EDUSAT Hub Central Library Computer Centre",
+      "source_url": "https://www.dtu.ac.in/Web/Departments/DSM/tnp/",
+      "source_type": "Official College Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Central Library is listed under facilities alongside digital initiatives like EDUSAT.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "True",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.417,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.3333333333333333,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.633,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.633
+    },
+    {
+      "kpi_name": "Male Hostels Managed by College",
+      "category": "Campus Facilities",
+      "value": "N/A",
+      "evidence_quote": "Hostels Guest House Gymnasium Health Center",
+      "source_url": "https://www.dtu.ac.in/Web/Departments/DSM/tnp/",
+      "source_type": "Official College Website",
+      "llm_confidence": "low",
+      "llm_confidence_reason": "Website confirms existence of hostels but does not provide a specific count for male-only units.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "low",
+      "confidence": "low",
+      "validation": {
+        "is_valid": false,
+        "validation_reason": "Value indicates data not found",
+        "normalized_value": null,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.36,
+        "evidence_breakdown": {
+          "length": 0.8,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.2,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.417,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 0.3,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.4
+        }
+      },
+      "confidence_score": 0.417
+    },
+    {
+      "kpi_name": "Female Hostels Managed by College",
+      "category": "Campus Facilities",
+      "value": "N/A",
+      "evidence_quote": "Hostels Guest House Gymnasium Health Center",
+      "source_url": "https://www.dtu.ac.in/Web/Departments/DSM/tnp/",
+      "source_type": "Official College Website",
+      "llm_confidence": "low",
+      "llm_confidence_reason": "Website confirms existence of hostels but does not provide a specific count for female-only units.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "low",
+      "confidence": "low",
+      "validation": {
+        "is_valid": false,
+        "validation_reason": "Value indicates data not found",
+        "normalized_value": null,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.36,
+        "evidence_breakdown": {
+          "length": 0.8,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.2,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.417,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 0.3,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.4
+        }
+      },
+      "confidence_score": 0.417
+    },
+    {
+      "kpi_name": "Smart Campus / ERP Implementation",
+      "category": "Technology Infrastructure",
+      "value": true,
+      "evidence_quote": "Digital Education... Computer generated Report... Institution is however, required to submit updated Institutional information... on the AICTE web portal",
+      "source_url": "https://www.dtu.ac.in/Web/AICTE/AICTE_approval.pdf",
+      "source_type": "Official College Website",
+      "llm_confidence": "medium",
+      "llm_confidence_reason": "Inferred from 'Digital Education' sections and mandatory online portal submissions for AICTE.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "low",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "True",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.35,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.583,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.7
+        }
+      },
+      "confidence_score": 0.583
+    },
+    {
+      "kpi_name": "List of Courses",
+      "category": "Academic Programs",
+      "value": "B.Tech(Biotechnology, Chemical, Civil, CSE, EE, ECE, Engineering Physics, Environmental, IT, Mathematics and Computing, ME, Automotive, Production and Industrial, Software), B.Des, BBA, BA(H) Economics, M.Tech(Structural, Environmental, Hydraulics, Geotechnical, Signal Processing, Microwave & Optical, VLSI, Control and Instrumentation, Power Systems, Thermal, Production, IT, Polymer, CSE, Software, Material Science, Bioinformatics, Geo Informatics, AI, Power Electronics, Industrial Engineering and Management, Energy Systems, Computer Aided Analysis and Design, Industrial Biotechnology, Data Science), M.Des, MBA(Business Analytics, Innovation Entrepreneurship and Venture Development, Executive), M.Sc, MA Economics, Ph.D",
+      "evidence_quote": "UNDER GRADUATE: B.Des, BIOTECHNOLOGY, CHEMICAL, CIVIL, CSE, ELECTRICAL, ECE, ENGINEERING PHYSICS, ENVIRONMENTAL, IT, MATHEMATICS AND COMPUTING, MECHANICAL, AUTOMOTIVE, PRODUCTION, SOFTWARE",
+      "source_url": "https://www.dtu.ac.in/Web/AICTE/EOAReport%202025_2026.pdf",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Extracted from official AICTE Extension of Approval report for 2025-26 listing all courses.",
+      "source_priority": "high",
+      "data_year": 2020,
+      "recency": "low",
+      "system_confidence": "low",
+      "confidence": "high",
+      "validation": {
+        "is_valid": false,
+        "validation_reason": "Text too long",
+        "normalized_value": "B.Tech(Biotechnology, Chemical, Civil, CSE, EE, ECE, Engineering Physics, Environmental, IT, Mathematics and Computing, ME, Automotive, Production and Industrial, Software), B.Des, BBA, BA(H) Economics, M.Tech(Structural, Environmental, Hydraulics, Geotechnical, Signal Processing, Microwave & Optical, VLSI, Control and Instrumentation, Power Systems, Thermal, Production, IT, Polymer, CSE, Software, Material Science, Bioinformatics, Geo Informatics, AI, Power Electronics, Industrial Engineering a",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.35,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.517,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 0.3,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.517
+    },
+    {
+      "kpi_name": "Fees for Each Course",
+      "category": "Academic Programs",
+      "value": "N/A",
+      "evidence_quote": "Invalid source URL",
+      "source_url": "",
+      "source_type": "N/A",
+      "llm_confidence": "low",
+      "llm_confidence_reason": "No source available",
+      "system_confidence": "low",
+      "source_priority": "unknown",
+      "confidence": "low",
+      "data_year": null,
+      "recency": "unknown",
+      "validation": {
+        "is_valid": false,
+        "validation_reason": "Value indicates data not found",
+        "normalized_value": null,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.275,
+        "evidence_breakdown": {
+          "length": 0.5,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.417,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 0.3,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.4
+        }
+      },
+      "confidence_score": 0.417
+    },
+    {
+      "kpi_name": "Total Graduate Students (2025)",
+      "category": "Student Demographics",
+      "value": 2611,
+      "evidence_quote": "Intake Approved for 2024-25: UG (2545) + PG (66 students excluding MBA/M.Des/Research). Total intake for 2024-25 is 2611.",
+      "source_url": "https://www.dtu.ac.in/Web/AICTE/AICTE_approval.pdf",
+      "source_type": "Official Website",
+      "llm_confidence": "medium",
+      "llm_confidence_reason": "Inferred from total approved intake for the 2024-25 academic year as a proxy for graduating batch.",
+      "source_priority": "high",
+      "data_year": 2024,
+      "recency": "medium",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 2611,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 1.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.9,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 1.0,
+          "context": 0.5,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.683,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 0.7
+        }
+      },
+      "confidence_score": 0.683
+    },
+    {
+      "kpi_name": "Placed Students Count",
+      "category": "Placements",
+      "value": "N/A",
+      "evidence_quote": "Data Not Found",
+      "source_url": "https://www.dtu.ac.in/Web/Departments/Electronics/placements/",
+      "source_type": "Official Website",
+      "llm_confidence": "low",
+      "llm_confidence_reason": "Placement pages exist but specific counts for the 2024-25 season are not explicitly stated in text.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "low",
+      "confidence": "low",
+      "validation": {
+        "is_valid": false,
+        "validation_reason": "Value indicates data not found",
+        "normalized_value": null,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 1.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.505,
+        "evidence_breakdown": {
+          "length": 0.5,
+          "has_numbers": 0.3,
+          "value_match": 1.0,
+          "context": 0.0,
+          "specificity": 0.2
+        },
+        "confidence_score": 0.517,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 0.3,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 0.4
+        }
+      },
+      "confidence_score": 0.517
+    },
+    {
+      "kpi_name": "Maximum Compensation (Last Placement Season)",
+      "category": "Placements",
+      "value": "N/A",
+      "evidence_quote": "Data Not Found",
+      "source_url": "https://www.dtu.ac.in/Web/Departments/DSM/tnp/",
+      "source_type": "Official Website",
+      "llm_confidence": "low",
+      "llm_confidence_reason": "Placement statistics links are present on the website but the specific numerical values are missing.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "low",
+      "confidence": "low",
+      "validation": {
+        "is_valid": false,
+        "validation_reason": "Value indicates data not found",
+        "normalized_value": null,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 1.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.505,
+        "evidence_breakdown": {
+          "length": 0.5,
+          "has_numbers": 0.3,
+          "value_match": 1.0,
+          "context": 0.0,
+          "specificity": 0.2
+        },
+        "confidence_score": 0.517,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 0.3,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 0.4
+        }
+      },
+      "confidence_score": 0.517
+    },
+    {
+      "kpi_name": "Median Compensation (Last Batch)",
+      "category": "Placements",
+      "value": "N/A",
+      "evidence_quote": "The provided documents mention placement data availability but do not list the specific median salary figures for the latest batch.",
+      "source_url": "https://www.dtu.ac.in/Web/Departments/Electronics/placements/",
+      "source_type": "Official Website",
+      "llm_confidence": "low",
+      "llm_confidence_reason": "Specific salary figures were not present in the provided text snippets or AICTE documents.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "low",
+      "confidence": "low",
+      "validation": {
+        "is_valid": false,
+        "validation_reason": "Value indicates data not found",
+        "normalized_value": null,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 0.6666666666666666
+      },
+      "quality_scores": {
+        "evidence_quality": 0.41,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.3,
+          "value_match": 0.0,
+          "context": 0.5,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.517,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 0.3,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 0.4
+        }
+      },
+      "confidence_score": 0.517
+    },
+    {
+      "kpi_name": "Students Pursuing Higher Education",
+      "category": "Student Outcomes",
+      "value": "N/A",
+      "evidence_quote": "The documents mention Ph.D scholars and higher education programs but do not provide the exact count of students selected for higher studies.",
+      "source_url": "https://www.dtu.ac.in/Web/Admission/brochure/2023/brochure_phd_aug_2023.pdf",
+      "source_type": "Official Website",
+      "llm_confidence": "low",
+      "llm_confidence_reason": "NIRF data or specific student outcome tables were not included in the source text.",
+      "source_priority": "high",
+      "data_year": 2023,
+      "recency": "low",
+      "system_confidence": "low",
+      "confidence": "low",
+      "validation": {
+        "is_valid": false,
+        "validation_reason": "Value indicates data not found",
+        "normalized_value": null,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.46,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.3,
+          "value_match": 0.0,
+          "context": 0.75,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.417,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 0.3,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.4
+        }
+      },
+      "confidence_score": 0.417
+    },
+    {
+      "kpi_name": "IP Patents Granted/Licensed (Latest Year)",
+      "category": "Research & Innovation",
+      "value": "N/A",
+      "evidence_quote": "The website mentions 'Patents' as a section under the CSE department, but no specific count of granted or published patents is listed in the text.",
+      "source_url": "https://www.dtu.ac.in/Web/Departments/CSE/placements/",
+      "source_type": "Official Website",
+      "llm_confidence": "low",
+      "llm_confidence_reason": "The text only lists 'Patents' as a link without providing the numerical data.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "low",
+      "confidence": "low",
+      "validation": {
+        "is_valid": false,
+        "validation_reason": "Value indicates data not found",
+        "normalized_value": null,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.377,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.3,
+          "value_match": 0.0,
+          "context": 0.3333333333333333,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.417,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 0.3,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.4
+        }
+      },
+      "confidence_score": 0.417
+    },
+    {
+      "kpi_name": "Entrance Exam Name",
+      "category": "Admissions",
+      "value": "JEE Main",
+      "evidence_quote": "Delhi Technological University (formerly DCE) typically admits B.Tech students through JEE Main; however, the text lists B.Tech programs without explicitly naming the exam.",
+      "source_url": "https://www.dtu.ac.in/Web/AICTE/AICTE_approval.pdf",
+      "source_type": "Official Website",
+      "llm_confidence": "medium",
+      "llm_confidence_reason": "While standard for DTU, the provided text mentions B.Tech admissions but omits the exam name.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "JEE Main",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 1.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.767,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 1.0,
+          "context": 0.3333333333333333,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.683,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 0.7
+        }
+      },
+      "confidence_score": 0.683
+    },
+    {
+      "kpi_name": "Entrance Exam Cutoff by Program",
+      "category": "Admissions",
+      "value": "N/A",
+      "evidence_quote": "The documents list the approved intake for various B.Tech and M.Tech programs but do not provide the cutoff ranks or percentiles.",
+      "source_url": "https://www.dtu.ac.in/Web/AICTE/EOAReport%202025_2026.pdf",
+      "source_type": "Official Website",
+      "llm_confidence": "low",
+      "llm_confidence_reason": "Cutoff data is usually in a separate admission notification not provided in the source text.",
+      "source_priority": "high",
+      "data_year": 2020,
+      "recency": "low",
+      "system_confidence": "low",
+      "confidence": "low",
+      "validation": {
+        "is_valid": false,
+        "validation_reason": "Value indicates data not found",
+        "normalized_value": null,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.39,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.2,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.417,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 0.3,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.4
+        }
+      },
+      "confidence_score": 0.417
+    },
+    {
+      "kpi_name": "Total Students Enrolled",
+      "category": "Student Demographics",
+      "value": "N/A",
+      "evidence_quote": "The provided documents (AICTE EOA, Audited Statements, and Web Pages) list course intakes but do not provide the total actual student strength across all years.",
+      "source_url": "https://www.dtu.ac.in/Web/AICTE/EOAReport%202025_2026.pdf",
+      "source_type": "Official Website",
+      "llm_confidence": "low",
+      "llm_confidence_reason": "Intake capacity is available, but total actual enrollment across all years is missing from the provided text.",
+      "source_priority": "high",
+      "data_year": 2020,
+      "recency": "low",
+      "system_confidence": "low",
+      "confidence": "low",
+      "validation": {
+        "is_valid": false,
+        "validation_reason": "Value indicates data not found",
+        "normalized_value": null,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.377,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.3,
+          "value_match": 0.0,
+          "context": 0.3333333333333333,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.417,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 0.3,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.4
+        }
+      },
+      "confidence_score": 0.417
+    },
+    {
+      "kpi_name": "Female Students Enrolled",
+      "category": "Student Demographics",
+      "value": "N/A",
+      "evidence_quote": "Invalid source URL",
+      "source_url": "",
+      "source_type": "N/A",
+      "llm_confidence": "low",
+      "llm_confidence_reason": "No source available",
+      "system_confidence": "low",
+      "source_priority": "unknown",
+      "confidence": "low",
+      "data_year": null,
+      "recency": "unknown",
+      "validation": {
+        "is_valid": false,
+        "validation_reason": "Value indicates data not found",
+        "normalized_value": null,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.235,
+        "evidence_breakdown": {
+          "length": 0.5,
+          "has_numbers": 0.3,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.417,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 0.3,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.4
+        }
+      },
+      "confidence_score": 0.417
+    },
+    {
+      "kpi_name": "Total Faculty",
+      "category": "Faculty",
+      "value": "N/A",
+      "evidence_quote": "The AICTE EOA 2025-26 notes a 'Faculty Deficiency' but does not state the absolute total number of faculty currently employed.",
+      "source_url": "https://www.dtu.ac.in/Web/AICTE/EOAReport%202025_2026.pdf",
+      "source_type": "Official Website",
+      "llm_confidence": "low",
+      "llm_confidence_reason": "The document mentions a deficiency exists but lacks the total headcount of current faculty.",
+      "source_priority": "high",
+      "data_year": 2020,
+      "recency": "low",
+      "system_confidence": "low",
+      "confidence": "low",
+      "validation": {
+        "is_valid": false,
+        "validation_reason": "Value indicates data not found",
+        "normalized_value": null,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.65,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 1.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.417,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 0.3,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.4
+        }
+      },
+      "confidence_score": 0.417
+    },
+    {
+      "kpi_name": "PhD Faculty",
+      "category": "Faculty",
+      "value": "N/A",
+      "evidence_quote": "While department pages list faculty names, a consolidated count of PhD holders for the entire institution is not provided in the source data.",
+      "source_url": "https://www.dtu.ac.in/Web/Departments/Electrical/faculty/mayankkumaree.php",
+      "source_type": "Official Website",
+      "llm_confidence": "low",
+      "llm_confidence_reason": "Only individual faculty profiles are linked; no aggregate institutional count is available.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "low",
+      "confidence": "low",
+      "validation": {
+        "is_valid": false,
+        "validation_reason": "Value indicates data not found",
+        "normalized_value": null,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 0.6666666666666666
+      },
+      "quality_scores": {
+        "evidence_quality": 0.51,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.3,
+          "value_match": 0.0,
+          "context": 1.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.517,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 0.3,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 0.4
+        }
+      },
+      "confidence_score": 0.517
+    },
+    {
+      "kpi_name": "Average Teaching Experience of Faculty",
+      "category": "Faculty",
+      "value": "N/A",
+      "evidence_quote": "Invalid source URL",
+      "source_url": "",
+      "source_type": "N/A",
+      "llm_confidence": "low",
+      "llm_confidence_reason": "No source available",
+      "system_confidence": "low",
+      "source_priority": "unknown",
+      "confidence": "low",
+      "data_year": null,
+      "recency": "unknown",
+      "validation": {
+        "is_valid": false,
+        "validation_reason": "Value indicates data not found",
+        "normalized_value": null,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.235,
+        "evidence_breakdown": {
+          "length": 0.5,
+          "has_numbers": 0.3,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.417,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 0.3,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.4
+        }
+      },
+      "confidence_score": 0.417
+    },
+    {
+      "kpi_name": "Sports Infrastructure & Achievements",
+      "category": "Campus Facilities",
+      "value": {
+        "facilities": [
+          "Gymnasium",
+          "Annual Sports Report",
+          "Sports & Games facilities"
+        ],
+        "achievements": []
+      },
+      "evidence_quote": "Facilities ... Annual Sports Report ... Gymnasium ... Sports & Games",
+      "source_url": "https://www.dtu.ac.in/Web/Departments/DSM/tnp/",
+      "source_type": "Official Website",
+      "llm_confidence": "medium",
+      "llm_confidence_reason": "Facilities are listed in the navigation menu but specific achievement details were not found.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "{'facilities': ['Gymnasium', 'Annual Sports Report', 'Sports & Games facilities'], 'achievements': []}",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 0.8571428571428571
+      },
+      "quality_scores": {
+        "evidence_quality": 0.417,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.3333333333333333,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.683,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 0.7
+        }
+      },
+      "confidence_score": 0.683
+    },
+    {
+      "kpi_name": "List of Active Clubs",
+      "category": "Student Life",
+      "value": [
+        "DTU IIF",
+        "NSS",
+        "NCC",
+        "Grievance Committees",
+        "Student Clubs",
+        "Societies"
+      ],
+      "evidence_quote": "Student Welfare DTU IIF • NSS • NCC ... Student Clubs ... Societies",
+      "source_url": "https://www.dtu.ac.in/Web/Departments/DSM/tnp/",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Directly listed under Student Welfare and Departmental sections of the official website.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "['DTU IIF', 'NSS', 'NCC', 'Grievance Committees', 'Student Clubs', 'Societies']",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 0.7777777777777778
+      },
+      "quality_scores": {
+        "evidence_quality": 0.4,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.25,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.733,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.733
+    },
+    {
+      "kpi_name": "NIRF Ranking",
+      "category": "Accreditations & Rankings",
+      "value": "N/A",
+      "evidence_quote": "All AICTE institutions are highly encouraged to get NBA/NAAC accreditation. All eligible AICTE institutions are thoroughly encouraged to participate in NIRF ranking process.",
+      "source_url": "https://www.aicte-india.org/sites/default/files/approval_letters_2024-25/1-43658343380.pdf",
+      "source_type": "Official Website",
+      "llm_confidence": "low",
+      "llm_confidence_reason": "The documents mention NIRF participation but do not state the specific current rank.",
+      "source_priority": "high",
+      "data_year": 2024,
+      "recency": "medium",
+      "system_confidence": "low",
+      "confidence": "low",
+      "validation": {
+        "is_valid": false,
+        "validation_reason": "Value indicates data not found",
+        "normalized_value": null,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.55,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 1.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.417,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 0.3,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.4
+        }
+      },
+      "confidence_score": 0.417
+    },
+    {
+      "kpi_name": "Institutional Status",
+      "category": "Accreditations & Rankings",
+      "value": "State Government University",
+      "evidence_quote": "Institute Type State Government University",
+      "source_url": "https://www.dtu.ac.in/Web/AICTE/AICTE_approval.pdf",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Explicitly stated in the AICTE Extension of Approval (EoA) document.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "State Government University",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 1.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.67,
+        "evidence_breakdown": {
+          "length": 0.8,
+          "has_numbers": 0.5,
+          "value_match": 1.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.733,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.733
+    },
+    {
+      "kpi_name": "PhD Students Enrolled",
+      "category": "Student Demographics",
+      "value": "N/A",
+      "evidence_quote": "Ph.D. admissions Session: August, 2023. Delhi Technological University is globally known for outstanding education, research and innovations.",
+      "source_url": "https://www.dtu.ac.in/Web/Admission/brochure/2023/brochure_phd_aug_2023.pdf",
+      "source_type": "Official Website",
+      "llm_confidence": "low",
+      "llm_confidence_reason": "Admission brochures were found but the total enrollment count across all years was not specified.",
+      "source_priority": "high",
+      "data_year": 2023,
+      "recency": "low",
+      "system_confidence": "low",
+      "confidence": "low",
+      "validation": {
+        "is_valid": false,
+        "validation_reason": "Value indicates data not found",
+        "normalized_value": null,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.45,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.417,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 0.3,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.4
+        }
+      },
+      "confidence_score": 0.417
+    }
+  ]
+}

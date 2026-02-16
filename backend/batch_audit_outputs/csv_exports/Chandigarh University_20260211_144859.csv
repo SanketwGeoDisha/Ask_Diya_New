@@ -1,0 +1,52 @@
+College Name,"Chandigarh University"
+
+=== AUDIT OVERVIEW ===
+Audit Date,"2026-02-11 14:48:59"
+Total KPIs,25
+Data Found,25
+Data Not Found,0
+High Confidence,11
+Coverage Percentage,100.0%
+
+=== CATEGORY BREAKDOWN ===
+Category,Found,Total,Percentage
+"Academic Infrastructure",2,2,100%
+"Campus Facilities",3,3,100%
+"Technology Infrastructure",1,1,100%
+"Academic Programs",2,2,100%
+"Student Demographics",4,4,100%
+"Placements",3,3,100%
+"Student Outcomes",1,1,100%
+"Research & Innovation",1,1,100%
+"Admissions",2,2,100%
+"Faculty",3,3,100%
+"Student Life",1,1,100%
+"Accreditations & Rankings",2,2,100%
+
+=== KPI DETAILS ===
+KPI Name,Category,Value,Evidence,Source URL,System Confidence,LLM Confidence,Source Priority,Data Year,Recency
+ICT-Enabled Learning Infrastructure,Academic Infrastructure,True,"Chandigarh University uses ICT-enabled tools including online learning platforms, smart classrooms, and digital resources to enhance the teaching-learning process.",https://www.cuchd.in/,medium,high,medium,,unknown
+Digital Library Access,Academic Infrastructure,True,"The University Library is fully automated and provides access to a wide range of e-resources, including e-journals and e-books through its digital library section.",https://www.cuchd.in/library/,medium,high,medium,,unknown
+Male Hostels Managed by College,Campus Facilities,14,Chandigarh University offers separate hostel facilities for boys and girls with 14 boys' hostels located within the campus.,https://www.cuchd.in/student-services/hostel-facility.php,medium,high,medium,,unknown
+Female Hostels Managed by College,Campus Facilities,10,The university provides 10 girls' hostels with modern amenities and 24/7 security for female students.,https://www.cuchd.in/student-services/hostel-facility.php,medium,high,medium,,unknown
+Smart Campus / ERP Implementation,Technology Infrastructure,N/A,CUIMS (Chandigarh University Information Management System) is an in-house developed ERP that manages all academic and administrative activities.,,low,high,medium,,unknown
+List of Courses,Academic Programs,"B.Tech(CSE, ECE, ME, CE, EE, Aerospace, Automobile, Biotech, Chemical), M.Tech(CSE, ECE, ME, CE, EE), MBA, BBA, MCA, BCA, B.Sc(Biotech, Nursing, Agriculture, HM), M.Sc, Ph.D","Chandigarh University offers a wide range of undergraduate and postgraduate courses including B.Tech, MBA, MCA, and specialized research programs.",https://www.cuchd.in/,medium,high,medium,,unknown
+Fees for Each Course,Academic Programs,"{'B.Tech': 200000, 'MBA': 250000, 'BBA': 120000, 'MCA': 140000, 'BCA': 110000}","Annual tuition fees for B.Tech programs average around 2 Lakhs, while MBA programs are approximately 2.5 Lakhs per annum.",https://www.cuchd.in/admissions/fee-structure.php,low,medium,medium,,unknown
+Total Graduate Students (2025),Student Demographics,12500,"Based on NIRF 2024 data trends and current intake, the graduating batch size for 2025 is projected at approximately 12,500 students across all programs.",https://www.cuchd.in/nirf/,low,medium,critical,2024,medium
+Placed Students Count,Placements,9124,"A total of 9,124 students from the graduating batch were successfully placed in various national and international companies.",https://www.cuchd.in/placements/,medium,high,medium,,unknown
+Maximum Compensation (Last Placement Season),Placements,1.70 Cr,"The highest international package offered reached a record 1.7 Crore, while the highest domestic package stood at 54.75 LPA.",https://www.cuchd.in/placements/,medium,high,medium,,unknown
+Median Compensation (Last Batch),Placements,7.50 LPA,"NIRF 2024 Engineering: Median salary of placed graduates (Amount in Rs.) for UG [4 Years Program(s)]: 7,50,000.",https://www.cuchd.in/nirf/pdf/2024/Engineering.pdf,medium,high,critical,2024,medium
+Students Pursuing Higher Education,Student Outcomes,468,NIRF 2024 Engineering: No. of students selected for Higher Studies for UG [4 Years Program(s)]: 468.,https://www.cuchd.in/nirf/pdf/2024/Engineering.pdf,medium,high,critical,2024,medium
+IP Patents Granted/Licensed (Latest Year),Research & Innovation,1152,"NIRF 2024 Overall: No. of Patents Published: 981, No. of Patents Granted: 171. Total: 1152.",https://www.cuchd.in/nirf/pdf/2024/Overall.pdf,medium,high,critical,2024,medium
+Entrance Exam Name,Admissions,N/A,Admission to all the programs of Chandigarh University is based on CUCET - Chandigarh University Common Entrance Test.,,low,high,medium,,unknown
+Entrance Exam Cutoff by Program,Admissions,N/A,"Scholarship and admission eligibility based on CUCET score brackets: 90+ (Gold), 80-90 (Silver), 70-80 (Bronze).",,low,medium,medium,,unknown
+Total Students Enrolled,Student Demographics,28169,Total Actual Student Strength (Program(s) Offered by Your Institution) - All programs sum: 28169,https://www.cuchd.in/nirf/NIRF-2023-OVERALL.pdf,medium,high,critical,2023,low
+Female Students Enrolled,Student Demographics,8542,Total Female Students across all UG and PG programs as per NIRF 2023 data table.,https://www.cuchd.in/nirf/NIRF-2023-OVERALL.pdf,medium,high,critical,2023,low
+Total Faculty,Faculty,1654,Total number of faculty members listed in the Faculty Details section of NIRF 2023.,https://www.cuchd.in/nirf/NIRF-2023-OVERALL.pdf,medium,high,critical,2023,low
+PhD Faculty,Faculty,612,Count of faculty members with Ph.D. qualification in the Faculty Details table.,https://www.cuchd.in/nirf/NIRF-2023-OVERALL.pdf,medium,high,critical,2023,low
+Average Teaching Experience of Faculty,Faculty,8.4,Calculated average of 'Experience (In Months)' for all faculty members divided by 12.,https://www.cuchd.in/nirf/NIRF-2023-OVERALL.pdf,low,medium,critical,2023,low
+Sports Infrastructure & Achievements,Campus Facilities,"{'facilities': ['Cricket Ground', 'Football Ground', 'Basketball Courts', 'Volleyball Courts', 'Badminton Courts', 'Gymnasium', 'Indoor Games Hall', 'Athletics Track'], 'achievements': ['Overall Championship at Khelo India University Games 2023', 'Maulana Abul Kalam Azad (MAKA) Trophy 2023', 'Multiple medals in International and National sports meets']}","Chandigarh University won the MAKA Trophy 2023 and Khelo India University Games 2023. Facilities include world-class cricket, football, and indoor sports complexes.",https://www.cuchd.in/sports/,medium,high,medium,2023,low
+List of Active Clubs,Student Life,"['Department of Student Welfare (DSW)', 'Cultural Club', 'Technical Clubs (IEEE, ACM)', 'Literary Club', 'Photography Club', 'Music Club', 'Dance Club', 'Fine Arts Club', 'Entrepreneurship Cell', 'NSS', 'NCC']","CU has various student-led clubs including Technical, Cultural, and Social clubs managed under the Department of Student Welfare.",https://www.cuchd.in/student-affairs/,medium,high,medium,,unknown
+NIRF Ranking,Accreditations & Rankings,32,Chandigarh University has been ranked 32nd among all Universities in India in NIRF 2024.,https://www.nirfindia.org/Rankings/2024/UniversityRanking.html,medium,high,critical,2024,medium
+Institutional Status,Accreditations & Rankings,Private University (NAAC A+),Chandigarh University is a private university established by the Punjab State Legislature and is accredited with A+ grade by NAAC.,https://www.cuchd.in/about/university-profile.php,medium,high,medium,,unknown
+PhD Students Enrolled,Student Demographics,1284,Total Ph.D students: Full Time (842) + Part Time (442) = 1284 (as per NIRF 2024 data for 2023-24).,https://www.cuchd.in/nirf/NIRF-2024.pdf,medium,high,critical,2024,medium

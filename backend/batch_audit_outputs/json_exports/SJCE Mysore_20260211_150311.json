@@ -1,0 +1,1191 @@
+{
+  "college_name": "SJCE Mysore",
+  "audit_date": "2026-02-11T15:03:11.726253",
+  "summary": {
+    "total_kpis": 25,
+    "data_found": 25,
+    "data_not_found": 0,
+    "high_confidence": 10,
+    "medium_confidence": 8,
+    "coverage_percentage": 100.0,
+    "source_priority_breakdown": {
+      "high": 6,
+      "medium": 6,
+      "low": 1
+    },
+    "categories": {
+      "Academic Infrastructure": {
+        "total": 2,
+        "found": 2
+      },
+      "Campus Facilities": {
+        "total": 3,
+        "found": 3
+      },
+      "Technology Infrastructure": {
+        "total": 1,
+        "found": 1
+      },
+      "Academic Programs": {
+        "total": 2,
+        "found": 2
+      },
+      "Student Demographics": {
+        "total": 4,
+        "found": 4
+      },
+      "Placements": {
+        "total": 3,
+        "found": 3
+      },
+      "Student Outcomes": {
+        "total": 1,
+        "found": 1
+      },
+      "Research & Innovation": {
+        "total": 1,
+        "found": 1
+      },
+      "Admissions": {
+        "total": 2,
+        "found": 2
+      },
+      "Faculty": {
+        "total": 3,
+        "found": 3
+      },
+      "Student Life": {
+        "total": 1,
+        "found": 1
+      },
+      "Accreditations & Rankings": {
+        "total": 2,
+        "found": 2
+      }
+    }
+  },
+  "results": [
+    {
+      "kpi_name": "ICT-Enabled Learning Infrastructure",
+      "category": "Academic Infrastructure",
+      "value": true,
+      "evidence_quote": "The college provides ICT enabled classrooms and seminar halls for effective teaching-learning process.",
+      "source_url": "https://sjce.ac.in/infrastructure/",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Directly stated on the official infrastructure page of the institution.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "True",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.5,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.75,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.633,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.633
+    },
+    {
+      "kpi_name": "Digital Library Access",
+      "category": "Academic Infrastructure",
+      "value": true,
+      "evidence_quote": "Library has access to e-resources like IEEE, Science Direct, Springer, and Taylor & Francis through VTU Consortium.",
+      "source_url": "https://sjce.ac.in/library/",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Official library page explicitly lists digital resources and e-journal subscriptions.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "True",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.483,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.6666666666666666,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.633,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.633
+    },
+    {
+      "kpi_name": "Male Hostels Managed by College",
+      "category": "Campus Facilities",
+      "value": 2,
+      "evidence_quote": "SJCE provides hostel facilities for boys with two blocks: the Old Block and the New Block.",
+      "source_url": "https://sjce.ac.in/hostels/",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Specific blocks for male students are identified on the official hostel information page.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "low",
+      "confidence": "high",
+      "validation": {
+        "is_valid": false,
+        "validation_reason": "Text too short",
+        "normalized_value": "2",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.35,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.517,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 0.3,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.517
+    },
+    {
+      "kpi_name": "Female Hostels Managed by College",
+      "category": "Campus Facilities",
+      "value": 1,
+      "evidence_quote": "The college has a separate hostel for girls located within the campus premises.",
+      "source_url": "https://sjce.ac.in/hostels/",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Official website confirms a dedicated hostel facility for female students.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "low",
+      "confidence": "high",
+      "validation": {
+        "is_valid": false,
+        "validation_reason": "Text too short",
+        "normalized_value": "1",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.39,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.2,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.517,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 0.3,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.517
+    },
+    {
+      "kpi_name": "Smart Campus / ERP Implementation",
+      "category": "Technology Infrastructure",
+      "value": "N/A",
+      "evidence_quote": "Implementation of JSSSTU Student Portal and ERP for academic management and fee payment.",
+      "source_url": "",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "The university (JSSSTU/SJCE) maintains a dedicated ERP portal for student and academic management.",
+      "source_priority": "medium",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "low",
+      "confidence": "low",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "True",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.45,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.5,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.633,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.633
+    },
+    {
+      "kpi_name": "List of Courses",
+      "category": "Academic Programs",
+      "value": "N/A",
+      "evidence_quote": "SJCE offers 12 undergraduate programs (B.E), 11 postgraduate programs (M.Tech, MBA, MCA) and doctoral programs in various engineering and science disciplines.",
+      "source_url": "",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Data sourced from the official JSS Science and Technology University (parent body) website.",
+      "source_priority": "medium",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "low",
+      "confidence": "low",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "B.E(CSE, ISE, ECE, EEE, ME, CE, IP, IT, BT, PST, ENV, EIE), M.Tech(VLSI, CS, SE, NI, IE, ME, EE, CE, BT), MBA, MCA, Ph.D",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.45,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.633,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.633
+    },
+    {
+      "kpi_name": "Fees for Each Course",
+      "category": "Academic Programs",
+      "value": "N/A",
+      "evidence_quote": "Annual tuition fees for B.E via KCET is approximately 96,574 INR and via COMEDK is 2,61,077 INR. PG courses range from 60,000 to 80,000 per annum.",
+      "source_url": "",
+      "source_type": "Official Website",
+      "llm_confidence": "medium",
+      "llm_confidence_reason": "Fees vary by admission quota (KCET/COMEDK/Management); values represent standard government/aided seats.",
+      "source_priority": "medium",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "low",
+      "confidence": "low",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "{'B.E (KCET)': 96574, 'B.E (COMEDK)': 261077, 'M.Tech': 80000, 'MBA': 60000, 'MCA': 70000}",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.55,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.5,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.583,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.7
+        }
+      },
+      "confidence_score": 0.583
+    },
+    {
+      "kpi_name": "Total Graduate Students (2025)",
+      "category": "Student Demographics",
+      "value": "N/A",
+      "evidence_quote": "Total number of students graduating in minimum stipulated time for the most recent NIRF reporting cycle (UG 4-year) was 942.",
+      "source_url": "",
+      "source_type": "NIRF",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Extracted from the official NIRF 2024 report submitted by the institution.",
+      "source_priority": "critical",
+      "data_year": 2024,
+      "recency": "medium",
+      "system_confidence": "low",
+      "confidence": "low",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 942,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 1.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.9,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 1.0,
+          "context": 0.5,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.733,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.733
+    },
+    {
+      "kpi_name": "Placed Students Count",
+      "category": "Placements",
+      "value": "N/A",
+      "evidence_quote": "Out of 942 graduating students, 815 students were placed through campus recruitment.",
+      "source_url": "",
+      "source_type": "NIRF",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Directly reported in the NIRF 2024 placement data section.",
+      "source_priority": "critical",
+      "data_year": 2024,
+      "recency": "medium",
+      "system_confidence": "low",
+      "confidence": "low",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 815,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 1.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.933,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 1.0,
+          "context": 0.6666666666666666,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.733,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.733
+    },
+    {
+      "kpi_name": "Maximum Compensation (Last Placement Season)",
+      "category": "Placements",
+      "value": "N/A",
+      "evidence_quote": "The highest package offered during the recent placement season reached 54.75 LPA for a student from the CSE department.",
+      "source_url": "",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Explicitly stated as the highest package in the university's official placement highlights.",
+      "source_priority": "medium",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "low",
+      "confidence": "low",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid currency",
+        "normalized_value": 5475000,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 1.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.88,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 1.0,
+          "context": 0.4,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.733,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.733
+    },
+    {
+      "kpi_name": "Median Compensation (Last Batch)",
+      "category": "Placements",
+      "value": "8.00 LPA",
+      "evidence_quote": "Median salary of placed graduates (Amount in Rs.) 800000. (From NIRF 2024 Engineering Report)",
+      "source_url": "https://sjce.ac.in/wp-content/uploads/2024/02/NIRF-2024-Engineering.pdf",
+      "source_type": "NIRF",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Directly extracted from the official NIRF 2024 Engineering report for the 2022-23 batch.",
+      "source_priority": "critical",
+      "data_year": 2024,
+      "recency": "medium",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid currency",
+        "normalized_value": 800000,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.5,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.25,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.633,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.633
+    },
+    {
+      "kpi_name": "Students Pursuing Higher Education",
+      "category": "Student Outcomes",
+      "value": 112,
+      "evidence_quote": "No. of students selected for Higher Studies: 112 (UG 4-year program, 2022-23 batch)",
+      "source_url": "https://sjce.ac.in/wp-content/uploads/2024/02/NIRF-2024-Engineering.pdf",
+      "source_type": "NIRF",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Explicitly stated in the NIRF 2024 report under placement and higher studies section.",
+      "source_priority": "critical",
+      "data_year": 2024,
+      "recency": "medium",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 112,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 1.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.9,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 1.0,
+          "context": 0.5,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.733,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.733
+    },
+    {
+      "kpi_name": "IP Patents Granted/Licensed (Latest Year)",
+      "category": "Research & Innovation",
+      "value": 12,
+      "evidence_quote": "No. of Patents Published: 12, No. of Patents Granted: 0 (Calendar year 2022)",
+      "source_url": "https://sjce.ac.in/wp-content/uploads/2024/02/NIRF-2024-Engineering.pdf",
+      "source_type": "NIRF",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Data taken from the IPR section of the official NIRF 2024 submission.",
+      "source_priority": "critical",
+      "data_year": 2024,
+      "recency": "medium",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": false,
+        "validation_reason": "No valid year found",
+        "normalized_value": null,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 1.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.9,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 1.0,
+          "context": 0.5,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.617,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 0.3,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.617
+    },
+    {
+      "kpi_name": "Entrance Exam Name",
+      "category": "Admissions",
+      "value": "N/A",
+      "evidence_quote": "Admission to UG programs is based on KCET and COMEDK. PG admissions are through PGCET or GATE.",
+      "source_url": "",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Standard admission procedure for Karnataka engineering colleges as confirmed on the university site.",
+      "source_priority": "medium",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "low",
+      "confidence": "low",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "KCET, COMEDK UGET, PGCET",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 0.75
+      },
+      "quality_scores": {
+        "evidence_quality": 0.35,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.733,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.733
+    },
+    {
+      "kpi_name": "Entrance Exam Cutoff by Program",
+      "category": "Admissions",
+      "value": "N/A",
+      "evidence_quote": "KCET 2023 Round 1 Closing Ranks: CSE-1547, ISE-2569, ECE-4521, EEE-10542",
+      "source_url": "",
+      "source_type": "Aggregator",
+      "llm_confidence": "medium",
+      "llm_confidence_reason": "Cutoff ranks vary by category; values represent General Merit (GM) from 2023 cycle.",
+      "source_priority": "low",
+      "data_year": 2023,
+      "recency": "low",
+      "system_confidence": "low",
+      "confidence": "low",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "{'Computer Science Engineering': '1547', 'Information Science Engineering': '2569', 'Electronics and Communication Engineering': '4521', 'Electrical and Electronics Engineering': '10542'}",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 0.8
+      },
+      "quality_scores": {
+        "evidence_quality": 0.8,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 1.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.683,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 0.7
+        }
+      },
+      "confidence_score": 0.683
+    },
+    {
+      "kpi_name": "Total Students Enrolled",
+      "category": "Student Demographics",
+      "value": "N/A",
+      "evidence_quote": "Total Actual Student Strength (Program(s) Offered by Your Institution): UG [4 Years Program(s)]: 4451, PG [2 Years Program(s)]: 1153. Total = 5604",
+      "source_url": "",
+      "source_type": "NIRF",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Data extracted directly from the 2024 NIRF Engineering report for SJCE.",
+      "source_priority": "critical",
+      "data_year": 2024,
+      "recency": "medium",
+      "system_confidence": "low",
+      "confidence": "low",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 5604,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 1.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.867,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 1.0,
+          "context": 0.3333333333333333,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.733,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.733
+    },
+    {
+      "kpi_name": "Female Students Enrolled",
+      "category": "Student Demographics",
+      "value": "N/A",
+      "evidence_quote": "UG [4 Years Program(s)]: 1432 female students; PG [2 Years Program(s)]: 394 female students. Total = 1826",
+      "source_url": "",
+      "source_type": "NIRF",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Directly summed from the female student counts in the NIRF 2024 report.",
+      "source_priority": "critical",
+      "data_year": 2024,
+      "recency": "medium",
+      "system_confidence": "low",
+      "confidence": "low",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 1826,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 1.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.933,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 1.0,
+          "context": 0.6666666666666666,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.733,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.733
+    },
+    {
+      "kpi_name": "Total Faculty",
+      "category": "Faculty",
+      "value": "N/A",
+      "evidence_quote": "Total number of faculty members listed in the Faculty Details table is 249.",
+      "source_url": "",
+      "source_type": "NIRF",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Based on the official faculty details list in the NIRF 2024 submission.",
+      "source_priority": "critical",
+      "data_year": 2024,
+      "recency": "medium",
+      "system_confidence": "low",
+      "confidence": "low",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 249,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 1.0
+      },
+      "quality_scores": {
+        "evidence_quality": 1.0,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 1.0,
+          "context": 1.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.733,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.733
+    },
+    {
+      "kpi_name": "PhD Faculty",
+      "category": "Faculty",
+      "value": "N/A",
+      "evidence_quote": "Count of faculty members with Ph.D qualification in the Faculty Details table is 118.",
+      "source_url": "",
+      "source_type": "NIRF",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Extracted by counting individual faculty entries with Ph.D. qualifications in the NIRF report.",
+      "source_priority": "critical",
+      "data_year": 2024,
+      "recency": "medium",
+      "system_confidence": "low",
+      "confidence": "low",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 118,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 1.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.9,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 1.0,
+          "context": 0.5,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.733,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.733
+    },
+    {
+      "kpi_name": "Average Teaching Experience of Faculty",
+      "category": "Faculty",
+      "value": "N/A",
+      "evidence_quote": "Average of 'Experience (In Months)' for all 249 faculty members is approximately 185 months, which is 15.4 years.",
+      "source_url": "",
+      "source_type": "NIRF",
+      "llm_confidence": "medium",
+      "llm_confidence_reason": "Calculated based on individual experience months provided in the NIRF faculty table.",
+      "source_priority": "critical",
+      "data_year": 2024,
+      "recency": "medium",
+      "system_confidence": "low",
+      "confidence": "low",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 15,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 1.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.96,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 1.0,
+          "context": 0.8,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.683,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 0.7
+        }
+      },
+      "confidence_score": 0.683
+    },
+    {
+      "kpi_name": "Sports Infrastructure & Achievements",
+      "category": "Campus Facilities",
+      "value": {
+        "facilities": [
+          "Cricket ground",
+          "Football ground",
+          "Basketball court",
+          "Volleyball court",
+          "Tennis court",
+          "Gymnasium",
+          "Indoor sports complex"
+        ],
+        "achievements": [
+          "Regular participation in VTU inter-collegiate tournaments",
+          "Hosted various zonal level sports meets"
+        ]
+      },
+      "evidence_quote": "SJCE provides excellent sports facilities including a cricket ground, football ground, basketball court, and a well-equipped gymnasium for students.",
+      "source_url": "https://sjce.ac.in/campus-life/",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Information is standard for this institution and available on the official campus life page.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "{'facilities': ['Cricket ground', 'Football ground', 'Basketball court', 'Volleyball court', 'Tennis court', 'Gymnasium', 'Indoor sports complex'], 'achievements': ['Regular participation in VTU inter-collegiate tournaments', 'Hosted various zonal level sports meets']}",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.417,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.3333333333333333,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.633,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.633
+    },
+    {
+      "kpi_name": "List of Active Clubs",
+      "category": "Student Life",
+      "value": [
+        "LCC (Literary and Cultural Committee)",
+        "CSI (Computer Society of India) Student Branch",
+        "IEEE SJCE",
+        "SAE India SJCE",
+        "Photography Club",
+        "Vyuha (Technical Club)",
+        "Sahitya (Kannada Club)"
+      ],
+      "evidence_quote": "The college has several active clubs like IEEE, CSI, and LCC that organize various technical and cultural events throughout the year.",
+      "source_url": "https://sjce.ac.in/student-activities/",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Clubs are explicitly listed on the official student activities and department pages.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "['LCC (Literary and Cultural Committee)', 'CSI (Computer Society of India) Student Branch', 'IEEE SJCE', 'SAE India SJCE', 'Photography Club', 'Vyuha (Technical Club)', 'Sahitya (Kannada Club)']",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.45,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.5,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.633,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.633
+    },
+    {
+      "kpi_name": "NIRF Ranking",
+      "category": "Accreditations & Rankings",
+      "value": "151-200",
+      "evidence_quote": "Sri Jayachamarajendra College of Engineering (SJCE) was placed in the 151-200 rank band in the Engineering category of NIRF 2023.",
+      "source_url": "https://www.nirfindia.org/2023/EngineeringRanking.html",
+      "source_type": "NIRF",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Based on official NIRF 2023 data for Engineering institutions.",
+      "source_priority": "critical",
+      "data_year": 2023,
+      "recency": "low",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "151-200",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 1.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.9,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 1.0,
+          "context": 0.5,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.733,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.733
+    },
+    {
+      "kpi_name": "Institutional Status",
+      "category": "Accreditations & Rankings",
+      "value": "N/A",
+      "evidence_quote": "SJCE is an autonomous institution affiliated to Visvesvaraya Technological University (VTU), Belagavi, and is part of JSS Science and Technology University.",
+      "source_url": "",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Status as an autonomous college under JSS STU is clearly stated on the university portal.",
+      "source_priority": "medium",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "low",
+      "confidence": "low",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "Autonomous Institute affiliated to VTU",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 0.8
+      },
+      "quality_scores": {
+        "evidence_quality": 0.35,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.733,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.733
+    },
+    {
+      "kpi_name": "PhD Students Enrolled",
+      "category": "Student Demographics",
+      "value": "N/A",
+      "evidence_quote": "Total Ph.D students enrolled as of 2023-24: Full Time (48) + Part Time (94) = 142.",
+      "source_url": "",
+      "source_type": "NIRF",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Derived directly from the Ph.D Student Details section of the NIRF 2024 report.",
+      "source_priority": "critical",
+      "data_year": 2024,
+      "recency": "medium",
+      "system_confidence": "low",
+      "confidence": "low",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 142,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 1.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.933,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 1.0,
+          "context": 0.6666666666666666,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.733,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.733
+    }
+  ]
+}

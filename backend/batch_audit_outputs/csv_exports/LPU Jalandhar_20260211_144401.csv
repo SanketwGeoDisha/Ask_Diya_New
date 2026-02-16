@@ -1,0 +1,50 @@
+College Name,"LPU Jalandhar"
+
+=== AUDIT OVERVIEW ===
+Audit Date,"2026-02-11 14:44:01"
+Total KPIs,24
+Data Found,24
+Data Not Found,0
+High Confidence,11
+Coverage Percentage,100.0%
+
+=== CATEGORY BREAKDOWN ===
+Category,Found,Total,Percentage
+"Student Demographics",4,4,100%
+"Placements",3,3,100%
+"Student Outcomes",1,1,100%
+"Faculty",3,3,100%
+"Academic Infrastructure",2,2,100%
+"Campus Facilities",3,3,100%
+"Technology Infrastructure",1,1,100%
+"Academic Programs",2,2,100%
+"Admissions",2,2,100%
+"Student Life",1,1,100%
+"Accreditations & Rankings",2,2,100%
+
+=== KPI DETAILS ===
+KPI Name,Category,Value,Evidence,Source URL,System Confidence,LLM Confidence,Source Priority,Data Year,Recency
+Total Graduate Students (2025),Student Demographics,"9219 [UG 3Y: 1277, UG 4Y: 5150, UG 5Y: 223, PG 2Y: 2525, PG 3Y: 3, PG Integrated: 28]",Extracted from NIRF 2025 document,https://www.lpu.in/downloads/nirf/2025/Overall.pdf,low,low,critical,,unknown
+Placed Students Count,Placements,"7447 [UG: 5280, PG: 2158]",Extracted from NIRF 2025 document,https://www.lpu.in/downloads/nirf/2025/Overall.pdf,low,low,critical,,unknown
+Median Compensation (Last Batch),Placements,6.60 LPA,Extracted from NIRF 2025 document,https://www.lpu.in/downloads/nirf/2025/Overall.pdf,low,low,critical,,unknown
+Students Pursuing Higher Education,Student Outcomes,"823 [UG: 743, PG: 79]",Extracted from NIRF 2025 document,https://www.lpu.in/downloads/nirf/2025/Overall.pdf,low,low,critical,,unknown
+Total Students Enrolled,Student Demographics,35663,Extracted from NIRF 2025 document,https://www.lpu.in/downloads/nirf/2025/Overall.pdf,low,low,critical,,unknown
+Female Students Enrolled,Student Demographics,9915,Extracted from NIRF 2025 document,https://www.lpu.in/downloads/nirf/2025/Overall.pdf,low,low,critical,,unknown
+Total Faculty,Faculty,345,Extracted from NIRF 2025 document,https://www.lpu.in/downloads/nirf/2025/Overall.pdf,low,low,critical,,unknown
+PhD Faculty,Faculty,100,Extracted from NIRF 2025 document,https://www.lpu.in/downloads/nirf/2025/Overall.pdf,low,low,critical,,unknown
+Average Teaching Experience of Faculty,Faculty,10.69,Extracted from NIRF 2025 document,https://www.lpu.in/downloads/nirf/2025/Overall.pdf,low,low,critical,,unknown
+PhD Students Enrolled,Student Demographics,"2024 [Full Time: 899, Part Time: 1125]",Extracted from NIRF 2025 document,https://www.lpu.in/downloads/nirf/2025/Overall.pdf,low,low,critical,,unknown
+ICT-Enabled Learning Infrastructure,Academic Infrastructure,True,LPU uses ICT enabled tools including online resources for effective teaching and learning process. Smart Classrooms and LMS are integral.,https://www.lpu.in/,medium,high,medium,,unknown
+Digital Library Access,Academic Infrastructure,True,The University Library System consists of a Central Library and its 9 departmental libraries... providing access to various e-journals and e-books.,https://www.lpu.in/library/library.php,medium,high,medium,,unknown
+Male Hostels Managed by College,Campus Facilities,8,LPU provides residential facilities for boys with 8 blocks of hostels.,https://www.lpu.in/student_services/residence.php,low,medium,medium,,unknown
+Female Hostels Managed by College,Campus Facilities,6,The university has dedicated girls' hostel blocks (approximately 6) within the campus premises.,https://www.lpu.in/student_services/residence.php,low,medium,medium,,unknown
+Smart Campus / ERP Implementation,Technology Infrastructure,N/A,"LPU e-Connect is an online platform that provides a smart campus experience, managing all academic and administrative data.",,low,high,medium,,unknown
+List of Courses,Academic Programs,"B.Tech(CSE, ECE, ME, CE, EE, Biotech, IT, Robotics, AI), M.Tech(CSE, VLSI, Structural, Thermal), MBA, BBA, Ph.D, B.Arch, B.Des, B.Pharm, M.Pharm, B.Sc(Agri, Hons), BCA, MCA, LLB, LLM","LPU offers over 150+ programs across various disciplines including Engineering, Management, Pharmacy, and Law.",https://www.lpu.in/programmes/all-programmes,medium,high,medium,,unknown
+Fees for Each Course,Academic Programs,"{'B.Tech': '2,40,000', 'MBA': '3,80,000', 'BBA': '1,60,000', 'BCA': '1,60,000', 'M.Tech': '1,60,000'}","Standard B.Tech tuition fee is 1,20,000 per semester. MBA fee is 1,90,000 per semester.",https://www.lpu.in/scholarship/fee-structure.php,medium,high,medium,,unknown
+Maximum Compensation (Last Placement Season),Placements,3.00 Cr,LPU student Yasir M. placed at a global tech giant with a package of 3 Crore.,https://www.lpu.in/placements.php,medium,high,medium,,unknown
+Entrance Exam Name,Admissions,N/A,Admission to most programs is based on the Lovely Professional University National Entrance and Scholarship Test (LPUNEST).,,low,high,medium,,unknown
+Entrance Exam Cutoff by Program,Admissions,N/A,"Scholarship and admission brackets are determined by LPUNEST percentiles (Category I, II, III).",,low,medium,medium,,unknown
+Sports Infrastructure & Achievements,Campus Facilities,"{'facilities': ['Indoor Stadium', 'Olympic-size Swimming Pool', 'Shooting Range', 'Cricket Ground', 'Football Field', 'Gymnasium', 'Athletic Track'], 'achievements': ['Maulana Abul Kalam Azad (MAKA) Trophy winner', 'Multiple medals in Khelo India University Games', 'Representation in Tokyo Olympics']}",LPU has world-class sports infrastructure including an indoor stadium and an Olympic-size swimming pool. The university won the MAKA Trophy for excellence in sports.,https://www.lpu.in/campus-life/sports.php,medium,high,medium,,unknown
+List of Active Clubs,Student Life,"['Literary Society', 'Fine Arts Club', 'Dance Club', 'Music Club', 'Robotics Club', 'Coding Club', 'Entrepreneurship Cell', 'NSS', 'NCC']","LPU hosts numerous student-led organizations including technical, cultural, and social service clubs such as the Robotics Club and NSS.",https://www.lpu.in/campus-life/student-activities.php,medium,high,medium,,unknown
+NIRF Ranking,Accreditations & Rankings,27,Lovely Professional University has been ranked 27th among all Government and Private Universities in India by NIRF 2024.,https://www.nirfindia.org/Rankings/2024/UniversityRanking.html,medium,high,critical,2024,medium
+Institutional Status,Accreditations & Rankings,Private University,Lovely Professional University is a private university established by the State Legislature of Punjab and is recognized by UGC under Section 2(f).,https://www.lpu.in/about-us/recognition.php,medium,high,medium,,unknown

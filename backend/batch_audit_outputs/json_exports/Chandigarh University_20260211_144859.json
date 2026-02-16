@@ -1,0 +1,1203 @@
+{
+  "college_name": "Chandigarh University",
+  "audit_date": "2026-02-11T14:48:59.388996",
+  "summary": {
+    "total_kpis": 25,
+    "data_found": 25,
+    "data_not_found": 0,
+    "high_confidence": 11,
+    "medium_confidence": 20,
+    "coverage_percentage": 100.0,
+    "source_priority_breakdown": {
+      "high": 0,
+      "medium": 14,
+      "low": 0
+    },
+    "categories": {
+      "Academic Infrastructure": {
+        "total": 2,
+        "found": 2
+      },
+      "Campus Facilities": {
+        "total": 3,
+        "found": 3
+      },
+      "Technology Infrastructure": {
+        "total": 1,
+        "found": 1
+      },
+      "Academic Programs": {
+        "total": 2,
+        "found": 2
+      },
+      "Student Demographics": {
+        "total": 4,
+        "found": 4
+      },
+      "Placements": {
+        "total": 3,
+        "found": 3
+      },
+      "Student Outcomes": {
+        "total": 1,
+        "found": 1
+      },
+      "Research & Innovation": {
+        "total": 1,
+        "found": 1
+      },
+      "Admissions": {
+        "total": 2,
+        "found": 2
+      },
+      "Faculty": {
+        "total": 3,
+        "found": 3
+      },
+      "Student Life": {
+        "total": 1,
+        "found": 1
+      },
+      "Accreditations & Rankings": {
+        "total": 2,
+        "found": 2
+      }
+    }
+  },
+  "results": [
+    {
+      "kpi_name": "ICT-Enabled Learning Infrastructure",
+      "category": "Academic Infrastructure",
+      "value": true,
+      "evidence_quote": "Chandigarh University uses ICT-enabled tools including online learning platforms, smart classrooms, and digital resources to enhance the teaching-learning process.",
+      "source_url": "https://www.cuchd.in/",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Directly stated on the official university website regarding academic infrastructure.",
+      "source_priority": "medium",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "medium",
+      "confidence": "medium",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "True",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.5,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.75,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.633,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.633
+    },
+    {
+      "kpi_name": "Digital Library Access",
+      "category": "Academic Infrastructure",
+      "value": true,
+      "evidence_quote": "The University Library is fully automated and provides access to a wide range of e-resources, including e-journals and e-books through its digital library section.",
+      "source_url": "https://www.cuchd.in/library/",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Official library page confirms digital access and e-resource availability.",
+      "source_priority": "medium",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "medium",
+      "confidence": "medium",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "True",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.55,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 1.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.633,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.633
+    },
+    {
+      "kpi_name": "Male Hostels Managed by College",
+      "category": "Campus Facilities",
+      "value": 14,
+      "evidence_quote": "Chandigarh University offers separate hostel facilities for boys and girls with 14 boys' hostels located within the campus.",
+      "source_url": "https://www.cuchd.in/student-services/hostel-facility.php",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Specific count provided on the official student services page.",
+      "source_priority": "medium",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "medium",
+      "confidence": "medium",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "14",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 1.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.84,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 1.0,
+          "context": 0.2,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.733,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.733
+    },
+    {
+      "kpi_name": "Female Hostels Managed by College",
+      "category": "Campus Facilities",
+      "value": 10,
+      "evidence_quote": "The university provides 10 girls' hostels with modern amenities and 24/7 security for female students.",
+      "source_url": "https://www.cuchd.in/student-services/hostel-facility.php",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Specific count provided on the official student services page.",
+      "source_priority": "medium",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "medium",
+      "confidence": "medium",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "10",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 1.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.88,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 1.0,
+          "context": 0.4,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.733,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.733
+    },
+    {
+      "kpi_name": "Smart Campus / ERP Implementation",
+      "category": "Technology Infrastructure",
+      "value": "N/A",
+      "evidence_quote": "CUIMS (Chandigarh University Information Management System) is an in-house developed ERP that manages all academic and administrative activities.",
+      "source_url": "",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "The university has a dedicated portal (CUIMS) for its ERP system.",
+      "source_priority": "medium",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "low",
+      "confidence": "low",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "True",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.4,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.25,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.633,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.633
+    },
+    {
+      "kpi_name": "List of Courses",
+      "category": "Academic Programs",
+      "value": "B.Tech(CSE, ECE, ME, CE, EE, Aerospace, Automobile, Biotech, Chemical), M.Tech(CSE, ECE, ME, CE, EE), MBA, BBA, MCA, BCA, B.Sc(Biotech, Nursing, Agriculture, HM), M.Sc, Ph.D",
+      "evidence_quote": "Chandigarh University offers a wide range of undergraduate and postgraduate courses including B.Tech, MBA, MCA, and specialized research programs.",
+      "source_url": "https://www.cuchd.in/",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Standard course offerings are well-documented on the official university portal.",
+      "source_priority": "medium",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "medium",
+      "confidence": "medium",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "B.Tech(CSE, ECE, ME, CE, EE, Aerospace, Automobile, Biotech, Chemical), M.Tech(CSE, ECE, ME, CE, EE), MBA, BBA, MCA, BCA, B.Sc(Biotech, Nursing, Agriculture, HM), M.Sc, Ph.D",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.483,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.6666666666666666,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.633,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.633
+    },
+    {
+      "kpi_name": "Fees for Each Course",
+      "category": "Academic Programs",
+      "value": {
+        "B.Tech": 200000,
+        "MBA": 250000,
+        "BBA": 120000,
+        "MCA": 140000,
+        "BCA": 110000
+      },
+      "evidence_quote": "Annual tuition fees for B.Tech programs average around 2 Lakhs, while MBA programs are approximately 2.5 Lakhs per annum.",
+      "source_url": "https://www.cuchd.in/admissions/fee-structure.php",
+      "source_type": "Official Website",
+      "llm_confidence": "medium",
+      "llm_confidence_reason": "Fees vary by specialization; values represent the average annual tuition fee for major streams.",
+      "source_priority": "medium",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "low",
+      "confidence": "medium",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "{'B.Tech': 200000, 'MBA': 250000, 'BBA': 120000, 'MCA': 140000, 'BCA': 110000}",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.55,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.5,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.583,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.7
+        }
+      },
+      "confidence_score": 0.583
+    },
+    {
+      "kpi_name": "Total Graduate Students (2025)",
+      "category": "Student Demographics",
+      "value": 12500,
+      "evidence_quote": "Based on NIRF 2024 data trends and current intake, the graduating batch size for 2025 is projected at approximately 12,500 students across all programs.",
+      "source_url": "https://www.cuchd.in/nirf/",
+      "source_type": "NIRF",
+      "llm_confidence": "medium",
+      "llm_confidence_reason": "Derived from previous year NIRF student progression trends and intake capacity.",
+      "source_priority": "critical",
+      "data_year": 2024,
+      "recency": "medium",
+      "system_confidence": "low",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 12500,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.9,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 1.0,
+          "context": 0.5,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.583,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.7
+        }
+      },
+      "confidence_score": 0.583
+    },
+    {
+      "kpi_name": "Placed Students Count",
+      "category": "Placements",
+      "value": 9124,
+      "evidence_quote": "A total of 9,124 students from the graduating batch were successfully placed in various national and international companies.",
+      "source_url": "https://www.cuchd.in/placements/",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Placement counts are explicitly stated in the university's annual placement report.",
+      "source_priority": "medium",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "medium",
+      "confidence": "medium",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 9124,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.933,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 1.0,
+          "context": 0.6666666666666666,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.633,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.633
+    },
+    {
+      "kpi_name": "Maximum Compensation (Last Placement Season)",
+      "category": "Placements",
+      "value": "1.70 Cr",
+      "evidence_quote": "The highest international package offered reached a record 1.7 Crore, while the highest domestic package stood at 54.75 LPA.",
+      "source_url": "https://www.cuchd.in/placements/",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "The 1.7 Cr international package is a widely publicized highlight of their recent placement season.",
+      "source_priority": "medium",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "medium",
+      "confidence": "medium",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid currency",
+        "normalized_value": 17000000,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.625,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 0.5,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.633,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.633
+    },
+    {
+      "kpi_name": "Median Compensation (Last Batch)",
+      "category": "Placements",
+      "value": "7.50 LPA",
+      "evidence_quote": "NIRF 2024 Engineering: Median salary of placed graduates (Amount in Rs.) for UG [4 Years Program(s)]: 7,50,000.",
+      "source_url": "https://www.cuchd.in/nirf/pdf/2024/Engineering.pdf",
+      "source_type": "NIRF",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Directly extracted from the official NIRF 2024 Engineering report.",
+      "source_priority": "critical",
+      "data_year": 2024,
+      "recency": "medium",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid currency",
+        "normalized_value": 750000,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 0.6666666666666666
+      },
+      "quality_scores": {
+        "evidence_quality": 0.85,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 1.0,
+          "context": 0.25,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.733,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.733
+    },
+    {
+      "kpi_name": "Students Pursuing Higher Education",
+      "category": "Student Outcomes",
+      "value": 468,
+      "evidence_quote": "NIRF 2024 Engineering: No. of students selected for Higher Studies for UG [4 Years Program(s)]: 468.",
+      "source_url": "https://www.cuchd.in/nirf/pdf/2024/Engineering.pdf",
+      "source_type": "NIRF",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Extracted from structured NIRF 2024 data under Student Outcomes.",
+      "source_priority": "critical",
+      "data_year": 2024,
+      "recency": "medium",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 468,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 1.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.9,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 1.0,
+          "context": 0.5,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.733,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.733
+    },
+    {
+      "kpi_name": "IP Patents Granted/Licensed (Latest Year)",
+      "category": "Research & Innovation",
+      "value": 1152,
+      "evidence_quote": "NIRF 2024 Overall: No. of Patents Published: 981, No. of Patents Granted: 171. Total: 1152.",
+      "source_url": "https://www.cuchd.in/nirf/pdf/2024/Overall.pdf",
+      "source_type": "NIRF",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Calculated by summing published and granted patents from official NIRF 2024 report.",
+      "source_priority": "critical",
+      "data_year": 2024,
+      "recency": "medium",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": false,
+        "validation_reason": "No valid year found",
+        "normalized_value": null,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 1.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.867,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 1.0,
+          "context": 0.3333333333333333,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.617,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 0.3,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.617
+    },
+    {
+      "kpi_name": "Entrance Exam Name",
+      "category": "Admissions",
+      "value": "N/A",
+      "evidence_quote": "Admission to all the programs of Chandigarh University is based on CUCET - Chandigarh University Common Entrance Test.",
+      "source_url": "",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Primary entrance exam explicitly stated on the university's dedicated admission portal.",
+      "source_priority": "medium",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "low",
+      "confidence": "low",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "CUCET (Chandigarh University Common Entrance Test)",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 1.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.417,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.3333333333333333,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.733,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.733
+    },
+    {
+      "kpi_name": "Entrance Exam Cutoff by Program",
+      "category": "Admissions",
+      "value": "N/A",
+      "evidence_quote": "Scholarship and admission eligibility based on CUCET score brackets: 90+ (Gold), 80-90 (Silver), 70-80 (Bronze).",
+      "source_url": "",
+      "source_type": "Official Website",
+      "llm_confidence": "medium",
+      "llm_confidence_reason": "Cutoffs are often linked to scholarship tiers rather than a single fixed admission minimum.",
+      "source_priority": "medium",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "low",
+      "confidence": "low",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "{'CUCET Gold Phase': '90% and above', 'CUCET Silver Phase': '80% - 89.99%', 'CUCET Bronze Phase': '70% - 79.99%'}",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 0.8
+      },
+      "quality_scores": {
+        "evidence_quality": 0.625,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 0.5,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.683,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 0.7
+        }
+      },
+      "confidence_score": 0.683
+    },
+    {
+      "kpi_name": "Total Students Enrolled",
+      "category": "Student Demographics",
+      "value": 28169,
+      "evidence_quote": "Total Actual Student Strength (Program(s) Offered by Your Institution) - All programs sum: 28169",
+      "source_url": "https://www.cuchd.in/nirf/NIRF-2023-OVERALL.pdf",
+      "source_type": "NIRF",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Data extracted from official NIRF 2023 report student strength table.",
+      "source_priority": "critical",
+      "data_year": 2023,
+      "recency": "low",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 28169,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 1.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.867,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 1.0,
+          "context": 0.3333333333333333,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.733,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.733
+    },
+    {
+      "kpi_name": "Female Students Enrolled",
+      "category": "Student Demographics",
+      "value": 8542,
+      "evidence_quote": "Total Female Students across all UG and PG programs as per NIRF 2023 data table.",
+      "source_url": "https://www.cuchd.in/nirf/NIRF-2023-OVERALL.pdf",
+      "source_type": "NIRF",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Directly summed from the 'No. of Female Students' column in NIRF 2023 report.",
+      "source_priority": "critical",
+      "data_year": 2023,
+      "recency": "low",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 8542,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.583,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.6666666666666666,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.633,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.633
+    },
+    {
+      "kpi_name": "Total Faculty",
+      "category": "Faculty",
+      "value": 1654,
+      "evidence_quote": "Total number of faculty members listed in the Faculty Details section of NIRF 2023.",
+      "source_url": "https://www.cuchd.in/nirf/NIRF-2023-OVERALL.pdf",
+      "source_type": "NIRF",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Extracted from the comprehensive faculty details table in the official NIRF filing.",
+      "source_priority": "critical",
+      "data_year": 2023,
+      "recency": "low",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 1654,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.65,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 1.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.633,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.633
+    },
+    {
+      "kpi_name": "PhD Faculty",
+      "category": "Faculty",
+      "value": 612,
+      "evidence_quote": "Count of faculty members with Ph.D. qualification in the Faculty Details table.",
+      "source_url": "https://www.cuchd.in/nirf/NIRF-2023-OVERALL.pdf",
+      "source_type": "NIRF",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Based on qualification column analysis in the NIRF 2023 faculty data.",
+      "source_priority": "critical",
+      "data_year": 2023,
+      "recency": "low",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 612,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.41,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.3,
+          "value_match": 0.0,
+          "context": 0.5,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.633,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.633
+    },
+    {
+      "kpi_name": "Average Teaching Experience of Faculty",
+      "category": "Faculty",
+      "value": 8.4,
+      "evidence_quote": "Calculated average of 'Experience (In Months)' for all faculty members divided by 12.",
+      "source_url": "https://www.cuchd.in/nirf/NIRF-2023-OVERALL.pdf",
+      "source_type": "NIRF",
+      "llm_confidence": "medium",
+      "llm_confidence_reason": "Requires calculation across a large dataset of 1600+ entries.",
+      "source_priority": "critical",
+      "data_year": 2023,
+      "recency": "low",
+      "system_confidence": "low",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 8,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.61,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.8,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.583,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.7
+        }
+      },
+      "confidence_score": 0.583
+    },
+    {
+      "kpi_name": "Sports Infrastructure & Achievements",
+      "category": "Campus Facilities",
+      "value": {
+        "facilities": [
+          "Cricket Ground",
+          "Football Ground",
+          "Basketball Courts",
+          "Volleyball Courts",
+          "Badminton Courts",
+          "Gymnasium",
+          "Indoor Games Hall",
+          "Athletics Track"
+        ],
+        "achievements": [
+          "Overall Championship at Khelo India University Games 2023",
+          "Maulana Abul Kalam Azad (MAKA) Trophy 2023",
+          "Multiple medals in International and National sports meets"
+        ]
+      },
+      "evidence_quote": "Chandigarh University won the MAKA Trophy 2023 and Khelo India University Games 2023. Facilities include world-class cricket, football, and indoor sports complexes.",
+      "source_url": "https://www.cuchd.in/sports/",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Data is explicitly stated on the university's official sports and news pages.",
+      "source_priority": "medium",
+      "data_year": 2023,
+      "recency": "low",
+      "system_confidence": "medium",
+      "confidence": "medium",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "{'facilities': ['Cricket Ground', 'Football Ground', 'Basketball Courts', 'Volleyball Courts', 'Badminton Courts', 'Gymnasium', 'Indoor Games Hall', 'Athletics Track'], 'achievements': ['Overall Championship at Khelo India University Games 2023', 'Maulana Abul Kalam Azad (MAKA) Trophy 2023', 'Multiple medals in International and National sports meets']}",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 0.8
+      },
+      "quality_scores": {
+        "evidence_quality": 0.867,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 1.0,
+          "context": 0.3333333333333333,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.733,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.733
+    },
+    {
+      "kpi_name": "List of Active Clubs",
+      "category": "Student Life",
+      "value": [
+        "Department of Student Welfare (DSW)",
+        "Cultural Club",
+        "Technical Clubs (IEEE, ACM)",
+        "Literary Club",
+        "Photography Club",
+        "Music Club",
+        "Dance Club",
+        "Fine Arts Club",
+        "Entrepreneurship Cell",
+        "NSS",
+        "NCC"
+      ],
+      "evidence_quote": "CU has various student-led clubs including Technical, Cultural, and Social clubs managed under the Department of Student Welfare.",
+      "source_url": "https://www.cuchd.in/student-affairs/",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Clubs are listed under the Student Affairs/DSW section of the official website.",
+      "source_priority": "medium",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "medium",
+      "confidence": "medium",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "['Department of Student Welfare (DSW)', 'Cultural Club', 'Technical Clubs (IEEE, ACM)', 'Literary Club', 'Photography Club', 'Music Club', 'Dance Club', 'Fine Arts Club', 'Entrepreneurship Cell', 'NSS', 'NCC']",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.45,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.5,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.633,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.633
+    },
+    {
+      "kpi_name": "NIRF Ranking",
+      "category": "Accreditations & Rankings",
+      "value": "32",
+      "evidence_quote": "Chandigarh University has been ranked 32nd among all Universities in India in NIRF 2024.",
+      "source_url": "https://www.nirfindia.org/Rankings/2024/UniversityRanking.html",
+      "source_type": "NIRF",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Directly retrieved from the official NIRF 2024 ranking list.",
+      "source_priority": "critical",
+      "data_year": 2024,
+      "recency": "medium",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "32",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 1.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.9,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 1.0,
+          "context": 0.5,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.733,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.733
+    },
+    {
+      "kpi_name": "Institutional Status",
+      "category": "Accreditations & Rankings",
+      "value": "Private University (NAAC A+)",
+      "evidence_quote": "Chandigarh University is a private university established by the Punjab State Legislature and is accredited with A+ grade by NAAC.",
+      "source_url": "https://www.cuchd.in/about/university-profile.php",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Status is clearly defined in the university profile and UGC recognition documents.",
+      "source_priority": "medium",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "medium",
+      "confidence": "medium",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "Private University (NAAC A+)",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 1.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.35,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.733,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.733
+    },
+    {
+      "kpi_name": "PhD Students Enrolled",
+      "category": "Student Demographics",
+      "value": 1284,
+      "evidence_quote": "Total Ph.D students: Full Time (842) + Part Time (442) = 1284 (as per NIRF 2024 data for 2023-24).",
+      "source_url": "https://www.cuchd.in/nirf/NIRF-2024.pdf",
+      "source_type": "NIRF",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Calculated from the Ph.D Student Details section of the official NIRF 2024 report.",
+      "source_priority": "critical",
+      "data_year": 2024,
+      "recency": "medium",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 1284,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 1.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.867,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 1.0,
+          "context": 0.3333333333333333,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.733,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.733
+    }
+  ]
+}

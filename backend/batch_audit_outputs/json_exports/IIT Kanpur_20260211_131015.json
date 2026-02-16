@@ -1,0 +1,1190 @@
+{
+  "college_name": "IIT Kanpur",
+  "audit_date": "2026-02-11T13:10:15.703968",
+  "summary": {
+    "total_kpis": 25,
+    "data_found": 25,
+    "data_not_found": 0,
+    "high_confidence": 17,
+    "medium_confidence": 14,
+    "coverage_percentage": 100.0,
+    "source_priority_breakdown": {
+      "high": 22,
+      "medium": 0,
+      "low": 0
+    },
+    "categories": {
+      "Academic Infrastructure": {
+        "total": 2,
+        "found": 2
+      },
+      "Campus Facilities": {
+        "total": 3,
+        "found": 3
+      },
+      "Technology Infrastructure": {
+        "total": 1,
+        "found": 1
+      },
+      "Academic Programs": {
+        "total": 2,
+        "found": 2
+      },
+      "Student Demographics": {
+        "total": 4,
+        "found": 4
+      },
+      "Placements": {
+        "total": 3,
+        "found": 3
+      },
+      "Student Outcomes": {
+        "total": 1,
+        "found": 1
+      },
+      "Research & Innovation": {
+        "total": 1,
+        "found": 1
+      },
+      "Admissions": {
+        "total": 2,
+        "found": 2
+      },
+      "Faculty": {
+        "total": 3,
+        "found": 3
+      },
+      "Student Life": {
+        "total": 1,
+        "found": 1
+      },
+      "Accreditations & Rankings": {
+        "total": 2,
+        "found": 2
+      }
+    }
+  },
+  "results": [
+    {
+      "kpi_name": "ICT-Enabled Learning Infrastructure",
+      "category": "Academic Infrastructure",
+      "value": true,
+      "evidence_quote": "Most of the instructors will be using the online course delivery platform HelloIITK. Students have to use their IITK Email-ID/Password to login to the platform.",
+      "source_url": "https://www.iitk.ac.in/doaa/data/Technical_Infrastructure_Requirements.pdf",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Direct mention of online course delivery platform HelloIITK and remote learning infrastructure.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "True",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.35,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.633,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.633
+    },
+    {
+      "kpi_name": "Digital Library Access",
+      "category": "Academic Infrastructure",
+      "value": true,
+      "evidence_quote": "Thesis upload on Institute Repository... iThenticate and Turnitin (Intranet only)... P K Kelkar Library",
+      "source_url": "https://www.iitk.ac.in/doaa/eligibility-criteria",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Mentions of institute repository, intranet-based research tools, and the central library.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "True",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.417,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.3333333333333333,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.633,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.633
+    },
+    {
+      "kpi_name": "Male Hostels Managed by College",
+      "category": "Campus Facilities",
+      "value": 13,
+      "evidence_quote": "HALL OF RESIDENCE NO. 1... to HALL OF RESIDENCE NO. 14. (Note: Hall 6 is for girls). Boys have to report at HALL 13.",
+      "source_url": "https://iitk.ac.in/dosa/data/Anti-ragging-squad-2025-21-07-25.pdf",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "The Anti-ragging squad document lists Halls 1-5, 7-14 as male/general and Hall 6 as girls.",
+      "source_priority": "high",
+      "data_year": 2025,
+      "recency": "high",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "13",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 1.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.8,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 1.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.733,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.733
+    },
+    {
+      "kpi_name": "Female Hostels Managed by College",
+      "category": "Campus Facilities",
+      "value": 2,
+      "evidence_quote": "HALL OF RESIDENCE FOR GIRLS.1 (Hall Office.Tel. No. 4100)... HALL OF RESIDENCE FOR GIRLS. 6/GH Tower",
+      "source_url": "https://iitk.ac.in/dosa/data/Anti-ragging-squad-2025-21-07-25.pdf",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Explicitly lists Girls Hall 1 and Girls Hall 6/GH Tower in the council of wardens list.",
+      "source_priority": "high",
+      "data_year": 2025,
+      "recency": "high",
+      "system_confidence": "low",
+      "confidence": "high",
+      "validation": {
+        "is_valid": false,
+        "validation_reason": "Text too short",
+        "normalized_value": "2",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.45,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.517,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 0.3,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.517
+    },
+    {
+      "kpi_name": "Smart Campus / ERP Implementation",
+      "category": "Technology Infrastructure",
+      "value": true,
+      "evidence_quote": "Pingala Current Registration/Add-Drop Pre-registraion... OARS Online Grade Submission... Office Automation",
+      "source_url": "https://www.iitk.ac.in/doaa/eligibility-criteria",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Mentions of Pingala (ERP), OARS, and Office Automation systems for academic management.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "True",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.27,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 0.2
+        },
+        "confidence_score": 0.633,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.633
+    },
+    {
+      "kpi_name": "List of Courses",
+      "category": "Academic Programs",
+      "value": "B.S.(Economics, Math & Sc. Comp., Stat. & Data Sc.), B.Tech(AE, BSBE, ChE, CE, CSE, EE, ES, MSE, ME), M.Tech(AE, BSBE, ChE, CE, CSE, ES, EE, EEM, IME, ME, MSE, MSP, NET, PSE), M.Des, MBA, M.Sc.(Math, Stat, Economics), MSR, eMasters, Ph.D(AE, ChE, CE, CSE, EE, ES, ME, MSE, MSP, NET, PSE, BSBE, Chemistry, Physics, Math, Stat, HSS, Management, Design, Sustainability)",
+      "evidence_quote": "Programs Offered: Master of Technology (M. Tech.), Master of Design (M. Des.), Master of Business Administration (MBA), Ph.D. in Engineering, Sciences, Humanities, Management, Design, Sustainability.",
+      "source_url": "https://www.iitk.ac.in/doaa/eligibility-criteria",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Comprehensive lists found across multiple department pages and the DOAA eligibility document.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "B.S.(Economics, Math & Sc. Comp., Stat. & Data Sc.), B.Tech(AE, BSBE, ChE, CE, CSE, EE, ES, MSE, ME), M.Tech(AE, BSBE, ChE, CE, CSE, ES, EE, EEM, IME, ME, MSE, MSP, NET, PSE), M.Des, MBA, M.Sc.(Math, Stat, Economics), MSR, eMasters, Ph.D(AE, ChE, CE, CSE, EE, ES, ME, MSE, MSP, NET, PSE, BSBE, Chemistry, Physics, Math, Stat, HSS, Management, Design, Sustainability)",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.417,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.3333333333333333,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.633,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.633
+    },
+    {
+      "kpi_name": "Fees for Each Course",
+      "category": "Academic Programs",
+      "value": {
+        "M.Tech": 16000,
+        "Ph.D": 16000,
+        "MBA": "Data Not Found",
+        "B.Tech": "Data Not Found"
+      },
+      "evidence_quote": "The M.Tech. student currently carries a monthly stipend... For Ph.D. students the corresponding financial assistance... A 50% tuition fee waiver for M.Sc.-Ph.D. (Dual degree) students is available.",
+      "source_url": "https://www.iitk.ac.in/doaa/eligibility-criteria",
+      "source_type": "Official Website",
+      "llm_confidence": "low",
+      "llm_confidence_reason": "Specific annual tuition fee amounts are not explicitly listed in the provided text; only stipends.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "low",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "{'M.Tech': 16000, 'Ph.D': 16000, 'MBA': 'Data Not Found', 'B.Tech': 'Data Not Found'}",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.5,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.25,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.533,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.4
+        }
+      },
+      "confidence_score": 0.533
+    },
+    {
+      "kpi_name": "Total Graduate Students (2025)",
+      "category": "Student Demographics",
+      "value": 1079,
+      "evidence_quote": "The Students' Placement Office (SPO) at IIT Kanpur has successfully concluded Phase I... Students accepted 1,079 of these offers, which include Pre-Placement Offers.",
+      "source_url": "https://www.iitk.ac.in/phase-i-placements-for-2025-26-batch",
+      "source_type": "Official Website",
+      "llm_confidence": "medium",
+      "llm_confidence_reason": "Value represents students who accepted offers in Phase I of the 2025-26 batch, a strong proxy.",
+      "source_priority": "high",
+      "data_year": 2025,
+      "recency": "high",
+      "system_confidence": "low",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 1079,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.85,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 1.0,
+          "context": 0.25,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.583,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.7
+        }
+      },
+      "confidence_score": 0.583
+    },
+    {
+      "kpi_name": "Placed Students Count",
+      "category": "Placements",
+      "value": 1079,
+      "evidence_quote": "This initial phase saw robust participation from over 250 organizations... extending a total of 1,202 offers. Students accepted 1,079 of these offers.",
+      "source_url": "https://www.iitk.ac.in/phase-i-placements-for-2025-26-batch",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Directly stated as the number of accepted offers for the current placement phase.",
+      "source_priority": "high",
+      "data_year": 2025,
+      "recency": "high",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 1079,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.867,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 1.0,
+          "context": 0.3333333333333333,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.633,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.633
+    },
+    {
+      "kpi_name": "Maximum Compensation (Last Placement Season)",
+      "category": "Placements",
+      "value": "N/A",
+      "evidence_quote": "The provided text discusses the number of offers (1,202) and international offers (15) but does not mention specific salary figures or the maximum CTC.",
+      "source_url": "https://www.iitk.ac.in/phase-i-placements-for-2025-26-batch",
+      "source_type": "Official Website",
+      "llm_confidence": "low",
+      "llm_confidence_reason": "Salary figures were not included in the provided press release or department pages.",
+      "source_priority": "high",
+      "data_year": 2025,
+      "recency": "high",
+      "system_confidence": "low",
+      "confidence": "low",
+      "validation": {
+        "is_valid": false,
+        "validation_reason": "Value indicates data not found",
+        "normalized_value": null,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.49,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.2,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.417,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 0.3,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.4
+        }
+      },
+      "confidence_score": 0.417
+    },
+    {
+      "kpi_name": "Median Compensation (Last Batch)",
+      "category": "Placements",
+      "value": "N/A",
+      "evidence_quote": "The source documents provide total offers (1,202) and accepted offers (1,079) for the 2025-26 Phase I batch, but do not specify the median salary value.",
+      "source_url": "https://www.iitk.ac.in/phase-i-placements-for-2025-26-batch",
+      "source_type": "Official College Website",
+      "llm_confidence": "low",
+      "llm_confidence_reason": "Placement reports mention offer counts and international highlights but omit median salary figures.",
+      "source_priority": "high",
+      "data_year": 2025,
+      "recency": "high",
+      "system_confidence": "low",
+      "confidence": "low",
+      "validation": {
+        "is_valid": false,
+        "validation_reason": "Value indicates data not found",
+        "normalized_value": null,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.55,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.5,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.417,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 0.3,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.4
+        }
+      },
+      "confidence_score": 0.417
+    },
+    {
+      "kpi_name": "Students Pursuing Higher Education",
+      "category": "Student Outcomes",
+      "value": "N/A",
+      "evidence_quote": "While the website mentions a 1:1 UG:PG ratio and 9500+ students, it does not provide the specific NIRF metric for students selected for higher studies.",
+      "source_url": "https://www.iitk.ac.in/",
+      "source_type": "Official College Website",
+      "llm_confidence": "low",
+      "llm_confidence_reason": "General student population data is available, but specific higher education transition counts are not.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "low",
+      "confidence": "low",
+      "validation": {
+        "is_valid": false,
+        "validation_reason": "Value indicates data not found",
+        "normalized_value": null,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.55,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.5,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.417,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 0.3,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.4
+        }
+      },
+      "confidence_score": 0.417
+    },
+    {
+      "kpi_name": "IP Patents Granted/Licensed (Latest Year)",
+      "category": "Research & Innovation",
+      "value": 1000,
+      "evidence_quote": "Key Statistics: 1000+ Patents filed",
+      "source_url": "https://www.iitk.ac.in/",
+      "source_type": "Official College Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Directly stated in the 'Key Statistics' section of the official homepage.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": false,
+        "validation_reason": "No valid year found",
+        "normalized_value": null,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 1.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.803,
+        "evidence_breakdown": {
+          "length": 0.8,
+          "has_numbers": 1.0,
+          "value_match": 1.0,
+          "context": 0.16666666666666666,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.617,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 0.3,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.617
+    },
+    {
+      "kpi_name": "Entrance Exam Name",
+      "category": "Admissions",
+      "value": "JEE Advanced",
+      "evidence_quote": "Admission for the 52 seats (per year) in the B.S. program is through the advanced joint entrance examination (JEE).",
+      "source_url": "https://www.iitk.ac.in/eco/8-about",
+      "source_type": "Official College Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Explicitly mentioned as the primary entrance for undergraduate (B.S.) programs.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "JEE Advanced",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 1.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.517,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.3333333333333333,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.733,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.733
+    },
+    {
+      "kpi_name": "Entrance Exam Cutoff by Program",
+      "category": "Admissions",
+      "value": {
+        "B.Tech/BS": "JEE Advanced",
+        "M.Tech": "GATE",
+        "MBA": "CAT",
+        "M.Sc": "JAM/GATE"
+      },
+      "evidence_quote": "Admission to the B.S. program is through JEE; M.Sc. through JAM/GATE; MBA through CAT; M.Tech requires valid GATE score.",
+      "source_url": "https://www.iitk.ac.in/doaa/eligibility-criteria",
+      "source_type": "Official College Website",
+      "llm_confidence": "medium",
+      "llm_confidence_reason": "Identifies the required exams for all programs, though specific numerical closing ranks are absent.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "{'B.Tech/BS': 'JEE Advanced', 'M.Tech': 'GATE', 'MBA': 'CAT', 'M.Sc': 'JAM/GATE'}",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 0.8181818181818182
+      },
+      "quality_scores": {
+        "evidence_quality": 0.39,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.2,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.683,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 0.7
+        }
+      },
+      "confidence_score": 0.683
+    },
+    {
+      "kpi_name": "Total Students Enrolled",
+      "category": "Student Demographics",
+      "value": 9500,
+      "evidence_quote": "9500+ Students With 1:1 UG:PG students ratio",
+      "source_url": "https://www.iitk.ac.in/",
+      "source_type": "Official College Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Directly stated on the official homepage as a key statistic.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 9500,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 1.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.837,
+        "evidence_breakdown": {
+          "length": 0.8,
+          "has_numbers": 1.0,
+          "value_match": 1.0,
+          "context": 0.3333333333333333,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.733,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.733
+    },
+    {
+      "kpi_name": "Female Students Enrolled",
+      "category": "Student Demographics",
+      "value": "N/A",
+      "evidence_quote": "No specific total female student count found in the provided text; only mentions of specific girls' hostels (Hall 4, Hall 6).",
+      "source_url": "https://www.iitk.ac.in/counsel/new-ug-information.php",
+      "source_type": "Official College Website",
+      "llm_confidence": "low",
+      "llm_confidence_reason": "The text mentions girls' hostels but lacks an aggregate count for female enrollment.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "low",
+      "confidence": "low",
+      "validation": {
+        "is_valid": false,
+        "validation_reason": "Value indicates data not found",
+        "normalized_value": null,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.517,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.3333333333333333,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.417,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 0.3,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.4
+        }
+      },
+      "confidence_score": 0.417
+    },
+    {
+      "kpi_name": "Total Faculty",
+      "category": "Faculty",
+      "value": 570,
+      "evidence_quote": "570 Faculty Members In 20 departments [Cross-verified: 570.0]",
+      "source_url": "https://www.iitk.ac.in/",
+      "source_type": "Official College Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Explicitly stated on the homepage and consistent with pre-extracted structured data.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 570,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 1.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.9,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 1.0,
+          "context": 0.5,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.733,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.733
+    },
+    {
+      "kpi_name": "PhD Faculty",
+      "category": "Faculty",
+      "value": "N/A",
+      "evidence_quote": "Invalid source URL",
+      "source_url": "",
+      "source_type": "N/A",
+      "llm_confidence": "low",
+      "llm_confidence_reason": "No source available",
+      "system_confidence": "low",
+      "source_priority": "unknown",
+      "confidence": "low",
+      "data_year": null,
+      "recency": "unknown",
+      "validation": {
+        "is_valid": false,
+        "validation_reason": "Value indicates data not found",
+        "normalized_value": null,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.235,
+        "evidence_breakdown": {
+          "length": 0.5,
+          "has_numbers": 0.3,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.417,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 0.3,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.4
+        }
+      },
+      "confidence_score": 0.417
+    },
+    {
+      "kpi_name": "Average Teaching Experience of Faculty",
+      "category": "Faculty",
+      "value": "N/A",
+      "evidence_quote": "The provided documents list faculty names and designations but do not provide individual or average experience in months/years.",
+      "source_url": "https://www.iitk.ac.in/eco/8-about",
+      "source_type": "Official College Website",
+      "llm_confidence": "low",
+      "llm_confidence_reason": "NIRF Faculty Details table with experience column was not present in the provided source text.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "low",
+      "confidence": "low",
+      "validation": {
+        "is_valid": false,
+        "validation_reason": "Value indicates data not found",
+        "normalized_value": null,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.43,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.3,
+          "value_match": 0.0,
+          "context": 0.6,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.417,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 0.3,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.4
+        }
+      },
+      "confidence_score": 0.417
+    },
+    {
+      "kpi_name": "Sports Infrastructure & Achievements",
+      "category": "Campus Facilities",
+      "value": {
+        "facilities": [
+          "Badminton courts",
+          "Basketball courts",
+          "Volleyball courts",
+          "Table Tennis room",
+          "Football ground"
+        ],
+        "achievements": []
+      },
+      "evidence_quote": "Apart from these, each Hostel is provided with separate Badminton, Basketball, and Volleyball courts and a Table Tennis room. IIT Kanpur has its own Football...",
+      "source_url": "https://www.iitk.ac.in/doms/data/docs/programs/mba/Information-Brochure-MBA-2025-27.pdf",
+      "source_type": "Official College Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Directly mentioned in the official MBA 2025-26 information brochure.",
+      "source_priority": "high",
+      "data_year": 2025,
+      "recency": "high",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "{'facilities': ['Badminton courts', 'Basketball courts', 'Volleyball courts', 'Table Tennis room', 'Football ground'], 'achievements': []}",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 0.7272727272727273
+      },
+      "quality_scores": {
+        "evidence_quality": 0.35,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.733,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.733
+    },
+    {
+      "kpi_name": "List of Active Clubs",
+      "category": "Student Life",
+      "value": [
+        "Chemineers’ Society"
+      ],
+      "evidence_quote": "organized by the Chemineers’ Society, IIT Kanpur.",
+      "source_url": "https://www.iitk.ac.in/che/",
+      "source_type": "Official College Website",
+      "llm_confidence": "medium",
+      "llm_confidence_reason": "Only one specific society/club was explicitly named in the provided text.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "['Chemineers’ Society']",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 1.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.67,
+        "evidence_breakdown": {
+          "length": 0.8,
+          "has_numbers": 0.5,
+          "value_match": 1.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.683,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 0.7
+        }
+      },
+      "confidence_score": 0.683
+    },
+    {
+      "kpi_name": "NIRF Ranking",
+      "category": "Accreditations & Rankings",
+      "value": "N/A",
+      "evidence_quote": "Invalid source URL",
+      "source_url": "",
+      "source_type": "N/A",
+      "llm_confidence": "low",
+      "llm_confidence_reason": "No source available",
+      "system_confidence": "low",
+      "source_priority": "unknown",
+      "confidence": "low",
+      "data_year": null,
+      "recency": "unknown",
+      "validation": {
+        "is_valid": false,
+        "validation_reason": "Value indicates data not found",
+        "normalized_value": null,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.275,
+        "evidence_breakdown": {
+          "length": 0.5,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.417,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 0.3,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.4
+        }
+      },
+      "confidence_score": 0.417
+    },
+    {
+      "kpi_name": "Institutional Status",
+      "category": "Accreditations & Rankings",
+      "value": "Institute of National Importance",
+      "evidence_quote": "Indian Institute of Technology Kanpur... holds the distinction of being recognized as an Institute of National Importance by the Government of India through an Act of Parliament.",
+      "source_url": "https://www.iitk.ac.in/phase-i-placements-for-2025-26-batch",
+      "source_type": "Official College Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Explicitly stated in the 'About IIT Kanpur' section of the official website.",
+      "source_priority": "high",
+      "data_year": 2025,
+      "recency": "high",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "Institute of National Importance",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 1.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.7,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 1.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.733,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.733
+    },
+    {
+      "kpi_name": "PhD Students Enrolled",
+      "category": "Student Demographics",
+      "value": "N/A",
+      "evidence_quote": "Invalid source URL",
+      "source_url": "",
+      "source_type": "N/A",
+      "llm_confidence": "low",
+      "llm_confidence_reason": "No source available",
+      "system_confidence": "low",
+      "source_priority": "unknown",
+      "confidence": "low",
+      "data_year": null,
+      "recency": "unknown",
+      "validation": {
+        "is_valid": false,
+        "validation_reason": "Value indicates data not found",
+        "normalized_value": null,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.235,
+        "evidence_breakdown": {
+          "length": 0.5,
+          "has_numbers": 0.3,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.417,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 0.3,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.4
+        }
+      },
+      "confidence_score": 0.417
+    }
+  ]
+}

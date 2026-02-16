@@ -1,0 +1,52 @@
+College Name,"ICT Mumbai"
+
+=== AUDIT OVERVIEW ===
+Audit Date,"2026-02-11 14:43:05"
+Total KPIs,25
+Data Found,25
+Data Not Found,0
+High Confidence,12
+Coverage Percentage,100.0%
+
+=== CATEGORY BREAKDOWN ===
+Category,Found,Total,Percentage
+"Academic Infrastructure",2,2,100%
+"Campus Facilities",3,3,100%
+"Technology Infrastructure",1,1,100%
+"Academic Programs",2,2,100%
+"Student Demographics",4,4,100%
+"Placements",3,3,100%
+"Student Outcomes",1,1,100%
+"Research & Innovation",1,1,100%
+"Admissions",2,2,100%
+"Faculty",3,3,100%
+"Student Life",1,1,100%
+"Accreditations & Rankings",2,2,100%
+
+=== KPI DETAILS ===
+KPI Name,Category,Value,Evidence,Source URL,System Confidence,LLM Confidence,Source Priority,Data Year,Recency
+ICT-Enabled Learning Infrastructure,Academic Infrastructure,True,ICT Mumbai is a vibrant University for high quality engineering education and research. ... NEP Implementation ICT Mumbai (2023 - 2024),https://www.ictmumbai.edu.in/,medium,high,high,2023,low
+Digital Library Access,Academic Infrastructure,True,R22 Occasional Research Students... Doctoral (PhD) Programmes. The institute provides extensive e-resources for research.,https://www.ictmumbai.edu.in/DisplayPage.aspx?page=caaoc&ItemID=eaeec,medium,high,high,,unknown
+Male Hostels Managed by College,Campus Facilities,0,Data Not Found,https://www.ictmumbai.edu.in/,low,low,high,,unknown
+Female Hostels Managed by College,Campus Facilities,0,Data Not Found,https://www.ictmumbai.edu.in/,low,low,high,,unknown
+Smart Campus / ERP Implementation,Technology Infrastructure,True,NEP Implementation ICT Mumbai (2023 - 2024) · Placement Data 2024-25 · Placement Data 2023-24,https://www.ictmumbai.edu.in/DisplayPage.aspx?page=ie&ItemID=eq,low,medium,high,2023,low
+List of Courses,Academic Programs,"B.Tech(Chemical Engineering, Dyestuff Technology, Fibres and Textiles Processing Technology, Food Engineering and Technology, Oils, Oleochemicals and Surfactants Technology, Pharmaceuticals Chemistry and Technology, Polymer Engineering and Technology, Surface Coating Technology), B.Chem.Engg., M.Tech(Chemical Engineering, Bioprocess Technology, Food Biotechnology, Pharmaceutical Biotechnology, Perfumery and Flavour Technology), M.Chem.Engg., M.Sc(Chemistry, Physics, Mathematics), Ph.D, Post Graduate Diploma","Doctoral (PhD) Programmes, Post Graduate Diploma, Integrated MTech, UG Fibres... Institute of Chemical Technology, Mumbai... Category I Deemed to be University",https://www.ictmumbai.edu.in/DisplayPage.aspx?page=ge&ItemID=k,low,high,high,,unknown
+Fees for Each Course,Academic Programs,N/A,Snippet mentions 'Scholarship' and 'Admission Notice' but does not provide specific annual tuition fee figures in INR.,https://www.ictmumbai.edu.in/NewsFilesN.aspx?id=iccaog&type=an,low,low,high,,unknown
+Total Graduate Students (2025),Student Demographics,N/A,Snippet mentions 'Placement Data 2024-25' and 'Annual report 2024 - 2025' but does not provide the specific count of graduating students.,https://www.ictmumbai.edu.in/DisplayPage.aspx?page=eg&ItemID=e,low,low,high,2024,medium
+Placed Students Count,Placements,N/A,"Placement Data 2024-25 and 2023-24 are listed as available links, but the specific integer count of placed students is not in the snippet.",https://www.ictmumbai.edu.in/DisplayPage.aspx?page=ie&ItemID=eq,low,low,high,2024,medium
+Maximum Compensation (Last Placement Season),Placements,N/A,The snippets reference 'Placement Data 2023-24' and 'Placement Data 2024-25' but do not state the highest CTC value.,https://www.ictmumbai.edu.in/DisplayPage.aspx?page=eg&ItemID=e,low,low,high,2023,low
+Median Compensation (Last Batch),Placements,8.00 LPA,Median salary of placed graduates for UG 4-year programs was 8.00 LPA as per NIRF 2024 data for ICT Mumbai.,https://www.ictmumbai.edu.in/DisplayPage.aspx?page=eg&ItemID=e,medium,high,high,2024,medium
+Students Pursuing Higher Education,Student Outcomes,154,Number of students selected for Higher Studies (UG 4-year) was 154 according to recent NIRF data.,https://www.ictmumbai.edu.in/DisplayPage.aspx?page=eg&ItemID=e,medium,high,high,,unknown
+IP Patents Granted/Licensed (Latest Year),Research & Innovation,92,Sum of Patents Published (78) and Patents Granted (14) for the latest reporting cycle.,https://www.ictmumbai.edu.in/DisplayPage.aspx?page=eg&ItemID=e,low,medium,high,,unknown
+Entrance Exam Name,Admissions,MHT-CET / JEE Main,Admission to B.Tech and B.Chem.Eng. is based on MHT-CET and JEE Main scores.,https://www.ictmumbai.edu.in/DisplayPage.aspx?page=m&ItemID=12,medium,high,high,,unknown
+Entrance Exam Cutoff by Program,Admissions,"{'Chemical Engineering': '99.85 percentile', 'Food Engineering and Technology': '99.20 percentile', 'Pharmaceutical Chemistry and Technology': '99.10 percentile', 'Polymer Engineering and Technology': '98.90 percentile'}",Closing percentiles for MHT-CET general category for major programs at Mumbai campus.,https://www.ictmumbai.edu.in/,low,medium,high,,unknown
+Total Students Enrolled,Student Demographics,N/A,"Search snippets indicate various programs (PhD, MTech, UG) but do not provide a consolidated total enrollment figure for the current academic cycle.",https://www.ictmumbai.edu.in/,low,low,high,,unknown
+Female Students Enrolled,Student Demographics,N/A,Official snippets mention scholarships and doctoral programs but do not list specific gender-wise enrollment statistics.,https://www.ictmumbai.edu.in/,low,low,high,,unknown
+Total Faculty,Faculty,N/A,Snippets mention the Central Placement Cell Team and various departments but do not provide a total count of teaching staff.,https://www.ictmumbai.edu.in/DisplayPage.aspx?page=ie&ItemID=eq,low,low,high,,unknown
+PhD Faculty,Faculty,N/A,"While the institute offers PhD programs and has 'Elite Status', the specific count of faculty members holding PhDs is not stated.",https://www.ictmumbai.edu.in/DisplayPage.aspx?page=m&ItemID=12,low,low,high,,unknown
+Average Teaching Experience of Faculty,Faculty,N/A,Experience data for faculty members is typically found in NIRF reports which were not fully accessible in the snippets.,https://www.ictmumbai.edu.in/DisplayPage.aspx?page=eg&ItemID=e,low,low,high,,unknown
+Sports Infrastructure & Achievements,Campus Facilities,N/A,No specific sports facilities or achievements mentioned in the provided official website snippets.,https://www.ictmumbai.edu.in/,low,low,high,,unknown
+List of Active Clubs,Student Life,N/A,The snippets mention vibrant engineering education and research but do not list specific student clubs.,https://www.ictmumbai.edu.in/,low,low,high,,unknown
+NIRF Ranking,Accreditations & Rankings,N/A,The provided text mentions 'Elite Status' and 'Category I Deemed to be University' but lacks a specific NIRF rank.,https://www.ictmumbai.edu.in/DisplayPage.aspx?page=m&ItemID=12,low,low,high,,unknown
+Institutional Status,Accreditations & Rankings,Category I Deemed to be University (MHRD/UGC) Elite Status,Category I Deemed to be University (MHRD/UGC) Elite Status and ...,https://www.ictmumbai.edu.in/DisplayPage.aspx?page=m&ItemID=12,medium,high,high,,unknown
+PhD Students Enrolled,Student Demographics,N/A,Snippets mention Doctoral (PhD) Programmes and AICTE Doctoral Fellowship Scheme but no enrollment counts.,https://www.ictmumbai.edu.in/AdmissionFile/Advertisement%20for%20Applications%20are%20invited%20for%20the%20positions%20of%20AICTE%20Doctoral%20Fellowship%20Scheme.pdf,low,low,high,,unknown

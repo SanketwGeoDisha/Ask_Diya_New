@@ -1,0 +1,1177 @@
+{
+  "college_name": "MIT Manipal",
+  "audit_date": "2026-02-11T15:04:53.588422",
+  "summary": {
+    "total_kpis": 25,
+    "data_found": 25,
+    "data_not_found": 0,
+    "high_confidence": 0,
+    "medium_confidence": 11,
+    "coverage_percentage": 100.0,
+    "source_priority_breakdown": {
+      "high": 0,
+      "medium": 20,
+      "low": 0
+    },
+    "categories": {
+      "Academic Infrastructure": {
+        "total": 2,
+        "found": 2
+      },
+      "Campus Facilities": {
+        "total": 3,
+        "found": 3
+      },
+      "Technology Infrastructure": {
+        "total": 1,
+        "found": 1
+      },
+      "Academic Programs": {
+        "total": 2,
+        "found": 2
+      },
+      "Student Demographics": {
+        "total": 4,
+        "found": 4
+      },
+      "Placements": {
+        "total": 3,
+        "found": 3
+      },
+      "Student Outcomes": {
+        "total": 1,
+        "found": 1
+      },
+      "Research & Innovation": {
+        "total": 1,
+        "found": 1
+      },
+      "Admissions": {
+        "total": 2,
+        "found": 2
+      },
+      "Faculty": {
+        "total": 3,
+        "found": 3
+      },
+      "Student Life": {
+        "total": 1,
+        "found": 1
+      },
+      "Accreditations & Rankings": {
+        "total": 2,
+        "found": 2
+      }
+    }
+  },
+  "results": [
+    {
+      "kpi_name": "ICT-Enabled Learning Infrastructure",
+      "category": "Academic Infrastructure",
+      "value": true,
+      "evidence_quote": "Innovative teaching - learning experience, high quality infrastructure and resources... The Website information must be continuously updated as and when changes take place.",
+      "source_url": "https://manipal.edu/content/dam/manipal/pdf/MAHE%20Prospectus%202019.pdf",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Prospectus highlights innovative teaching-learning and mandatory website/digital updates.",
+      "source_priority": "medium",
+      "data_year": 2020,
+      "recency": "low",
+      "system_confidence": "medium",
+      "confidence": "medium",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "True",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.45,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.5,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.633,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.633
+    },
+    {
+      "kpi_name": "Digital Library Access",
+      "category": "Academic Infrastructure",
+      "value": true,
+      "evidence_quote": "The institute has inspired me to explore more and always stay inquisitive... Design processes involving case studies and market survey integrated into the curriculum",
+      "source_url": "https://www.manipal.edu/dod.html",
+      "source_type": "Official Website",
+      "llm_confidence": "medium",
+      "llm_confidence_reason": "Inferred from 'high quality resources' and 'ubiquitous growth' mentions in official prospectus.",
+      "source_priority": "medium",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "low",
+      "confidence": "medium",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "True",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.35,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.583,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.7
+        }
+      },
+      "confidence_score": 0.583
+    },
+    {
+      "kpi_name": "Male Hostels Managed by College",
+      "category": "Campus Facilities",
+      "value": "N/A",
+      "evidence_quote": "Invalid source URL",
+      "source_url": "",
+      "source_type": "N/A",
+      "llm_confidence": "low",
+      "llm_confidence_reason": "No source available",
+      "system_confidence": "low",
+      "source_priority": "unknown",
+      "confidence": "low",
+      "data_year": null,
+      "recency": "unknown",
+      "validation": {
+        "is_valid": false,
+        "validation_reason": "Value indicates data not found",
+        "normalized_value": null,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.275,
+        "evidence_breakdown": {
+          "length": 0.5,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.417,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 0.3,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.4
+        }
+      },
+      "confidence_score": 0.417
+    },
+    {
+      "kpi_name": "Female Hostels Managed by College",
+      "category": "Campus Facilities",
+      "value": "N/A",
+      "evidence_quote": "Invalid source URL",
+      "source_url": "",
+      "source_type": "N/A",
+      "llm_confidence": "low",
+      "llm_confidence_reason": "No source available",
+      "system_confidence": "low",
+      "source_priority": "unknown",
+      "confidence": "low",
+      "data_year": null,
+      "recency": "unknown",
+      "validation": {
+        "is_valid": false,
+        "validation_reason": "Value indicates data not found",
+        "normalized_value": null,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.275,
+        "evidence_breakdown": {
+          "length": 0.5,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.417,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 0.3,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.4
+        }
+      },
+      "confidence_score": 0.417
+    },
+    {
+      "kpi_name": "Smart Campus / ERP Implementation",
+      "category": "Technology Infrastructure",
+      "value": true,
+      "evidence_quote": "In case of any grievance, students can submit the same by going through this link https://sis.manipal.edu/studlogin.aspx",
+      "source_url": "https://manipal.edu/content/dam/manipal/pdf/MAHE%20Prospectus%202019.pdf",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Direct evidence of a Student Information System (SIS) portal for student logins.",
+      "source_priority": "medium",
+      "data_year": 2020,
+      "recency": "low",
+      "system_confidence": "medium",
+      "confidence": "medium",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "True",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.35,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.633,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.633
+    },
+    {
+      "kpi_name": "List of Courses",
+      "category": "Academic Programs",
+      "value": "B.Des(Fashion Design, Interior Design), M.Des(Interior Design, Sustainable Design), MBA(General Management), Integrated BA/MBA, BHM, MHM, MBBS, MD(Anaesthesiology, Anatomy, Biochemistry, Community Medicine, Dermatology, Emergency Medicine, Forensic Medicine, General Medicine, Hospital Administration, Immunohematology, Microbiology, Paediatrics, Palliative Medicine, Pathology, Pharmacology, Physiology, Psychiatry, Radiodiagnosis, Radiotherapy, Respiratory Medicine), MS(General Surgery, OBG, Ophthalmology, Orthopaedics, ENT), M.Sc(Clinical Embryology, Forensic Science, Genetic Counseling, Reproductive and Developmental Biology, Reproductive Genetics, Medical Anatomy, Medical Biochemistry, Medical Microbiology, Medical Pharmacology, Medical Physiology, Yoga Therapy), M.Phil(Psychiatric Social Work), DM(Cardiology, Critical Care, Gastroenterology, Infectious Disease, Medical Genetics, Medical Oncology, Nephrology, Neurology), MCh(CTVS, Neuro, Paediatric, Plastic, Urology, Hand, Paediatric Ortho, Reproductive, Surgical Oncology), BDS, MDS, PG Certificate(Panchakarma, Siddha Varmam Therapy)",
+      "evidence_quote": "B.Des Fashion Design, B.Des Interior Design, and M.Des Interior Design are approved by AICTE... MBBS, MD Anaesthesiology... MDS Conservative Dentistry...",
+      "source_url": "https://www.manipal.edu/dod.html",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Comprehensive list extracted from multiple official prospectus and AICTE approval documents.",
+      "source_priority": "medium",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "low",
+      "confidence": "medium",
+      "validation": {
+        "is_valid": false,
+        "validation_reason": "Text too long",
+        "normalized_value": "B.Des(Fashion Design, Interior Design), M.Des(Interior Design, Sustainable Design), MBA(General Management), Integrated BA/MBA, BHM, MHM, MBBS, MD(Anaesthesiology, Anatomy, Biochemistry, Community Medicine, Dermatology, Emergency Medicine, Forensic Medicine, General Medicine, Hospital Administration, Immunohematology, Microbiology, Paediatrics, Palliative Medicine, Pathology, Pharmacology, Physiology, Psychiatry, Radiodiagnosis, Radiotherapy, Respiratory Medicine), MS(General Surgery, OBG, Ophth",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.35,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.517,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 0.3,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.517
+    },
+    {
+      "kpi_name": "Fees for Each Course",
+      "category": "Academic Programs",
+      "value": "N/A",
+      "evidence_quote": "The tuition and other fees shall be charged as prescribed by the Competent Authority... mandatory disclosure information... shall be put on the Institution Website.",
+      "source_url": "https://www.manipal.edu/content/dam/manipal/mu/som/documents/mandatory/LOA%20Report%2021-22.PDF",
+      "source_type": "Official Website",
+      "llm_confidence": "low",
+      "llm_confidence_reason": "The documents mention fees are charged as per norms but do not list specific INR values for 2024-25.",
+      "source_priority": "medium",
+      "data_year": 2021,
+      "recency": "low",
+      "system_confidence": "low",
+      "confidence": "low",
+      "validation": {
+        "is_valid": false,
+        "validation_reason": "Value indicates data not found",
+        "normalized_value": null,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.4,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.25,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.417,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 0.3,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.4
+        }
+      },
+      "confidence_score": 0.417
+    },
+    {
+      "kpi_name": "Total Graduate Students (2025)",
+      "category": "Student Demographics",
+      "value": 540,
+      "evidence_quote": "Calculated from approved intake: MBA(120), Integrated MBA(60), B.Des(90), BHM(180), MHM(30), PG Engineering(150), M.Des(30).",
+      "source_url": "https://www.manipal.edu/content/dam/manipal/mu/som/documents/mandatory/LOA%20Report%2021-22.PDF",
+      "source_type": "Official Website",
+      "llm_confidence": "medium",
+      "llm_confidence_reason": "Derived from approved intake capacities in AICTE LOA 2021-22; actual graduation numbers may vary.",
+      "source_priority": "medium",
+      "data_year": 2021,
+      "recency": "low",
+      "system_confidence": "low",
+      "confidence": "medium",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 540,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.45,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.583,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.7
+        }
+      },
+      "confidence_score": 0.583
+    },
+    {
+      "kpi_name": "Placed Students Count",
+      "category": "Placements",
+      "value": "N/A",
+      "evidence_quote": "MSAP Career Fair 2025: Bridging Talent with Opportunity... excellent placement record.",
+      "source_url": "https://www.manipal.edu/dod.html",
+      "source_type": "Official Website",
+      "llm_confidence": "low",
+      "llm_confidence_reason": "Mentions of career fairs and 'excellent placement record' exist, but specific counts are not provided.",
+      "source_priority": "medium",
+      "data_year": 2025,
+      "recency": "high",
+      "system_confidence": "low",
+      "confidence": "low",
+      "validation": {
+        "is_valid": false,
+        "validation_reason": "Value indicates data not found",
+        "normalized_value": null,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.45,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.417,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 0.3,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.4
+        }
+      },
+      "confidence_score": 0.417
+    },
+    {
+      "kpi_name": "Maximum Compensation (Last Placement Season)",
+      "category": "Placements",
+      "value": "N/A",
+      "evidence_quote": "Currently working at Gucci, United Kingdom as brand specialist... Creative Director of Weavers Stores.",
+      "source_url": "https://www.manipal.edu/dod.html",
+      "source_type": "Official Website",
+      "llm_confidence": "low",
+      "llm_confidence_reason": "Alumni testimonials mention prestigious employers like Gucci, but no specific salary figures are cited.",
+      "source_priority": "medium",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "low",
+      "confidence": "low",
+      "validation": {
+        "is_valid": false,
+        "validation_reason": "Value indicates data not found",
+        "normalized_value": null,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.31,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.3,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.417,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 0.3,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.4
+        }
+      },
+      "confidence_score": 0.417
+    },
+    {
+      "kpi_name": "Median Compensation (Last Batch)",
+      "category": "Placements",
+      "value": "N/A",
+      "evidence_quote": "The provided documents mention placement records and career fairs but do not specify the median salary or NIRF placement tables for the latest batch.",
+      "source_url": "https://www.manipal.edu/dod.html",
+      "source_type": "Official Website",
+      "llm_confidence": "low",
+      "llm_confidence_reason": "General placement success is mentioned, but specific median salary figures are absent.",
+      "source_priority": "medium",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "low",
+      "confidence": "low",
+      "validation": {
+        "is_valid": false,
+        "validation_reason": "Value indicates data not found",
+        "normalized_value": null,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.41,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.3,
+          "value_match": 0.0,
+          "context": 0.5,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.417,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 0.3,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.4
+        }
+      },
+      "confidence_score": 0.417
+    },
+    {
+      "kpi_name": "Students Pursuing Higher Education",
+      "category": "Student Outcomes",
+      "value": "N/A",
+      "evidence_quote": "While the prospectus mentions holistic development and postgraduate programs, it does not provide the specific count of students selected for higher studies.",
+      "source_url": "https://manipal.edu/content/dam/manipal/pdf/MAHE%20Prospectus%202019.pdf",
+      "source_type": "Official Website",
+      "llm_confidence": "low",
+      "llm_confidence_reason": "The documents focus on program lists and rankings rather than specific outcome counts.",
+      "source_priority": "medium",
+      "data_year": 2020,
+      "recency": "low",
+      "system_confidence": "low",
+      "confidence": "low",
+      "validation": {
+        "is_valid": false,
+        "validation_reason": "Value indicates data not found",
+        "normalized_value": null,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.41,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.3,
+          "value_match": 0.0,
+          "context": 0.5,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.417,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 0.3,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.4
+        }
+      },
+      "confidence_score": 0.417
+    },
+    {
+      "kpi_name": "IP Patents Granted/Licensed (Latest Year)",
+      "category": "Research & Innovation",
+      "value": 16,
+      "evidence_quote": "Total of 16 Patents granted till date; 154 patent applications filed for the year 2023",
+      "source_url": "https://manipal.edu/content/dam/manipal/pdf/MAHE%20Prospectus%202019.pdf",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Directly stated in the Research section of the 2024 Prospectus.",
+      "source_priority": "medium",
+      "data_year": 2020,
+      "recency": "low",
+      "system_confidence": "medium",
+      "confidence": "medium",
+      "validation": {
+        "is_valid": false,
+        "validation_reason": "No valid year found",
+        "normalized_value": null,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 1.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.9,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 1.0,
+          "context": 0.5,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.617,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 0.3,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.617
+    },
+    {
+      "kpi_name": "Entrance Exam Name",
+      "category": "Admissions",
+      "value": "MET (Manipal Entrance Test)",
+      "evidence_quote": "Students seeking admission to MAHE face a stiff competition... apply online... MET is the standard entrance for MIT and other MAHE institutes.",
+      "source_url": "https://manipal.edu/content/dam/manipal/pdf/MAHE%20Prospectus%202019.pdf",
+      "source_type": "Official Website",
+      "llm_confidence": "medium",
+      "llm_confidence_reason": "Inferred from general MAHE admission procedures as the specific 'MET' acronym is common knowledge for this entity.",
+      "source_priority": "medium",
+      "data_year": 2020,
+      "recency": "low",
+      "system_confidence": "medium",
+      "confidence": "medium",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "MET (Manipal Entrance Test)",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 0.5
+      },
+      "quality_scores": {
+        "evidence_quality": 0.417,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.3333333333333333,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.683,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 0.7
+        }
+      },
+      "confidence_score": 0.683
+    },
+    {
+      "kpi_name": "Entrance Exam Cutoff by Program",
+      "category": "Admissions",
+      "value": "N/A",
+      "evidence_quote": "The documents list eligibility criteria and programs but do not provide specific cutoff ranks or percentiles for the admission cycles.",
+      "source_url": "https://www.manipal.edu/content/dam/manipal/mu/som/documents/mandatory/LOA%20Report%2021-22.PDF",
+      "source_type": "Official Website",
+      "llm_confidence": "low",
+      "llm_confidence_reason": "Cutoff data is typically published in separate counseling brochures not included in these reports.",
+      "source_priority": "medium",
+      "data_year": 2021,
+      "recency": "low",
+      "system_confidence": "low",
+      "confidence": "low",
+      "validation": {
+        "is_valid": false,
+        "validation_reason": "Value indicates data not found",
+        "normalized_value": null,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.39,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.2,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.417,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 0.3,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.4
+        }
+      },
+      "confidence_score": 0.417
+    },
+    {
+      "kpi_name": "Total Students Enrolled",
+      "category": "Student Demographics",
+      "value": "N/A",
+      "evidence_quote": "The provided documents contain program-wise intake capacities (e.g., MBA: 120, B.Des: 30) but do not provide the total actual student strength across all years for MIT Manipal.",
+      "source_url": "https://www.manipal.edu/content/dam/manipal/mu/som/documents/mandatory/LOA%20Report%2021-22.PDF",
+      "source_type": "Official Website",
+      "llm_confidence": "low",
+      "llm_confidence_reason": "Only intake capacity per year is available, not total enrollment across all years.",
+      "source_priority": "medium",
+      "data_year": 2021,
+      "recency": "low",
+      "system_confidence": "low",
+      "confidence": "low",
+      "validation": {
+        "is_valid": false,
+        "validation_reason": "Value indicates data not found",
+        "normalized_value": null,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.517,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.3333333333333333,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.417,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 0.3,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.4
+        }
+      },
+      "confidence_score": 0.417
+    },
+    {
+      "kpi_name": "Female Students Enrolled",
+      "category": "Student Demographics",
+      "value": "N/A",
+      "evidence_quote": "Invalid source URL",
+      "source_url": "",
+      "source_type": "N/A",
+      "llm_confidence": "low",
+      "llm_confidence_reason": "No source available",
+      "system_confidence": "low",
+      "source_priority": "unknown",
+      "confidence": "low",
+      "data_year": null,
+      "recency": "unknown",
+      "validation": {
+        "is_valid": false,
+        "validation_reason": "Value indicates data not found",
+        "normalized_value": null,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.235,
+        "evidence_breakdown": {
+          "length": 0.5,
+          "has_numbers": 0.3,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.417,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 0.3,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.4
+        }
+      },
+      "confidence_score": 0.417
+    },
+    {
+      "kpi_name": "Total Faculty",
+      "category": "Faculty",
+      "value": "N/A",
+      "evidence_quote": "The documents mention 'top faculty' and 'unwavering support' but do not list a specific numerical count for the total faculty at MIT Manipal.",
+      "source_url": "https://www.manipal.edu/dod.html",
+      "source_type": "Official Website",
+      "llm_confidence": "low",
+      "llm_confidence_reason": "General mentions of faculty exist, but the specific NIRF Faculty Details table is missing.",
+      "source_priority": "medium",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "low",
+      "confidence": "low",
+      "validation": {
+        "is_valid": false,
+        "validation_reason": "Value indicates data not found",
+        "normalized_value": null,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.51,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.3,
+          "value_match": 0.0,
+          "context": 1.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.417,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 0.3,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.4
+        }
+      },
+      "confidence_score": 0.417
+    },
+    {
+      "kpi_name": "PhD Faculty",
+      "category": "Faculty",
+      "value": "N/A",
+      "evidence_quote": "Invalid source URL",
+      "source_url": "",
+      "source_type": "N/A",
+      "llm_confidence": "low",
+      "llm_confidence_reason": "No source available",
+      "system_confidence": "low",
+      "source_priority": "unknown",
+      "confidence": "low",
+      "data_year": null,
+      "recency": "unknown",
+      "validation": {
+        "is_valid": false,
+        "validation_reason": "Value indicates data not found",
+        "normalized_value": null,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.235,
+        "evidence_breakdown": {
+          "length": 0.5,
+          "has_numbers": 0.3,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.417,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 0.3,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.4
+        }
+      },
+      "confidence_score": 0.417
+    },
+    {
+      "kpi_name": "Average Teaching Experience of Faculty",
+      "category": "Faculty",
+      "value": "N/A",
+      "evidence_quote": "Invalid source URL",
+      "source_url": "",
+      "source_type": "N/A",
+      "llm_confidence": "low",
+      "llm_confidence_reason": "No source available",
+      "system_confidence": "low",
+      "source_priority": "unknown",
+      "confidence": "low",
+      "data_year": null,
+      "recency": "unknown",
+      "validation": {
+        "is_valid": false,
+        "validation_reason": "Value indicates data not found",
+        "normalized_value": null,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.235,
+        "evidence_breakdown": {
+          "length": 0.5,
+          "has_numbers": 0.3,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.417,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 0.3,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.4
+        }
+      },
+      "confidence_score": 0.417
+    },
+    {
+      "kpi_name": "Sports Infrastructure & Achievements",
+      "category": "Campus Facilities",
+      "value": {
+        "facilities": [],
+        "achievements": [
+          "Sandra Soman: Won Miss Cosmo World pageant title",
+          "Sandra Soman: International modeling agencies representation"
+        ]
+      },
+      "evidence_quote": "Opportunities to engage with student-run fashion clubs, paved the way for my successful modeling career... won the Miss Cosmo World pageant title.",
+      "source_url": "https://www.manipal.edu/dod.html",
+      "source_type": "Official Website",
+      "llm_confidence": "low",
+      "llm_confidence_reason": "Specific sports facilities list not found; achievements limited to individual student success.",
+      "source_priority": "medium",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "medium",
+      "confidence": "medium",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "{'facilities': [], 'achievements': ['Sandra Soman: Won Miss Cosmo World pageant title', 'Sandra Soman: International modeling agencies representation']}",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 0.5
+      },
+      "quality_scores": {
+        "evidence_quality": 0.35,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.633,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 0.4
+        }
+      },
+      "confidence_score": 0.633
+    },
+    {
+      "kpi_name": "List of Active Clubs",
+      "category": "Student Life",
+      "value": [
+        "Student-run fashion clubs"
+      ],
+      "evidence_quote": "Opportunities to engage with student-run fashion clubs, paved the way for my successful modeling career.",
+      "source_url": "https://www.manipal.edu/dod.html",
+      "source_type": "Official Website",
+      "llm_confidence": "medium",
+      "llm_confidence_reason": "General mention of fashion clubs exists, but a comprehensive list of all active clubs is missing.",
+      "source_priority": "medium",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "medium",
+      "confidence": "medium",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "['Student-run fashion clubs']",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 1.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.75,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 1.0,
+          "context": 0.25,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.683,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 0.7
+        }
+      },
+      "confidence_score": 0.683
+    },
+    {
+      "kpi_name": "NIRF Ranking",
+      "category": "Accreditations & Rankings",
+      "value": "6",
+      "evidence_quote": "Ranked No. 06 in All India University Ranking survey under UNIVERSITY category conducted by National Institutional Ranking Frame work (NIRF), MHRD, Govt. of India - 2023",
+      "source_url": "https://manipal.edu/content/dam/manipal/pdf/MAHE%20Prospectus%202019.pdf",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Directly stated in the 2024 prospectus for the 2023 NIRF cycle.",
+      "source_priority": "medium",
+      "data_year": 2020,
+      "recency": "low",
+      "system_confidence": "medium",
+      "confidence": "medium",
+      "validation": {
+        "is_valid": false,
+        "validation_reason": "Text too short",
+        "normalized_value": "6",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 1.0
+      },
+      "quality_scores": {
+        "evidence_quality": 1.0,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 1.0,
+          "context": 1.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.617,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 0.3,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.617
+    },
+    {
+      "kpi_name": "Institutional Status",
+      "category": "Accreditations & Rankings",
+      "value": "Deemed to be University (Institution of Eminence)",
+      "evidence_quote": "Manipal Academy of Higher Education - Deemed to be University... status as an ‘Institution of Eminence’ conferred on it by the Ministry of Education, Govt.of India",
+      "source_url": "https://manipal.edu/content/dam/manipal/pdf/MAHE%20Prospectus%202019.pdf",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Explicitly stated in the official university prospectus and AICTE reports.",
+      "source_priority": "medium",
+      "data_year": 2020,
+      "recency": "low",
+      "system_confidence": "medium",
+      "confidence": "medium",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "Deemed to be University (Institution of Eminence)",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 1.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.45,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.5,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.733,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.733
+    },
+    {
+      "kpi_name": "PhD Students Enrolled",
+      "category": "Student Demographics",
+      "value": "N/A",
+      "evidence_quote": "The provided documents mention research projects (425+ Indian) and Scopus publications (4054+) but do not list the specific sum of PhD student enrollment counts.",
+      "source_url": "https://manipal.edu/content/dam/manipal/pdf/MAHE%20Prospectus%202019.pdf",
+      "source_type": "Official Website",
+      "llm_confidence": "low",
+      "llm_confidence_reason": "While research activity is detailed, the specific NIRF-style PhD enrollment count is absent.",
+      "source_priority": "medium",
+      "data_year": 2020,
+      "recency": "low",
+      "system_confidence": "low",
+      "confidence": "low",
+      "validation": {
+        "is_valid": false,
+        "validation_reason": "Value indicates data not found",
+        "normalized_value": null,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.517,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.3333333333333333,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.417,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 0.3,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.4
+        }
+      },
+      "confidence_score": 0.417
+    }
+  ]
+}

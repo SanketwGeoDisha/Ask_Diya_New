@@ -1,0 +1,52 @@
+College Name,"Dayananda Sagar College of Engineering"
+
+=== AUDIT OVERVIEW ===
+Audit Date,"2026-02-11 14:54:40"
+Total KPIs,25
+Data Found,25
+Data Not Found,0
+High Confidence,12
+Coverage Percentage,100.0%
+
+=== CATEGORY BREAKDOWN ===
+Category,Found,Total,Percentage
+"Academic Infrastructure",2,2,100%
+"Campus Facilities",3,3,100%
+"Technology Infrastructure",1,1,100%
+"Academic Programs",2,2,100%
+"Student Demographics",4,4,100%
+"Placements",3,3,100%
+"Student Outcomes",1,1,100%
+"Research & Innovation",1,1,100%
+"Admissions",2,2,100%
+"Faculty",3,3,100%
+"Student Life",1,1,100%
+"Accreditations & Rankings",2,2,100%
+
+=== KPI DETAILS ===
+KPI Name,Category,Value,Evidence,Source URL,System Confidence,LLM Confidence,Source Priority,Data Year,Recency
+ICT-Enabled Learning Infrastructure,Academic Infrastructure,True,The college has well-equipped smart classrooms and ICT-enabled teaching-learning facilities including LMS.,https://www.dayanandasagar.edu/dsce/,medium,high,medium,,unknown
+Digital Library Access,Academic Infrastructure,True,"The library provides access to various e-resources, e-journals, and digital databases for students and faculty.",https://www.dayanandasagar.edu/dsce/library,medium,high,medium,,unknown
+Male Hostels Managed by College,Campus Facilities,2,DSCE provides separate hostel facilities for boys with two blocks available on campus.,https://www.dayanandasagar.edu/dsce/hostels,low,medium,medium,,unknown
+Female Hostels Managed by College,Campus Facilities,2,There are two separate hostel blocks dedicated to female students within the campus premises.,https://www.dayanandasagar.edu/dsce/hostels,low,medium,medium,,unknown
+Smart Campus / ERP Implementation,Technology Infrastructure,True,"The institution uses an integrated ERP system for student management, attendance, and academic tracking.",https://www.dayanandasagar.edu/dsce/,medium,high,medium,,unknown
+List of Courses,Academic Programs,"B.E(CSE, ISE, ECE, EEE, ME, CV, AE, AI&ML, CY, DS, BT, CH, EIE, ETE, MD), M.Tech(CSE, VLSI, SE, MD, CTM, PE, DCE), MBA, MCA, Ph.D","DSCE offers 15 UG and 7 PG courses besides Ph.D programs. UG courses include CSE, ISE, ECE, ME, CV, AE, AI&ML, etc.",https://www.dayanandasagar.edu/dsce/index.php/academics/departments,medium,high,medium,,unknown
+Fees for Each Course,Academic Programs,"{'B.E (KCET)': 96574, 'B.E (COMEDK)': 244372, 'B.E (Management)': 600000, 'MBA': 120000, 'MCA': 100000, 'M.Tech': 80000}","Fees vary by quota: KCET approx 96k, COMEDK 2.44L. Management quota for CSE/ISE ranges up to 6L per annum.",https://www.dayanandasagar.edu/dsce/index.php/admissions,low,medium,medium,,unknown
+Total Graduate Students (2025),Student Demographics,1840,Total number of students graduating in minimum stipulated time (UG 4-year program) as per latest NIRF data trends.,https://www.dayanandasagar.edu/dsce/images/pdf/NIRF_2024.pdf,medium,high,critical,2024,medium
+Placed Students Count,Placements,1562,No. of students placed (2022-23 batch): 1562 out of 1840 graduating students.,https://www.dayanandasagar.edu/dsce/index.php/placements/statistics,medium,high,medium,2022,low
+Maximum Compensation (Last Placement Season),Placements,50.00 LPA,The highest package offered during the recent placement drive was 50 LPA.,https://www.dayanandasagar.edu/dsce/index.php/placements/highlights,medium,high,medium,,unknown
+Median Compensation (Last Batch),Placements,6.00 LPA,Median salary of placed graduates (Amount in Rs.) for UG [4 Years Program(s)]: 600000,https://www.dayanandasagar.edu/dsce/images/nirf/NIRF-2024.pdf,medium,high,critical,2024,medium
+Students Pursuing Higher Education,Student Outcomes,185,No. of students selected for Higher Studies (UG 4-year program): 185,https://www.dayanandasagar.edu/dsce/images/nirf/NIRF-2024.pdf,medium,high,critical,2024,medium
+IP Patents Granted/Licensed (Latest Year),Research & Innovation,115,No. of Patents Published: 104; No. of Patents Granted: 11,https://www.dayanandasagar.edu/dsce/images/nirf/NIRF-2024.pdf,low,high,critical,2024,medium
+Entrance Exam Name,Admissions,KCET / COMEDK UGET,Admission to Undergraduate Engineering courses is through KCET and COMEDK UGET entrance exams.,https://www.dayanandasagar.edu/dsce/admissions,medium,high,medium,,unknown
+Entrance Exam Cutoff by Program,Admissions,"{'Computer Science Engineering': '2987', 'Information Science Engineering': '4652', 'Electronics & Communication Engineering': '8941'}","KCET 2023 Round 1 Closing Ranks: CSE-2987, ISE-4652, ECE-8941",https://cetonline.karnataka.gov.in/kea/,medium,medium,high,2023,low
+Total Students Enrolled,Student Demographics,6734,Total Actual Student Strength (Program(s) Offered by Your Institution): UG [4 Years Program(s)]: 5371; PG [2 Years Program(s)]: 1363. Total = 6734.,https://www.dayanandasagar.edu/dsce/images/nirf/2024/Engineering.pdf,medium,high,critical,2024,medium
+Female Students Enrolled,Student Demographics,2187,UG [4 Years Program(s)]: 1756 female students; PG [2 Years Program(s)]: 431 female students. Total = 2187.,https://www.dayanandasagar.edu/dsce/images/nirf/2024/Engineering.pdf,medium,high,critical,2024,medium
+Total Faculty,Faculty,454,Total number of faculty members listed in the Faculty Details section of the NIRF 2024 Engineering report is 454.,https://www.dayanandasagar.edu/dsce/images/nirf/2024/Engineering.pdf,medium,high,critical,2024,medium
+PhD Faculty,Faculty,248,Count of faculty members with 'Ph.D' qualification listed in the Faculty Details table of the NIRF 2024 report.,https://www.dayanandasagar.edu/dsce/images/nirf/2024/Engineering.pdf,medium,high,critical,2024,medium
+Average Teaching Experience of Faculty,Faculty,14.2,"Average of 'Experience (In Months)' for 454 faculty members is approximately 170.4 months, which is 14.2 years.",https://www.dayanandasagar.edu/dsce/images/nirf/2024/Engineering.pdf,medium,medium,critical,2024,medium
+Sports Infrastructure & Achievements,Campus Facilities,"{'facilities': ['Football Ground', 'Basketball Court', 'Volleyball Court', 'Gymnasium', 'Indoor Sports Complex', 'Table Tennis', 'Badminton Courts'], 'achievements': ['Winners in VTU Inter-Collegiate Bangalore South Zone Cricket Tournament', 'Gold medals in VTU Single Zone Athletics Meet']}","The college has extensive sports facilities including a large playground, well-equipped gymnasium, and indoor sports complex. Students have won multiple VTU zonal championships.",https://www.dayanandasagar.edu/dsce/index.php/facilities/sports,medium,high,medium,,unknown
+List of Active Clubs,Student Life,"['IEEE Student Branch', 'SAE India DSCE Collegiate Club', 'CSI Student Chapter', 'Photography Club', 'Literary Club', 'NSS Unit', 'NCC Wing', 'Cultural Committee', 'Robotics Club']","DSCE hosts various technical and cultural clubs including IEEE, SAE, and specialized departmental societies for student engagement.",https://www.dayanandasagar.edu/dsce/index.php/student-life/clubs,medium,high,medium,,unknown
+NIRF Ranking,Accreditations & Rankings,151-200,Dayananda Sagar College of Engineering is ranked in the 151-200 band in the Engineering category by NIRF 2024.,https://www.nirfindia.org/Rankings/2024/EngineeringRanking.html,medium,high,critical,2024,medium
+Institutional Status,Accreditations & Rankings,Autonomous Institution affiliated to VTU,"An Autonomous Institution affiliated to Visvesvaraya Technological University (VTU), Belagavi, approved by AICTE and UGC.",https://www.dayanandasagar.edu/dsce/index.php/about/about-dsce,medium,high,medium,,unknown
+PhD Students Enrolled,Student Demographics,248,"Ph.D Student Details: Full Time: 42, Part Time: 206. Total students pursuing doctoral program till 2023-24.",https://www.dayanandasagar.edu/dsce/images/pdf/NIRF_2024.pdf,medium,high,critical,2024,medium

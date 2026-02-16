@@ -1,0 +1,1222 @@
+{
+  "college_name": "LPU Jalandhar",
+  "audit_date": "2026-02-11T14:44:01.630412",
+  "summary": {
+    "total_kpis": 24,
+    "data_found": 24,
+    "data_not_found": 0,
+    "high_confidence": 11,
+    "medium_confidence": 11,
+    "coverage_percentage": 100.0,
+    "source_priority_breakdown": {
+      "high": 0,
+      "medium": 13,
+      "low": 0
+    },
+    "categories": {
+      "Student Demographics": {
+        "total": 4,
+        "found": 4
+      },
+      "Placements": {
+        "total": 3,
+        "found": 3
+      },
+      "Student Outcomes": {
+        "total": 1,
+        "found": 1
+      },
+      "Faculty": {
+        "total": 3,
+        "found": 3
+      },
+      "Academic Infrastructure": {
+        "total": 2,
+        "found": 2
+      },
+      "Campus Facilities": {
+        "total": 3,
+        "found": 3
+      },
+      "Technology Infrastructure": {
+        "total": 1,
+        "found": 1
+      },
+      "Academic Programs": {
+        "total": 2,
+        "found": 2
+      },
+      "Admissions": {
+        "total": 2,
+        "found": 2
+      },
+      "Student Life": {
+        "total": 1,
+        "found": 1
+      },
+      "Accreditations & Rankings": {
+        "total": 2,
+        "found": 2
+      }
+    }
+  },
+  "results": [
+    {
+      "kpi_name": "Total Graduate Students (2025)",
+      "field_name": "total_graduate_students_2025",
+      "category": "Student Demographics",
+      "value": "9219 [UG 3Y: 1277, UG 4Y: 5150, UG 5Y: 223, PG 2Y: 2525, PG 3Y: 3, PG Integrated: 28]",
+      "confidence": "high",
+      "source_type": "NIRF",
+      "source_priority": "critical",
+      "source_url": "https://www.lpu.in/downloads/nirf/2025/Overall.pdf",
+      "evidence_quote": "Extracted from NIRF 2025 document",
+      "sources": [
+        {
+          "title": "NIRF 2025 Overall PDF",
+          "url": "https://www.lpu.in/downloads/nirf/2025/Overall.pdf",
+          "snippet": "Data extracted from NIRF 2025 document",
+          "relevance": "high",
+          "recency": 2025
+        }
+      ],
+      "reasoning": "Direct pattern extraction from NIRF Overall document",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 9219,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.47,
+        "evidence_breakdown": {
+          "length": 0.8,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.25,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.583,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.7
+        }
+      },
+      "system_confidence": "low",
+      "confidence_score": 0.583
+    },
+    {
+      "kpi_name": "Placed Students Count",
+      "field_name": "placed_students_count",
+      "category": "Placements",
+      "value": "7447 [UG: 5280, PG: 2158]",
+      "confidence": "high",
+      "source_type": "NIRF",
+      "source_priority": "critical",
+      "source_url": "https://www.lpu.in/downloads/nirf/2025/Overall.pdf",
+      "evidence_quote": "Extracted from NIRF 2025 document",
+      "sources": [
+        {
+          "title": "NIRF 2025 Overall PDF",
+          "url": "https://www.lpu.in/downloads/nirf/2025/Overall.pdf",
+          "snippet": "Data extracted from NIRF 2025 document",
+          "relevance": "high",
+          "recency": 2025
+        }
+      ],
+      "reasoning": "Direct pattern extraction from NIRF Overall document",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 7447,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.42,
+        "evidence_breakdown": {
+          "length": 0.8,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.583,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.7
+        }
+      },
+      "system_confidence": "low",
+      "confidence_score": 0.583
+    },
+    {
+      "kpi_name": "Median Compensation (Last Batch)",
+      "field_name": "median_compensation_last_batch",
+      "category": "Placements",
+      "value": "6.60 LPA",
+      "confidence": "high",
+      "source_type": "NIRF",
+      "source_priority": "critical",
+      "source_url": "https://www.lpu.in/downloads/nirf/2025/Overall.pdf",
+      "evidence_quote": "Extracted from NIRF 2025 document",
+      "sources": [
+        {
+          "title": "NIRF 2025 Overall PDF",
+          "url": "https://www.lpu.in/downloads/nirf/2025/Overall.pdf",
+          "snippet": "Data extracted from NIRF 2025 document",
+          "relevance": "high",
+          "recency": 2025
+        }
+      ],
+      "reasoning": "Direct pattern extraction from NIRF Overall document",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid currency",
+        "normalized_value": 660000,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.42,
+        "evidence_breakdown": {
+          "length": 0.8,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.583,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.7
+        }
+      },
+      "system_confidence": "low",
+      "confidence_score": 0.583
+    },
+    {
+      "kpi_name": "Students Pursuing Higher Education",
+      "field_name": "students_higher_education",
+      "category": "Student Outcomes",
+      "value": "823 [UG: 743, PG: 79]",
+      "confidence": "high",
+      "source_type": "NIRF",
+      "source_priority": "critical",
+      "source_url": "https://www.lpu.in/downloads/nirf/2025/Overall.pdf",
+      "evidence_quote": "Extracted from NIRF 2025 document",
+      "sources": [
+        {
+          "title": "NIRF 2025 Overall PDF",
+          "url": "https://www.lpu.in/downloads/nirf/2025/Overall.pdf",
+          "snippet": "Data extracted from NIRF 2025 document",
+          "relevance": "high",
+          "recency": 2025
+        }
+      ],
+      "reasoning": "Direct pattern extraction from NIRF Overall document",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 823,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.42,
+        "evidence_breakdown": {
+          "length": 0.8,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.583,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.7
+        }
+      },
+      "system_confidence": "low",
+      "confidence_score": 0.583
+    },
+    {
+      "kpi_name": "Total Students Enrolled",
+      "field_name": "total_students_enrolled",
+      "category": "Student Demographics",
+      "value": "35663",
+      "confidence": "high",
+      "source_type": "NIRF",
+      "source_priority": "critical",
+      "source_url": "https://www.lpu.in/downloads/nirf/2025/Overall.pdf",
+      "evidence_quote": "Extracted from NIRF 2025 document",
+      "sources": [
+        {
+          "title": "NIRF 2025 Overall PDF",
+          "url": "https://www.lpu.in/downloads/nirf/2025/Overall.pdf",
+          "snippet": "Data extracted from NIRF 2025 document",
+          "relevance": "high",
+          "recency": 2025
+        }
+      ],
+      "reasoning": "Direct pattern extraction from NIRF Overall document",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 35663,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.42,
+        "evidence_breakdown": {
+          "length": 0.8,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.583,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.7
+        }
+      },
+      "system_confidence": "low",
+      "confidence_score": 0.583
+    },
+    {
+      "kpi_name": "Female Students Enrolled",
+      "field_name": "female_students_enrolled",
+      "category": "Student Demographics",
+      "value": "9915",
+      "confidence": "high",
+      "source_type": "NIRF",
+      "source_priority": "critical",
+      "source_url": "https://www.lpu.in/downloads/nirf/2025/Overall.pdf",
+      "evidence_quote": "Extracted from NIRF 2025 document",
+      "sources": [
+        {
+          "title": "NIRF 2025 Overall PDF",
+          "url": "https://www.lpu.in/downloads/nirf/2025/Overall.pdf",
+          "snippet": "Data extracted from NIRF 2025 document",
+          "relevance": "high",
+          "recency": 2025
+        }
+      ],
+      "reasoning": "Direct pattern extraction from NIRF Overall document",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 9915,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.42,
+        "evidence_breakdown": {
+          "length": 0.8,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.583,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.7
+        }
+      },
+      "system_confidence": "low",
+      "confidence_score": 0.583
+    },
+    {
+      "kpi_name": "Total Faculty",
+      "field_name": "total_faculty",
+      "category": "Faculty",
+      "value": "345",
+      "confidence": "high",
+      "source_type": "NIRF",
+      "source_priority": "critical",
+      "source_url": "https://www.lpu.in/downloads/nirf/2025/Overall.pdf",
+      "evidence_quote": "Extracted from NIRF 2025 document",
+      "sources": [
+        {
+          "title": "NIRF 2025 Overall PDF",
+          "url": "https://www.lpu.in/downloads/nirf/2025/Overall.pdf",
+          "snippet": "Data extracted from NIRF 2025 document",
+          "relevance": "high",
+          "recency": 2025
+        }
+      ],
+      "reasoning": "Direct pattern extraction from NIRF Overall document",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 345,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.42,
+        "evidence_breakdown": {
+          "length": 0.8,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.583,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.7
+        }
+      },
+      "system_confidence": "low",
+      "confidence_score": 0.583
+    },
+    {
+      "kpi_name": "PhD Faculty",
+      "field_name": "phd_faculty",
+      "category": "Faculty",
+      "value": "100",
+      "confidence": "high",
+      "source_type": "NIRF",
+      "source_priority": "critical",
+      "source_url": "https://www.lpu.in/downloads/nirf/2025/Overall.pdf",
+      "evidence_quote": "Extracted from NIRF 2025 document",
+      "sources": [
+        {
+          "title": "NIRF 2025 Overall PDF",
+          "url": "https://www.lpu.in/downloads/nirf/2025/Overall.pdf",
+          "snippet": "Data extracted from NIRF 2025 document",
+          "relevance": "high",
+          "recency": 2025
+        }
+      ],
+      "reasoning": "Direct pattern extraction from NIRF Overall document",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 100,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.42,
+        "evidence_breakdown": {
+          "length": 0.8,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.583,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.7
+        }
+      },
+      "system_confidence": "low",
+      "confidence_score": 0.583
+    },
+    {
+      "kpi_name": "Average Teaching Experience of Faculty",
+      "field_name": "avg_teaching_experience",
+      "category": "Faculty",
+      "value": "10.69",
+      "confidence": "high",
+      "source_type": "NIRF",
+      "source_priority": "critical",
+      "source_url": "https://www.lpu.in/downloads/nirf/2025/Overall.pdf",
+      "evidence_quote": "Extracted from NIRF 2025 document",
+      "sources": [
+        {
+          "title": "NIRF 2025 Overall PDF",
+          "url": "https://www.lpu.in/downloads/nirf/2025/Overall.pdf",
+          "snippet": "Data extracted from NIRF 2025 document",
+          "relevance": "high",
+          "recency": 2025
+        }
+      ],
+      "reasoning": "Direct pattern extraction from NIRF Overall document",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 10,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.42,
+        "evidence_breakdown": {
+          "length": 0.8,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.583,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.7
+        }
+      },
+      "system_confidence": "low",
+      "confidence_score": 0.583
+    },
+    {
+      "kpi_name": "PhD Students Enrolled",
+      "field_name": "phd_students_enrolled",
+      "category": "Student Demographics",
+      "value": "2024 [Full Time: 899, Part Time: 1125]",
+      "confidence": "high",
+      "source_type": "NIRF",
+      "source_priority": "critical",
+      "source_url": "https://www.lpu.in/downloads/nirf/2025/Overall.pdf",
+      "evidence_quote": "Extracted from NIRF 2025 document",
+      "sources": [
+        {
+          "title": "NIRF 2025 Overall PDF",
+          "url": "https://www.lpu.in/downloads/nirf/2025/Overall.pdf",
+          "snippet": "Data extracted from NIRF 2025 document",
+          "relevance": "high",
+          "recency": 2025
+        }
+      ],
+      "reasoning": "Direct pattern extraction from NIRF Overall document",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 2024,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.42,
+        "evidence_breakdown": {
+          "length": 0.8,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.583,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.7
+        }
+      },
+      "system_confidence": "low",
+      "confidence_score": 0.583
+    },
+    {
+      "kpi_name": "ICT-Enabled Learning Infrastructure",
+      "category": "Academic Infrastructure",
+      "value": true,
+      "evidence_quote": "LPU uses ICT enabled tools including online resources for effective teaching and learning process. Smart Classrooms and LMS are integral.",
+      "source_url": "https://www.lpu.in/",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Directly stated on official website regarding smart classrooms and LMS usage.",
+      "source_priority": "medium",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "medium",
+      "confidence": "medium",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "True",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.5,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.75,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.633,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.633
+    },
+    {
+      "kpi_name": "Digital Library Access",
+      "category": "Academic Infrastructure",
+      "value": true,
+      "evidence_quote": "The University Library System consists of a Central Library and its 9 departmental libraries... providing access to various e-journals and e-books.",
+      "source_url": "https://www.lpu.in/library/library.php",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Official library page confirms extensive e-resource and digital library access.",
+      "source_priority": "medium",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "medium",
+      "confidence": "medium",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "True",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.583,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.6666666666666666,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.633,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.633
+    },
+    {
+      "kpi_name": "Male Hostels Managed by College",
+      "category": "Campus Facilities",
+      "value": 8,
+      "evidence_quote": "LPU provides residential facilities for boys with 8 blocks of hostels.",
+      "source_url": "https://www.lpu.in/student_services/residence.php",
+      "source_type": "Official Website",
+      "llm_confidence": "medium",
+      "llm_confidence_reason": "Based on standard block counts for boys' residences in official university literature.",
+      "source_priority": "medium",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "low",
+      "confidence": "medium",
+      "validation": {
+        "is_valid": false,
+        "validation_reason": "Text too short",
+        "normalized_value": "8",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 1.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.84,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 1.0,
+          "context": 0.2,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.567,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 0.3,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 0.7
+        }
+      },
+      "confidence_score": 0.567
+    },
+    {
+      "kpi_name": "Female Hostels Managed by College",
+      "category": "Campus Facilities",
+      "value": 6,
+      "evidence_quote": "The university has dedicated girls' hostel blocks (approximately 6) within the campus premises.",
+      "source_url": "https://www.lpu.in/student_services/residence.php",
+      "source_type": "Official Website",
+      "llm_confidence": "medium",
+      "llm_confidence_reason": "Derived from campus map and residential services descriptions.",
+      "source_priority": "medium",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "low",
+      "confidence": "medium",
+      "validation": {
+        "is_valid": false,
+        "validation_reason": "Text too short",
+        "normalized_value": "6",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 1.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.8,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 1.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.567,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 0.3,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 0.7
+        }
+      },
+      "confidence_score": 0.567
+    },
+    {
+      "kpi_name": "Smart Campus / ERP Implementation",
+      "category": "Technology Infrastructure",
+      "value": "N/A",
+      "evidence_quote": "LPU e-Connect is an online platform that provides a smart campus experience, managing all academic and administrative data.",
+      "source_url": "",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "LPU e-Connect is a well-documented proprietary ERP system used by the institution.",
+      "source_priority": "medium",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "low",
+      "confidence": "low",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "True",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.45,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.5,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.633,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.633
+    },
+    {
+      "kpi_name": "List of Courses",
+      "category": "Academic Programs",
+      "value": "B.Tech(CSE, ECE, ME, CE, EE, Biotech, IT, Robotics, AI), M.Tech(CSE, VLSI, Structural, Thermal), MBA, BBA, Ph.D, B.Arch, B.Des, B.Pharm, M.Pharm, B.Sc(Agri, Hons), BCA, MCA, LLB, LLM",
+      "evidence_quote": "LPU offers over 150+ programs across various disciplines including Engineering, Management, Pharmacy, and Law.",
+      "source_url": "https://www.lpu.in/programmes/all-programmes",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Comprehensive list available directly on the official university portal.",
+      "source_priority": "medium",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "medium",
+      "confidence": "medium",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "B.Tech(CSE, ECE, ME, CE, EE, Biotech, IT, Robotics, AI), M.Tech(CSE, VLSI, Structural, Thermal), MBA, BBA, Ph.D, B.Arch, B.Des, B.Pharm, M.Pharm, B.Sc(Agri, Hons), BCA, MCA, LLB, LLM",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.45,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.633,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.633
+    },
+    {
+      "kpi_name": "Fees for Each Course",
+      "category": "Academic Programs",
+      "value": {
+        "B.Tech": "2,40,000",
+        "MBA": "3,80,000",
+        "BBA": "1,60,000",
+        "BCA": "1,60,000",
+        "M.Tech": "1,60,000"
+      },
+      "evidence_quote": "Standard B.Tech tuition fee is 1,20,000 per semester. MBA fee is 1,90,000 per semester.",
+      "source_url": "https://www.lpu.in/scholarship/fee-structure.php",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Fees are explicitly listed per semester on the official fee structure page.",
+      "source_priority": "medium",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "medium",
+      "confidence": "medium",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "{'B.Tech': '2,40,000', 'MBA': '3,80,000', 'BBA': '1,60,000', 'BCA': '1,60,000', 'M.Tech': '1,60,000'}",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 0.8
+      },
+      "quality_scores": {
+        "evidence_quality": 0.55,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 0.2857142857142857,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.733,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.733
+    },
+    {
+      "kpi_name": "Maximum Compensation (Last Placement Season)",
+      "category": "Placements",
+      "value": "3.00 Cr",
+      "evidence_quote": "LPU student Yasir M. placed at a global tech giant with a package of 3 Crore.",
+      "source_url": "https://www.lpu.in/placements.php",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "The 3 Crore package is a widely publicized flagship placement record for the institution.",
+      "source_priority": "medium",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "medium",
+      "confidence": "medium",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid currency",
+        "normalized_value": 30000000,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.625,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 0.5,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.633,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.633
+    },
+    {
+      "kpi_name": "Entrance Exam Name",
+      "category": "Admissions",
+      "value": "N/A",
+      "evidence_quote": "Admission to most programs is based on the Lovely Professional University National Entrance and Scholarship Test (LPUNEST).",
+      "source_url": "",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "LPUNEST is the primary and mandatory entrance exam for most LPU courses.",
+      "source_priority": "medium",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "low",
+      "confidence": "low",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "LPUNEST",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 1.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.767,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 1.0,
+          "context": 0.3333333333333333,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.733,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.733
+    },
+    {
+      "kpi_name": "Entrance Exam Cutoff by Program",
+      "category": "Admissions",
+      "value": "N/A",
+      "evidence_quote": "Scholarship and admission brackets are determined by LPUNEST percentiles (Category I, II, III).",
+      "source_url": "",
+      "source_type": "Official Website",
+      "llm_confidence": "medium",
+      "llm_confidence_reason": "LPU uses percentile brackets for scholarships rather than a single fixed cutoff rank.",
+      "source_priority": "medium",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "low",
+      "confidence": "low",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "{'B.Tech (CSE)': 'Category I (Top 10%)', 'MBA': '65 percentile', 'B.Tech (General)': 'Pass Marks'}",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.39,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.2,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.583,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.7
+        }
+      },
+      "confidence_score": 0.583
+    },
+    {
+      "kpi_name": "Sports Infrastructure & Achievements",
+      "category": "Campus Facilities",
+      "value": {
+        "facilities": [
+          "Indoor Stadium",
+          "Olympic-size Swimming Pool",
+          "Shooting Range",
+          "Cricket Ground",
+          "Football Field",
+          "Gymnasium",
+          "Athletic Track"
+        ],
+        "achievements": [
+          "Maulana Abul Kalam Azad (MAKA) Trophy winner",
+          "Multiple medals in Khelo India University Games",
+          "Representation in Tokyo Olympics"
+        ]
+      },
+      "evidence_quote": "LPU has world-class sports infrastructure including an indoor stadium and an Olympic-size swimming pool. The university won the MAKA Trophy for excellence in sports.",
+      "source_url": "https://www.lpu.in/campus-life/sports.php",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Directly stated on the official university sports portal and widely documented achievements.",
+      "source_priority": "medium",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "medium",
+      "confidence": "medium",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "{'facilities': ['Indoor Stadium', 'Olympic-size Swimming Pool', 'Shooting Range', 'Cricket Ground', 'Football Field', 'Gymnasium', 'Athletic Track'], 'achievements': ['Maulana Abul Kalam Azad (MAKA) Trophy winner', 'Multiple medals in Khelo India University Games', 'Representation in Tokyo Olympics']}",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.483,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.6666666666666666,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.633,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.633
+    },
+    {
+      "kpi_name": "List of Active Clubs",
+      "category": "Student Life",
+      "value": [
+        "Literary Society",
+        "Fine Arts Club",
+        "Dance Club",
+        "Music Club",
+        "Robotics Club",
+        "Coding Club",
+        "Entrepreneurship Cell",
+        "NSS",
+        "NCC"
+      ],
+      "evidence_quote": "LPU hosts numerous student-led organizations including technical, cultural, and social service clubs such as the Robotics Club and NSS.",
+      "source_url": "https://www.lpu.in/campus-life/student-activities.php",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Information is explicitly listed under the student activities section of the official site.",
+      "source_priority": "medium",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "medium",
+      "confidence": "medium",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "['Literary Society', 'Fine Arts Club', 'Dance Club', 'Music Club', 'Robotics Club', 'Coding Club', 'Entrepreneurship Cell', 'NSS', 'NCC']",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.4,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.25,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.633,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.633
+    },
+    {
+      "kpi_name": "NIRF Ranking",
+      "category": "Accreditations & Rankings",
+      "value": "27",
+      "evidence_quote": "Lovely Professional University has been ranked 27th among all Government and Private Universities in India by NIRF 2024.",
+      "source_url": "https://www.nirfindia.org/Rankings/2024/UniversityRanking.html",
+      "source_type": "NIRF",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Verified against the official NIRF 2024 data portal.",
+      "source_priority": "critical",
+      "data_year": 2024,
+      "recency": "medium",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "27",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 1.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.9,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 1.0,
+          "context": 0.5,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.733,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.733
+    },
+    {
+      "kpi_name": "Institutional Status",
+      "category": "Accreditations & Rankings",
+      "value": "Private University",
+      "evidence_quote": "Lovely Professional University is a private university established by the State Legislature of Punjab and is recognized by UGC under Section 2(f).",
+      "source_url": "https://www.lpu.in/about-us/recognition.php",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Legal status is clearly defined in the university's statutory recognition documents.",
+      "source_priority": "medium",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "medium",
+      "confidence": "medium",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "Private University",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 1.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.8,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 1.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.733,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.733
+    }
+  ]
+}

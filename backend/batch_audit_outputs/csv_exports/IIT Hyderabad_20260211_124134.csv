@@ -1,0 +1,52 @@
+College Name,"IIT Hyderabad"
+
+=== AUDIT OVERVIEW ===
+Audit Date,"2026-02-11 12:41:34"
+Total KPIs,25
+Data Found,25
+Data Not Found,0
+High Confidence,22
+Coverage Percentage,100.0%
+
+=== CATEGORY BREAKDOWN ===
+Category,Found,Total,Percentage
+"Academic Infrastructure",2,2,100%
+"Campus Facilities",3,3,100%
+"Technology Infrastructure",1,1,100%
+"Academic Programs",2,2,100%
+"Student Demographics",4,4,100%
+"Placements",3,3,100%
+"Student Outcomes",1,1,100%
+"Research & Innovation",1,1,100%
+"Admissions",2,2,100%
+"Faculty",3,3,100%
+"Student Life",1,1,100%
+"Accreditations & Rankings",2,2,100%
+
+=== KPI DETAILS ===
+KPI Name,Category,Value,Evidence,Source URL,System Confidence,LLM Confidence,Source Priority,Data Year,Recency
+ICT-Enabled Learning Infrastructure,Academic Infrastructure,True,Our Open to All Teaching (OAT) initiative and newly launched recording studio strengthen our commitment to digital and inclusive education.,https://www.iith.ac.in/,medium,high,high,,unknown
+Digital Library Access,Academic Infrastructure,True,Symposium on Accessible & Inclusive Digital Library (AIDL-2026)... Inside the Digital Heritage Lab at IIT Hyderabad... preserving India’s cultural heritage through innovative technology.,https://www.iith.ac.in/,medium,high,high,2026,unknown
+Male Hostels Managed by College,Campus Facilities,14,"Warden (Hostel Aryabhatta, Bhaskara, Bhabha, Brahmagupta, Charaka, Kalam, Kapila-Boys, Kautilya, Raman, Ramanuja, Ramanujan, SN Bose, Varahamihira, Visweswaraya, Vivekananda, Vyasa)",https://iith.ac.in/about/directory/,medium,high,high,,unknown
+Female Hostels Managed by College,Campus Facilities,5,"Warden (Hostel Gargi, Kapila - Girls, Maitreyi, Sarabhai, Sarojini Naidu)",https://iith.ac.in/about/directory/,low,high,high,,unknown
+Smart Campus / ERP Implementation,Technology Infrastructure,True,"ERP - Shishir Kumar... IITH EPay Portal... TiHAN at IITH has developed an autonomous campus shuttle, a driverless electric vehicle designed to operate within campus roads.",https://iith.ac.in/about/directory/,medium,high,high,,unknown
+List of Courses,Academic Programs,"B.Tech(AI, BME, BT, ChE, CE, CSE, CompEng, EE, EP, ES, IC Design, IndChem, MSME, MnC, ME), B.Des, M.Tech(AI, BME, BT, ChE, CE, CSE, Design, EE, ES, MSME, ME), M.Sc(Physics, Chemistry, Maths, Medical Physics), M.A(Development Studies), Ph.D(AI, BME, BT, ChE, Chemistry, CE, Climate Change, CSE, Design, EE, ES, Entrepreneurship, Sustainability, HST, Liberal Arts, MSME, Maths, ME, Physics)","IITH offers the following BTech programs Artificial Intelligence... MTech, MDes... Regular PhD Admissions Portal... M.Sc Medical Physics",https://iith.ac.in/academics/under-graduate/,medium,high,high,,unknown
+Fees for Each Course,Academic Programs,N/A,Fee Structure for January June 2026 - Newly Enrolled... [Specific numeric values for tuition fees were not present in the text snippets provided],https://iith.ac.in/academics/fee-structure/,low,low,high,2026,unknown
+Total Graduate Students (2025),Student Demographics,1273,1273 Degrees were conferred during the 14th Convocation at IIT Hyderabad [held July 2025].,https://pr.iith.ac.in/press-release,medium,high,high,2025,high
+Placed Students Count,Placements,474,IIT Hyderabad Placements Phase-1 going strong with 508 Job Offers to 474 Students,https://pr.iith.ac.in/./pressrelease/PL22.pdf,medium,medium,high,,unknown
+Maximum Compensation (Last Placement Season),Placements,63.78 LPA,Highest placements tally so far with highest Job Offer of Rs. 63.78 L,https://pr.iith.ac.in/./pressrelease/PL22.pdf,medium,high,high,,unknown
+Median Compensation (Last Batch),Placements,12.00 LPA,Median salary of placed graduates(Amount in Rs.) 2018-19: 1200000 (Twelve Lakhs),https://iith.ac.in/assets/files/NIRF-Reports/NIRF-2020-Overall.pdf,medium,high,critical,2020,low
+Students Pursuing Higher Education,Student Outcomes,83,UG [4 Years]: 40; PG [2 Year]: 43; PG [3 Year]: 0. Total = 83 students selected for Higher Studies in 2018-19.,https://iith.ac.in/assets/files/NIRF-Reports/NIRF-2020-Overall.pdf,medium,high,critical,2020,low
+IP Patents Granted/Licensed (Latest Year),Research & Innovation,17,Calendar year 2018: No. of Patents Published: 16; No. of Patents Granted: 1. Total = 17.,https://iith.ac.in/assets/files/NIRF-Reports/NIRF-2020-Overall.pdf,medium,high,critical,2020,low
+Entrance Exam Name,Admissions,IIT-JEE Advanced,Admission to all the programs are through IIT-JEE Advanced.,https://iith.ac.in/academics/under-graduate/,medium,high,high,,unknown
+Entrance Exam Cutoff by Program,Admissions,N/A,The source mentions 'Previous Year Cut Offs' link but does not list specific numerical values for the current cycle in the text.,https://iith.ac.in/academics/under-graduate/,low,low,high,,unknown
+Total Students Enrolled,Student Demographics,5691,Student Community 5691 Students Enrolled UG • PG • PhD [Cross-verified: 5691.0],https://www.iith.ac.in/,medium,high,high,,unknown
+Female Students Enrolled,Student Demographics,322,Sum of Female Students from NIRF 2020 table: UG (186) + PG 1yr (2) + PG 2yr (115) + PG 3yr (19) = 322,https://iith.ac.in/assets/files/NIRF-Reports/NIRF-2020-Overall.pdf,medium,medium,critical,2020,low
+Total Faculty,Faculty,300,"It has 300+ full-time faculty, ~4,200 students",https://pr.iith.ac.in/./pressrelease/V47.pdf,medium,high,high,,unknown
+PhD Faculty,Faculty,300,It has 300+ full-time faculty... IITH has a strong research focus with PhD scholars accounting for about 30% of total student strength.,https://pr.iith.ac.in/./pressrelease/V47.pdf,medium,medium,high,,unknown
+Average Teaching Experience of Faculty,Faculty,N/A,The provided NIRF 2020 document snippet cuts off before the Faculty Details table containing experience in months.,https://iith.ac.in/assets/files/NIRF-Reports/NIRF-2020-Overall.pdf,low,low,critical,2020,low
+Sports Infrastructure & Achievements,Campus Facilities,"{'facilities': ['Gymnasium', 'Sports Meet Grounds', 'Half Marathon Route'], 'achievements': ['Hosted 30th Inter IIT Staff Sports Meet', 'Hosted 58th Inter IIT Sports Meet', 'Organized IIT Hyderabad Half Marathon 2025 with 2,200 runners']}","30th Inter IIT Staff Sports Meet Opens at IIT Hyderabad... Saina Nehwal Inaugurates 58th Inter IIT Sports Meet at IIT Hyderabad... 2,200 runners take over the campus",https://pr.iith.ac.in/press-release,medium,high,high,,unknown
+List of Active Clubs,Student Life,"['SPIC MACAY', 'E-Cell', 'National Service Scheme (NSS)', 'Sunshine', 'Student Gymkhana']",10th International Convention of SPIC MACAY inaugurated at IIT Hyderabad... E-Cell - Rajesh Ittamalla... National Service Scheme - Saurabh Sandilya... Sunshine Neeraj Kumar,https://iith.ac.in/about/directory/,medium,high,high,,unknown
+NIRF Ranking,Accreditations & Rankings,7,IIT Hyderabad Climbs to 7th in NIRF 2025 Engineering Rankings,https://pr.iith.ac.in/press-release,medium,high,high,2025,high
+Institutional Status,Accreditations & Rankings,Institute of National Eminence,"IIT Hyderabad has been granted Institute of National Eminence status (100% tax exemption under Section 80G of the Income-tax Act, 1961)",https://pr.iith.ac.in/press-release,medium,high,high,,unknown
+PhD Students Enrolled,Student Demographics,1576,Research Strength 1576 PhD Scholars [Cross-verified: 1576.0],https://www.iith.ac.in/,medium,high,high,,unknown

@@ -1,0 +1,1217 @@
+{
+  "college_name": "NIT Surathkal",
+  "audit_date": "2026-02-11T13:28:10.829659",
+  "summary": {
+    "total_kpis": 24,
+    "data_found": 24,
+    "data_not_found": 0,
+    "high_confidence": 22,
+    "medium_confidence": 12,
+    "coverage_percentage": 100.0,
+    "source_priority_breakdown": {
+      "high": 14,
+      "medium": 0,
+      "low": 0
+    },
+    "categories": {
+      "Student Demographics": {
+        "total": 4,
+        "found": 4
+      },
+      "Placements": {
+        "total": 3,
+        "found": 3
+      },
+      "Student Outcomes": {
+        "total": 1,
+        "found": 1
+      },
+      "Faculty": {
+        "total": 3,
+        "found": 3
+      },
+      "Academic Infrastructure": {
+        "total": 2,
+        "found": 2
+      },
+      "Campus Facilities": {
+        "total": 3,
+        "found": 3
+      },
+      "Technology Infrastructure": {
+        "total": 1,
+        "found": 1
+      },
+      "Academic Programs": {
+        "total": 2,
+        "found": 2
+      },
+      "Admissions": {
+        "total": 2,
+        "found": 2
+      },
+      "Student Life": {
+        "total": 1,
+        "found": 1
+      },
+      "Accreditations & Rankings": {
+        "total": 2,
+        "found": 2
+      }
+    }
+  },
+  "results": [
+    {
+      "kpi_name": "Total Graduate Students (2025)",
+      "field_name": "total_graduate_students_2025",
+      "category": "Student Demographics",
+      "value": "1840 [UG 4Y: 986, PG 2Y: 792, PG 3Y: 62]",
+      "confidence": "high",
+      "source_type": "NIRF",
+      "source_priority": "critical",
+      "source_url": "https://www.nitk.ac.in/document/attachments/8178/Overall.pdf",
+      "evidence_quote": "Extracted from NIRF 2025 document",
+      "sources": [
+        {
+          "title": "NIRF Overall PDF",
+          "url": "https://www.nitk.ac.in/document/attachments/8178/Overall.pdf",
+          "snippet": "Data extracted from NIRF 2025 document",
+          "relevance": "high",
+          "recency": 2025
+        }
+      ],
+      "reasoning": "Direct pattern extraction from NIRF Overall document",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 1840,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.47,
+        "evidence_breakdown": {
+          "length": 0.8,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.25,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.583,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.7
+        }
+      },
+      "system_confidence": "low",
+      "confidence_score": 0.583
+    },
+    {
+      "kpi_name": "Placed Students Count",
+      "field_name": "placed_students_count",
+      "category": "Placements",
+      "value": "1421 [UG: 756, PG: 665]",
+      "confidence": "high",
+      "source_type": "NIRF",
+      "source_priority": "critical",
+      "source_url": "https://www.nitk.ac.in/document/attachments/8178/Overall.pdf",
+      "evidence_quote": "Extracted from NIRF 2025 document",
+      "sources": [
+        {
+          "title": "NIRF Overall PDF",
+          "url": "https://www.nitk.ac.in/document/attachments/8178/Overall.pdf",
+          "snippet": "Data extracted from NIRF 2025 document",
+          "relevance": "high",
+          "recency": 2025
+        }
+      ],
+      "reasoning": "Direct pattern extraction from NIRF Overall document",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 1421,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.42,
+        "evidence_breakdown": {
+          "length": 0.8,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.583,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.7
+        }
+      },
+      "system_confidence": "low",
+      "confidence_score": 0.583
+    },
+    {
+      "kpi_name": "Median Compensation (Last Batch)",
+      "field_name": "median_compensation_last_batch",
+      "category": "Placements",
+      "value": "10.50 LPA",
+      "confidence": "high",
+      "source_type": "NIRF",
+      "source_priority": "critical",
+      "source_url": "https://www.nitk.ac.in/document/attachments/8178/Overall.pdf",
+      "evidence_quote": "Extracted from NIRF 2025 document",
+      "sources": [
+        {
+          "title": "NIRF Overall PDF",
+          "url": "https://www.nitk.ac.in/document/attachments/8178/Overall.pdf",
+          "snippet": "Data extracted from NIRF 2025 document",
+          "relevance": "high",
+          "recency": 2025
+        }
+      ],
+      "reasoning": "Direct pattern extraction from NIRF Overall document",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid currency",
+        "normalized_value": 1050000,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.42,
+        "evidence_breakdown": {
+          "length": 0.8,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.583,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.7
+        }
+      },
+      "system_confidence": "low",
+      "confidence_score": 0.583
+    },
+    {
+      "kpi_name": "Students Pursuing Higher Education",
+      "field_name": "students_higher_education",
+      "category": "Student Outcomes",
+      "value": "169 [UG: 114, PG: 55]",
+      "confidence": "high",
+      "source_type": "NIRF",
+      "source_priority": "critical",
+      "source_url": "https://www.nitk.ac.in/document/attachments/8178/Overall.pdf",
+      "evidence_quote": "Extracted from NIRF 2025 document",
+      "sources": [
+        {
+          "title": "NIRF Overall PDF",
+          "url": "https://www.nitk.ac.in/document/attachments/8178/Overall.pdf",
+          "snippet": "Data extracted from NIRF 2025 document",
+          "relevance": "high",
+          "recency": 2025
+        }
+      ],
+      "reasoning": "Direct pattern extraction from NIRF Overall document",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 169,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.42,
+        "evidence_breakdown": {
+          "length": 0.8,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.583,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.7
+        }
+      },
+      "system_confidence": "low",
+      "confidence_score": 0.583
+    },
+    {
+      "kpi_name": "Total Students Enrolled",
+      "field_name": "total_students_enrolled",
+      "category": "Student Demographics",
+      "value": "5956",
+      "confidence": "high",
+      "source_type": "NIRF",
+      "source_priority": "critical",
+      "source_url": "https://www.nitk.ac.in/document/attachments/8178/Overall.pdf",
+      "evidence_quote": "Extracted from NIRF 2025 document",
+      "sources": [
+        {
+          "title": "NIRF Overall PDF",
+          "url": "https://www.nitk.ac.in/document/attachments/8178/Overall.pdf",
+          "snippet": "Data extracted from NIRF 2025 document",
+          "relevance": "high",
+          "recency": 2025
+        }
+      ],
+      "reasoning": "Direct pattern extraction from NIRF Overall document",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 5956,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.42,
+        "evidence_breakdown": {
+          "length": 0.8,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.583,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.7
+        }
+      },
+      "system_confidence": "low",
+      "confidence_score": 0.583
+    },
+    {
+      "kpi_name": "Female Students Enrolled",
+      "field_name": "female_students_enrolled",
+      "category": "Student Demographics",
+      "value": "1368",
+      "confidence": "high",
+      "source_type": "NIRF",
+      "source_priority": "critical",
+      "source_url": "https://www.nitk.ac.in/document/attachments/8178/Overall.pdf",
+      "evidence_quote": "Extracted from NIRF 2025 document",
+      "sources": [
+        {
+          "title": "NIRF Overall PDF",
+          "url": "https://www.nitk.ac.in/document/attachments/8178/Overall.pdf",
+          "snippet": "Data extracted from NIRF 2025 document",
+          "relevance": "high",
+          "recency": 2025
+        }
+      ],
+      "reasoning": "Direct pattern extraction from NIRF Overall document",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 1368,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.42,
+        "evidence_breakdown": {
+          "length": 0.8,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.583,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.7
+        }
+      },
+      "system_confidence": "low",
+      "confidence_score": 0.583
+    },
+    {
+      "kpi_name": "Total Faculty",
+      "field_name": "total_faculty",
+      "category": "Faculty",
+      "value": "277",
+      "confidence": "high",
+      "source_type": "NIRF",
+      "source_priority": "critical",
+      "source_url": "https://www.nitk.ac.in/document/attachments/8178/Overall.pdf",
+      "evidence_quote": "Extracted from NIRF 2025 document",
+      "sources": [
+        {
+          "title": "NIRF Overall PDF",
+          "url": "https://www.nitk.ac.in/document/attachments/8178/Overall.pdf",
+          "snippet": "Data extracted from NIRF 2025 document",
+          "relevance": "high",
+          "recency": 2025
+        }
+      ],
+      "reasoning": "Direct pattern extraction from NIRF Overall document",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 277,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.42,
+        "evidence_breakdown": {
+          "length": 0.8,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.583,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.7
+        }
+      },
+      "system_confidence": "low",
+      "confidence_score": 0.583
+    },
+    {
+      "kpi_name": "PhD Faculty",
+      "field_name": "phd_faculty",
+      "category": "Faculty",
+      "value": "266",
+      "confidence": "high",
+      "source_type": "NIRF",
+      "source_priority": "critical",
+      "source_url": "https://www.nitk.ac.in/document/attachments/8178/Overall.pdf",
+      "evidence_quote": "Extracted from NIRF 2025 document",
+      "sources": [
+        {
+          "title": "NIRF Overall PDF",
+          "url": "https://www.nitk.ac.in/document/attachments/8178/Overall.pdf",
+          "snippet": "Data extracted from NIRF 2025 document",
+          "relevance": "high",
+          "recency": 2025
+        }
+      ],
+      "reasoning": "Direct pattern extraction from NIRF Overall document",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 266,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.42,
+        "evidence_breakdown": {
+          "length": 0.8,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.583,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.7
+        }
+      },
+      "system_confidence": "low",
+      "confidence_score": 0.583
+    },
+    {
+      "kpi_name": "Average Teaching Experience of Faculty",
+      "field_name": "avg_teaching_experience",
+      "category": "Faculty",
+      "value": "18.2",
+      "confidence": "high",
+      "source_type": "NIRF",
+      "source_priority": "critical",
+      "source_url": "https://www.nitk.ac.in/document/attachments/8178/Overall.pdf",
+      "evidence_quote": "Extracted from NIRF 2025 document",
+      "sources": [
+        {
+          "title": "NIRF Overall PDF",
+          "url": "https://www.nitk.ac.in/document/attachments/8178/Overall.pdf",
+          "snippet": "Data extracted from NIRF 2025 document",
+          "relevance": "high",
+          "recency": 2025
+        }
+      ],
+      "reasoning": "Direct pattern extraction from NIRF Overall document",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 18,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.42,
+        "evidence_breakdown": {
+          "length": 0.8,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.583,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.7
+        }
+      },
+      "system_confidence": "low",
+      "confidence_score": 0.583
+    },
+    {
+      "kpi_name": "PhD Students Enrolled",
+      "field_name": "phd_students_enrolled",
+      "category": "Student Demographics",
+      "value": "887 [Full Time: 647, Part Time: 240]",
+      "confidence": "high",
+      "source_type": "NIRF",
+      "source_priority": "critical",
+      "source_url": "https://www.nitk.ac.in/document/attachments/8178/Overall.pdf",
+      "evidence_quote": "Extracted from NIRF 2025 document",
+      "sources": [
+        {
+          "title": "NIRF Overall PDF",
+          "url": "https://www.nitk.ac.in/document/attachments/8178/Overall.pdf",
+          "snippet": "Data extracted from NIRF 2025 document",
+          "relevance": "high",
+          "recency": 2025
+        }
+      ],
+      "reasoning": "Direct pattern extraction from NIRF Overall document",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 887,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.42,
+        "evidence_breakdown": {
+          "length": 0.8,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.583,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.7
+        }
+      },
+      "system_confidence": "low",
+      "confidence_score": 0.583
+    },
+    {
+      "kpi_name": "ICT-Enabled Learning Infrastructure",
+      "category": "Academic Infrastructure",
+      "value": true,
+      "evidence_quote": "Faculty, researchers, and students at NITK have the flexibility to download and install products like MATLAB, Simulink... Journals subscribed through the INDEST consortium are available throughout.",
+      "source_url": "https://www.nitk.ac.in/document/attachments/6853/Information_bulletin-PG___PhD_admissions-2024-final_version_to_publish.pdf",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Direct mention of campus-wide network, software access, and digital journal availability.",
+      "source_priority": "high",
+      "data_year": 2024,
+      "recency": "medium",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "True",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.35,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.633,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.633
+    },
+    {
+      "kpi_name": "Digital Library Access",
+      "category": "Academic Infrastructure",
+      "value": true,
+      "evidence_quote": "Central library provided to meet the academic needs... Journals subscribed through the INDEST consortium are available throughout the campus LAN.",
+      "source_url": "https://www.nitk.ac.in/document/attachments/6853/Information_bulletin-PG___PhD_admissions-2024-final_version_to_publish.pdf",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Explicit mention of E-Library and online access to journals in multiple official documents.",
+      "source_priority": "high",
+      "data_year": 2024,
+      "recency": "medium",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "True",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.417,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.3333333333333333,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.633,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.633
+    },
+    {
+      "kpi_name": "Male Hostels Managed by College",
+      "category": "Campus Facilities",
+      "value": 13,
+      "evidence_quote": "There are 13 hostel blocks for boys and 6 blocks for girls with accommodation capacity of about 5500 boys.",
+      "source_url": "https://www.nitk.ac.in/document/attachments/6853/Information_bulletin-PG___PhD_admissions-2024-final_version_to_publish.pdf",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Direct count provided in the 2024-25 Information Bulletin.",
+      "source_priority": "high",
+      "data_year": 2024,
+      "recency": "medium",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "13",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 1.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.8,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 1.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.733,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.733
+    },
+    {
+      "kpi_name": "Female Hostels Managed by College",
+      "category": "Campus Facilities",
+      "value": 6,
+      "evidence_quote": "There are 13 hostel blocks for boys and 6 blocks for girls with accommodation capacity of about... 1200 girl students.",
+      "source_url": "https://www.nitk.ac.in/document/attachments/6853/Information_bulletin-PG___PhD_admissions-2024-final_version_to_publish.pdf",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Direct count provided in the 2024-25 Information Bulletin.",
+      "source_priority": "high",
+      "data_year": 2024,
+      "recency": "medium",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": false,
+        "validation_reason": "Text too short",
+        "normalized_value": "6",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 1.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.8,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 1.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.617,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 0.3,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.617
+    },
+    {
+      "kpi_name": "Smart Campus / ERP Implementation",
+      "category": "Technology Infrastructure",
+      "value": true,
+      "evidence_quote": "AI & ML applications in engineering and e-governance... campus-wide network that spans all areas, including academic buildings, guest houses, student hostels.",
+      "source_url": "https://www.nitk.ac.in/document/attachments/8562/Annual_Report_2023-24.pdf",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Mention of e-governance and comprehensive campus-wide network infrastructure.",
+      "source_priority": "high",
+      "data_year": 2023,
+      "recency": "low",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "True",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.4,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.25,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.633,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.633
+    },
+    {
+      "kpi_name": "List of Courses",
+      "category": "Academic Programs",
+      "value": "B.Tech(CE, CH, CSE, EE, EC, IT, ME, MT, MI, AI, DS), M.Tech(26 specializations), M.Tech(Research), MSc(Physics, Chemistry), MBA, MCA, Ph.D",
+      "evidence_quote": "NITK offers B.Tech programs in 11 disciplines and M.Tech programs in 26 specializations. Other masters level programs include MSc... MBA... and MCA.",
+      "source_url": "https://www.nitk.ac.in/document/attachments/8562/Annual_Report_2023-24.pdf",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Directly listed in the 2023-24 Annual Report.",
+      "source_priority": "high",
+      "data_year": 2023,
+      "recency": "low",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "B.Tech(CE, CH, CSE, EE, EC, IT, ME, MT, MI, AI, DS), M.Tech(26 specializations), M.Tech(Research), MSc(Physics, Chemistry), MBA, MCA, Ph.D",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 0.8
+      },
+      "quality_scores": {
+        "evidence_quality": 0.8,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 1.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.733,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.733
+    },
+    {
+      "kpi_name": "Fees for Each Course",
+      "category": "Academic Programs",
+      "value": {
+        "M.Tech": 70000,
+        "M.Tech (Research)": 70000,
+        "MBA": 200000,
+        "MCA": 70000,
+        "M.Sc": 30000,
+        "Ph.D": 30000
+      },
+      "evidence_quote": "Fee structure for M.Tech... MBA... MCA... M.Sc... Ph.D. Programme for the year 2024-25 (Tuition fee components extracted from tables)",
+      "source_url": "https://www.nitk.ac.in/document/attachments/6853/Information_bulletin-PG___PhD_admissions-2024-final_version_to_publish.pdf",
+      "source_type": "Official Website",
+      "llm_confidence": "medium",
+      "llm_confidence_reason": "Tuition fees extracted from detailed fee tables for 2024-25; B.Tech fee not explicitly in text.",
+      "source_priority": "high",
+      "data_year": 2024,
+      "recency": "medium",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "{'M.Tech': 70000, 'M.Tech (Research)': 70000, 'MBA': 200000, 'MCA': 70000, 'M.Sc': 30000, 'Ph.D': 30000}",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 0.6363636363636364
+      },
+      "quality_scores": {
+        "evidence_quality": 0.5,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.25,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.683,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 0.7
+        }
+      },
+      "confidence_score": 0.683
+    },
+    {
+      "kpi_name": "Maximum Compensation (Last Placement Season)",
+      "category": "Placements",
+      "value": "N/A",
+      "evidence_quote": "During 2023-24... The average salary was Rs. 16 LPA.",
+      "source_url": "https://www.nitk.ac.in/document/attachments/8562/Annual_Report_2023-24.pdf",
+      "source_type": "Official Website",
+      "llm_confidence": "low",
+      "llm_confidence_reason": "Only average salary (16 LPA) is mentioned; highest CTC is missing from the provided documents.",
+      "source_priority": "high",
+      "data_year": 2023,
+      "recency": "low",
+      "system_confidence": "low",
+      "confidence": "low",
+      "validation": {
+        "is_valid": false,
+        "validation_reason": "Value indicates data not found",
+        "normalized_value": null,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.45,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.417,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 0.3,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.4
+        }
+      },
+      "confidence_score": 0.417
+    },
+    {
+      "kpi_name": "Entrance Exam Name",
+      "category": "Admissions",
+      "value": "JEE Mains",
+      "evidence_quote": "standardized entrance exams like JEE Mains for B.Tech., GATE for M.Tech., NIMCET for MCA, CAT/MAT/GATE for MBA, and JAM for M.Sc.",
+      "source_url": "https://www.nitk.ac.in/document/attachments/6853/Information_bulletin-PG___PhD_admissions-2024-final_version_to_publish.pdf",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Explicitly stated as the entrance exam for B.Tech admissions.",
+      "source_priority": "high",
+      "data_year": 2024,
+      "recency": "medium",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "JEE Mains",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 1.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.767,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 1.0,
+          "context": 0.3333333333333333,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.733,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.733
+    },
+    {
+      "kpi_name": "Entrance Exam Cutoff by Program",
+      "category": "Admissions",
+      "value": "N/A",
+      "evidence_quote": "NIT Surathkal, for home state quote as well as other state quote [RTI snippet mentions requests for cutoffs but values not in text]",
+      "source_url": "https://www.nitk.ac.in/document/attachments/8472/Requests_-_April_2023_-_March_2024.pdf",
+      "source_type": "Official Website",
+      "llm_confidence": "low",
+      "llm_confidence_reason": "RTI logs show requests for cutoffs, but the actual cutoff values are not present in the documents.",
+      "source_priority": "high",
+      "data_year": 2023,
+      "recency": "low",
+      "system_confidence": "low",
+      "confidence": "low",
+      "validation": {
+        "is_valid": false,
+        "validation_reason": "Value indicates data not found",
+        "normalized_value": null,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.35,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.417,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 0.3,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.4
+        }
+      },
+      "confidence_score": 0.417
+    },
+    {
+      "kpi_name": "Sports Infrastructure & Achievements",
+      "category": "Campus Facilities",
+      "value": {
+        "facilities": [
+          "Swimming pool",
+          "Gymnasium",
+          "Sports Grounds for cricket, hockey, football",
+          "Floodlit Courts for Basketball, Volley ball and Tennis",
+          "Yoga Centre"
+        ],
+        "achievements": [
+          "Won the overall championship of Inter NIT Sports consecutively for the last 3 years"
+        ]
+      },
+      "evidence_quote": "International standard Swimming – Pool, Sports Grounds for cricket, hockey, football floodlit Courts for Basketball, Volley ball and Tennis... won the overall championship of Inter NIT Sports",
+      "source_url": "https://www.nitk.ac.in/document/attachments/2736/NIT-K_Annual___Audit_Report_2019-20.pdf",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Detailed list of facilities and specific achievements found in official annual reports.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "{'facilities': ['Swimming pool', 'Gymnasium', 'Sports Grounds for cricket, hockey, football', 'Floodlit Courts for Basketball, Volley ball and Tennis', 'Yoga Centre'], 'achievements': ['Won the overall championship of Inter NIT Sports consecutively for the last 3 years']}",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 0.7096774193548387
+      },
+      "quality_scores": {
+        "evidence_quality": 0.417,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.3333333333333333,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.733,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.733
+    },
+    {
+      "kpi_name": "List of Active Clubs",
+      "category": "Student Life",
+      "value": [
+        "Music Club",
+        "Photography Club",
+        "Web Enthusiast Club",
+        "Dramatic Club",
+        "N.C.C.",
+        "N.S.S.",
+        "NITK SEVADAL"
+      ],
+      "evidence_quote": "The Institute supports a host of activities through various clubs such as music, photography, web enthusiast and dramatic etc. ... N.C.C. and N.S.S. as prominent extracurricular activities.",
+      "source_url": "https://www.nitk.ac.in/document/attachments/6853/Information_bulletin-PG___PhD_admissions-2024-final_version_to_publish.pdf",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Explicitly listed in the 2024-25 Information Bulletin and Annual Report.",
+      "source_priority": "high",
+      "data_year": 2024,
+      "recency": "medium",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "['Music Club', 'Photography Club', 'Web Enthusiast Club', 'Dramatic Club', 'N.C.C.', 'N.S.S.', 'NITK SEVADAL']",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 0.7272727272727273
+      },
+      "quality_scores": {
+        "evidence_quality": 0.45,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.5,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.733,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.733
+    },
+    {
+      "kpi_name": "NIRF Ranking",
+      "category": "Accreditations & Rankings",
+      "value": "12 (Engineering), 38 (Overall)",
+      "evidence_quote": "The NITK has secured 12th Rank in all India Ranking for Engineering by the NIRF and secured 38th position in overall ranking category in the year 2024.",
+      "source_url": "https://www.nitk.ac.in/document/attachments/8562/Annual_Report_2023-24.pdf",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Directly stated in the Director's Report within the 2023-24 Annual Report.",
+      "source_priority": "high",
+      "data_year": 2023,
+      "recency": "low",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "12 (Engineering), 38 (Overall)",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 0.8
+      },
+      "quality_scores": {
+        "evidence_quality": 1.0,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 1.0,
+          "context": 1.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.733,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.733
+    },
+    {
+      "kpi_name": "Institutional Status",
+      "category": "Accreditations & Rankings",
+      "value": "Institute of National Importance",
+      "evidence_quote": "The Institute is declared as Institute of national importance by the government of India as per the NIT act 2007",
+      "source_url": "https://www.nitk.ac.in/document/attachments/6853/Information_bulletin-PG___PhD_admissions-2024-final_version_to_publish.pdf",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Statutory status clearly defined in multiple official documents and the NIT Act.",
+      "source_priority": "high",
+      "data_year": 2024,
+      "recency": "medium",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "Institute of National Importance",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 1.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.8,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 1.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.733,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.733
+    }
+  ]
+}

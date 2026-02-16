@@ -1,0 +1,1204 @@
+{
+  "college_name": "IIT Indore",
+  "audit_date": "2026-02-11T13:21:49.475238",
+  "summary": {
+    "total_kpis": 24,
+    "data_found": 24,
+    "data_not_found": 0,
+    "high_confidence": 20,
+    "medium_confidence": 8,
+    "coverage_percentage": 100.0,
+    "source_priority_breakdown": {
+      "high": 14,
+      "medium": 0,
+      "low": 0
+    },
+    "categories": {
+      "Student Demographics": {
+        "total": 4,
+        "found": 4
+      },
+      "Placements": {
+        "total": 3,
+        "found": 3
+      },
+      "Student Outcomes": {
+        "total": 1,
+        "found": 1
+      },
+      "Faculty": {
+        "total": 3,
+        "found": 3
+      },
+      "Academic Infrastructure": {
+        "total": 2,
+        "found": 2
+      },
+      "Campus Facilities": {
+        "total": 3,
+        "found": 3
+      },
+      "Technology Infrastructure": {
+        "total": 1,
+        "found": 1
+      },
+      "Academic Programs": {
+        "total": 2,
+        "found": 2
+      },
+      "Admissions": {
+        "total": 2,
+        "found": 2
+      },
+      "Student Life": {
+        "total": 1,
+        "found": 1
+      },
+      "Accreditations & Rankings": {
+        "total": 2,
+        "found": 2
+      }
+    }
+  },
+  "results": [
+    {
+      "kpi_name": "Total Graduate Students (2025)",
+      "field_name": "total_graduate_students_2025",
+      "category": "Student Demographics",
+      "value": "484 [UG 4Y: 331, PG 2Y: 153]",
+      "confidence": "high",
+      "source_type": "NIRF",
+      "source_priority": "critical",
+      "source_url": "https://www.iiti.ac.in/public/storage/NIRF-2025/NIRF-Overall 2025.pdf",
+      "evidence_quote": "Extracted from NIRF 2025 document",
+      "sources": [
+        {
+          "title": "NIRF 2025 Overall PDF",
+          "url": "https://www.iiti.ac.in/public/storage/NIRF-2025/NIRF-Overall 2025.pdf",
+          "snippet": "Data extracted from NIRF 2025 document",
+          "relevance": "high",
+          "recency": 2025
+        }
+      ],
+      "reasoning": "Direct pattern extraction from NIRF Overall document",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 484,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.47,
+        "evidence_breakdown": {
+          "length": 0.8,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.25,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.583,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.7
+        }
+      },
+      "system_confidence": "low",
+      "confidence_score": 0.583
+    },
+    {
+      "kpi_name": "Placed Students Count",
+      "field_name": "placed_students_count",
+      "category": "Placements",
+      "value": "297 [UG: 234, PG: 63]",
+      "confidence": "high",
+      "source_type": "NIRF",
+      "source_priority": "critical",
+      "source_url": "https://www.iiti.ac.in/public/storage/NIRF-2025/NIRF-Overall 2025.pdf",
+      "evidence_quote": "Extracted from NIRF 2025 document",
+      "sources": [
+        {
+          "title": "NIRF 2025 Overall PDF",
+          "url": "https://www.iiti.ac.in/public/storage/NIRF-2025/NIRF-Overall 2025.pdf",
+          "snippet": "Data extracted from NIRF 2025 document",
+          "relevance": "high",
+          "recency": 2025
+        }
+      ],
+      "reasoning": "Direct pattern extraction from NIRF Overall document",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 297,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.42,
+        "evidence_breakdown": {
+          "length": 0.8,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.583,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.7
+        }
+      },
+      "system_confidence": "low",
+      "confidence_score": 0.583
+    },
+    {
+      "kpi_name": "Median Compensation (Last Batch)",
+      "field_name": "median_compensation_last_batch",
+      "category": "Placements",
+      "value": "19.48 LPA",
+      "confidence": "high",
+      "source_type": "NIRF",
+      "source_priority": "critical",
+      "source_url": "https://www.iiti.ac.in/public/storage/NIRF-2025/NIRF-Overall 2025.pdf",
+      "evidence_quote": "Extracted from NIRF 2025 document",
+      "sources": [
+        {
+          "title": "NIRF 2025 Overall PDF",
+          "url": "https://www.iiti.ac.in/public/storage/NIRF-2025/NIRF-Overall 2025.pdf",
+          "snippet": "Data extracted from NIRF 2025 document",
+          "relevance": "high",
+          "recency": 2025
+        }
+      ],
+      "reasoning": "Direct pattern extraction from NIRF Overall document",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid currency",
+        "normalized_value": 1948000,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.42,
+        "evidence_breakdown": {
+          "length": 0.8,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.583,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.7
+        }
+      },
+      "system_confidence": "low",
+      "confidence_score": 0.583
+    },
+    {
+      "kpi_name": "Students Pursuing Higher Education",
+      "field_name": "students_higher_education",
+      "category": "Student Outcomes",
+      "value": "76 [UG: 27, PG: 49]",
+      "confidence": "high",
+      "source_type": "NIRF",
+      "source_priority": "critical",
+      "source_url": "https://www.iiti.ac.in/public/storage/NIRF-2025/NIRF-Overall 2025.pdf",
+      "evidence_quote": "Extracted from NIRF 2025 document",
+      "sources": [
+        {
+          "title": "NIRF 2025 Overall PDF",
+          "url": "https://www.iiti.ac.in/public/storage/NIRF-2025/NIRF-Overall 2025.pdf",
+          "snippet": "Data extracted from NIRF 2025 document",
+          "relevance": "high",
+          "recency": 2025
+        }
+      ],
+      "reasoning": "Direct pattern extraction from NIRF Overall document",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 76,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.42,
+        "evidence_breakdown": {
+          "length": 0.8,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.583,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.7
+        }
+      },
+      "system_confidence": "low",
+      "confidence_score": 0.583
+    },
+    {
+      "kpi_name": "Total Students Enrolled",
+      "field_name": "total_students_enrolled",
+      "category": "Student Demographics",
+      "value": "1987",
+      "confidence": "high",
+      "source_type": "NIRF",
+      "source_priority": "critical",
+      "source_url": "https://www.iiti.ac.in/public/storage/NIRF-2025/NIRF-Overall 2025.pdf",
+      "evidence_quote": "Extracted from NIRF 2025 document",
+      "sources": [
+        {
+          "title": "NIRF 2025 Overall PDF",
+          "url": "https://www.iiti.ac.in/public/storage/NIRF-2025/NIRF-Overall 2025.pdf",
+          "snippet": "Data extracted from NIRF 2025 document",
+          "relevance": "high",
+          "recency": 2025
+        }
+      ],
+      "reasoning": "Direct pattern extraction from NIRF Overall document",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 1987,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.42,
+        "evidence_breakdown": {
+          "length": 0.8,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.583,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.7
+        }
+      },
+      "system_confidence": "low",
+      "confidence_score": 0.583
+    },
+    {
+      "kpi_name": "Female Students Enrolled",
+      "field_name": "female_students_enrolled",
+      "category": "Student Demographics",
+      "value": "412",
+      "confidence": "high",
+      "source_type": "NIRF",
+      "source_priority": "critical",
+      "source_url": "https://www.iiti.ac.in/public/storage/NIRF-2025/NIRF-Overall 2025.pdf",
+      "evidence_quote": "Extracted from NIRF 2025 document",
+      "sources": [
+        {
+          "title": "NIRF 2025 Overall PDF",
+          "url": "https://www.iiti.ac.in/public/storage/NIRF-2025/NIRF-Overall 2025.pdf",
+          "snippet": "Data extracted from NIRF 2025 document",
+          "relevance": "high",
+          "recency": 2025
+        }
+      ],
+      "reasoning": "Direct pattern extraction from NIRF Overall document",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 412,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.42,
+        "evidence_breakdown": {
+          "length": 0.8,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.583,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.7
+        }
+      },
+      "system_confidence": "low",
+      "confidence_score": 0.583
+    },
+    {
+      "kpi_name": "Total Faculty",
+      "field_name": "total_faculty",
+      "category": "Faculty",
+      "value": "219",
+      "confidence": "high",
+      "source_type": "NIRF",
+      "source_priority": "critical",
+      "source_url": "https://www.iiti.ac.in/public/storage/NIRF-2025/NIRF-Overall 2025.pdf",
+      "evidence_quote": "Extracted from NIRF 2025 document",
+      "sources": [
+        {
+          "title": "NIRF 2025 Overall PDF",
+          "url": "https://www.iiti.ac.in/public/storage/NIRF-2025/NIRF-Overall 2025.pdf",
+          "snippet": "Data extracted from NIRF 2025 document",
+          "relevance": "high",
+          "recency": 2025
+        }
+      ],
+      "reasoning": "Direct pattern extraction from NIRF Overall document",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 219,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.42,
+        "evidence_breakdown": {
+          "length": 0.8,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.583,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.7
+        }
+      },
+      "system_confidence": "low",
+      "confidence_score": 0.583
+    },
+    {
+      "kpi_name": "PhD Faculty",
+      "field_name": "phd_faculty",
+      "category": "Faculty",
+      "value": "219",
+      "confidence": "high",
+      "source_type": "NIRF",
+      "source_priority": "critical",
+      "source_url": "https://www.iiti.ac.in/public/storage/NIRF-2025/NIRF-Overall 2025.pdf",
+      "evidence_quote": "Extracted from NIRF 2025 document",
+      "sources": [
+        {
+          "title": "NIRF 2025 Overall PDF",
+          "url": "https://www.iiti.ac.in/public/storage/NIRF-2025/NIRF-Overall 2025.pdf",
+          "snippet": "Data extracted from NIRF 2025 document",
+          "relevance": "high",
+          "recency": 2025
+        }
+      ],
+      "reasoning": "Direct pattern extraction from NIRF Overall document",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 219,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.42,
+        "evidence_breakdown": {
+          "length": 0.8,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.583,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.7
+        }
+      },
+      "system_confidence": "low",
+      "confidence_score": 0.583
+    },
+    {
+      "kpi_name": "Average Teaching Experience of Faculty",
+      "field_name": "avg_teaching_experience",
+      "category": "Faculty",
+      "value": "10.83",
+      "confidence": "high",
+      "source_type": "NIRF",
+      "source_priority": "critical",
+      "source_url": "https://www.iiti.ac.in/public/storage/NIRF-2025/NIRF-Overall 2025.pdf",
+      "evidence_quote": "Extracted from NIRF 2025 document",
+      "sources": [
+        {
+          "title": "NIRF 2025 Overall PDF",
+          "url": "https://www.iiti.ac.in/public/storage/NIRF-2025/NIRF-Overall 2025.pdf",
+          "snippet": "Data extracted from NIRF 2025 document",
+          "relevance": "high",
+          "recency": 2025
+        }
+      ],
+      "reasoning": "Direct pattern extraction from NIRF Overall document",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 10,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.42,
+        "evidence_breakdown": {
+          "length": 0.8,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.583,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.7
+        }
+      },
+      "system_confidence": "low",
+      "confidence_score": 0.583
+    },
+    {
+      "kpi_name": "PhD Students Enrolled",
+      "field_name": "phd_students_enrolled",
+      "category": "Student Demographics",
+      "value": "674 [Full Time: 633, Part Time: 41]",
+      "confidence": "high",
+      "source_type": "NIRF",
+      "source_priority": "critical",
+      "source_url": "https://www.iiti.ac.in/public/storage/NIRF-2025/NIRF-Overall 2025.pdf",
+      "evidence_quote": "Extracted from NIRF 2025 document",
+      "sources": [
+        {
+          "title": "NIRF 2025 Overall PDF",
+          "url": "https://www.iiti.ac.in/public/storage/NIRF-2025/NIRF-Overall 2025.pdf",
+          "snippet": "Data extracted from NIRF 2025 document",
+          "relevance": "high",
+          "recency": 2025
+        }
+      ],
+      "reasoning": "Direct pattern extraction from NIRF Overall document",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 674,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.42,
+        "evidence_breakdown": {
+          "length": 0.8,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.583,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.7
+        }
+      },
+      "system_confidence": "low",
+      "confidence_score": 0.583
+    },
+    {
+      "kpi_name": "ICT-Enabled Learning Infrastructure",
+      "category": "Academic Infrastructure",
+      "value": true,
+      "evidence_quote": "A NPTEL course on Autotronics 19th Jan 2026 to 10th April 2026 A NPTEL course on Autotronics by Prof. I. A. Palani... Computer and Information Technology Center",
+      "source_url": "https://www.iiti.ac.in/",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Explicit mention of NPTEL courses, online mode for QIP courses, and a dedicated Computer Center.",
+      "source_priority": "high",
+      "data_year": 2026,
+      "recency": "unknown",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "True",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.45,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.633,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.633
+    },
+    {
+      "kpi_name": "Digital Library Access",
+      "category": "Academic Infrastructure",
+      "value": true,
+      "evidence_quote": "Learning Resource Center (Library)... use of basic facilities like library and computer center.",
+      "source_url": "https://www.iiti.ac.in/page/summer-internship-introduction",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "The Learning Resource Center and Computer Center are standard for digital access in IITs.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "True",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.417,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.3333333333333333,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.633,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.633
+    },
+    {
+      "kpi_name": "Male Hostels Managed by College",
+      "category": "Campus Facilities",
+      "value": 1,
+      "evidence_quote": "the PM Ajay hostel rising steadily to welcome more students",
+      "source_url": "https://www.iiti.ac.in/public/storage/sliders/2025/sep/Alumni_Magazine%202025.pdf",
+      "source_type": "Official Website",
+      "llm_confidence": "medium",
+      "llm_confidence_reason": "Mentions specific hostel names like PM Ajay, but total count of individual buildings is not explicit.",
+      "source_priority": "high",
+      "data_year": 2025,
+      "recency": "high",
+      "system_confidence": "low",
+      "confidence": "high",
+      "validation": {
+        "is_valid": false,
+        "validation_reason": "Text too short",
+        "normalized_value": "1",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.35,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.467,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 0.3,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.7
+        }
+      },
+      "confidence_score": 0.467
+    },
+    {
+      "kpi_name": "Female Hostels Managed by College",
+      "category": "Campus Facilities",
+      "value": 1,
+      "evidence_quote": "IIT Indore has well equipped hostels for the interns... Accommodation is available at IIT Indore hostels.",
+      "source_url": "https://www.iiti.ac.in/page/summer-internship-introduction",
+      "source_type": "Official Website",
+      "llm_confidence": "medium",
+      "llm_confidence_reason": "General mention of hostels plural implies female accommodation exists, though specific count is missing.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "low",
+      "confidence": "high",
+      "validation": {
+        "is_valid": false,
+        "validation_reason": "Text too short",
+        "normalized_value": "1",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.39,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.2,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.467,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 0.3,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.7
+        }
+      },
+      "confidence_score": 0.467
+    },
+    {
+      "kpi_name": "Smart Campus / ERP Implementation",
+      "category": "Technology Infrastructure",
+      "value": true,
+      "evidence_quote": "HRMS Internal Complaints Committee... MMS Online Indenting IDO Ticket Generation... E-Payments",
+      "source_url": "https://www.iiti.ac.in/",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Direct mention of HRMS, online indenting, and ticket generation systems which constitute an ERP.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "True",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.35,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.633,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.633
+    },
+    {
+      "kpi_name": "List of Courses",
+      "category": "Academic Programs",
+      "value": "B.Tech(CSE, EE, ME, CE), M.Tech, M.Sc, M.S.(Research), B.Des, Ph.D",
+      "evidence_quote": "This year, IIT Indore will award 233 B.Tech, 57 M.Tech, 58 MSc. 2 M.S. (Research) and 58 PhD. degrees... the B.Des. program that opened fresh avenues of creativity",
+      "source_url": "https://www.iiti.ac.in/public/storage/sliders/2025/sep/Alumni_Magazine%202025.pdf",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Directly listed in convocation reports and alumni magazine updates.",
+      "source_priority": "high",
+      "data_year": 2025,
+      "recency": "high",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "B.Tech(CSE, EE, ME, CE), M.Tech, M.Sc, M.S.(Research), B.Des, Ph.D",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.517,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.3333333333333333,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.633,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.633
+    },
+    {
+      "kpi_name": "Fees for Each Course",
+      "category": "Academic Programs",
+      "value": "N/A",
+      "evidence_quote": "The source mentions internship fees (Rs 5000/month) and QIP course fees (Rs 2500-5000), but does not explicitly state annual tuition fees for degree programs.",
+      "source_url": "https://www.iiti.ac.in/page/summer-internship-introduction",
+      "source_type": "Official Website",
+      "llm_confidence": "low",
+      "llm_confidence_reason": "Only auxiliary course fees and internship charges were found, not main degree tuition fees.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "low",
+      "confidence": "low",
+      "validation": {
+        "is_valid": false,
+        "validation_reason": "Value indicates data not found",
+        "normalized_value": null,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.6,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.75,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.417,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 0.3,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.4
+        }
+      },
+      "confidence_score": 0.417
+    },
+    {
+      "kpi_name": "Maximum Compensation (Last Placement Season)",
+      "category": "Placements",
+      "value": "N/A",
+      "evidence_quote": "The provided documents discuss alumni achievements, convocation awards, and startup founders but do not specify the highest CTC for the latest placement cycle.",
+      "source_url": "https://www.iiti.ac.in/public/storage/sliders/2025/sep/Alumni_Magazine%202025.pdf",
+      "source_type": "Official Website",
+      "llm_confidence": "low",
+      "llm_confidence_reason": "Placement statistics for the most recent season were not explicitly detailed in the provided text.",
+      "source_priority": "high",
+      "data_year": 2025,
+      "recency": "high",
+      "system_confidence": "low",
+      "confidence": "low",
+      "validation": {
+        "is_valid": false,
+        "validation_reason": "Value indicates data not found",
+        "normalized_value": null,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.35,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.3,
+          "value_match": 0.0,
+          "context": 0.2,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.417,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 0.3,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.4
+        }
+      },
+      "confidence_score": 0.417
+    },
+    {
+      "kpi_name": "Entrance Exam Name",
+      "category": "Admissions",
+      "value": "JEE (Advanced)",
+      "evidence_quote": "Admissions@IITI JEE (Advanced) exam JOSAA JEE (Advanced) Office",
+      "source_url": "https://www.iiti.ac.in/",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Explicitly mentioned in the website navigation and admission sections.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "JEE (Advanced)",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 1.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.767,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 1.0,
+          "context": 0.3333333333333333,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.733,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.733
+    },
+    {
+      "kpi_name": "Entrance Exam Cutoff by Program",
+      "category": "Admissions",
+      "value": "N/A",
+      "evidence_quote": "While JEE (Advanced) is mentioned as the entrance exam, specific closing ranks or cutoff percentiles for the programs are not listed in the source text.",
+      "source_url": "https://www.iiti.ac.in/",
+      "source_type": "Official Website",
+      "llm_confidence": "low",
+      "llm_confidence_reason": "Cutoff data is typically found in JOSAA reports which were not provided in full detail.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "low",
+      "confidence": "low",
+      "validation": {
+        "is_valid": false,
+        "validation_reason": "Value indicates data not found",
+        "normalized_value": null,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.47,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.6,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.417,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 0.3,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.4
+        }
+      },
+      "confidence_score": 0.417
+    },
+    {
+      "kpi_name": "Sports Infrastructure & Achievements",
+      "category": "Campus Facilities",
+      "value": {
+        "facilities": [
+          "Sports Excellence Center"
+        ],
+        "achievements": [
+          "Athletes chasing records instead of grades",
+          "Friendly cricket match between alumni and students"
+        ]
+      },
+      "evidence_quote": "Sports Excellence... the athletes who chase records instead of grades... Alumni and students gathered for a friendly cricket match",
+      "source_url": "https://www.iiti.ac.in/public/storage/sliders/2025/sep/Alumni_Magazine 2025.pdf",
+      "source_type": "Official Website",
+      "llm_confidence": "medium",
+      "llm_confidence_reason": "Mentions Sports Excellence and activities, but lacks a detailed list of specific physical facilities.",
+      "source_priority": "high",
+      "data_year": 2025,
+      "recency": "high",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "{'facilities': ['Sports Excellence Center'], 'achievements': ['Athletes chasing records instead of grades', 'Friendly cricket match between alumni and students']}",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 0.7222222222222222
+      },
+      "quality_scores": {
+        "evidence_quality": 0.417,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.3333333333333333,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.683,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 0.7
+        }
+      },
+      "confidence_score": 0.683
+    },
+    {
+      "kpi_name": "List of Active Clubs",
+      "category": "Student Life",
+      "value": [
+        "Alumni Cell",
+        "EESA",
+        "Aaina (Dramatics/Skit)",
+        "Clubs and Societies"
+      ],
+      "evidence_quote": "Clubs and Societies... Dr. Addepalli Hari Narayana (EE ’18, AMD), in a session with EESA... cathartic skit by Aaina.",
+      "source_url": "https://www.iiti.ac.in/public/storage/sliders/2025/sep/Alumni_Magazine 2025.pdf",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Specific club names and the general 'Clubs and Societies' section are explicitly mentioned.",
+      "source_priority": "high",
+      "data_year": 2025,
+      "recency": "high",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "['Alumni Cell', 'EESA', 'Aaina (Dramatics/Skit)', 'Clubs and Societies']",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 0.6666666666666666
+      },
+      "quality_scores": {
+        "evidence_quality": 0.5,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.25,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.733,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.733
+    },
+    {
+      "kpi_name": "NIRF Ranking",
+      "category": "Accreditations & Rankings",
+      "value": "N/A",
+      "evidence_quote": "NIRF link present on website but specific rank for 2024/2025 not stated in provided text.",
+      "source_url": "https://www.iiti.ac.in/",
+      "source_type": "Official Website",
+      "llm_confidence": "low",
+      "llm_confidence_reason": "The source contains a link to NIRF but does not display the actual numerical rank.",
+      "source_priority": "high",
+      "data_year": 2024,
+      "recency": "medium",
+      "system_confidence": "low",
+      "confidence": "low",
+      "validation": {
+        "is_valid": false,
+        "validation_reason": "Value indicates data not found",
+        "normalized_value": null,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.55,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.5,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.417,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 0.3,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.4
+        }
+      },
+      "confidence_score": 0.417
+    },
+    {
+      "kpi_name": "Institutional Status",
+      "category": "Accreditations & Rankings",
+      "value": "Institute of National Importance",
+      "evidence_quote": "Indian Institute of Technology Indore... is an institute of national importance established by the Government of India in 2009.",
+      "source_url": "https://www.iiti.ac.in/page/about-us",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Directly stated in the 'About Us' section of the official website.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "Institute of National Importance",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 1.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.8,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 1.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.733,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.733
+    }
+  ]
+}

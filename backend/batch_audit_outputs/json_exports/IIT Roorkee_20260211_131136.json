@@ -1,0 +1,1216 @@
+{
+  "college_name": "IIT Roorkee",
+  "audit_date": "2026-02-11T13:11:36.020877",
+  "summary": {
+    "total_kpis": 24,
+    "data_found": 24,
+    "data_not_found": 0,
+    "high_confidence": 21,
+    "medium_confidence": 11,
+    "coverage_percentage": 100.0,
+    "source_priority_breakdown": {
+      "high": 14,
+      "medium": 0,
+      "low": 0
+    },
+    "categories": {
+      "Student Demographics": {
+        "total": 4,
+        "found": 4
+      },
+      "Placements": {
+        "total": 3,
+        "found": 3
+      },
+      "Student Outcomes": {
+        "total": 1,
+        "found": 1
+      },
+      "Faculty": {
+        "total": 3,
+        "found": 3
+      },
+      "Academic Infrastructure": {
+        "total": 2,
+        "found": 2
+      },
+      "Campus Facilities": {
+        "total": 3,
+        "found": 3
+      },
+      "Technology Infrastructure": {
+        "total": 1,
+        "found": 1
+      },
+      "Academic Programs": {
+        "total": 2,
+        "found": 2
+      },
+      "Admissions": {
+        "total": 2,
+        "found": 2
+      },
+      "Student Life": {
+        "total": 1,
+        "found": 1
+      },
+      "Accreditations & Rankings": {
+        "total": 2,
+        "found": 2
+      }
+    }
+  },
+  "results": [
+    {
+      "kpi_name": "Total Graduate Students (2025)",
+      "field_name": "total_graduate_students_2025",
+      "category": "Student Demographics",
+      "value": "2007 [UG 4Y: 1102, UG 5Y: 22, PG 2Y: 755, PG Integrated: 128]",
+      "confidence": "high",
+      "source_type": "NIRF",
+      "source_priority": "critical",
+      "source_url": "https://iitr.ac.in/Careers/static/NIRF/2025/Overall-NIRF_2025.pdf",
+      "evidence_quote": "Extracted from NIRF 2025 document",
+      "sources": [
+        {
+          "title": "NIRF 2025 Overall PDF",
+          "url": "https://iitr.ac.in/Careers/static/NIRF/2025/Overall-NIRF_2025.pdf",
+          "snippet": "Data extracted from NIRF 2025 document",
+          "relevance": "high",
+          "recency": 2025
+        }
+      ],
+      "reasoning": "Direct pattern extraction from NIRF Overall document",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 2007,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.47,
+        "evidence_breakdown": {
+          "length": 0.8,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.25,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.583,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.7
+        }
+      },
+      "system_confidence": "low",
+      "confidence_score": 0.583
+    },
+    {
+      "kpi_name": "Placed Students Count",
+      "field_name": "placed_students_count",
+      "category": "Placements",
+      "value": "1184 [UG: 779, PG: 405]",
+      "confidence": "high",
+      "source_type": "NIRF",
+      "source_priority": "critical",
+      "source_url": "https://iitr.ac.in/Careers/static/NIRF/2025/Overall-NIRF_2025.pdf",
+      "evidence_quote": "Extracted from NIRF 2025 document",
+      "sources": [
+        {
+          "title": "NIRF 2025 Overall PDF",
+          "url": "https://iitr.ac.in/Careers/static/NIRF/2025/Overall-NIRF_2025.pdf",
+          "snippet": "Data extracted from NIRF 2025 document",
+          "relevance": "high",
+          "recency": 2025
+        }
+      ],
+      "reasoning": "Direct pattern extraction from NIRF Overall document",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 1184,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.42,
+        "evidence_breakdown": {
+          "length": 0.8,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.583,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.7
+        }
+      },
+      "system_confidence": "low",
+      "confidence_score": 0.583
+    },
+    {
+      "kpi_name": "Median Compensation (Last Batch)",
+      "field_name": "median_compensation_last_batch",
+      "category": "Placements",
+      "value": "17.00 LPA",
+      "confidence": "high",
+      "source_type": "NIRF",
+      "source_priority": "critical",
+      "source_url": "https://iitr.ac.in/Careers/static/NIRF/2025/Overall-NIRF_2025.pdf",
+      "evidence_quote": "Extracted from NIRF 2025 document",
+      "sources": [
+        {
+          "title": "NIRF 2025 Overall PDF",
+          "url": "https://iitr.ac.in/Careers/static/NIRF/2025/Overall-NIRF_2025.pdf",
+          "snippet": "Data extracted from NIRF 2025 document",
+          "relevance": "high",
+          "recency": 2025
+        }
+      ],
+      "reasoning": "Direct pattern extraction from NIRF Overall document",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid currency",
+        "normalized_value": 1700000,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.42,
+        "evidence_breakdown": {
+          "length": 0.8,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.583,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.7
+        }
+      },
+      "system_confidence": "low",
+      "confidence_score": 0.583
+    },
+    {
+      "kpi_name": "Students Pursuing Higher Education",
+      "field_name": "students_higher_education",
+      "category": "Student Outcomes",
+      "value": "821 [UG: 344, PG: 477]",
+      "confidence": "high",
+      "source_type": "NIRF",
+      "source_priority": "critical",
+      "source_url": "https://iitr.ac.in/Careers/static/NIRF/2025/Overall-NIRF_2025.pdf",
+      "evidence_quote": "Extracted from NIRF 2025 document",
+      "sources": [
+        {
+          "title": "NIRF 2025 Overall PDF",
+          "url": "https://iitr.ac.in/Careers/static/NIRF/2025/Overall-NIRF_2025.pdf",
+          "snippet": "Data extracted from NIRF 2025 document",
+          "relevance": "high",
+          "recency": 2025
+        }
+      ],
+      "reasoning": "Direct pattern extraction from NIRF Overall document",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 821,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.42,
+        "evidence_breakdown": {
+          "length": 0.8,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.583,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.7
+        }
+      },
+      "system_confidence": "low",
+      "confidence_score": 0.583
+    },
+    {
+      "kpi_name": "Total Students Enrolled",
+      "field_name": "total_students_enrolled",
+      "category": "Student Demographics",
+      "value": "7239",
+      "confidence": "high",
+      "source_type": "NIRF",
+      "source_priority": "critical",
+      "source_url": "https://iitr.ac.in/Careers/static/NIRF/2025/Overall-NIRF_2025.pdf",
+      "evidence_quote": "Extracted from NIRF 2025 document",
+      "sources": [
+        {
+          "title": "NIRF 2025 Overall PDF",
+          "url": "https://iitr.ac.in/Careers/static/NIRF/2025/Overall-NIRF_2025.pdf",
+          "snippet": "Data extracted from NIRF 2025 document",
+          "relevance": "high",
+          "recency": 2025
+        }
+      ],
+      "reasoning": "Direct pattern extraction from NIRF Overall document",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 7239,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.42,
+        "evidence_breakdown": {
+          "length": 0.8,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.583,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.7
+        }
+      },
+      "system_confidence": "low",
+      "confidence_score": 0.583
+    },
+    {
+      "kpi_name": "Female Students Enrolled",
+      "field_name": "female_students_enrolled",
+      "category": "Student Demographics",
+      "value": "1473",
+      "confidence": "high",
+      "source_type": "NIRF",
+      "source_priority": "critical",
+      "source_url": "https://iitr.ac.in/Careers/static/NIRF/2025/Overall-NIRF_2025.pdf",
+      "evidence_quote": "Extracted from NIRF 2025 document",
+      "sources": [
+        {
+          "title": "NIRF 2025 Overall PDF",
+          "url": "https://iitr.ac.in/Careers/static/NIRF/2025/Overall-NIRF_2025.pdf",
+          "snippet": "Data extracted from NIRF 2025 document",
+          "relevance": "high",
+          "recency": 2025
+        }
+      ],
+      "reasoning": "Direct pattern extraction from NIRF Overall document",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 1473,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.42,
+        "evidence_breakdown": {
+          "length": 0.8,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.583,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.7
+        }
+      },
+      "system_confidence": "low",
+      "confidence_score": 0.583
+    },
+    {
+      "kpi_name": "Total Faculty",
+      "field_name": "total_faculty",
+      "category": "Faculty",
+      "value": "442",
+      "confidence": "high",
+      "source_type": "NIRF",
+      "source_priority": "critical",
+      "source_url": "https://iitr.ac.in/Careers/static/NIRF/2025/Overall-NIRF_2025.pdf",
+      "evidence_quote": "Extracted from NIRF 2025 document",
+      "sources": [
+        {
+          "title": "NIRF 2025 Overall PDF",
+          "url": "https://iitr.ac.in/Careers/static/NIRF/2025/Overall-NIRF_2025.pdf",
+          "snippet": "Data extracted from NIRF 2025 document",
+          "relevance": "high",
+          "recency": 2025
+        }
+      ],
+      "reasoning": "Direct pattern extraction from NIRF Overall document",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 442,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.42,
+        "evidence_breakdown": {
+          "length": 0.8,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.583,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.7
+        }
+      },
+      "system_confidence": "low",
+      "confidence_score": 0.583
+    },
+    {
+      "kpi_name": "PhD Faculty",
+      "field_name": "phd_faculty",
+      "category": "Faculty",
+      "value": "439",
+      "confidence": "high",
+      "source_type": "NIRF",
+      "source_priority": "critical",
+      "source_url": "https://iitr.ac.in/Careers/static/NIRF/2025/Overall-NIRF_2025.pdf",
+      "evidence_quote": "Extracted from NIRF 2025 document",
+      "sources": [
+        {
+          "title": "NIRF 2025 Overall PDF",
+          "url": "https://iitr.ac.in/Careers/static/NIRF/2025/Overall-NIRF_2025.pdf",
+          "snippet": "Data extracted from NIRF 2025 document",
+          "relevance": "high",
+          "recency": 2025
+        }
+      ],
+      "reasoning": "Direct pattern extraction from NIRF Overall document",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 439,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.42,
+        "evidence_breakdown": {
+          "length": 0.8,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.583,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.7
+        }
+      },
+      "system_confidence": "low",
+      "confidence_score": 0.583
+    },
+    {
+      "kpi_name": "Average Teaching Experience of Faculty",
+      "field_name": "avg_teaching_experience",
+      "category": "Faculty",
+      "value": "18.42",
+      "confidence": "high",
+      "source_type": "NIRF",
+      "source_priority": "critical",
+      "source_url": "https://iitr.ac.in/Careers/static/NIRF/2025/Overall-NIRF_2025.pdf",
+      "evidence_quote": "Extracted from NIRF 2025 document",
+      "sources": [
+        {
+          "title": "NIRF 2025 Overall PDF",
+          "url": "https://iitr.ac.in/Careers/static/NIRF/2025/Overall-NIRF_2025.pdf",
+          "snippet": "Data extracted from NIRF 2025 document",
+          "relevance": "high",
+          "recency": 2025
+        }
+      ],
+      "reasoning": "Direct pattern extraction from NIRF Overall document",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 18,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.42,
+        "evidence_breakdown": {
+          "length": 0.8,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.583,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.7
+        }
+      },
+      "system_confidence": "low",
+      "confidence_score": 0.583
+    },
+    {
+      "kpi_name": "PhD Students Enrolled",
+      "field_name": "phd_students_enrolled",
+      "category": "Student Demographics",
+      "value": "3069 [Full Time: 3047, Part Time: 22]",
+      "confidence": "high",
+      "source_type": "NIRF",
+      "source_priority": "critical",
+      "source_url": "https://iitr.ac.in/Careers/static/NIRF/2025/Overall-NIRF_2025.pdf",
+      "evidence_quote": "Extracted from NIRF 2025 document",
+      "sources": [
+        {
+          "title": "NIRF 2025 Overall PDF",
+          "url": "https://iitr.ac.in/Careers/static/NIRF/2025/Overall-NIRF_2025.pdf",
+          "snippet": "Data extracted from NIRF 2025 document",
+          "relevance": "high",
+          "recency": 2025
+        }
+      ],
+      "reasoning": "Direct pattern extraction from NIRF Overall document",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid count",
+        "normalized_value": 3069,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.42,
+        "evidence_breakdown": {
+          "length": 0.8,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.583,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.7
+        }
+      },
+      "system_confidence": "low",
+      "confidence_score": 0.583
+    },
+    {
+      "kpi_name": "ICT-Enabled Learning Infrastructure",
+      "category": "Academic Infrastructure",
+      "value": true,
+      "evidence_quote": "IIT Roorkee Breakthrough Blends Artificial Intelligence and Design to Power... development of the FLORA dataset and NeRA adapter... Continuing Education Center (CEC) of IIT Roorkee... eAsia Academy",
+      "source_url": "https://www.iitr.ac.in/",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Multiple mentions of AI datasets, online certificate programs, and digital learning centers.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "True",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.35,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.633,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.633
+    },
+    {
+      "kpi_name": "Digital Library Access",
+      "category": "Academic Infrastructure",
+      "value": true,
+      "evidence_quote": "Academic login LHCC Booking Portal Academic Documents Request Portal Research Award Portal OASIS... Resources Library",
+      "source_url": "https://www.iitr.ac.in/",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "The institute website lists a dedicated Library resource and various online academic portals.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "True",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.417,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.3333333333333333,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.633,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.633
+    },
+    {
+      "kpi_name": "Male Hostels Managed by College",
+      "category": "Campus Facilities",
+      "value": 10,
+      "evidence_quote": "To accommodate the ever-increasing intake of students, IIT Roorkee has 10 boys and 3 girls hostels",
+      "source_url": "https://www.iitr.ac.in/estateworks/campus.html",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Explicit count provided in the Institute Works Department campus description.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "10",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 1.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.84,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 1.0,
+          "context": 0.2,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.733,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.733
+    },
+    {
+      "kpi_name": "Female Hostels Managed by College",
+      "category": "Campus Facilities",
+      "value": 3,
+      "evidence_quote": "To accommodate the ever-increasing intake of students, IIT Roorkee has 10 boys and 3 girls hostels",
+      "source_url": "https://www.iitr.ac.in/estateworks/campus.html",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Explicit count provided in the Institute Works Department campus description.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": false,
+        "validation_reason": "Text too short",
+        "normalized_value": "3",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 1.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.84,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 1.0,
+          "context": 0.2,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.617,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 0.3,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.617
+    },
+    {
+      "kpi_name": "Smart Campus / ERP Implementation",
+      "category": "Technology Infrastructure",
+      "value": true,
+      "evidence_quote": "OASIS... Academic login LHCC Booking Portal Academic Documents Request Portal... CMS click to register complaint... GEM Implemented Successfully",
+      "source_url": "https://www.iitr.ac.in/estateworks/",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Mentions of OASIS portal, CMS (Complaint Management System), and GEM implementation confirm ERP.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "True",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.35,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.633,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.633
+    },
+    {
+      "kpi_name": "List of Courses",
+      "category": "Academic Programs",
+      "value": "B.Tech(Data Science and Artificial Intelligence, Civil, Electrical, Chemical, Mechanical, Metallurgical and Materials, Paper Technology), M.Tech(Power Systems Engineering, Electric Drives and Power Electronics, Advanced Instrumentation and Artificial Intelligence, Systems and Control, Data Science, AI), Ph.D(Electrical Engineering, Data Science and AI, Hydrology, Earth Sciences)",
+      "evidence_quote": "B.Tech. in Data Science and Artificial Intelligence... two M.Tech. programs and a Ph.D. program... Department of Electrical Engineering... Civil Engineering... Chemical Engineering",
+      "source_url": "https://www.iitr.ac.in/mfsdsai/",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Directly listed on various department and school pages of the official website.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "B.Tech(Data Science and Artificial Intelligence, Civil, Electrical, Chemical, Mechanical, Metallurgical and Materials, Paper Technology), M.Tech(Power Systems Engineering, Electric Drives and Power Electronics, Advanced Instrumentation and Artificial Intelligence, Systems and Control, Data Science, AI), Ph.D(Electrical Engineering, Data Science and AI, Hydrology, Earth Sciences)",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.417,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.3333333333333333,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.633,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.633
+    },
+    {
+      "kpi_name": "Fees for Each Course",
+      "category": "Academic Programs",
+      "value": "N/A",
+      "evidence_quote": "The Institute fees and estimated expenses for the course are given in Appendix-I.",
+      "source_url": "https://www.iitr.ac.in/wfw/web_ua_water_for_welfare/education/2015-16/M_Tech_AHES_Prospectus_2015-16.pdf",
+      "source_type": "Official Website",
+      "llm_confidence": "low",
+      "llm_confidence_reason": "The source mentions a fee appendix but does not provide the specific numeric values.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "low",
+      "confidence": "low",
+      "validation": {
+        "is_valid": false,
+        "validation_reason": "Value indicates data not found",
+        "normalized_value": null,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.5,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.75,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.417,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 0.3,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.4
+        }
+      },
+      "confidence_score": 0.417
+    },
+    {
+      "kpi_name": "Maximum Compensation (Last Placement Season)",
+      "category": "Placements",
+      "value": "N/A",
+      "evidence_quote": "Placement brochure of MFSDSAI... Placement Stats... (No specific CTC values found in text)",
+      "source_url": "https://www.iitr.ac.in/mfsdsai/",
+      "source_type": "Official Website",
+      "llm_confidence": "low",
+      "llm_confidence_reason": "While placement sections are mentioned, specific salary figures for the latest season are absent.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "low",
+      "confidence": "low",
+      "validation": {
+        "is_valid": false,
+        "validation_reason": "Value indicates data not found",
+        "normalized_value": null,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.35,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.3,
+          "value_match": 0.0,
+          "context": 0.2,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.417,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 0.3,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.4
+        }
+      },
+      "confidence_score": 0.417
+    },
+    {
+      "kpi_name": "Entrance Exam Name",
+      "category": "Admissions",
+      "value": "JEE Advanced",
+      "evidence_quote": "UG Admissions... (Inferred from IIT status and NIRF Architecture ranking context)",
+      "source_url": "https://www.iitr.ac.in/",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Standard admission process for all IITs for undergraduate engineering programs.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "JEE Advanced",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.35,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.633,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.633
+    },
+    {
+      "kpi_name": "Entrance Exam Cutoff by Program",
+      "category": "Admissions",
+      "value": "N/A",
+      "evidence_quote": "List of Shortlisted Candidates for interview: PhD Admission... (No JEE cutoff ranks provided)",
+      "source_url": "https://www.iitr.ac.in/mfsdsai/",
+      "source_type": "Official Website",
+      "llm_confidence": "low",
+      "llm_confidence_reason": "Admission lists are mentioned but specific cutoff ranks/scores are not in the provided text.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "low",
+      "confidence": "low",
+      "validation": {
+        "is_valid": false,
+        "validation_reason": "Value indicates data not found",
+        "normalized_value": null,
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.39,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.2,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.417,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 0.3,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 0.4
+        }
+      },
+      "confidence_score": 0.417
+    },
+    {
+      "kpi_name": "Sports Infrastructure & Achievements",
+      "category": "Campus Facilities",
+      "value": {
+        "facilities": [
+          "Badminton Courts",
+          "Tennis Courts",
+          "Squash Courts",
+          "Basketball Courts",
+          "Athletics Pitches",
+          "Football Ground",
+          "Hockey Ground",
+          "Cricket Ground",
+          "Table Tennis",
+          "Olympic size Swimming Pool",
+          "Professional Gymnasium"
+        ],
+        "achievements": [
+          "Virasat Festival 2026 host",
+          "E-Summit 2026 host"
+        ]
+      },
+      "evidence_quote": "top of the line sports infrastructure like Badminton, Tennis, Squash, Basketball Courts; full size competitive grade pitches and grounds for sports like Athletics, Football, Hockey and Cricket",
+      "source_url": "https://www.iitr.ac.in/estateworks/campus.html",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Directly listed in the Institute Works Department campus description.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "{'facilities': ['Badminton Courts', 'Tennis Courts', 'Squash Courts', 'Basketball Courts', 'Athletics Pitches', 'Football Ground', 'Hockey Ground', 'Cricket Ground', 'Table Tennis', 'Olympic size Swimming Pool', 'Professional Gymnasium'], 'achievements': ['Virasat Festival 2026 host', 'E-Summit 2026 host']}",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": false,
+        "value_evidence_match_score": 0.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.483,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 0.0,
+          "context": 0.6666666666666666,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.633,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 0.4,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.633
+    },
+    {
+      "kpi_name": "List of Active Clubs",
+      "category": "Student Life",
+      "value": [
+        "Cultural Clubs",
+        "Creative Clubs",
+        "Entrepreneurship Festival (E-Summit)",
+        "Virasat Festival",
+        "Anushruti Academy",
+        "IITR Heritage Foundation"
+      ],
+      "evidence_quote": "opportunity to indulge in sports, cultural activities, creative clubs and so much more! ... 18th edition of E-Summit 2026, North India’s largest entrepreneurship festival",
+      "source_url": "https://www.iitr.ac.in/cautleybhawan/",
+      "source_type": "Official Website",
+      "llm_confidence": "medium",
+      "llm_confidence_reason": "Mentions categories and specific festival-related groups but lacks a singular exhaustive list.",
+      "source_priority": "high",
+      "data_year": 2026,
+      "recency": "unknown",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "['Cultural Clubs', 'Creative Clubs', 'Entrepreneurship Festival (E-Summit)', 'Virasat Festival', 'Anushruti Academy', 'IITR Heritage Foundation']",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 0.5384615384615384
+      },
+      "quality_scores": {
+        "evidence_quality": 0.55,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 0.5,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.683,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 0.7
+        }
+      },
+      "confidence_score": 0.683
+    },
+    {
+      "kpi_name": "NIRF Ranking",
+      "category": "Accreditations & Rankings",
+      "value": "1 (Architecture & Planning)",
+      "evidence_quote": "As per the NIRF Ranking 2023, the Indian Institute of Technology, Roorkee, has ranked as the top Institutes of Architecture and Planning in India.",
+      "source_url": "https://www.iitr.ac.in/",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Explicitly stated in the institute's newsroom section for the 2023 cycle.",
+      "source_priority": "high",
+      "data_year": 2023,
+      "recency": "low",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "1 (Architecture & Planning)",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 0.6666666666666666
+      },
+      "quality_scores": {
+        "evidence_quality": 0.65,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 1.0,
+          "value_match": 0.0,
+          "context": 1.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.733,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.733
+    },
+    {
+      "kpi_name": "Institutional Status",
+      "category": "Accreditations & Rankings",
+      "value": "Institute of National Importance",
+      "evidence_quote": "IIT Roorkee being an institute of national importance is constantly pushed to its full potential",
+      "source_url": "https://www.iitr.ac.in/estateworks/campus.html",
+      "source_type": "Official Website",
+      "llm_confidence": "high",
+      "llm_confidence_reason": "Explicitly stated status in the campus description and governing acts section.",
+      "source_priority": "high",
+      "data_year": null,
+      "recency": "unknown",
+      "system_confidence": "medium",
+      "confidence": "high",
+      "validation": {
+        "is_valid": true,
+        "validation_reason": "Valid text",
+        "normalized_value": "Institute of National Importance",
+        "evidence_quality_ok": true,
+        "evidence_quality_reason": "Evidence length acceptable",
+        "value_in_evidence": true,
+        "value_evidence_match_score": 1.0
+      },
+      "quality_scores": {
+        "evidence_quality": 0.7,
+        "evidence_breakdown": {
+          "length": 1.0,
+          "has_numbers": 0.5,
+          "value_match": 1.0,
+          "context": 0.0,
+          "specificity": 1.0
+        },
+        "confidence_score": 0.733,
+        "confidence_breakdown": {
+          "source_quality": 0.2,
+          "data_recency": 0.2,
+          "value_validation": 1.0,
+          "evidence_quality": 1.0,
+          "value_evidence_match": 1.0,
+          "llm_confidence": 1.0
+        }
+      },
+      "confidence_score": 0.733
+    }
+  ]
+}

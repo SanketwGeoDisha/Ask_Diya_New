@@ -1,0 +1,52 @@
+College Name,"MIT Manipal"
+
+=== AUDIT OVERVIEW ===
+Audit Date,"2026-02-11 15:04:53"
+Total KPIs,25
+Data Found,25
+Data Not Found,0
+High Confidence,0
+Coverage Percentage,100.0%
+
+=== CATEGORY BREAKDOWN ===
+Category,Found,Total,Percentage
+"Academic Infrastructure",2,2,100%
+"Campus Facilities",3,3,100%
+"Technology Infrastructure",1,1,100%
+"Academic Programs",2,2,100%
+"Student Demographics",4,4,100%
+"Placements",3,3,100%
+"Student Outcomes",1,1,100%
+"Research & Innovation",1,1,100%
+"Admissions",2,2,100%
+"Faculty",3,3,100%
+"Student Life",1,1,100%
+"Accreditations & Rankings",2,2,100%
+
+=== KPI DETAILS ===
+KPI Name,Category,Value,Evidence,Source URL,System Confidence,LLM Confidence,Source Priority,Data Year,Recency
+ICT-Enabled Learning Infrastructure,Academic Infrastructure,True,"Innovative teaching - learning experience, high quality infrastructure and resources... The Website information must be continuously updated as and when changes take place.",https://manipal.edu/content/dam/manipal/pdf/MAHE%20Prospectus%202019.pdf,medium,high,medium,2020,low
+Digital Library Access,Academic Infrastructure,True,The institute has inspired me to explore more and always stay inquisitive... Design processes involving case studies and market survey integrated into the curriculum,https://www.manipal.edu/dod.html,low,medium,medium,,unknown
+Male Hostels Managed by College,Campus Facilities,N/A,Invalid source URL,,low,low,unknown,,unknown
+Female Hostels Managed by College,Campus Facilities,N/A,Invalid source URL,,low,low,unknown,,unknown
+Smart Campus / ERP Implementation,Technology Infrastructure,True,"In case of any grievance, students can submit the same by going through this link https://sis.manipal.edu/studlogin.aspx",https://manipal.edu/content/dam/manipal/pdf/MAHE%20Prospectus%202019.pdf,medium,high,medium,2020,low
+List of Courses,Academic Programs,"B.Des(Fashion Design, Interior Design), M.Des(Interior Design, Sustainable Design), MBA(General Management), Integrated BA/MBA, BHM, MHM, MBBS, MD(Anaesthesiology, Anatomy, Biochemistry, Community Medicine, Dermatology, Emergency Medicine, Forensic Medicine, General Medicine, Hospital Administration, Immunohematology, Microbiology, Paediatrics, Palliative Medicine, Pathology, Pharmacology, Physiology, Psychiatry, Radiodiagnosis, Radiotherapy, Respiratory Medicine), MS(General Surgery, OBG, Ophthalmology, Orthopaedics, ENT), M.Sc(Clinical Embryology, Forensic Science, Genetic Counseling, Reproductive and Developmental Biology, Reproductive Genetics, Medical Anatomy, Medical Biochemistry, Medical Microbiology, Medical Pharmacology, Medical Physiology, Yoga Therapy), M.Phil(Psychiatric Social Work), DM(Cardiology, Critical Care, Gastroenterology, Infectious Disease, Medical Genetics, Medical Oncology, Nephrology, Neurology), MCh(CTVS, Neuro, Paediatric, Plastic, Urology, Hand, Paediatric Ortho, Reproductive, Surgical Oncology), BDS, MDS, PG Certificate(Panchakarma, Siddha Varmam Therapy)","B.Des Fashion Design, B.Des Interior Design, and M.Des Interior Design are approved by AICTE... MBBS, MD Anaesthesiology... MDS Conservative Dentistry...",https://www.manipal.edu/dod.html,low,high,medium,,unknown
+Fees for Each Course,Academic Programs,N/A,The tuition and other fees shall be charged as prescribed by the Competent Authority... mandatory disclosure information... shall be put on the Institution Website.,https://www.manipal.edu/content/dam/manipal/mu/som/documents/mandatory/LOA%20Report%2021-22.PDF,low,low,medium,2021,low
+Total Graduate Students (2025),Student Demographics,540,"Calculated from approved intake: MBA(120), Integrated MBA(60), B.Des(90), BHM(180), MHM(30), PG Engineering(150), M.Des(30).",https://www.manipal.edu/content/dam/manipal/mu/som/documents/mandatory/LOA%20Report%2021-22.PDF,low,medium,medium,2021,low
+Placed Students Count,Placements,N/A,MSAP Career Fair 2025: Bridging Talent with Opportunity... excellent placement record.,https://www.manipal.edu/dod.html,low,low,medium,2025,high
+Maximum Compensation (Last Placement Season),Placements,N/A,"Currently working at Gucci, United Kingdom as brand specialist... Creative Director of Weavers Stores.",https://www.manipal.edu/dod.html,low,low,medium,,unknown
+Median Compensation (Last Batch),Placements,N/A,The provided documents mention placement records and career fairs but do not specify the median salary or NIRF placement tables for the latest batch.,https://www.manipal.edu/dod.html,low,low,medium,,unknown
+Students Pursuing Higher Education,Student Outcomes,N/A,"While the prospectus mentions holistic development and postgraduate programs, it does not provide the specific count of students selected for higher studies.",https://manipal.edu/content/dam/manipal/pdf/MAHE%20Prospectus%202019.pdf,low,low,medium,2020,low
+IP Patents Granted/Licensed (Latest Year),Research & Innovation,16,Total of 16 Patents granted till date; 154 patent applications filed for the year 2023,https://manipal.edu/content/dam/manipal/pdf/MAHE%20Prospectus%202019.pdf,medium,high,medium,2020,low
+Entrance Exam Name,Admissions,MET (Manipal Entrance Test),Students seeking admission to MAHE face a stiff competition... apply online... MET is the standard entrance for MIT and other MAHE institutes.,https://manipal.edu/content/dam/manipal/pdf/MAHE%20Prospectus%202019.pdf,medium,medium,medium,2020,low
+Entrance Exam Cutoff by Program,Admissions,N/A,The documents list eligibility criteria and programs but do not provide specific cutoff ranks or percentiles for the admission cycles.,https://www.manipal.edu/content/dam/manipal/mu/som/documents/mandatory/LOA%20Report%2021-22.PDF,low,low,medium,2021,low
+Total Students Enrolled,Student Demographics,N/A,"The provided documents contain program-wise intake capacities (e.g., MBA: 120, B.Des: 30) but do not provide the total actual student strength across all years for MIT Manipal.",https://www.manipal.edu/content/dam/manipal/mu/som/documents/mandatory/LOA%20Report%2021-22.PDF,low,low,medium,2021,low
+Female Students Enrolled,Student Demographics,N/A,Invalid source URL,,low,low,unknown,,unknown
+Total Faculty,Faculty,N/A,The documents mention 'top faculty' and 'unwavering support' but do not list a specific numerical count for the total faculty at MIT Manipal.,https://www.manipal.edu/dod.html,low,low,medium,,unknown
+PhD Faculty,Faculty,N/A,Invalid source URL,,low,low,unknown,,unknown
+Average Teaching Experience of Faculty,Faculty,N/A,Invalid source URL,,low,low,unknown,,unknown
+Sports Infrastructure & Achievements,Campus Facilities,"{'facilities': [], 'achievements': ['Sandra Soman: Won Miss Cosmo World pageant title', 'Sandra Soman: International modeling agencies representation']}","Opportunities to engage with student-run fashion clubs, paved the way for my successful modeling career... won the Miss Cosmo World pageant title.",https://www.manipal.edu/dod.html,medium,low,medium,,unknown
+List of Active Clubs,Student Life,['Student-run fashion clubs'],"Opportunities to engage with student-run fashion clubs, paved the way for my successful modeling career.",https://www.manipal.edu/dod.html,medium,medium,medium,,unknown
+NIRF Ranking,Accreditations & Rankings,6,"Ranked No. 06 in All India University Ranking survey under UNIVERSITY category conducted by National Institutional Ranking Frame work (NIRF), MHRD, Govt. of India - 2023",https://manipal.edu/content/dam/manipal/pdf/MAHE%20Prospectus%202019.pdf,medium,high,medium,2020,low
+Institutional Status,Accreditations & Rankings,Deemed to be University (Institution of Eminence),"Manipal Academy of Higher Education - Deemed to be University... status as an ‘Institution of Eminence’ conferred on it by the Ministry of Education, Govt.of India",https://manipal.edu/content/dam/manipal/pdf/MAHE%20Prospectus%202019.pdf,medium,high,medium,2020,low
+PhD Students Enrolled,Student Demographics,N/A,The provided documents mention research projects (425+ Indian) and Scopus publications (4054+) but do not list the specific sum of PhD student enrollment counts.,https://manipal.edu/content/dam/manipal/pdf/MAHE%20Prospectus%202019.pdf,low,low,medium,2020,low

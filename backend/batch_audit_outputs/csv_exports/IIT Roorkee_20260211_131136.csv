@@ -1,0 +1,50 @@
+College Name,"IIT Roorkee"
+
+=== AUDIT OVERVIEW ===
+Audit Date,"2026-02-11 13:11:36"
+Total KPIs,24
+Data Found,24
+Data Not Found,0
+High Confidence,21
+Coverage Percentage,100.0%
+
+=== CATEGORY BREAKDOWN ===
+Category,Found,Total,Percentage
+"Student Demographics",4,4,100%
+"Placements",3,3,100%
+"Student Outcomes",1,1,100%
+"Faculty",3,3,100%
+"Academic Infrastructure",2,2,100%
+"Campus Facilities",3,3,100%
+"Technology Infrastructure",1,1,100%
+"Academic Programs",2,2,100%
+"Admissions",2,2,100%
+"Student Life",1,1,100%
+"Accreditations & Rankings",2,2,100%
+
+=== KPI DETAILS ===
+KPI Name,Category,Value,Evidence,Source URL,System Confidence,LLM Confidence,Source Priority,Data Year,Recency
+Total Graduate Students (2025),Student Demographics,"2007 [UG 4Y: 1102, UG 5Y: 22, PG 2Y: 755, PG Integrated: 128]",Extracted from NIRF 2025 document,https://iitr.ac.in/Careers/static/NIRF/2025/Overall-NIRF_2025.pdf,low,low,critical,,unknown
+Placed Students Count,Placements,"1184 [UG: 779, PG: 405]",Extracted from NIRF 2025 document,https://iitr.ac.in/Careers/static/NIRF/2025/Overall-NIRF_2025.pdf,low,low,critical,,unknown
+Median Compensation (Last Batch),Placements,17.00 LPA,Extracted from NIRF 2025 document,https://iitr.ac.in/Careers/static/NIRF/2025/Overall-NIRF_2025.pdf,low,low,critical,,unknown
+Students Pursuing Higher Education,Student Outcomes,"821 [UG: 344, PG: 477]",Extracted from NIRF 2025 document,https://iitr.ac.in/Careers/static/NIRF/2025/Overall-NIRF_2025.pdf,low,low,critical,,unknown
+Total Students Enrolled,Student Demographics,7239,Extracted from NIRF 2025 document,https://iitr.ac.in/Careers/static/NIRF/2025/Overall-NIRF_2025.pdf,low,low,critical,,unknown
+Female Students Enrolled,Student Demographics,1473,Extracted from NIRF 2025 document,https://iitr.ac.in/Careers/static/NIRF/2025/Overall-NIRF_2025.pdf,low,low,critical,,unknown
+Total Faculty,Faculty,442,Extracted from NIRF 2025 document,https://iitr.ac.in/Careers/static/NIRF/2025/Overall-NIRF_2025.pdf,low,low,critical,,unknown
+PhD Faculty,Faculty,439,Extracted from NIRF 2025 document,https://iitr.ac.in/Careers/static/NIRF/2025/Overall-NIRF_2025.pdf,low,low,critical,,unknown
+Average Teaching Experience of Faculty,Faculty,18.42,Extracted from NIRF 2025 document,https://iitr.ac.in/Careers/static/NIRF/2025/Overall-NIRF_2025.pdf,low,low,critical,,unknown
+PhD Students Enrolled,Student Demographics,"3069 [Full Time: 3047, Part Time: 22]",Extracted from NIRF 2025 document,https://iitr.ac.in/Careers/static/NIRF/2025/Overall-NIRF_2025.pdf,low,low,critical,,unknown
+ICT-Enabled Learning Infrastructure,Academic Infrastructure,True,IIT Roorkee Breakthrough Blends Artificial Intelligence and Design to Power... development of the FLORA dataset and NeRA adapter... Continuing Education Center (CEC) of IIT Roorkee... eAsia Academy,https://www.iitr.ac.in/,medium,high,high,,unknown
+Digital Library Access,Academic Infrastructure,True,Academic login LHCC Booking Portal Academic Documents Request Portal Research Award Portal OASIS... Resources Library,https://www.iitr.ac.in/,medium,high,high,,unknown
+Male Hostels Managed by College,Campus Facilities,10,"To accommodate the ever-increasing intake of students, IIT Roorkee has 10 boys and 3 girls hostels",https://www.iitr.ac.in/estateworks/campus.html,medium,high,high,,unknown
+Female Hostels Managed by College,Campus Facilities,3,"To accommodate the ever-increasing intake of students, IIT Roorkee has 10 boys and 3 girls hostels",https://www.iitr.ac.in/estateworks/campus.html,medium,high,high,,unknown
+Smart Campus / ERP Implementation,Technology Infrastructure,True,OASIS... Academic login LHCC Booking Portal Academic Documents Request Portal... CMS click to register complaint... GEM Implemented Successfully,https://www.iitr.ac.in/estateworks/,medium,high,high,,unknown
+List of Courses,Academic Programs,"B.Tech(Data Science and Artificial Intelligence, Civil, Electrical, Chemical, Mechanical, Metallurgical and Materials, Paper Technology), M.Tech(Power Systems Engineering, Electric Drives and Power Electronics, Advanced Instrumentation and Artificial Intelligence, Systems and Control, Data Science, AI), Ph.D(Electrical Engineering, Data Science and AI, Hydrology, Earth Sciences)",B.Tech. in Data Science and Artificial Intelligence... two M.Tech. programs and a Ph.D. program... Department of Electrical Engineering... Civil Engineering... Chemical Engineering,https://www.iitr.ac.in/mfsdsai/,medium,high,high,,unknown
+Fees for Each Course,Academic Programs,N/A,The Institute fees and estimated expenses for the course are given in Appendix-I.,https://www.iitr.ac.in/wfw/web_ua_water_for_welfare/education/2015-16/M_Tech_AHES_Prospectus_2015-16.pdf,low,low,high,,unknown
+Maximum Compensation (Last Placement Season),Placements,N/A,Placement brochure of MFSDSAI... Placement Stats... (No specific CTC values found in text),https://www.iitr.ac.in/mfsdsai/,low,low,high,,unknown
+Entrance Exam Name,Admissions,JEE Advanced,UG Admissions... (Inferred from IIT status and NIRF Architecture ranking context),https://www.iitr.ac.in/,medium,high,high,,unknown
+Entrance Exam Cutoff by Program,Admissions,N/A,List of Shortlisted Candidates for interview: PhD Admission... (No JEE cutoff ranks provided),https://www.iitr.ac.in/mfsdsai/,low,low,high,,unknown
+Sports Infrastructure & Achievements,Campus Facilities,"{'facilities': ['Badminton Courts', 'Tennis Courts', 'Squash Courts', 'Basketball Courts', 'Athletics Pitches', 'Football Ground', 'Hockey Ground', 'Cricket Ground', 'Table Tennis', 'Olympic size Swimming Pool', 'Professional Gymnasium'], 'achievements': ['Virasat Festival 2026 host', 'E-Summit 2026 host']}","top of the line sports infrastructure like Badminton, Tennis, Squash, Basketball Courts; full size competitive grade pitches and grounds for sports like Athletics, Football, Hockey and Cricket",https://www.iitr.ac.in/estateworks/campus.html,medium,high,high,,unknown
+List of Active Clubs,Student Life,"['Cultural Clubs', 'Creative Clubs', 'Entrepreneurship Festival (E-Summit)', 'Virasat Festival', 'Anushruti Academy', 'IITR Heritage Foundation']","opportunity to indulge in sports, cultural activities, creative clubs and so much more! ... 18th edition of E-Summit 2026, North India’s largest entrepreneurship festival",https://www.iitr.ac.in/cautleybhawan/,medium,medium,high,2026,unknown
+NIRF Ranking,Accreditations & Rankings,1 (Architecture & Planning),"As per the NIRF Ranking 2023, the Indian Institute of Technology, Roorkee, has ranked as the top Institutes of Architecture and Planning in India.",https://www.iitr.ac.in/,medium,high,high,2023,low
+Institutional Status,Accreditations & Rankings,Institute of National Importance,IIT Roorkee being an institute of national importance is constantly pushed to its full potential,https://www.iitr.ac.in/estateworks/campus.html,medium,high,high,,unknown

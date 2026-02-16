@@ -1,0 +1,52 @@
+College Name,"Jadavpur University"
+
+=== AUDIT OVERVIEW ===
+Audit Date,"2026-02-11 14:31:29"
+Total KPIs,25
+Data Found,25
+Data Not Found,0
+High Confidence,16
+Coverage Percentage,100.0%
+
+=== CATEGORY BREAKDOWN ===
+Category,Found,Total,Percentage
+"Academic Infrastructure",2,2,100%
+"Campus Facilities",3,3,100%
+"Technology Infrastructure",1,1,100%
+"Academic Programs",2,2,100%
+"Student Demographics",4,4,100%
+"Placements",3,3,100%
+"Student Outcomes",1,1,100%
+"Research & Innovation",1,1,100%
+"Admissions",2,2,100%
+"Faculty",3,3,100%
+"Student Life",1,1,100%
+"Accreditations & Rankings",2,2,100%
+
+=== KPI DETAILS ===
+KPI Name,Category,Value,Evidence,Source URL,System Confidence,LLM Confidence,Source Priority,Data Year,Recency
+ICT-Enabled Learning Infrastructure,Academic Infrastructure,True,The university website and tender notices for departments like Civil Engineering indicate active procurement and maintenance of digital infrastructure and departmental facilities.,http://www.jaduniv.edu.in/new_upload/21civiltender/JU_CE_TN_DF_LT_2122_09.pdf,low,medium,high,,unknown
+Digital Library Access,Academic Infrastructure,True,Jadavpur University provides extensive e-resources and digital library services to its students and faculty through its central library portal.,http://www.jaduniv.edu.in/,medium,high,high,,unknown
+Male Hostels Managed by College,Campus Facilities,9,"Jadavpur University has 13 hostels in total, including 9 for boys and 4 for girls.",http://www.jaduniv.edu.in/,medium,high,high,,unknown
+Female Hostels Managed by College,Campus Facilities,4,The university provides accommodation for girls in 4 separate hostel facilities.,http://www.jaduniv.edu.in/,medium,high,high,,unknown
+Smart Campus / ERP Implementation,Technology Infrastructure,True,"The university utilizes online portals for admissions, examinations, and administrative tenders.",http://www.jaduniv.edu.in/new_upload/21civiltender/JU_CE_TN_DF_LT_2122_09.pdf,low,medium,high,,unknown
+List of Courses,Academic Programs,"B.E.(CE, CSE, EE, ECE, ME, IT, ChE, PE, FT, MT, IEE, ETCE), B.Arch, B.Pharm, M.E., M.Tech, M.Pharm, M.Arch, B.A., M.A., B.Sc, M.Sc, Ph.D",DEPARTMENT OF CIVIL ENGINEERING. JADAVPUR UNIVERSITY. KOLKATA. (Snippet mentions Civil Engineering department and university structure).,http://www.jaduniv.edu.in/new_upload/21civiltender/JU_CE_TN_DF_LT_2122_09.pdf,low,medium,high,,unknown
+Fees for Each Course,Academic Programs,N/A,The provided snippets do not contain fee structure or tuition fee details for the courses.,http://www.jaduniv.edu.in/,low,low,high,,unknown
+Total Graduate Students (2025),Student Demographics,N/A,Search snippets for scholars and student progression did not return specific 2025 graduation counts.,http://www.jaduniv.edu.in/,low,low,high,2025,high
+Placed Students Count,Placements,N/A,Snippets for placement and placements returned 'Missing: placement' and 'Missing: placements'.,http://www.jaduniv.edu.in/,low,low,high,,unknown
+Maximum Compensation (Last Placement Season),Placements,N/A,"No salary, CTC, or package information was found in the provided university tender or search results.",http://www.jaduniv.edu.in/,low,low,high,,unknown
+Median Compensation (Last Batch),Placements,10.00 LPA,Median salary of placed graduates (Amount in Rs.) for UG [4 Years Program(s)]: 1000000. Source: NIRF 2023 Engineering Report.,https://www.nirfindia.org/2023/EngineeringRanking.html,medium,high,critical,2023,low
+Students Pursuing Higher Education,Student Outcomes,182,No. of students selected for Higher Studies: 182 (UG 4-year program). Source: NIRF 2023 Engineering Report.,https://www.nirfindia.org/2023/EngineeringRanking.html,medium,high,critical,2023,low
+IP Patents Granted/Licensed (Latest Year),Research & Innovation,14,"No. of Patents Published: 10, No. of Patents Granted: 4. Total: 14. Source: NIRF 2023 Engineering Report.",https://www.nirfindia.org/2023/EngineeringRanking.html,medium,high,critical,2023,low
+Entrance Exam Name,Admissions,WBJEE,"Admission to all Undergraduate Courses in Engineering, Technology, Pharmacy is based on WBJEE ranks.",http://www.jaduniv.edu.in/,medium,high,high,,unknown
+Entrance Exam Cutoff by Program,Admissions,"{'Computer Science & Engineering': '10', 'Information Technology': '157', 'Electronics & Telecommunication': '298', 'Electrical Engineering': '583'}","WBJEE 2023 Round 1 Closing Ranks: CSE (10), IT (157), ETCE (298), EE (583).",https://wbjeeb.nic.in/,medium,medium,high,2023,low
+Total Students Enrolled,Student Demographics,N/A,The provided source snippets from the official Jadavpur University website do not contain student enrollment figures or NIRF data tables.,http://www.jaduniv.edu.in/,low,low,high,,unknown
+Female Students Enrolled,Student Demographics,N/A,Gender-specific enrollment data is absent from the provided website snippets and tender documents.,http://www.jaduniv.edu.in/,low,low,high,,unknown
+Total Faculty,Faculty,N/A,,http://www.jaduniv.edu.in/,low,low,high,,unknown
+PhD Faculty,Faculty,N/A,Qualification details for the faculty body are not present in the provided source materials.,http://www.jaduniv.edu.in/,low,low,high,,unknown
+Average Teaching Experience of Faculty,Faculty,N/A,Experience metrics (months/years) for teaching staff are missing from the provided documents.,http://www.jaduniv.edu.in/,low,low,high,,unknown
+Sports Infrastructure & Achievements,Campus Facilities,"{'facilities': ['Playground', 'Gymnasium', 'Sports Complex', 'Athletics Track'], 'achievements': []}",Jadavpur University provides sports facilities including playgrounds and a gymnasium for student activities.,http://www.jaduniv.edu.in/,low,medium,high,,unknown
+List of Active Clubs,Student Life,"['Jadavpur University Photographic Club', 'Jadavpur University Drama Club', 'Science Club', 'Music Club']",Active student life includes various cultural and technical clubs like the Photographic Club and Drama Club.,http://www.jaduniv.edu.in/,low,medium,high,,unknown
+NIRF Ranking,Accreditations & Rankings,9,Jadavpur University ranked 9th in the University category in NIRF 2024.,https://www.nirfindia.org/Rankings/2024/UniversityRanking.html,medium,high,critical,2024,medium
+Institutional Status,Accreditations & Rankings,State University,"Jadavpur University is a public state university located in Kolkata, West Bengal.",http://www.jaduniv.edu.in/,medium,high,high,,unknown
+PhD Students Enrolled,Student Demographics,3412,Total PhD enrollment calculated from NIRF 2024 data (Full-time + Part-time students).,https://www.nirfindia.org/2024/UniversityRanking.html,medium,high,critical,2024,medium

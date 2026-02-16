@@ -1,0 +1,52 @@
+College Name,"IIT Kanpur"
+
+=== AUDIT OVERVIEW ===
+Audit Date,"2026-02-11 13:10:15"
+Total KPIs,25
+Data Found,25
+Data Not Found,0
+High Confidence,17
+Coverage Percentage,100.0%
+
+=== CATEGORY BREAKDOWN ===
+Category,Found,Total,Percentage
+"Academic Infrastructure",2,2,100%
+"Campus Facilities",3,3,100%
+"Technology Infrastructure",1,1,100%
+"Academic Programs",2,2,100%
+"Student Demographics",4,4,100%
+"Placements",3,3,100%
+"Student Outcomes",1,1,100%
+"Research & Innovation",1,1,100%
+"Admissions",2,2,100%
+"Faculty",3,3,100%
+"Student Life",1,1,100%
+"Accreditations & Rankings",2,2,100%
+
+=== KPI DETAILS ===
+KPI Name,Category,Value,Evidence,Source URL,System Confidence,LLM Confidence,Source Priority,Data Year,Recency
+ICT-Enabled Learning Infrastructure,Academic Infrastructure,True,Most of the instructors will be using the online course delivery platform HelloIITK. Students have to use their IITK Email-ID/Password to login to the platform.,https://www.iitk.ac.in/doaa/data/Technical_Infrastructure_Requirements.pdf,medium,high,high,,unknown
+Digital Library Access,Academic Infrastructure,True,Thesis upload on Institute Repository... iThenticate and Turnitin (Intranet only)... P K Kelkar Library,https://www.iitk.ac.in/doaa/eligibility-criteria,medium,high,high,,unknown
+Male Hostels Managed by College,Campus Facilities,13,HALL OF RESIDENCE NO. 1... to HALL OF RESIDENCE NO. 14. (Note: Hall 6 is for girls). Boys have to report at HALL 13.,https://iitk.ac.in/dosa/data/Anti-ragging-squad-2025-21-07-25.pdf,medium,high,high,2025,high
+Female Hostels Managed by College,Campus Facilities,2,HALL OF RESIDENCE FOR GIRLS.1 (Hall Office.Tel. No. 4100)... HALL OF RESIDENCE FOR GIRLS. 6/GH Tower,https://iitk.ac.in/dosa/data/Anti-ragging-squad-2025-21-07-25.pdf,low,high,high,2025,high
+Smart Campus / ERP Implementation,Technology Infrastructure,True,Pingala Current Registration/Add-Drop Pre-registraion... OARS Online Grade Submission... Office Automation,https://www.iitk.ac.in/doaa/eligibility-criteria,medium,high,high,,unknown
+List of Courses,Academic Programs,"B.S.(Economics, Math & Sc. Comp., Stat. & Data Sc.), B.Tech(AE, BSBE, ChE, CE, CSE, EE, ES, MSE, ME), M.Tech(AE, BSBE, ChE, CE, CSE, ES, EE, EEM, IME, ME, MSE, MSP, NET, PSE), M.Des, MBA, M.Sc.(Math, Stat, Economics), MSR, eMasters, Ph.D(AE, ChE, CE, CSE, EE, ES, ME, MSE, MSP, NET, PSE, BSBE, Chemistry, Physics, Math, Stat, HSS, Management, Design, Sustainability)","Programs Offered: Master of Technology (M. Tech.), Master of Design (M. Des.), Master of Business Administration (MBA), Ph.D. in Engineering, Sciences, Humanities, Management, Design, Sustainability.",https://www.iitk.ac.in/doaa/eligibility-criteria,medium,high,high,,unknown
+Fees for Each Course,Academic Programs,"{'M.Tech': 16000, 'Ph.D': 16000, 'MBA': 'Data Not Found', 'B.Tech': 'Data Not Found'}",The M.Tech. student currently carries a monthly stipend... For Ph.D. students the corresponding financial assistance... A 50% tuition fee waiver for M.Sc.-Ph.D. (Dual degree) students is available.,https://www.iitk.ac.in/doaa/eligibility-criteria,low,low,high,,unknown
+Total Graduate Students (2025),Student Demographics,1079,"The Students' Placement Office (SPO) at IIT Kanpur has successfully concluded Phase I... Students accepted 1,079 of these offers, which include Pre-Placement Offers.",https://www.iitk.ac.in/phase-i-placements-for-2025-26-batch,low,medium,high,2025,high
+Placed Students Count,Placements,1079,"This initial phase saw robust participation from over 250 organizations... extending a total of 1,202 offers. Students accepted 1,079 of these offers.",https://www.iitk.ac.in/phase-i-placements-for-2025-26-batch,medium,high,high,2025,high
+Maximum Compensation (Last Placement Season),Placements,N/A,"The provided text discusses the number of offers (1,202) and international offers (15) but does not mention specific salary figures or the maximum CTC.",https://www.iitk.ac.in/phase-i-placements-for-2025-26-batch,low,low,high,2025,high
+Median Compensation (Last Batch),Placements,N/A,"The source documents provide total offers (1,202) and accepted offers (1,079) for the 2025-26 Phase I batch, but do not specify the median salary value.",https://www.iitk.ac.in/phase-i-placements-for-2025-26-batch,low,low,high,2025,high
+Students Pursuing Higher Education,Student Outcomes,N/A,"While the website mentions a 1:1 UG:PG ratio and 9500+ students, it does not provide the specific NIRF metric for students selected for higher studies.",https://www.iitk.ac.in/,low,low,high,,unknown
+IP Patents Granted/Licensed (Latest Year),Research & Innovation,1000,Key Statistics: 1000+ Patents filed,https://www.iitk.ac.in/,medium,high,high,,unknown
+Entrance Exam Name,Admissions,JEE Advanced,Admission for the 52 seats (per year) in the B.S. program is through the advanced joint entrance examination (JEE).,https://www.iitk.ac.in/eco/8-about,medium,high,high,,unknown
+Entrance Exam Cutoff by Program,Admissions,"{'B.Tech/BS': 'JEE Advanced', 'M.Tech': 'GATE', 'MBA': 'CAT', 'M.Sc': 'JAM/GATE'}",Admission to the B.S. program is through JEE; M.Sc. through JAM/GATE; MBA through CAT; M.Tech requires valid GATE score.,https://www.iitk.ac.in/doaa/eligibility-criteria,medium,medium,high,,unknown
+Total Students Enrolled,Student Demographics,9500,9500+ Students With 1:1 UG:PG students ratio,https://www.iitk.ac.in/,medium,high,high,,unknown
+Female Students Enrolled,Student Demographics,N/A,"No specific total female student count found in the provided text; only mentions of specific girls' hostels (Hall 4, Hall 6).",https://www.iitk.ac.in/counsel/new-ug-information.php,low,low,high,,unknown
+Total Faculty,Faculty,570,570 Faculty Members In 20 departments [Cross-verified: 570.0],https://www.iitk.ac.in/,medium,high,high,,unknown
+PhD Faculty,Faculty,N/A,Invalid source URL,,low,low,unknown,,unknown
+Average Teaching Experience of Faculty,Faculty,N/A,The provided documents list faculty names and designations but do not provide individual or average experience in months/years.,https://www.iitk.ac.in/eco/8-about,low,low,high,,unknown
+Sports Infrastructure & Achievements,Campus Facilities,"{'facilities': ['Badminton courts', 'Basketball courts', 'Volleyball courts', 'Table Tennis room', 'Football ground'], 'achievements': []}","Apart from these, each Hostel is provided with separate Badminton, Basketball, and Volleyball courts and a Table Tennis room. IIT Kanpur has its own Football...",https://www.iitk.ac.in/doms/data/docs/programs/mba/Information-Brochure-MBA-2025-27.pdf,medium,high,high,2025,high
+List of Active Clubs,Student Life,['Chemineers’ Society'],"organized by the Chemineers’ Society, IIT Kanpur.",https://www.iitk.ac.in/che/,medium,medium,high,,unknown
+NIRF Ranking,Accreditations & Rankings,N/A,Invalid source URL,,low,low,unknown,,unknown
+Institutional Status,Accreditations & Rankings,Institute of National Importance,Indian Institute of Technology Kanpur... holds the distinction of being recognized as an Institute of National Importance by the Government of India through an Act of Parliament.,https://www.iitk.ac.in/phase-i-placements-for-2025-26-batch,medium,high,high,2025,high
+PhD Students Enrolled,Student Demographics,N/A,Invalid source URL,,low,low,unknown,,unknown

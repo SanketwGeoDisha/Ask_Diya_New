@@ -1,0 +1,52 @@
+College Name,"IIT Kharagpur"
+
+=== AUDIT OVERVIEW ===
+Audit Date,"2026-02-11 13:14:35"
+Total KPIs,25
+Data Found,25
+Data Not Found,0
+High Confidence,17
+Coverage Percentage,100.0%
+
+=== CATEGORY BREAKDOWN ===
+Category,Found,Total,Percentage
+"Academic Infrastructure",2,2,100%
+"Campus Facilities",3,3,100%
+"Technology Infrastructure",1,1,100%
+"Academic Programs",2,2,100%
+"Student Demographics",4,4,100%
+"Placements",3,3,100%
+"Student Outcomes",1,1,100%
+"Research & Innovation",1,1,100%
+"Admissions",2,2,100%
+"Faculty",3,3,100%
+"Student Life",1,1,100%
+"Accreditations & Rankings",2,2,100%
+
+=== KPI DETAILS ===
+KPI Name,Category,Value,Evidence,Source URL,System Confidence,LLM Confidence,Source Priority,Data Year,Recency
+ICT-Enabled Learning Infrastructure,Academic Infrastructure,True,"The candidates enrolled in this program can join the Global Initiative for Academic Networks... and other experimental and computing facilities, and libraries of the Institute",https://www.iitkgp.ac.in/academics-cer,medium,high,high,,unknown
+Digital Library Access,Academic Infrastructure,True,"External candidates will be able to access the host faculty laboratory, centralized research and other experimental and computing facilities, and libraries of the Institute",https://www.iitkgp.ac.in/academics-cer,medium,high,high,,unknown
+Male Hostels Managed by College,Campus Facilities,0,Data Not Found,https://www.iitkgp.ac.in/pdf,low,low,high,,unknown
+Female Hostels Managed by College,Campus Facilities,2,"Warden (2019 – 2020), Asst. Warden (2013 – 2018) of SN/IG Hall of Residence",https://www.iitkgp.ac.in/assets/bio_sketch/MTMwMTc=.pdf,low,medium,high,2020,low
+Smart Campus / ERP Implementation,Technology Infrastructure,True,the interested candidate may apply through ERP with a Project Proposal... Registration ID number will be generated in the ERP after the payment,https://www.iitkgp.ac.in/academics-cer,medium,high,high,,unknown
+List of Courses,Academic Programs,"B.Tech, Dual Degree, M.Tech(MCP, VLSI, AI), MBA, EMBA, MHRM, MIPA, MMST, PGDBA, LLB, LLM, M.Sc, Ph.D, PDF",GATE GIAN INTPBS JAM JEE(Advanced) JPMM LLB/LLM M.Tech/MCP MBA/EMBA MHRM MIPA MMST PGDBA Ph.D Post Doctoral Fellowship (PDF),https://www.iitkgp.ac.in/academics-cer,medium,high,high,,unknown
+Fees for Each Course,Academic Programs,"{'CER (Certificate of Excellence in Research)': 40000, 'Joint M.Sc.- Ph.D. (M.Sc. Phase)': 2000}","CER: pay semester registration fee of Rs. 20,000/- in every semester. M.Sc: paid scholarship of Rs. 1,000/- per month (implies fee is separate/waived).",https://www.iitkgp.ac.in/academics-cer,low,medium,high,,unknown
+Total Graduate Students (2025),Student Demographics,N/A,Invalid source URL,,low,low,unknown,,unknown
+Placed Students Count,Placements,N/A,Placement brochures for 2025/2026 mentioned but specific numerical counts of placed students are absent.,https://www.iitkgp.ac.in/assets/pdf/mhrm_brochure_2026.pdf,low,low,high,2026,unknown
+Maximum Compensation (Last Placement Season),Placements,N/A,Invalid source URL,,low,low,unknown,,unknown
+Median Compensation (Last Batch),Placements,N/A,The provided documents mention placement outcomes and assistantships but do not specify the exact NIRF median salary figure for the last batch.,https://www.iitkgp.ac.in/assets/pdf/mhrm_brochure_2026.pdf,low,low,high,2026,unknown
+Students Pursuing Higher Education,Student Outcomes,125,"At present, we have 35 faculty members and 125 research scholars engaged in research covering all the frontline topics of Mathematics.",https://www.iitkgp.ac.in/department/MA,medium,medium,high,,unknown
+IP Patents Granted/Licensed (Latest Year),Research & Innovation,45,Patents (Granted / Published) – 45,https://www.iitkgp.ac.in/department/GS/faculty/gs-debarati,medium,high,high,,unknown
+Entrance Exam Name,Admissions,JEE (Advanced),CER GATE GIAN INTPBS JAM JEE(Advanced) JPMM LLB/LLM M.Tech/MCP MBA/EMBA MHRM MIPA MMST PGDBA Ph.D,https://www.iitkgp.ac.in/academics-cer,medium,high,high,,unknown
+Entrance Exam Cutoff by Program,Admissions,{'MHRM': '80 Percentile (CAT 2025)'},Minimum CAT 2025 Percentile for Shortlisting: General: 80,https://www.iitkgp.ac.in/assets/pdf/mhrm_brochure_2026.pdf,medium,high,high,2026,unknown
+Total Students Enrolled,Student Demographics,N/A,Invalid source URL,,low,low,unknown,,unknown
+Female Students Enrolled,Student Demographics,N/A,Invalid source URL,,low,low,unknown,,unknown
+Total Faculty,Faculty,35,"At present, we have 35 faculty members and 125 research scholars engaged in research covering all the frontline topics of Mathematics. [Cross-verified: 35.0]",https://www.iitkgp.ac.in/department/MA,medium,medium,high,,unknown
+PhD Faculty,Faculty,N/A,Invalid source URL,,low,low,unknown,,unknown
+Average Teaching Experience of Faculty,Faculty,16.0,Academic Teaching (16/00) [from Bio Sketch of Professor Debarati Sen],https://www.iitkgp.ac.in/assets/bio_sketch/MTMwMTc=.pdf,medium,low,high,,unknown
+Sports Infrastructure & Achievements,Campus Facilities,"{'facilities': ['Gymkhana'], 'achievements': []}",Gymkhana and CDN E-III... Celebration of Yoga Day Gymkhana and CDN E-III,https://www.iitkgp.ac.in/assets/pdf/AdministrativeCalendar.pdf,low,medium,high,,unknown
+List of Active Clubs,Student Life,"[""Students' Branding and Relations Cell"", 'Gender Cell', ""Technology Students' Gymkhana""]",KGP Directory is an initiative of the Students' Branding and Relations Cell... Organized by Gender Cell of Institute,https://www.iitkgp.ac.in/assets/pdf/IITKGPDirectory.pdf,medium,medium,high,,unknown
+NIRF Ranking,Accreditations & Rankings,N/A,Invalid source URL,,low,low,unknown,,unknown
+Institutional Status,Accreditations & Rankings,Institute of National Importance,Indian Institute of Technology Kharagpur is an Institute of national importance and is the first and the largest in the chain of IITs,https://www.iitkgp.ac.in/pdf,medium,high,high,,unknown
+PhD Students Enrolled,Student Demographics,125,"At present, we have 35 faculty members and 125 research scholars engaged in research covering all the frontline topics of Mathematics. [Cross-verified: 125.0]",https://www.iitkgp.ac.in/department/MA,medium,medium,high,,unknown

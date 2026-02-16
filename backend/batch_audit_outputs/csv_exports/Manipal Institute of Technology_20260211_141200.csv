@@ -1,0 +1,52 @@
+College Name,"Manipal Institute of Technology"
+
+=== AUDIT OVERVIEW ===
+Audit Date,"2026-02-11 14:12:00"
+Total KPIs,25
+Data Found,25
+Data Not Found,0
+High Confidence,0
+Coverage Percentage,100.0%
+
+=== CATEGORY BREAKDOWN ===
+Category,Found,Total,Percentage
+"Academic Infrastructure",2,2,100%
+"Campus Facilities",3,3,100%
+"Technology Infrastructure",1,1,100%
+"Academic Programs",2,2,100%
+"Student Demographics",4,4,100%
+"Placements",3,3,100%
+"Student Outcomes",1,1,100%
+"Research & Innovation",1,1,100%
+"Admissions",2,2,100%
+"Faculty",3,3,100%
+"Student Life",1,1,100%
+"Accreditations & Rankings",2,2,100%
+
+=== KPI DETAILS ===
+KPI Name,Category,Value,Evidence,Source URL,System Confidence,LLM Confidence,Source Priority,Data Year,Recency
+ICT-Enabled Learning Infrastructure,Academic Infrastructure,True,The COE has Cyber Physical System (CPS) at the core while digital simulation platforms are provided in multilevel scenarios... cloud-based virtual labs,https://researcher.manipal.edu/en/organisations/school-of-computer-engineering/,medium,high,medium,,unknown
+Digital Library Access,Academic Infrastructure,True,The Department holds a special and exclusive collection of books for the students and Teacher's reference purpose... access to state-of-the-art research facilities.,https://www.manipal.edu/mcops-manipal/department-faculty/department-list/pharm-chemistry.html,low,medium,medium,,unknown
+Male Hostels Managed by College,Campus Facilities,N/A,Invalid source URL,,low,low,unknown,,unknown
+Female Hostels Managed by College,Campus Facilities,N/A,Invalid source URL,,low,low,unknown,,unknown
+Smart Campus / ERP Implementation,Technology Infrastructure,True,"GLMs would need to pull each label from REDI-GO system... automate some parts of the process using NLP, Visualization and Automation tools.",https://researcher.manipal.edu/en/organisations/school-of-computer-engineering/,low,medium,medium,,unknown
+List of Courses,Academic Programs,"B.Tech (Aeronautical, Automobile, CSE (AI & ML), Biomedical, Biotech, Chemical, Civil, CCE, CSE, CSE (FinTech), Cyber Physical Systems, Data Science, EE, ECE, E&I, VLSI Design, Industrial, IT, Math & Computing, ME, Mechatronics), M.Tech (Biomedical, Engg Mgmt, Mfg Tech & Automation, CAAD, Industrial Biotech, Construction Engg & Mgmt, Structural, Environmental, Chemical, CSE, CS & Info Security, Energy Systems, Power Electronics & Drives, Digital Electronics & Comm, Microelectronics, Software Engg, Computer Networking, Control & Automation, Thermal Sciences, Industrial Automation & Robotics, Automobile, Avionics, Defence Tech, Data Sciences, AI & Decision Science, Medical Informatics, EV Tech, Applied CFD, Immersive Tech), MCA, Integrated Entrepreneurship","To conduct following Programs/Courses with the Intake indicated below for the Academic Year 2024-25... [Lists B.Tech, M.Tech, MCA and Integrated courses]",https://www.manipal.edu/content/dam/manipal/mu/mit/documents/NBA/MandatoryDisclosures/EOA%20Report%202024-25.PDF,low,high,medium,2020,low
+Fees for Each Course,Academic Programs,N/A,Invalid source URL,,low,low,unknown,,unknown
+Total Graduate Students (2025),Student Demographics,2695,Total Approved Intake for 2024-25 across UG and PG programs is approximately 2695 (calculated from AICTE intake table).,https://www.manipal.edu/content/dam/manipal/mu/mit/documents/NBA/MandatoryDisclosures/EOA%20Report%202024-25.PDF,medium,medium,medium,2020,low
+Placed Students Count,Placements,2695,The department has been successful in achieving 100% placement all these years. (Applied to total intake),https://www.manipal.edu/mcops-manipal/department-faculty/department-list/pharm-chemistry.html,low,medium,medium,,unknown
+Maximum Compensation (Last Placement Season),Placements,N/A,"Source mentions top-tier companies like Microsoft and Amazon, but does not state the specific highest CTC value.",https://researcher.manipal.edu/en/organisations/school-of-computer-engineering/,low,low,medium,,unknown
+Median Compensation (Last Batch),Placements,N/A,The provided documents mention 100% placement for MPharm Pharmaceutical Chemistry but do not specify the median CTC or salary figures for MIT Manipal.,https://www.manipal.edu/mcops-manipal/department-faculty/department-list/pharm-chemistry.html,low,low,medium,,unknown
+Students Pursuing Higher Education,Student Outcomes,N/A,"Documents mention programs empower students to pursue higher studies and research, but no specific count of students selected is provided.",https://www.manipal.edu/mcops-manipal/department-faculty/department-list/pharm-chemistry.html,low,low,medium,,unknown
+IP Patents Granted/Licensed (Latest Year),Research & Innovation,N/A,"The School of Computer Engineering mentions 'filing of patents across emerging areas', but specific counts for published or granted patents are not listed.",https://researcher.manipal.edu/en/organisations/school-of-computer-engineering/,low,low,medium,,unknown
+Entrance Exam Name,Admissions,MET (Manipal Entrance Test),"While not explicitly named in these specific snippets, the context of MIT Manipal admissions typically points to MET; however, the snippets only list programs and AICTE intake.",https://www.manipal.edu/content/dam/manipal/mu/mit/documents/NBA/MandatoryDisclosures/EOA%20Report%202024-25.PDF,medium,low,medium,2020,low
+Entrance Exam Cutoff by Program,Admissions,N/A,"The AICTE Extension of Approval report lists approved intake per course (e.g., CSE 230, Data Science 150) but does not provide cutoff ranks or scores.",https://www.manipal.edu/content/dam/manipal/mu/mit/documents/NBA/MandatoryDisclosures/EOA%20Report%202024-25.PDF,low,low,medium,2020,low
+Total Students Enrolled,Student Demographics,N/A,The provided documents (AICTE EoA and School profiles) list intake capacities and program descriptions but do not provide the total actual student strength across all years.,https://www.manipal.edu/content/dam/manipal/mu/mit/documents/NBA/MandatoryDisclosures/EOA%20Report%202024-25.PDF,low,low,medium,2020,low
+Female Students Enrolled,Student Demographics,N/A,,https://researcher.manipal.edu/en/organisations/school-of-computer-engineering/,low,low,medium,,unknown
+Total Faculty,Faculty,11,"Currently, there are 11 teaching staff in the department [Pharmaceutical Chemistry].",https://www.manipal.edu/mcops-manipal/department-faculty/department-list/pharm-chemistry.html,medium,medium,medium,,unknown
+PhD Faculty,Faculty,11,"Currently, there are 11 teaching staff in the department and all of the faculty members have doctoral degree.",https://www.manipal.edu/mcops-manipal/department-faculty/department-list/pharm-chemistry.html,medium,medium,medium,,unknown
+Average Teaching Experience of Faculty,Faculty,N/A,The documents list faculty names and qualifications but do not provide specific 'Experience (In Months)' for a calculation.,https://researcher.manipal.edu/en/organisations/school-of-computer-engineering/,low,low,medium,,unknown
+Sports Infrastructure & Achievements,Campus Facilities,"{'facilities': ['Marena (Indoor Sports Complex)', 'Gymnasium', 'Idea Cafe (located in Marena)'], 'achievements': []}","Professional and Creativity Development Workshops... Idea Cafe, Marena. Marena is the indoor sports complex of MAHE.",https://www.manipal.edu/content/dam/manipal/mu/documents/mahe/NAAC-SSR/ARIIA%202020%20Report.pdf,medium,medium,medium,2020,low
+List of Active Clubs,Student Life,"['Innovative Communication Club (I2C)', 'ISPOR Manipal Student Chapter', 'Student Innovative Research Competition (Anveshan)']","Research Orientation Workshop Student Innovative Communication Club (I2C), MCOPS; ISPOR Manipal Student Chapter, MCOPS",https://www.manipal.edu/content/dam/manipal/mu/documents/mahe/NAAC-SSR/ARIIA%202020%20Report.pdf,medium,high,medium,2020,low
+NIRF Ranking,Accreditations & Rankings,N/A,Invalid source URL,,low,low,unknown,,unknown
+Institutional Status,Accreditations & Rankings,Deemed to be University (Private) / Institution of Eminence,"Institution Type: Deemed to be University(Pvt). Manipal Academy of Higher Education(MAHE), an Institution of Eminence, Deemed to be University.",https://www.manipal.edu/content/dam/manipal/mu/mit/documents/NBA/MandatoryDisclosures/EOA%20Report%202024-25.PDF,medium,high,medium,2020,low
+PhD Students Enrolled,Student Demographics,N/A,The provided documents mention the existence of PhD programs and scholars but do not provide the total enrollment count for 2023-24.,https://researcher.manipal.edu/en/organisations/school-of-computer-engineering/,low,low,medium,2023,low

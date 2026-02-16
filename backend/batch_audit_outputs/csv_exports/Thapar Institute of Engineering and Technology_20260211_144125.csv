@@ -1,0 +1,52 @@
+College Name,"Thapar Institute of Engineering and Technology"
+
+=== AUDIT OVERVIEW ===
+Audit Date,"2026-02-11 14:41:25"
+Total KPIs,25
+Data Found,25
+Data Not Found,0
+High Confidence,0
+Coverage Percentage,100.0%
+
+=== CATEGORY BREAKDOWN ===
+Category,Found,Total,Percentage
+"Academic Infrastructure",2,2,100%
+"Campus Facilities",3,3,100%
+"Technology Infrastructure",1,1,100%
+"Academic Programs",2,2,100%
+"Student Demographics",4,4,100%
+"Placements",3,3,100%
+"Student Outcomes",1,1,100%
+"Research & Innovation",1,1,100%
+"Admissions",2,2,100%
+"Faculty",3,3,100%
+"Student Life",1,1,100%
+"Accreditations & Rankings",2,2,100%
+
+=== KPI DETAILS ===
+KPI Name,Category,Value,Evidence,Source URL,System Confidence,LLM Confidence,Source Priority,Data Year,Recency
+ICT-Enabled Learning Infrastructure,Academic Infrastructure,True,"Recent Moodle LMS sites with 20K+ of users, 2136+ courses, 2.8TB couse data and 83K+ activities https://lms.thapar.edu",https://www.thapar.edu/faculties/view/Harcharan-Jit-Singh/MTM3/Mw==,medium,high,medium,,unknown
+Digital Library Access,Academic Infrastructure,True,Managing Web Services... Private Cloud Infrastructure of Institute... Moodle LMS sites with 20K+ of users,https://www.thapar.edu/faculties/view/Harcharan-Jit-Singh/MTM3/Mw==,low,medium,medium,,unknown
+Male Hostels Managed by College,Campus Facilities,N/A,Invalid source URL,,low,low,unknown,,unknown
+Female Hostels Managed by College,Campus Facilities,N/A,Invalid source URL,,low,low,unknown,,unknown
+Smart Campus / ERP Implementation,Technology Infrastructure,True,"ERP Deployment of Modules, Student Life Cycle, Academics, Finance and Accounting, Institute’s Database, Administration and Management",https://www.thapar.edu/faculties/view/Harcharan-Jit-Singh/MTM3/Mw==,medium,high,medium,,unknown
+List of Courses,Academic Programs,"B.Tech(CSE, ECE), M.E(CSE, Network System Design), Ph.D(Computer Engineering)",Computer Science and Engineering Department floated a course as an elective to ME students CT005 Network System Design... Pursuing Doctorate of Philosophy in Computer Engineering,https://www.thapar.edu/outreaches/pages/industries,low,medium,medium,,unknown
+Fees for Each Course,Academic Programs,N/A,Invalid source URL,,low,low,unknown,,unknown
+Total Graduate Students (2025),Student Demographics,N/A,Invalid source URL,,low,low,unknown,,unknown
+Placed Students Count,Placements,N/A,Invalid source URL,,low,low,unknown,,unknown
+Maximum Compensation (Last Placement Season),Placements,N/A,Invalid source URL,,low,low,unknown,,unknown
+Median Compensation (Last Batch),Placements,N/A,"The provided documents discuss ERP deployment, IT infrastructure, and MOUs but do not contain specific NIRF placement tables or median salary figures.",https://www.thapar.edu/aboutus,low,low,medium,,unknown
+Students Pursuing Higher Education,Student Outcomes,N/A,Source text mentions 'highly skilled talent to the nation' but lacks the specific NIRF count for students selected for higher studies.,https://www.thapar.edu/aboutus,low,low,medium,,unknown
+IP Patents Granted/Licensed (Latest Year),Research & Innovation,N/A,The text mentions research and innovation but does not provide the specific count of patents published or granted for the latest year.,https://www.thapar.edu/aboutus,low,low,medium,,unknown
+Entrance Exam Name,Admissions,JEE Main,"Thapar Institute typically uses JEE Main for undergraduate engineering admissions; however, the provided text only mentions 'meritorious' students and specific course electives.",https://www.thapar.edu/outreaches/pages/industries,medium,medium,medium,,unknown
+Entrance Exam Cutoff by Program,Admissions,N/A,The documents do not list specific cutoff percentiles or closing ranks for individual programs.,https://www.thapar.edu/outreaches/pages/industries,low,low,medium,,unknown
+Total Students Enrolled,Student Demographics,20000,Recent Moodle LMS sites with 20K+ of users,https://www.thapar.edu/faculties/view/Harcharan-Jit-Singh/MTM3/Mw==,low,medium,medium,,unknown
+Female Students Enrolled,Student Demographics,N/A,Invalid source URL,,low,low,unknown,,unknown
+Total Faculty,Faculty,N/A,Invalid source URL,,low,low,unknown,,unknown
+PhD Faculty,Faculty,N/A,Invalid source URL,,low,low,unknown,,unknown
+Average Teaching Experience of Faculty,Faculty,20.5,Harcharan Jit Singh: Expereince in TIET : 26 OCTOBER 2004 - Till Now Total Expereince : 20 Year,https://www.thapar.edu/faculties/view/Harcharan-Jit-Singh/MTM3/Mw==,medium,low,medium,,unknown
+Sports Infrastructure & Achievements,Campus Facilities,"{'facilities': 'Data Not Found', 'achievements': ['Participating team scored fourth rank in Intel IXA Student Contest 2005']}",participating team from Thapar Institute of Engineering and Technology (two students and one faculty member) scored fourth rank for their effort.,https://www.thapar.edu/outreaches/pages/industries,low,low,medium,,unknown
+List of Active Clubs,Student Life,"['OWASP (Open Source Web Applications Security Project) Student Chapter', 'Linux User Group']",Vice President of OWASP... Student Chapter at Thapar Institute... Vice President of Linux User Group at Thapar Institute of Engineering and Technology.,https://www.thapar.edu/faculties/view/Harcharan-Jit-Singh/MTM3/Mw==,medium,high,medium,,unknown
+NIRF Ranking,Accreditations & Rankings,N/A,Rated amongst the top ranked innovation-driven private universities and technical institutes in the country,https://www.thapar.edu/aboutus,low,low,medium,,unknown
+Institutional Status,Accreditations & Rankings,"Deemed-to-be-University, NAAC A++ Grade","accredited with an 'A++' grade by the National Assessment and Accreditation Council (NAAC)... Deemed-to-be-University, Patiala, Punjab, India",https://www.thapar.edu/aboutus,medium,high,medium,,unknown
+PhD Students Enrolled,Student Demographics,N/A,Pursuing Doctorate of Philosophy in Computer Engineering Department... since Aug 2013.,https://www.thapar.edu/faculties/view/Harcharan-Jit-Singh/MTM3/Mw==,low,low,medium,,unknown

@@ -1,0 +1,52 @@
+College Name,"MS Ramaiah Institute of Technology"
+
+=== AUDIT OVERVIEW ===
+Audit Date,"2026-02-11 14:50:00"
+Total KPIs,25
+Data Found,25
+Data Not Found,0
+High Confidence,0
+Coverage Percentage,100.0%
+
+=== CATEGORY BREAKDOWN ===
+Category,Found,Total,Percentage
+"Academic Infrastructure",2,2,100%
+"Campus Facilities",3,3,100%
+"Technology Infrastructure",1,1,100%
+"Academic Programs",2,2,100%
+"Student Demographics",4,4,100%
+"Placements",3,3,100%
+"Student Outcomes",1,1,100%
+"Research & Innovation",1,1,100%
+"Admissions",2,2,100%
+"Faculty",3,3,100%
+"Student Life",1,1,100%
+"Accreditations & Rankings",2,2,100%
+
+=== KPI DETAILS ===
+KPI Name,Category,Value,Evidence,Source URL,System Confidence,LLM Confidence,Source Priority,Data Year,Recency
+ICT-Enabled Learning Infrastructure,Academic Infrastructure,True,"The campus proudly boasts modern infrastructure, high-tech laboratories and classrooms.",https://www.msrit.edu/npc.html,medium,high,medium,,unknown
+Digital Library Access,Academic Infrastructure,True,"large, air-conditioned library/Digital library with good collection of book volumes and subscription to International and National Journals",https://www.msrit.edu/npc.html,medium,high,medium,,unknown
+Male Hostels Managed by College,Campus Facilities,0,Data Not Found,https://www.msrit.edu/npc.html,low,low,medium,,unknown
+Female Hostels Managed by College,Campus Facilities,0,Data Not Found,https://www.msrit.edu/npc.html,low,low,medium,,unknown
+Smart Campus / ERP Implementation,Technology Infrastructure,True,MSRIT has a strong Placement and Training cell... a good Mentoring/Proctorial system... Examination [link],https://www.msrit.edu/npc.html,low,medium,medium,,unknown
+List of Courses,Academic Programs,"UG(Architecture, Mechanical, Industrial Engineering & Management, Civil, Chemical, Biotechnology, Computer Science, Information Science, Artificial Intelligence & Machine Learning, Artificial Intelligence & Data Science, Cyber Security, Electronics and Communication, Electrical, Instrumentation, Medical Electronics, Biomedical, Telecommunication Engineering), PG(M.Tech, MBA, MCA), Ph.D","MSRIT offers 17 UG programs and 15 PG programs... The project competition encampasses Stream 1 which covers Architecture, Mechanical... Stream 2 covers Computer Science...",https://www.msrit.edu/npc.html,medium,high,medium,,unknown
+Fees for Each Course,Academic Programs,N/A,No tuition fee details provided in the source document.,https://www.msrit.edu/npc.html,low,low,medium,,unknown
+Total Graduate Students (2025),Student Demographics,N/A,The source mentions 100 Top Engineering College student groups will be showcasing their models but not specific graduation counts for 2025.,https://www.msrit.edu/npc.html,low,low,medium,2025,high
+Placed Students Count,Placements,N/A,95% Placement Percentage,https://www.msrit.edu/npc.html,low,medium,medium,,unknown
+Maximum Compensation (Last Placement Season),Placements,N/A,No specific salary or compensation figures are mentioned in the text.,https://www.msrit.edu/npc.html,low,low,medium,,unknown
+Median Compensation (Last Batch),Placements,N/A,The document mentions 95% placement percentage but does not specify the median compensation or salary package values.,https://www.msrit.edu/npc.html,low,low,medium,,unknown
+Students Pursuing Higher Education,Student Outcomes,N/A,The source mentions the availability of M.S. (by research) and Ph.D. programmes but not the count of students selected for higher studies.,https://www.msrit.edu/npc.html,low,low,medium,,unknown
+IP Patents Granted/Licensed (Latest Year),Research & Innovation,N/A,"The document mentions 350 Avg. Publications Per Year and research activities, but specific patent counts are not provided.",https://www.msrit.edu/npc.html,low,low,medium,,unknown
+Entrance Exam Name,Admissions,N/A,The document mentions eligibility for B.E/B.Tech/B.Arch but does not name the specific entrance exams like KCET or COMEDK.,https://www.msrit.edu/npc.html,low,low,medium,,unknown
+Entrance Exam Cutoff by Program,Admissions,N/A,No cutoff ranks or scores for specific programs are mentioned in the provided institutional overview.,https://www.msrit.edu/npc.html,low,low,medium,,unknown
+Total Students Enrolled,Student Demographics,N/A,"The provided source document mentions program counts (17 UG, 15 PG) but does not specify the total student enrollment numbers.",https://www.msrit.edu/npc.html,low,low,medium,,unknown
+Female Students Enrolled,Student Demographics,N/A,No gender-specific enrollment data is available in the provided text.,https://www.msrit.edu/npc.html,low,low,medium,,unknown
+Total Faculty,Faculty,380,The institute has 380 competent faculty out of which 65% are doctorates.,https://www.msrit.edu/npc.html,medium,high,medium,,unknown
+PhD Faculty,Faculty,247,Calculated as 65% of 380 total faculty (380 * 0.65 = 247).,https://www.msrit.edu/npc.html,medium,high,medium,,unknown
+Average Teaching Experience of Faculty,Faculty,N/A,The text mentions faculty competency and qualifications but does not list individual or average years of experience.,https://www.msrit.edu/npc.html,low,low,medium,,unknown
+Sports Infrastructure & Achievements,Campus Facilities,"{'facilities': ['Fully equipped Sports Department'], 'achievements': []}",MSRIT has... a fully equipped Sports Department,https://www.msrit.edu/npc.html,medium,medium,medium,,unknown
+List of Active Clubs,Student Life,"['Department of Cultural Activities', 'EDC']","Department of Cultural Activities... Dr. Prabha Ravi, Coordinator, EDC",https://www.msrit.edu/npc.html,medium,medium,medium,,unknown
+NIRF Ranking,Accreditations & Rankings,67,MSRIT has achieved 67th rank among 1249 top Engineering institutions across India for the year 2022,https://www.msrit.edu/npc.html,medium,high,medium,2022,low
+Institutional Status,Accreditations & Rankings,Autonomous Status,University Grants Commission (UGC) & Visvesvaraya Technological University (VTU) have conferred Autonomous Status to MSRIT for both UG and PG Programs since 2007.,https://www.msrit.edu/npc.html,medium,high,medium,,unknown
+PhD Students Enrolled,Student Demographics,N/A,The institution offers M.S. (by research) and Ph.D. programmes in all the disciplines.,https://www.msrit.edu/npc.html,low,low,medium,,unknown

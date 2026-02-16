@@ -1,0 +1,50 @@
+College Name,"NIT Surathkal"
+
+=== AUDIT OVERVIEW ===
+Audit Date,"2026-02-11 13:28:10"
+Total KPIs,24
+Data Found,24
+Data Not Found,0
+High Confidence,22
+Coverage Percentage,100.0%
+
+=== CATEGORY BREAKDOWN ===
+Category,Found,Total,Percentage
+"Student Demographics",4,4,100%
+"Placements",3,3,100%
+"Student Outcomes",1,1,100%
+"Faculty",3,3,100%
+"Academic Infrastructure",2,2,100%
+"Campus Facilities",3,3,100%
+"Technology Infrastructure",1,1,100%
+"Academic Programs",2,2,100%
+"Admissions",2,2,100%
+"Student Life",1,1,100%
+"Accreditations & Rankings",2,2,100%
+
+=== KPI DETAILS ===
+KPI Name,Category,Value,Evidence,Source URL,System Confidence,LLM Confidence,Source Priority,Data Year,Recency
+Total Graduate Students (2025),Student Demographics,"1840 [UG 4Y: 986, PG 2Y: 792, PG 3Y: 62]",Extracted from NIRF 2025 document,https://www.nitk.ac.in/document/attachments/8178/Overall.pdf,low,low,critical,,unknown
+Placed Students Count,Placements,"1421 [UG: 756, PG: 665]",Extracted from NIRF 2025 document,https://www.nitk.ac.in/document/attachments/8178/Overall.pdf,low,low,critical,,unknown
+Median Compensation (Last Batch),Placements,10.50 LPA,Extracted from NIRF 2025 document,https://www.nitk.ac.in/document/attachments/8178/Overall.pdf,low,low,critical,,unknown
+Students Pursuing Higher Education,Student Outcomes,"169 [UG: 114, PG: 55]",Extracted from NIRF 2025 document,https://www.nitk.ac.in/document/attachments/8178/Overall.pdf,low,low,critical,,unknown
+Total Students Enrolled,Student Demographics,5956,Extracted from NIRF 2025 document,https://www.nitk.ac.in/document/attachments/8178/Overall.pdf,low,low,critical,,unknown
+Female Students Enrolled,Student Demographics,1368,Extracted from NIRF 2025 document,https://www.nitk.ac.in/document/attachments/8178/Overall.pdf,low,low,critical,,unknown
+Total Faculty,Faculty,277,Extracted from NIRF 2025 document,https://www.nitk.ac.in/document/attachments/8178/Overall.pdf,low,low,critical,,unknown
+PhD Faculty,Faculty,266,Extracted from NIRF 2025 document,https://www.nitk.ac.in/document/attachments/8178/Overall.pdf,low,low,critical,,unknown
+Average Teaching Experience of Faculty,Faculty,18.2,Extracted from NIRF 2025 document,https://www.nitk.ac.in/document/attachments/8178/Overall.pdf,low,low,critical,,unknown
+PhD Students Enrolled,Student Demographics,"887 [Full Time: 647, Part Time: 240]",Extracted from NIRF 2025 document,https://www.nitk.ac.in/document/attachments/8178/Overall.pdf,low,low,critical,,unknown
+ICT-Enabled Learning Infrastructure,Academic Infrastructure,True,"Faculty, researchers, and students at NITK have the flexibility to download and install products like MATLAB, Simulink... Journals subscribed through the INDEST consortium are available throughout.",https://www.nitk.ac.in/document/attachments/6853/Information_bulletin-PG___PhD_admissions-2024-final_version_to_publish.pdf,medium,high,high,2024,medium
+Digital Library Access,Academic Infrastructure,True,Central library provided to meet the academic needs... Journals subscribed through the INDEST consortium are available throughout the campus LAN.,https://www.nitk.ac.in/document/attachments/6853/Information_bulletin-PG___PhD_admissions-2024-final_version_to_publish.pdf,medium,high,high,2024,medium
+Male Hostels Managed by College,Campus Facilities,13,There are 13 hostel blocks for boys and 6 blocks for girls with accommodation capacity of about 5500 boys.,https://www.nitk.ac.in/document/attachments/6853/Information_bulletin-PG___PhD_admissions-2024-final_version_to_publish.pdf,medium,high,high,2024,medium
+Female Hostels Managed by College,Campus Facilities,6,There are 13 hostel blocks for boys and 6 blocks for girls with accommodation capacity of about... 1200 girl students.,https://www.nitk.ac.in/document/attachments/6853/Information_bulletin-PG___PhD_admissions-2024-final_version_to_publish.pdf,medium,high,high,2024,medium
+Smart Campus / ERP Implementation,Technology Infrastructure,True,"AI & ML applications in engineering and e-governance... campus-wide network that spans all areas, including academic buildings, guest houses, student hostels.",https://www.nitk.ac.in/document/attachments/8562/Annual_Report_2023-24.pdf,medium,high,high,2023,low
+List of Courses,Academic Programs,"B.Tech(CE, CH, CSE, EE, EC, IT, ME, MT, MI, AI, DS), M.Tech(26 specializations), M.Tech(Research), MSc(Physics, Chemistry), MBA, MCA, Ph.D",NITK offers B.Tech programs in 11 disciplines and M.Tech programs in 26 specializations. Other masters level programs include MSc... MBA... and MCA.,https://www.nitk.ac.in/document/attachments/8562/Annual_Report_2023-24.pdf,medium,high,high,2023,low
+Fees for Each Course,Academic Programs,"{'M.Tech': 70000, 'M.Tech (Research)': 70000, 'MBA': 200000, 'MCA': 70000, 'M.Sc': 30000, 'Ph.D': 30000}",Fee structure for M.Tech... MBA... MCA... M.Sc... Ph.D. Programme for the year 2024-25 (Tuition fee components extracted from tables),https://www.nitk.ac.in/document/attachments/6853/Information_bulletin-PG___PhD_admissions-2024-final_version_to_publish.pdf,medium,medium,high,2024,medium
+Maximum Compensation (Last Placement Season),Placements,N/A,During 2023-24... The average salary was Rs. 16 LPA.,https://www.nitk.ac.in/document/attachments/8562/Annual_Report_2023-24.pdf,low,low,high,2023,low
+Entrance Exam Name,Admissions,JEE Mains,"standardized entrance exams like JEE Mains for B.Tech., GATE for M.Tech., NIMCET for MCA, CAT/MAT/GATE for MBA, and JAM for M.Sc.",https://www.nitk.ac.in/document/attachments/6853/Information_bulletin-PG___PhD_admissions-2024-final_version_to_publish.pdf,medium,high,high,2024,medium
+Entrance Exam Cutoff by Program,Admissions,N/A,"NIT Surathkal, for home state quote as well as other state quote [RTI snippet mentions requests for cutoffs but values not in text]",https://www.nitk.ac.in/document/attachments/8472/Requests_-_April_2023_-_March_2024.pdf,low,low,high,2023,low
+Sports Infrastructure & Achievements,Campus Facilities,"{'facilities': ['Swimming pool', 'Gymnasium', 'Sports Grounds for cricket, hockey, football', 'Floodlit Courts for Basketball, Volley ball and Tennis', 'Yoga Centre'], 'achievements': ['Won the overall championship of Inter NIT Sports consecutively for the last 3 years']}","International standard Swimming – Pool, Sports Grounds for cricket, hockey, football floodlit Courts for Basketball, Volley ball and Tennis... won the overall championship of Inter NIT Sports",https://www.nitk.ac.in/document/attachments/2736/NIT-K_Annual___Audit_Report_2019-20.pdf,medium,high,high,,unknown
+List of Active Clubs,Student Life,"['Music Club', 'Photography Club', 'Web Enthusiast Club', 'Dramatic Club', 'N.C.C.', 'N.S.S.', 'NITK SEVADAL']","The Institute supports a host of activities through various clubs such as music, photography, web enthusiast and dramatic etc. ... N.C.C. and N.S.S. as prominent extracurricular activities.",https://www.nitk.ac.in/document/attachments/6853/Information_bulletin-PG___PhD_admissions-2024-final_version_to_publish.pdf,medium,high,high,2024,medium
+NIRF Ranking,Accreditations & Rankings,"12 (Engineering), 38 (Overall)",The NITK has secured 12th Rank in all India Ranking for Engineering by the NIRF and secured 38th position in overall ranking category in the year 2024.,https://www.nitk.ac.in/document/attachments/8562/Annual_Report_2023-24.pdf,medium,high,high,2023,low
+Institutional Status,Accreditations & Rankings,Institute of National Importance,The Institute is declared as Institute of national importance by the government of India as per the NIT act 2007,https://www.nitk.ac.in/document/attachments/6853/Information_bulletin-PG___PhD_admissions-2024-final_version_to_publish.pdf,medium,high,high,2024,medium

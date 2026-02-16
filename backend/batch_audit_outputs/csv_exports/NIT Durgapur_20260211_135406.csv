@@ -1,0 +1,52 @@
+College Name,"NIT Durgapur"
+
+=== AUDIT OVERVIEW ===
+Audit Date,"2026-02-11 13:54:06"
+Total KPIs,25
+Data Found,25
+Data Not Found,0
+High Confidence,25
+Coverage Percentage,100.0%
+
+=== CATEGORY BREAKDOWN ===
+Category,Found,Total,Percentage
+"Academic Infrastructure",2,2,100%
+"Campus Facilities",3,3,100%
+"Technology Infrastructure",1,1,100%
+"Academic Programs",2,2,100%
+"Student Demographics",4,4,100%
+"Placements",3,3,100%
+"Student Outcomes",1,1,100%
+"Research & Innovation",1,1,100%
+"Admissions",2,2,100%
+"Faculty",3,3,100%
+"Student Life",1,1,100%
+"Accreditations & Rankings",2,2,100%
+
+=== KPI DETAILS ===
+KPI Name,Category,Value,Evidence,Source URL,System Confidence,LLM Confidence,Source Priority,Data Year,Recency
+ICT-Enabled Learning Infrastructure,Academic Infrastructure,True,NIT Durgapur has well-equipped smart classrooms and ICT-enabled lecture halls to facilitate digital learning and interactive sessions.,https://www.nitdgp.ac.in/,medium,high,high,,unknown
+Digital Library Access,Academic Infrastructure,True,"The Central Library provides access to a wide range of e-resources including IEEE, Springer, and ScienceDirect through its digital portal.",https://www.nitdgp.ac.in/p/library,medium,high,high,,unknown
+Male Hostels Managed by College,Campus Facilities,9,There are 9 boys' hostels (Hall 1 to Hall 9) providing accommodation to undergraduate and postgraduate students.,https://www.nitdgp.ac.in/p/hostels-1,medium,high,high,,unknown
+Female Hostels Managed by College,Campus Facilities,3,"The institute has 3 girls' hostels: Hall 10 (Mother Teresa Hall), Hall 11 (Sister Nivedita Hall), and Hall 12 (Pritilata Waddedar Hall).",https://www.nitdgp.ac.in/p/hostels-1,medium,high,high,,unknown
+Smart Campus / ERP Implementation,Technology Infrastructure,True,"Chanakya ERP system is used for academic management, student registration, and fee payments at NIT Durgapur.",https://www.nitdgp.ac.in/,medium,high,high,,unknown
+List of Courses,Academic Programs,"B.Tech(BT, CHE, CE, CSE, EE, ECE, ME, MME), M.Tech(BT, CHE, CE, CSE, EE, ECE, ME, MME), MBA, MCA, M.Sc(PH, CH, MA), Ph.D","NIT Durgapur offers B.Tech, M.Tech, MBA, MCA, M.Sc and PhD programs across various engineering and science departments including CSE, ECE, ME, EE, and Civil.",https://www.nitdgp.ac.in/p/academic-programmes-1,medium,high,high,,unknown
+Fees for Each Course,Academic Programs,"{'B.Tech': 125000, 'M.Tech': 70000, 'MBA': 75000, 'MCA': 70000, 'M.Sc': 15000}","Tuition fee for B.Tech is Rs 62,500 per semester. M.Tech and MCA tuition fees are Rs 35,000 per semester.",https://www.nitdgp.ac.in/p/fees-1,medium,high,high,,unknown
+Total Graduate Students (2025),Student Demographics,847,Total number of students graduating in minimum stipulated time for UG 4-year program was 712 and PG 2-year was 135.,https://www.nitdgp.ac.in/p/nirf,low,medium,critical,,unknown
+Placed Students Count,Placements,734,"Out of the graduating students, 631 UG and 103 PG students were placed during the campus recruitment drive.",https://www.nitdgp.ac.in/p/placement-statistics,medium,high,high,,unknown
+Maximum Compensation (Last Placement Season),Placements,70.00 LPA,The highest package offered during the 2023-24 placement season stood at 70 LPA.,https://www.nitdgp.ac.in/p/placement-statistics,medium,high,high,2023,low
+Median Compensation (Last Batch),Placements,13.62 LPA,Median salary of placed graduates (Amount in Rs.) for UG [4 Years Program(s)]: 1362000 (Thirteen Lakh Sixty Two Thousand),https://www.nitdgp.ac.in/ckfinder/userfiles/files/NIRF_2024_Engineering.pdf,medium,high,critical,2024,medium
+Students Pursuing Higher Education,Student Outcomes,112,No. of students selected for Higher Studies: 112 (for UG [4 Years Program(s)]) in academic year 2022-23,https://www.nitdgp.ac.in/ckfinder/userfiles/files/NIRF_2024_Engineering.pdf,medium,high,critical,2024,medium
+IP Patents Granted/Licensed (Latest Year),Research & Innovation,11,"No. of Patents Published: 10, No. of Patents Granted: 1 (Total: 11) for Calendar Year 2023",https://www.nitdgp.ac.in/ckfinder/userfiles/files/NIRF_2024_Engineering.pdf,medium,high,critical,2024,medium
+Entrance Exam Name,Admissions,JEE Main,Admission to B. Tech. Programs is through JEE (Main) and JoSAA/CSAB counseling.,https://nitdgp.ac.in/p/admissions/undergraduate-1,medium,high,high,,unknown
+Entrance Exam Cutoff by Program,Admissions,"{'Computer Science and Engineering': '8954', 'Electronics and Communication Engineering': '13632', 'Electrical Engineering': '21345', 'Mechanical Engineering': '30456', 'Civil Engineering': '42341'}","JoSAA 2023 Round 6 Closing Ranks (Open Category, Gender-Neutral, Other State)",https://josaa.admissions.nic.in/searchsafe/query/cutoff_fetch.aspx,low,medium,high,2023,low
+Total Students Enrolled,Student Demographics,4721,Total Actual Student Strength (Program(s) Offered by Your Institution): UG [4 Years Program(s)]: 3432; PG [2 Years Program(s)]: 1007; PG [3 Years Program(s)]: 282,https://www.nitdgp.ac.in/p/nirf-1,medium,high,critical,,unknown
+Female Students Enrolled,Student Demographics,854,UG [4 Years]: 622 female students; PG [2 Years]: 189 female students; PG [3 Years]: 43 female students. Total: 854,https://www.nitdgp.ac.in/p/nirf-1,medium,high,critical,,unknown
+Total Faculty,Faculty,264,Total number of faculty members listed in the Faculty Details section of NIRF 2023 report.,https://www.nitdgp.ac.in/p/nirf-1,medium,high,critical,2023,low
+PhD Faculty,Faculty,258,Number of faculty members with Ph.D. qualification listed in the Faculty Details table.,https://www.nitdgp.ac.in/p/nirf-1,medium,high,critical,,unknown
+Average Teaching Experience of Faculty,Faculty,15.4,Average of Experience (In Months) for all faculty members divided by 12. Total months sum / count.,https://www.nitdgp.ac.in/p/nirf-1,low,medium,critical,,unknown
+Sports Infrastructure & Achievements,Campus Facilities,"{'facilities': ['Lords Stadium', 'Ovals Stadium', 'Gymnasium', 'Basketball Court', 'Volleyball Court', 'Badminton Court', 'Table Tennis', 'Student Activity Centre'], 'achievements': ['Regular participation in Inter-NIT Sports Meets', 'Organizes annual sports meet RECSTACY']}","The institute has two stadiums, Lords and Ovals, and a well-equipped gymnasium. It hosts various sports events and participates in Inter-NIT meets.",https://nitdgp.ac.in/p/sports-1,medium,high,high,,unknown
+List of Active Clubs,Student Life,"['Literary Committee', 'Debating Society', 'Music Club', 'Dance Club', 'Photography Club', 'Quiz Inc.', 'Enterprunership Development Cell', 'SAE India NITD Chapter', 'IEEE Student Branch', 'Baja SAE', 'CCA', 'GLUG', 'MNTC']","NIT Durgapur has a vibrant club culture including technical clubs like SAE, IEEE and cultural clubs like Music and Dance clubs.",https://nitdgp.ac.in/p/clubs-societies,medium,high,high,,unknown
+NIRF Ranking,Accreditations & Rankings,43,National Institutional Ranking Framework 2024: Engineering Rank 43,https://www.nirfindia.org/Rankings/2024/EngineeringRanking.html,medium,high,critical,2024,medium
+Institutional Status,Accreditations & Rankings,Institute of National Importance,National Institute of Technology Durgapur is an Institute of National Importance under the NIT Act of the Government of India.,https://nitdgp.ac.in/p/about-us-1,medium,high,high,,unknown
+PhD Students Enrolled,Student Demographics,1137,"Full Time: 985, Part Time: 152. Total students pursuing doctoral program till 2023-24.",https://nitdgp.ac.in/p/nirf-1,medium,high,critical,2023,low

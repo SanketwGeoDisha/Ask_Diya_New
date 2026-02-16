@@ -1,0 +1,50 @@
+College Name,"IIT Madras"
+
+=== AUDIT OVERVIEW ===
+Audit Date,"2026-02-11 13:06:31"
+Total KPIs,24
+Data Found,24
+Data Not Found,0
+High Confidence,20
+Coverage Percentage,100.0%
+
+=== CATEGORY BREAKDOWN ===
+Category,Found,Total,Percentage
+"Student Demographics",4,4,100%
+"Placements",3,3,100%
+"Student Outcomes",1,1,100%
+"Faculty",3,3,100%
+"Academic Infrastructure",2,2,100%
+"Campus Facilities",3,3,100%
+"Technology Infrastructure",1,1,100%
+"Academic Programs",2,2,100%
+"Admissions",2,2,100%
+"Student Life",1,1,100%
+"Accreditations & Rankings",2,2,100%
+
+=== KPI DETAILS ===
+KPI Name,Category,Value,Evidence,Source URL,System Confidence,LLM Confidence,Source Priority,Data Year,Recency
+Total Graduate Students (2025),Student Demographics,"1892 [UG 4Y: 714, UG 5Y: 244, PG 2Y: 756, PG 3Y: 138, PG Integrated: 40]",Extracted from NIRF 2025 document,https://www.iitm.ac.in/sites/default/files/NIRF/IITM_Overall_2025_NIRF.pdf,low,low,critical,,unknown
+Placed Students Count,Placements,"1416 [UG: 764, PG: 652]",Extracted from NIRF 2025 document,https://www.iitm.ac.in/sites/default/files/NIRF/IITM_Overall_2025_NIRF.pdf,low,low,critical,,unknown
+Median Compensation (Last Batch),Placements,12.90 LPA,Extracted from NIRF 2025 document,https://www.iitm.ac.in/sites/default/files/NIRF/IITM_Overall_2025_NIRF.pdf,low,low,critical,,unknown
+Students Pursuing Higher Education,Student Outcomes,"419 [UG: 177, PG: 242]",Extracted from NIRF 2025 document,https://www.iitm.ac.in/sites/default/files/NIRF/IITM_Overall_2025_NIRF.pdf,low,low,critical,,unknown
+Total Students Enrolled,Student Demographics,7340,Extracted from NIRF 2025 document,https://www.iitm.ac.in/sites/default/files/NIRF/IITM_Overall_2025_NIRF.pdf,low,low,critical,,unknown
+Female Students Enrolled,Student Demographics,1573,Extracted from NIRF 2025 document,https://www.iitm.ac.in/sites/default/files/NIRF/IITM_Overall_2025_NIRF.pdf,low,low,critical,,unknown
+Total Faculty,Faculty,439,Extracted from NIRF 2025 document,https://www.iitm.ac.in/sites/default/files/NIRF/IITM_Overall_2025_NIRF.pdf,low,low,critical,,unknown
+PhD Faculty,Faculty,439,Extracted from NIRF 2025 document,https://www.iitm.ac.in/sites/default/files/NIRF/IITM_Overall_2025_NIRF.pdf,low,low,critical,,unknown
+Average Teaching Experience of Faculty,Faculty,18.51,Extracted from NIRF 2025 document,https://www.iitm.ac.in/sites/default/files/NIRF/IITM_Overall_2025_NIRF.pdf,low,low,critical,,unknown
+PhD Students Enrolled,Student Demographics,"2711 [Full Time: 2469, Part Time: 242]",Extracted from NIRF 2025 document,https://www.iitm.ac.in/sites/default/files/NIRF/IITM_Overall_2025_NIRF.pdf,low,low,critical,,unknown
+ICT-Enabled Learning Infrastructure,Academic Infrastructure,True,These programmes... offer adequate opportunity for student-teacher interaction through effective course management systems.,https://www.iitm.ac.in/academics/study-at-iitm/postgraduate-programmes,medium,high,high,,unknown
+Digital Library Access,Academic Infrastructure,True,Place where the minutes if open to the public are available? http://digilocker.iitm.ac.in/daliit/,https://www.iitm.ac.in/sites/default/files/Others/Third_Party_Audit_Report_for_2023-2024.pdf,medium,high,high,2023,low
+Male Hostels Managed by College,Campus Facilities,N/A,"IIT Madras provides hostel seat rent exemptions and free messing for specific categories, but the exact count of male-only hostels is not in the provided text.",https://www.iitm.ac.in/happenings/press-releases-and-coverages/iit-madras-alumni-csr-partners-give-financial-aid-btech,low,low,high,,unknown
+Female Hostels Managed by College,Campus Facilities,N/A,"Special scholarship schemes for female students and hostel seat rent exemptions are mentioned, but not the count of female hostels.",https://www.iitm.ac.in/academics/academic-services/scholarships-and-financial-assistance,low,low,high,,unknown
+Smart Campus / ERP Implementation,Technology Infrastructure,True,Other links: Organisation and Function... E. Governance,https://www.iitm.ac.in/the-institute/administration/right-to-information/information-disclosed-on-own-initiative,medium,high,high,,unknown
+List of Courses,Academic Programs,"B.Tech, Dual Degree, M.A.(Development Studies, Economics, English Studies), M.Sc(Physics, Chemistry, Mathematics), M.Tech(Automotive Technology, Communication Systems Engineering, VLSI, Information Security, Mathematical Methods for Aerospace Engineers, Aero Dynamics & Aircraft Performance, Industrial Metallurgy), MBA, EMBA, MS(Research), Ph.D","Postgraduate programmes... M.A., M.Sc, M.Tech, MBA, EMBA... Web-enabled M.Tech... Research Programmes... Ph.D and M.S (by research) programmes.",https://www.iitm.ac.in/academics/study-at-iitm/postgraduate-programmes,medium,high,high,,unknown
+Fees for Each Course,Academic Programs,"{'B.Tech': 'Data Not Found', 'M.Tech': 'Data Not Found', 'M.A.': 'Data Not Found', 'M.Sc': 'Data Not Found'}",Students from SC/ ST/ students admitted in all programmes are exempted from paying tuition fees irrespective of their parental income. MCM scholarship... covers entire tuition fees.,https://www.iitm.ac.in/happenings/press-releases-and-coverages/iit-madras-alumni-csr-partners-give-financial-aid-btech,low,low,high,,unknown
+Maximum Compensation (Last Placement Season),Placements,N/A,This year median and average salary is Rs 19.6 Lakhs and Rs 22 Lakhs respectively.,https://www.iitm.ac.in/happenings/press-releases-and-coverages/iit-madras-places-over-80-btechdual-degree-students-and,low,medium,high,,unknown
+Entrance Exam Name,Admissions,JEE Advanced,On the basis of rank in the JEE... The selection will be made by the Aditya Birla Group among the top 20 students in JEE Rank.,https://www.iitm.ac.in/academics/academic-services/scholarships-and-financial-assistance,medium,high,high,,unknown
+Entrance Exam Cutoff by Program,Admissions,N/A,Scholarships... On the basis of rank in JEE... Renewable based on GPA of 6.5 and above.,https://www.iitm.ac.in/academics/academic-services/scholarships-and-financial-assistance,low,low,high,,unknown
+Sports Infrastructure & Achievements,Campus Facilities,"{'facilities': ['Playground', 'Gymnasium', 'Sports Complex', 'Athletics'], 'achievements': []}","Data Not Found for specific list of achievements, but facilities are implied through standard IIT infrastructure and campus life mentions.",https://www.iitm.ac.in/,low,low,high,,unknown
+List of Active Clubs,Student Life,['Research scholar placement cell'],A research scholar placement cell is planned from the coming academic year that will comprehensively address the issues stated above.,https://www.iitm.ac.in/happenings/press-releases-and-coverages/iit-madras-places-over-80-btechdual-degree-students-and,medium,low,high,,unknown
+NIRF Ranking,Accreditations & Rankings,1,ranked number one in India amongst Research and Teaching Institutions in Engineering by MHRD.,https://www.iitm.ac.in/academics/study-at-iitm/postgraduate-programmes,low,high,high,,unknown
+Institutional Status,Accreditations & Rankings,Autonomous statutory organization,IIT Madras is an autonomous statutory organization functioning within the Institute of Technology Act.,https://www.iitm.ac.in/the-institute/administration/right-to-information/information-disclosed-on-own-initiative,medium,high,high,,unknown

@@ -1,0 +1,52 @@
+College Name,"Amity University Noida"
+
+=== AUDIT OVERVIEW ===
+Audit Date,"2026-02-11 14:18:10"
+Total KPIs,25
+Data Found,25
+Data Not Found,0
+High Confidence,0
+Coverage Percentage,100.0%
+
+=== CATEGORY BREAKDOWN ===
+Category,Found,Total,Percentage
+"Academic Infrastructure",2,2,100%
+"Campus Facilities",3,3,100%
+"Technology Infrastructure",1,1,100%
+"Academic Programs",2,2,100%
+"Student Demographics",4,4,100%
+"Placements",3,3,100%
+"Student Outcomes",1,1,100%
+"Research & Innovation",1,1,100%
+"Admissions",2,2,100%
+"Faculty",3,3,100%
+"Student Life",1,1,100%
+"Accreditations & Rankings",2,2,100%
+
+=== KPI DETAILS ===
+KPI Name,Category,Value,Evidence,Source URL,System Confidence,LLM Confidence,Source Priority,Data Year,Recency
+ICT-Enabled Learning Infrastructure,Academic Infrastructure,True,"The whole campus is wi-fi enabled... The university has its own intranet named AMIZONE... promoting digitalization. Session Plans, Lesson Plans... are all available through AMIZONE.",https://www.amity.edu/gwalior/about-amity-gwalior,medium,high,medium,,unknown
+Digital Library Access,Academic Infrastructure,True,"Library with 35,000+ books, 17,000+ online journals & 200 publications",https://www.amity.edu/gwalior/about-amity-gwalior,medium,high,medium,,unknown
+Male Hostels Managed by College,Campus Facilities,1,1000 seater on campus hostel for Boys & Girls,https://www.amity.edu/gwalior/about-amity-gwalior,low,medium,medium,,unknown
+Female Hostels Managed by College,Campus Facilities,1,1000 seater on campus hostel for Boys & Girls,https://www.amity.edu/gwalior/about-amity-gwalior,low,medium,medium,,unknown
+Smart Campus / ERP Implementation,Technology Infrastructure,True,"The university has its own intranet named AMIZONE (Acronym for Amity Intranet Zone) , which is equipped to store all the academics and administrative data of the university, thus promoting digitalization.",https://www.amity.edu/gwalior/about-amity-gwalior,medium,high,medium,,unknown
+List of Courses,Academic Programs,"B.Tech(CSE, ECE, MAE, E&T, Aerospace, Nanotechnology, ME), M.Tech(Aerospace), MBA, BBA, B.Arch, Biotechnology, Law, Journalism, Psychology, Fashion, Political Science, Pharmacy, PhD","imparts education in almost all areas including management, engineering, architecture, biotechnology, law, Journalism & mass communication, behavioral science, Psychology, fashion...",https://www.amity.edu/gwalior/about-amity-gwalior,medium,high,medium,,unknown
+Fees for Each Course,Academic Programs,N/A,Fill the below form to Download the Prospectus & Fee Structure,https://www.amity.edu/gwalior/about-amity-gwalior,low,low,medium,,unknown
+Total Graduate Students (2025),Student Demographics,N/A,Invalid source URL,,low,low,unknown,,unknown
+Placed Students Count,Placements,N/A,"average annual campus placement rate exceeding 90% over the past five years (2018-2019, 2019-2020, 2020-2021, 2021-2022, and 2022-2023)",https://www.amity.edu/gwalior/about-amity-gwalior,low,medium,medium,2020,low
+Maximum Compensation (Last Placement Season),Placements,34.5 LPA,"this year, it has reached INR 34.5 Lac PA, offered by COMMVAULT.",https://www.amity.edu/gwalior/about-amity-gwalior,medium,high,medium,,unknown
+Median Compensation (Last Batch),Placements,N/A,"The provided text mentions average annual campus placement rate exceeding 90% and highest CTC of 34.5 Lac PA, but does not specify the median salary for the last batch.",https://www.amity.edu/gwalior/about-amity-gwalior,low,low,medium,,unknown
+Students Pursuing Higher Education,Student Outcomes,N/A,The source documents do not provide specific counts for students selected for higher studies or NIRF metric 5.2 data.,https://www.amity.edu/gwalior/about-amity-gwalior,low,low,medium,,unknown
+IP Patents Granted/Licensed (Latest Year),Research & Innovation,N/A,"The document mentions being a 'research driven University' and having 'sponsored projects', but does not list the number of patents published or granted.",https://www.amity.edu/gwalior/about-amity-gwalior,low,low,medium,,unknown
+Entrance Exam Name,Admissions,Amity JEE / NTA CUET-UG,Amity JEE Career Test... NTA CUET-UG 2024 SCAP,https://www.amity.edu/greaternoida/about-recognition.aspx,medium,high,medium,2024,medium
+Entrance Exam Cutoff by Program,Admissions,N/A,"The documents mention eligibility criteria (e.g., 50% marks for CAT) but do not provide specific cutoff percentiles or ranks for programs.",https://www.amity.edu/greaternoida/about-recognition.aspx,low,low,medium,,unknown
+Total Students Enrolled,Student Demographics,100000,"Presently, more than 1,00,000 Students study in 240 programs across 30 Amity campuses",https://www.amity.edu/gwalior/about-amity-gwalior,low,medium,medium,,unknown
+Female Students Enrolled,Student Demographics,N/A,Invalid source URL,,low,low,unknown,,unknown
+Total Faculty,Faculty,4000,More than 4000 faculty and staff members are dedicated to making Amity institutions world class,https://www.amity.edu/gwalior/about-amity-gwalior,medium,medium,medium,,unknown
+PhD Faculty,Faculty,N/A,Invalid source URL,,low,low,unknown,,unknown
+Average Teaching Experience of Faculty,Faculty,N/A,Invalid source URL,,low,low,unknown,,unknown
+Sports Infrastructure & Achievements,Campus Facilities,"{'facilities': ['5 acre sports complex', 'Tennis Court', 'Football Ground', 'Cricket Field'], 'achievements': []}","5 acre sports complex with facilities like Tennis Court, Football Ground, Cricket Field etc",https://www.amity.edu/gwalior/about-amity-gwalior,medium,high,medium,,unknown
+List of Active Clubs,Student Life,"['Amity Cadet Corps', 'Amity SSB Academy', 'Amity Innovation Incubator']",Amity Innovation Incubator... Amity SSB Academy Amity Cadet Corps,https://www.amity.edu/gwalior/about-amity-gwalior,medium,medium,medium,,unknown
+NIRF Ranking,Accreditations & Rankings,151-200,Amity Institute of Engineering Technology was all India ranked between 151-200 rank band in the year 2023,https://www.amity.edu/gwalior/about-amity-gwalior,medium,high,medium,2023,low
+Institutional Status,Accreditations & Rankings,State Private University,Amity University Madhya Pradesh (AUMP) was established by Ritnand Balved Education Foundation (RBEF) at Gwalior by Madhya Pradesh Niji Vishwavidyalaya... Adhiniyam – 2007,https://www.amity.edu/gwalior/about-amity-gwalior,medium,high,medium,,unknown
+PhD Students Enrolled,Student Demographics,N/A,The source mentions PhD admissions and brochures but does not provide the specific enrollment count for 2023-24.,https://www.amity.edu/gwalior/about-amity-gwalior,low,low,medium,2023,low

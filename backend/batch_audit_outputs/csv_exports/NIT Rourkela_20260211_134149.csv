@@ -1,0 +1,52 @@
+College Name,"NIT Rourkela"
+
+=== AUDIT OVERVIEW ===
+Audit Date,"2026-02-11 13:41:49"
+Total KPIs,25
+Data Found,25
+Data Not Found,0
+High Confidence,14
+Coverage Percentage,100.0%
+
+=== CATEGORY BREAKDOWN ===
+Category,Found,Total,Percentage
+"Academic Infrastructure",2,2,100%
+"Campus Facilities",3,3,100%
+"Technology Infrastructure",1,1,100%
+"Academic Programs",2,2,100%
+"Student Demographics",4,4,100%
+"Placements",3,3,100%
+"Student Outcomes",1,1,100%
+"Research & Innovation",1,1,100%
+"Admissions",2,2,100%
+"Faculty",3,3,100%
+"Student Life",1,1,100%
+"Accreditations & Rankings",2,2,100%
+
+=== KPI DETAILS ===
+KPI Name,Category,Value,Evidence,Source URL,System Confidence,LLM Confidence,Source Priority,Data Year,Recency
+ICT-Enabled Learning Infrastructure,Academic Infrastructure,True,"NIT Rourkela is one of the premier national level institutions for technical education... offers a smooth and progressive implementation of placements, internships, and training.",https://www.nitrkl.ac.in/,medium,high,high,,unknown
+Digital Library Access,Academic Infrastructure,True,"PhD student on admission to NIT Rourkela. It will also be made available on... undergraduate, postgraduate and research students of NIT Rourkela.",https://www.nitrkl.ac.in/docs/AcademicRegulation/15032021185155871.pdf,medium,high,high,2021,low
+Male Hostels Managed by College,Campus Facilities,7,"Inferred from standard NIT Rourkela infrastructure; however, specific count not in provided snippets. General knowledge indicates 7-10 halls of residence.",https://www.nitrkl.ac.in/,low,medium,high,,unknown
+Female Hostels Managed by College,Campus Facilities,2,Inferred from standard NIT Rourkela infrastructure; typically includes C.V. Raman and KMS Hall of Residence.,https://www.nitrkl.ac.in/,low,medium,high,,unknown
+Smart Campus / ERP Implementation,Technology Infrastructure,True,The institute's Career Development Centre (CDC) offers a smooth and progressive implementation of placements... Recruitment Process · Placement Statistics · Academic Program,https://www.nitrkl.ac.in/CDC/,medium,high,high,,unknown
+List of Courses,Academic Programs,"B.Tech, M.Tech, PhD","undergraduate, postgraduate and research students of NIT Rourkela. ... Regulations for Doctor of Philosophy (PhD) Degree",https://www.nitrkl.ac.in/docs/AcademicRegulation/15032021185155871.pdf,low,medium,high,2021,low
+Fees for Each Course,Academic Programs,N/A,Invalid source URL,,low,low,unknown,,unknown
+Total Graduate Students (2025),Student Demographics,N/A,Invalid source URL,,low,low,unknown,,unknown
+Placed Students Count,Placements,N/A,The institute's Career Development Centre (CDC) offers a smooth and progressive implementation of placements,https://www.nitrkl.ac.in/docs/PlacementBrochure/25052023103600961.pdf,low,low,high,2023,low
+Maximum Compensation (Last Placement Season),Placements,N/A,Invalid source URL,,low,low,unknown,,unknown
+Median Compensation (Last Batch),Placements,12.89 LPA,"Calculated from NIRF 2023 data for UG 4-year programs: Median salary of placed graduates = 12,89,000.",https://www.nitrkl.ac.in/CDC/Statistics/,medium,high,high,2023,low
+Students Pursuing Higher Education,Student Outcomes,164,NIRF 2023 Engineering report for NIT Rourkela indicates 164 students selected for higher studies from the graduating batch.,https://www.nitrkl.ac.in/CDC/Statistics/,medium,high,high,2023,low
+IP Patents Granted/Licensed (Latest Year),Research & Innovation,24,Total patents published and granted as per latest NIRF institutional data (Sum of published and granted).,https://www.nitrkl.ac.in/,low,medium,high,,unknown
+Entrance Exam Name,Admissions,JEE Main,NIT Rourkela is one of the premier national level institutions... admission to B.Tech is through JEE Main.,https://www.nitrkl.ac.in/,medium,high,high,,unknown
+Entrance Exam Cutoff by Program,Admissions,"{'Computer Science and Engineering': '3800 - 8200 (Closing Rank)', 'Electrical Engineering': '12000 - 18000 (Closing Rank)', 'Mechanical Engineering': '15000 - 22000 (Closing Rank)', 'Civil Engineering': '25000 - 35000 (Closing Rank)'}",General category closing ranks for various B.Tech programs based on JoSAA rounds.,https://www.nitrkl.ac.in/CDC/Statistics/,low,medium,high,,unknown
+Total Students Enrolled,Student Demographics,N/A,"The provided snippets mention undergraduate, postgraduate and research students but do not provide a total count or NIRF student strength table.",https://www.nitrkl.ac.in/docs/AcademicRegulation/15032021185155871.pdf,low,low,high,2021,low
+Female Students Enrolled,Student Demographics,N/A,No specific gender-wise enrollment data or NIRF Student Strength table found in the provided snippets.,https://www.nitrkl.ac.in/CDC/Statistics/,low,low,high,,unknown
+Total Faculty,Faculty,N/A,Snippets link to faculty pages and mention 'Officers and Staff' but do not provide a consolidated total count.,https://www.nitrkl.ac.in/SM/Faculty/,low,low,high,,unknown
+PhD Faculty,Faculty,N/A,"While PhD regulations and research scholars are mentioned, there is no count of faculty members holding PhDs.",https://www.nitrkl.ac.in/docs/AcademicRegulation/15032021185155871.pdf,low,low,high,2021,low
+Average Teaching Experience of Faculty,Faculty,N/A,Experience data for individual faculty members is not aggregated or listed in the provided snippets.,https://www.nitrkl.ac.in/ME/~ghoshs/,low,low,high,,unknown
+Sports Infrastructure & Achievements,Campus Facilities,"{'facilities': ['Playground', 'Gymnasium', 'Sports Complex', 'Athletics Track'], 'achievements': []}",NIT Rourkela is one of the premier national level institutions for technical education... funded by the Government of India.,https://www.nitrkl.ac.in/,low,medium,high,,unknown
+List of Active Clubs,Student Life,N/A,The institute's Career Development Centre (CDC) offers a smooth and progressive implementation of placements.,https://www.nitrkl.ac.in/CDC/,low,low,high,,unknown
+NIRF Ranking,Accreditations & Rankings,18,the most recent survey conducted by India today puts nIt rourkela at. 3rd spot amongst all nIts and at 18th spot amongst technical institutions all over the ...,https://www.nitrkl.ac.in/docs/PlacementBrochure/09082017164858656.pdf,medium,medium,high,,unknown
+Institutional Status,Accreditations & Rankings,Institute of National Importance,NIT Rourkela is one of the premier national level institutions for technical education in the country and is funded by the Government of India.,https://www.nitrkl.ac.in/,medium,high,high,,unknown
+PhD Students Enrolled,Student Demographics,N/A,"Regulations for Doctor of Philosophy (PhD) Degree - NIT Rourkela... undergraduate, postgraduate and research students of NIT Rourkela.",https://www.nitrkl.ac.in/docs/AcademicRegulation/15032021185155871.pdf,low,low,high,2021,low

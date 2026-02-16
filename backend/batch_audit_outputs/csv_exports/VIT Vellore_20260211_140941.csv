@@ -1,0 +1,50 @@
+College Name,"VIT Vellore"
+
+=== AUDIT OVERVIEW ===
+Audit Date,"2026-02-11 14:09:41"
+Total KPIs,24
+Data Found,24
+Data Not Found,0
+High Confidence,23
+Coverage Percentage,100.0%
+
+=== CATEGORY BREAKDOWN ===
+Category,Found,Total,Percentage
+"Student Demographics",4,4,100%
+"Placements",3,3,100%
+"Student Outcomes",1,1,100%
+"Faculty",3,3,100%
+"Academic Infrastructure",2,2,100%
+"Campus Facilities",3,3,100%
+"Technology Infrastructure",1,1,100%
+"Academic Programs",2,2,100%
+"Admissions",2,2,100%
+"Student Life",1,1,100%
+"Accreditations & Rankings",2,2,100%
+
+=== KPI DETAILS ===
+KPI Name,Category,Value,Evidence,Source URL,System Confidence,LLM Confidence,Source Priority,Data Year,Recency
+Total Graduate Students (2025),Student Demographics,"10743 [UG 3Y: 1016, UG 4Y: 5964, UG 5Y: 227, PG 2Y: 2451, PG Integrated: 1075]",Extracted from NIRF 2025 document,https://vit.ac.in/files/nirf/Overall-NIRF-2025.pdf,low,low,critical,,unknown
+Placed Students Count,Placements,"6484 [UG: 4305, PG: 2174]",Extracted from NIRF 2025 document,https://vit.ac.in/files/nirf/Overall-NIRF-2025.pdf,low,low,critical,,unknown
+Median Compensation (Last Batch),Placements,6.50 LPA,Extracted from NIRF 2025 document,https://vit.ac.in/files/nirf/Overall-NIRF-2025.pdf,low,low,critical,,unknown
+Students Pursuing Higher Education,Student Outcomes,"1803 [UG: 1654, PG: 148]",Extracted from NIRF 2025 document,https://vit.ac.in/files/nirf/Overall-NIRF-2025.pdf,low,low,critical,,unknown
+Total Students Enrolled,Student Demographics,54243,Extracted from NIRF 2025 document,https://vit.ac.in/files/nirf/Overall-NIRF-2025.pdf,low,low,critical,,unknown
+Female Students Enrolled,Student Demographics,16192,Extracted from NIRF 2025 document,https://vit.ac.in/files/nirf/Overall-NIRF-2025.pdf,low,low,critical,,unknown
+Total Faculty,Faculty,135,Extracted from NIRF 2025 document,https://vit.ac.in/files/nirf/Overall-NIRF-2025.pdf,low,low,critical,,unknown
+PhD Faculty,Faculty,82,Extracted from NIRF 2025 document,https://vit.ac.in/files/nirf/Overall-NIRF-2025.pdf,low,low,critical,,unknown
+Average Teaching Experience of Faculty,Faculty,8.38,Extracted from NIRF 2025 document,https://vit.ac.in/files/nirf/Overall-NIRF-2025.pdf,low,low,critical,,unknown
+PhD Students Enrolled,Student Demographics,"5142 [Full Time: 4516, Part Time: 626]",Extracted from NIRF 2025 document,https://vit.ac.in/files/nirf/Overall-NIRF-2025.pdf,low,low,critical,,unknown
+ICT-Enabled Learning Infrastructure,Academic Infrastructure,True,"VIT has state-of-the-art infrastructure including ICT-enabled classrooms, smart classrooms, and digital learning tools to enhance the teaching-learning process.",https://vit.ac.in/about-vit,medium,high,high,,unknown
+Digital Library Access,Academic Infrastructure,True,"The Central Library has a wide range of e-resources, including e-journals, e-books, and databases, accessible through the Digital Library section.",https://vit.ac.in/library,medium,high,high,,unknown
+Male Hostels Managed by College,Campus Facilities,24,"There are 24 blocks for boys in the Vellore campus, providing a variety of room options.",https://vit.ac.in/campuslife/hostels,medium,high,high,,unknown
+Female Hostels Managed by College,Campus Facilities,7,The ladies hostel has 7 blocks which are well-furnished and provide all necessary amenities.,https://vit.ac.in/campuslife/hostels,medium,high,high,,unknown
+Smart Campus / ERP Implementation,Technology Infrastructure,True,"VIT uses V-TOP, an indigenously developed ERP system, for managing student records, academics, and administrative tasks.",https://vtop.vit.ac.in/vtop/open/login,medium,high,high,,unknown
+List of Courses,Academic Programs,"B.Tech(CSE, ECE, ME, EE, CE, IT, BT, CHE, PE), M.Tech(VLSI, AI, DS, SE, ES), MBA, BBA, MCA, B.Arch, B.Des, B.Sc, M.Sc, Ph.D","VIT offers 66 Undergraduate, 58 Postgraduate, 15 Integrated Programmes, 2 Research programmes and 2 M.Tech Industrial Programmes.",https://vit.ac.in/all-courses/ug,medium,high,high,,unknown
+Fees for Each Course,Academic Programs,"{'B.Tech (Group A)': '173000', 'B.Tech (Group B)': '195000', 'M.Tech': '150000', 'MBA': '350000', 'MCA': '140000'}","B.Tech Tuition Fee (Group A): 1,73,000; Group B: 1,95,000 per annum. MBA tuition fee is 3.5 Lakhs per annum.",https://vit.ac.in/admissions/ug/fee-structure,medium,high,high,,unknown
+Maximum Compensation (Last Placement Season),Placements,1.02 Cr,VIT Placements 2023-24: Highest CTC offered is 1.02 Crore per annum by Motorq.,https://vit.ac.in/placements/statistics,medium,high,high,2023,low
+Entrance Exam Name,Admissions,VITEEE,Admission to B.Tech programmes is based on the VIT Engineering Entrance Examination (VITEEE).,https://viteee.vit.ac.in/,medium,high,high,,unknown
+Entrance Exam Cutoff by Program,Admissions,N/A,"Closing ranks for CSE typically fall within 8,000 for Vellore campus Category 1.",,low,medium,low,,unknown
+Sports Infrastructure & Achievements,Campus Facilities,"{'facilities': ['Swimming pool', 'Gymnasium', 'Cricket ground', 'Football ground', 'Basketball courts', 'Tennis courts', 'Badminton courts', 'Volleyball courts', 'Athletics track'], 'achievements': ['Regular participation in Inter-University tournaments', 'Host of Riviera international sports fest']}","VIT has a number of centers for physical education and sports activities... including a swimming pool, gymnasium, and various outdoor courts.",https://vit.ac.in/campuslife/sports,medium,high,high,,unknown
+List of Active Clubs,Student Life,"['IEEE VIT', 'ACM VIT', 'CSI VIT', 'GDSC VIT', 'RoboVITics', 'Creation Club', 'Debating Society', 'Drama Club', 'Music Club', 'Dance Club']","VIT has over 100 student clubs and chapters including technical societies like IEEE, ACM and cultural clubs.",https://vit.ac.in/campuslife/studentclubs,medium,high,high,,unknown
+NIRF Ranking,Accreditations & Rankings,11,VIT Vellore is ranked 11th in the Engineering category and 10th in the Research category in NIRF 2024.,https://www.nirfindia.org/Rankings/2024/EngineeringRanking.html,medium,high,critical,2024,medium
+Institutional Status,Accreditations & Rankings,Deemed to be University,Vellore Institute of Technology (VIT) was conferred the status of Deemed University in 2001 by the Ministry of HRD.,https://vit.ac.in/about-vit,medium,high,high,,unknown

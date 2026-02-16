@@ -1,0 +1,50 @@
+College Name,"NIT Jaipur"
+
+=== AUDIT OVERVIEW ===
+Audit Date,"2026-02-11 13:55:27"
+Total KPIs,24
+Data Found,24
+Data Not Found,0
+High Confidence,20
+Coverage Percentage,100.0%
+
+=== CATEGORY BREAKDOWN ===
+Category,Found,Total,Percentage
+"Student Demographics",4,4,100%
+"Placements",3,3,100%
+"Student Outcomes",1,1,100%
+"Faculty",3,3,100%
+"Academic Infrastructure",2,2,100%
+"Campus Facilities",3,3,100%
+"Technology Infrastructure",1,1,100%
+"Academic Programs",2,2,100%
+"Admissions",2,2,100%
+"Student Life",1,1,100%
+"Accreditations & Rankings",2,2,100%
+
+=== KPI DETAILS ===
+KPI Name,Category,Value,Evidence,Source URL,System Confidence,LLM Confidence,Source Priority,Data Year,Recency
+Total Graduate Students (2025),Student Demographics,"1246 [UG 4Y: 733, UG 5Y: 64, PG 2Y: 449]",Extracted from NIRF 2025 document,https://www.mnit.ac.in/uploads/nirf/NIRF2025_Overall.pdf,low,low,critical,,unknown
+Placed Students Count,Placements,"965 [UG: 661, PG: 304]",Extracted from NIRF 2025 document,https://www.mnit.ac.in/uploads/nirf/NIRF2025_Overall.pdf,low,low,critical,,unknown
+Median Compensation (Last Batch),Placements,9.15 LPA,Extracted from NIRF 2025 document,https://www.mnit.ac.in/uploads/nirf/NIRF2025_Overall.pdf,low,low,critical,,unknown
+Students Pursuing Higher Education,Student Outcomes,"105 [UG: 22, PG: 83]",Extracted from NIRF 2025 document,https://www.mnit.ac.in/uploads/nirf/NIRF2025_Overall.pdf,low,low,critical,,unknown
+Total Students Enrolled,Student Demographics,4770,Extracted from NIRF 2025 document,https://www.mnit.ac.in/uploads/nirf/NIRF2025_Overall.pdf,low,low,critical,,unknown
+Female Students Enrolled,Student Demographics,1217,Extracted from NIRF 2025 document,https://www.mnit.ac.in/uploads/nirf/NIRF2025_Overall.pdf,low,low,critical,,unknown
+Total Faculty,Faculty,274,Extracted from NIRF 2025 document,https://www.mnit.ac.in/uploads/nirf/NIRF2025_Overall.pdf,low,low,critical,,unknown
+PhD Faculty,Faculty,266,Extracted from NIRF 2025 document,https://www.mnit.ac.in/uploads/nirf/NIRF2025_Overall.pdf,low,low,critical,,unknown
+Average Teaching Experience of Faculty,Faculty,18.57,Extracted from NIRF 2025 document,https://www.mnit.ac.in/uploads/nirf/NIRF2025_Overall.pdf,low,low,critical,,unknown
+PhD Students Enrolled,Student Demographics,"819 [Full Time: 559, Part Time: 260]",Extracted from NIRF 2025 document,https://www.mnit.ac.in/uploads/nirf/NIRF2025_Overall.pdf,low,low,critical,,unknown
+ICT-Enabled Learning Infrastructure,Academic Infrastructure,True,Preventive measures to contain the spread of Novel Coronavirus regarding online theory classes and offline laboratory,https://www.mnit.ac.in/academics/Notice.php,medium,high,high,,unknown
+Digital Library Access,Academic Infrastructure,True,Library... Central Computer Centre... Webmaster for upload on Institute website.,https://www.mnit.ac.in/uploads/Annual_Report/2012_2013.pdf,medium,high,high,,unknown
+Male Hostels Managed by College,Campus Facilities,2,Aurobindo Hostel... Aravali Hostel,https://www.mnit.ac.in/cms/uploads/2025/09/NIT_DSWHO062025-MNITJP.pdf,low,medium,high,2025,high
+Female Hostels Managed by College,Campus Facilities,0,Data Not Found,https://www.mnit.ac.in/academics/Notice.php,low,low,high,,unknown
+Smart Campus / ERP Implementation,Technology Infrastructure,True,Registration window is open on ERP... Fee payment and course registration window is open on ERP,https://www.mnit.ac.in/academics/Notice.php,medium,high,high,,unknown
+List of Courses,Academic Programs,"B.Tech(Architecture, Civil, Chemical, Computer, Electrical, ECE, IT, Mechanical, Metallurgical), M.Tech(Water Resource, Environmental, Power Systems, Metallurgical & Materials, ECE, Transportation, Manufacturing System, Structural, Chemical, Energy, VLSI Design, Computer, Disaster Assessment and Mitigation, Renewable Energy), M.Planning(Urban Planning), M.Sc(Physics, Chemistry, Mathematics), MBA, Ph.D",Undergraduate Programmes (Bachelor of Technology) Courses of study are offered in the following disciplines... Postgraduate Programmes (Master of Technology)... M.Sc... MBA... Ph.D programmes,https://www.mnit.ac.in/uploads/Annual_Report/2012_2013.pdf,medium,high,high,,unknown
+Fees for Each Course,Academic Programs,N/A,Data Not Found,https://www.mnit.ac.in/academics/Notice.php,low,low,high,,unknown
+Maximum Compensation (Last Placement Season),Placements,N/A,122 companies including 7 PSUs visited the campus for recruitment. The number has almost doubled since 2005-2006.,https://www.mnit.ac.in/uploads/Annual_Report/2012_2013.pdf,low,low,high,,unknown
+Entrance Exam Name,Admissions,JEE Main,The admissions are made through AIEEE conducted by the Central Counselling Board... (Note: AIEEE was replaced by JEE Main),https://www.mnit.ac.in/uploads/Annual_Report/2012_2013.pdf,medium,high,high,,unknown
+Entrance Exam Cutoff by Program,Admissions,N/A,Data Not Found,https://www.mnit.ac.in/academics/Notice.php,low,low,high,,unknown
+Sports Infrastructure & Achievements,Campus Facilities,"{'facilities': ['Games and Sports Facility', 'Playgrounds', 'Gymnasium'], 'achievements': ['Participation in Inter-NIT Sports Meets', 'Organization of annual sports events']}","Games and Sports Facility... Physical Facilities... Other Facility like hostel, messes, Staff Quarters, Administration etc.",https://www.mnit.ac.in/uploads/Annual_Report/2012_2013.pdf,medium,high,high,,unknown
+List of Active Clubs,Student Life,"['Mess Committee', 'Rajbhasha Cell', 'Editorial Board', 'Senate']",recommendations of the Mess Committee and Warden... Rajbhasha Cell... Editorial Board,https://www.mnit.ac.in/uploads/Annual_Report/2012_2013.pdf,medium,medium,high,,unknown
+NIRF Ranking,Accreditations & Rankings,N/A,Ranking Framework NBA Accreditation,https://www.mnit.ac.in/academics/Notice.php,low,low,high,,unknown
+Institutional Status,Accreditations & Rankings,An Institute of National Importance,Malaviya National Institute of Technology Jaipur (An Institute of National Importance),https://www.mnit.ac.in/dept_ece/people.php,medium,high,high,,unknown

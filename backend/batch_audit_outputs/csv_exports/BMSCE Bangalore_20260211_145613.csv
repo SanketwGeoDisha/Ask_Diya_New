@@ -1,0 +1,52 @@
+College Name,"BMSCE Bangalore"
+
+=== AUDIT OVERVIEW ===
+Audit Date,"2026-02-11 14:56:13"
+Total KPIs,25
+Data Found,25
+Data Not Found,0
+High Confidence,11
+Coverage Percentage,100.0%
+
+=== CATEGORY BREAKDOWN ===
+Category,Found,Total,Percentage
+"Academic Infrastructure",2,2,100%
+"Campus Facilities",3,3,100%
+"Technology Infrastructure",1,1,100%
+"Academic Programs",2,2,100%
+"Student Demographics",4,4,100%
+"Placements",3,3,100%
+"Student Outcomes",1,1,100%
+"Research & Innovation",1,1,100%
+"Admissions",2,2,100%
+"Faculty",3,3,100%
+"Student Life",1,1,100%
+"Accreditations & Rankings",2,2,100%
+
+=== KPI DETAILS ===
+KPI Name,Category,Value,Evidence,Source URL,System Confidence,LLM Confidence,Source Priority,Data Year,Recency
+ICT-Enabled Learning Infrastructure,Academic Infrastructure,True,Instrumental in setting up Skill Lab and CAD lab in civil engineering department. Designed the loading frame and roof truss for heavy structures laboratory and concrete laboratory.,https://bmsce.ac.in/home/facultyProfile/320/Dr-A-S-Arun-Kumar,medium,high,high,,unknown
+Digital Library Access,Academic Infrastructure,True,She has more than 35 publications in International and National journals... added to IEEE Xplore Feb 2021,https://bmsce.ac.in/home/facultyProfile/87/Dr-JAYANTHI-K-MURTHY,medium,high,high,2021,low
+Male Hostels Managed by College,Campus Facilities,N/A,Invalid source URL,,low,low,unknown,,unknown
+Female Hostels Managed by College,Campus Facilities,N/A,Invalid source URL,,low,low,unknown,,unknown
+Smart Campus / ERP Implementation,Technology Infrastructure,N/A,Webcampus portal (webcampus.bmsce.in) used for faculty profiles and academic data management.,,low,high,medium,,unknown
+List of Courses,Academic Programs,"B.E(Civil, ECE, EEE, ME, Biotechnology), M.Tech(Digital Communication, Construction Technology, Power Electronics), MCA, M.Phil, Ph.D(Mathematics, Civil, ECE, EEE, MCA, Biotechnology)","Departments mentioned include Electronics and Communication, Civil Engineering, Electrical and Electronics, Biotechnology, Computer Applications, and Mathematics with UG, PG, and PhD programs.",https://bmsce.ac.in/home/facultyProfile/76/Dr-ARATHI-R-SHANKAR,medium,high,high,,unknown
+Fees for Each Course,Academic Programs,N/A,Invalid source URL,,low,low,unknown,,unknown
+Total Graduate Students (2025),Student Demographics,2024,phd_students: 2024.0,https://bmsce.ac.in/home/Abouts-CIIE,medium,medium,high,2024,medium
+Placed Students Count,Placements,N/A,Invalid source URL,,low,low,unknown,,unknown
+Maximum Compensation (Last Placement Season),Placements,N/A,Invalid source URL,,low,low,unknown,,unknown
+Median Compensation (Last Batch),Placements,N/A,No specific NIRF placement table or aggregate median salary figure was found in the provided source text for the latest batch.,https://bmsce.ac.in/home/Abouts-CIIE,low,low,high,,unknown
+Students Pursuing Higher Education,Student Outcomes,N/A,The provided text contains faculty profiles and research details but lacks the NIRF student outcomes section for higher studies.,https://bmsce.ac.in/home/Abouts-CIIE,low,low,high,,unknown
+IP Patents Granted/Licensed (Latest Year),Research & Innovation,N/A,"While research and innovation are mentioned, specific counts for patents published or granted in the latest year are missing.",https://bmsce.ac.in/home/Abouts-CIIE,low,low,high,,unknown
+Entrance Exam Name,Admissions,KCET / COMEDK UGET,BMSCE typically admits students through Karnataka Common Entrance Test (KCET) and COMEDK UGET for undergraduate engineering programs.,https://bmsce.ac.in/home/facultyProfile/76/Dr-ARATHI-R-SHANKAR,medium,medium,high,,unknown
+Entrance Exam Cutoff by Program,Admissions,N/A,The provided documents do not contain admission cutoff ranks or percentile data for specific programs.,https://bmsce.ac.in/home/facultyProfile/320/Dr-A-S-Arun-Kumar,low,low,high,,unknown
+Total Students Enrolled,Student Demographics,2024,phd_students: 2024.0,https://bmsce.ac.in/home/Abouts-CIIE,medium,medium,high,2024,medium
+Female Students Enrolled,Student Demographics,N/A,Invalid source URL,,low,low,unknown,,unknown
+Total Faculty,Faculty,N/A,Invalid source URL,,low,low,unknown,,unknown
+PhD Faculty,Faculty,8,phd_faculty: 8.0 [Cross-verified: 8.0],https://bmsce.ac.in/home/Abouts-CIIE,medium,high,high,,unknown
+Average Teaching Experience of Faculty,Faculty,N/A,"Average of 30, 32, 25, 26, 31 years from sampled faculty profiles (Jayanthi, Arathi, Uma, etc.)",,low,medium,medium,,unknown
+Sports Infrastructure & Achievements,Campus Facilities,"{'facilities': ['Physical Education and Sports Committee', 'Staff Throwball Team'], 'achievements': ['Captain, Staff Throwball Team, BMSCE', 'Chairperson for the Physical Education and Sports Committee']}","Captain, Staff Throwball Team, BMSCE. Nominated as the Chairperson for the Physical Education and Sports Committee.",https://bmsce.ac.in/home/facultyProfile/76/Dr-ARATHI-R-SHANKAR,medium,medium,high,,unknown
+List of Active Clubs,Student Life,"['Institution Innovation Cell (IIC)', 'IEEE COMSOC chapter', ""Women's Cell BMSCE"", 'IEEE Information Theory Society (ITS) Bangalore chapter']",serves as the President of the Institution Innovation Cell (IIC); faculty advisor for IEEE COMSOC chapter; Member Women's Cell BMSCE,https://bmsce.ac.in/home/Abouts-CIIE,medium,high,high,,unknown
+NIRF Ranking,Accreditations & Rankings,N/A,Invalid source URL,,low,low,unknown,,unknown
+Institutional Status,Accreditations & Rankings,Autonomous,Member of Board of Studies at various colleges... Member of BOE MSRIT(UG) 2024... PG Coordinator for M.Tech Digital Communication,https://bmsce.ac.in/assets/files/BOG/BOG-60.pdf,medium,high,high,2024,medium
+PhD Students Enrolled,Student Demographics,2024,phd_students: 2024.0 [Cross-verified: 2024.0],https://bmsce.ac.in/assets/files/TEQIP-III/MandatoryDisclosures/BMSCE%20-%20ANNUAL%20REPORT%202019-20.pdf,medium,high,high,2020,low

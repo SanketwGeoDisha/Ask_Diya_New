@@ -1,0 +1,50 @@
+College Name,"Anna University"
+
+=== AUDIT OVERVIEW ===
+Audit Date,"2026-02-11 14:19:52"
+Total KPIs,24
+Data Found,24
+Data Not Found,0
+High Confidence,10
+Coverage Percentage,100.0%
+
+=== CATEGORY BREAKDOWN ===
+Category,Found,Total,Percentage
+"Student Demographics",4,4,100%
+"Placements",3,3,100%
+"Student Outcomes",1,1,100%
+"Faculty",3,3,100%
+"Academic Infrastructure",2,2,100%
+"Campus Facilities",3,3,100%
+"Technology Infrastructure",1,1,100%
+"Academic Programs",2,2,100%
+"Admissions",2,2,100%
+"Student Life",1,1,100%
+"Accreditations & Rankings",2,2,100%
+
+=== KPI DETAILS ===
+KPI Name,Category,Value,Evidence,Source URL,System Confidence,LLM Confidence,Source Priority,Data Year,Recency
+Total Graduate Students (2025),Student Demographics,"2582 [UG 4Y: 1588, UG 5Y: 67, PG 2Y: 864, PG Integrated: 63]",Extracted from NIRF 2025 document,https://www.annauniv.edu/NIRF/4. AU_NIRF 2025_Overall_Submitted Data.pdf,low,low,critical,,unknown
+Placed Students Count,Placements,"1684 [UG: 1161, PG: 523]",Extracted from NIRF 2025 document,https://www.annauniv.edu/NIRF/4. AU_NIRF 2025_Overall_Submitted Data.pdf,low,low,critical,,unknown
+Median Compensation (Last Batch),Placements,7.50 LPA,Extracted from NIRF 2025 document,https://www.annauniv.edu/NIRF/4. AU_NIRF 2025_Overall_Submitted Data.pdf,low,low,critical,,unknown
+Students Pursuing Higher Education,Student Outcomes,"221 [UG: 194, PG: 27]",Extracted from NIRF 2025 document,https://www.annauniv.edu/NIRF/4. AU_NIRF 2025_Overall_Submitted Data.pdf,low,low,critical,,unknown
+Total Students Enrolled,Student Demographics,11940,Extracted from NIRF 2025 document,https://www.annauniv.edu/NIRF/4. AU_NIRF 2025_Overall_Submitted Data.pdf,low,low,critical,,unknown
+Female Students Enrolled,Student Demographics,4844,Extracted from NIRF 2025 document,https://www.annauniv.edu/NIRF/4. AU_NIRF 2025_Overall_Submitted Data.pdf,low,low,critical,,unknown
+Total Faculty,Faculty,318,Extracted from NIRF 2025 document,https://www.annauniv.edu/NIRF/4. AU_NIRF 2025_Overall_Submitted Data.pdf,low,low,critical,,unknown
+PhD Faculty,Faculty,305,Extracted from NIRF 2025 document,https://www.annauniv.edu/NIRF/4. AU_NIRF 2025_Overall_Submitted Data.pdf,low,low,critical,,unknown
+Average Teaching Experience of Faculty,Faculty,20.27,Extracted from NIRF 2025 document,https://www.annauniv.edu/NIRF/4. AU_NIRF 2025_Overall_Submitted Data.pdf,low,low,critical,,unknown
+PhD Students Enrolled,Student Demographics,"1809 [Full Time: 1157, Part Time: 652]",Extracted from NIRF 2025 document,https://www.annauniv.edu/NIRF/4. AU_NIRF 2025_Overall_Submitted Data.pdf,low,low,critical,,unknown
+ICT-Enabled Learning Infrastructure,Academic Infrastructure,True,ANNA EDUSAT live interactive audio-video lecture programmes transmitted through KU-Band... e-content for the PG course... prepared and uploaded in the SWAYAM Portal.,https://www.annauniv.edu/Anna%20University%20Profile.pdf,medium,high,medium,,unknown
+Digital Library Access,Academic Infrastructure,True,University Library has been ranked 7th in e-resources usage in all over India... more than 12000 e-journals.,https://www.annauniv.edu/Anna%20University%20Profile.pdf,medium,high,medium,,unknown
+Male Hostels Managed by College,Campus Facilities,1,Warden / Deputy Warden of Boys’ Hostel,https://www.annauniv.edu/cai/Application_New_College_2025_26.doc,low,medium,medium,2025,high
+Female Hostels Managed by College,Campus Facilities,1,Warden / Deputy Warden of Girls’ Hostel,https://www.annauniv.edu/cai/Application_New_College_2025_26.doc,low,medium,medium,2025,high
+Smart Campus / ERP Implementation,Technology Infrastructure,True,Secured Examination Management System (SEMS)... is a web-based application for efficient management of Examination activities... provides services from anywhere at any time (24/7).,https://www.annauniv.edu/Anna%20University%20Profile.pdf,medium,high,medium,,unknown
+List of Courses,Academic Programs,"B.E(CE, ECE, EE, ME, CSE), B.Tech(Chemical, Leather, Textile, IT), B.Arch, M.E, M.Tech, MBA, MCA, M.Sc, Ph.D","It offers higher education in Engineering, Technology, Architecture and Applied Sciences... 84 UG Programmes 171 PG Programmes... 2261 Ph.D Onroll in 4 campuses",https://www.annauniv.edu/,medium,high,medium,,unknown
+Fees for Each Course,Academic Programs,N/A,The provided documents mention processing fees and inspection fees but do not list specific annual tuition fees for academic programs.,https://www.annauniv.edu/cai/Application_New_College_2025_26.doc,low,low,medium,2025,high
+Maximum Compensation (Last Placement Season),Placements,N/A,Documents mention a Training and Placement Cell and notable alumni but do not provide specific CTC or package data for the recent season.,https://www.annauniv.edu/Anna%20University%20Profile.pdf,low,low,medium,,unknown
+Entrance Exam Name,Admissions,TANCET / CEETA-PG,TANCET / CEETA-PG 2025... Admission Poster for MBA/MCA/M.Sc. Open and Distance Learning (ODL) Mode,https://www.annauniv.edu/,medium,medium,medium,2025,high
+Entrance Exam Cutoff by Program,Admissions,N/A,"While entrance exams are mentioned, specific cutoff marks or ranks for the last admission cycle are not provided in the text.",https://www.annauniv.edu/,low,low,medium,,unknown
+Sports Infrastructure & Achievements,Campus Facilities,"{'facilities': ['Physical Education center', 'Playgrounds', 'Gymnasium'], 'achievements': ['Mr. Kutraleeswaran (Indian Swimmer)', 'Mr. Krishnamachari Srikkanth (Former Captain of the Indian Cricket Team)', 'Mr. S. Venkataraghavan (Former Captain of Indian Cricket Team)', 'Mr. Aashish Kapoor (Former Indian cricketer)']}",20. Physical Education... Facilities... Notable Alumni: Mr. Krishnamachari Srikkanth Former Captain of the Indian Cricket Team... Mr. Kutraleeswaran Indian Swimmer,https://www.annauniv.edu/,medium,high,medium,,unknown
+List of Active Clubs,Student Life,"['BIS Club', 'IQAC Club', 'Alumni Association', 'Training and Placement Cell', 'Anti Ragging Committee', 'Anti Ragging Squad', 'Student Grievance Redressal Committee']","students assess various environmental issues and their impact to society and being problem solvers through various clubs like BIS, IQAC clubs.",https://www.annauniv.edu/pdf/AICTE_ATAL_FDP_AIESDR_Civil.pdf,medium,high,medium,,unknown
+NIRF Ranking,Accreditations & Rankings,6,In the National Institutional Ranking Framework (NIRF) Ranking 2017... Anna University is ranked as below... 6th Rank in the University category,https://www.annauniv.edu/Anna%20University%20Profile.pdf,medium,high,medium,,unknown
+Institutional Status,Accreditations & Rankings,Affiliating type University,"In 2012, Anna University was again converted to an affiliating type of University by bringing together all the Engineering Colleges in the State of Tamil Nadu",https://www.annauniv.edu/Anna%20University%20Profile.pdf,medium,high,medium,,unknown

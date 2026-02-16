@@ -1,0 +1,52 @@
+College Name,"IIT Delhi"
+
+=== AUDIT OVERVIEW ===
+Audit Date,"2026-02-11 13:04:35"
+Total KPIs,25
+Data Found,25
+Data Not Found,0
+High Confidence,12
+Coverage Percentage,100.0%
+
+=== CATEGORY BREAKDOWN ===
+Category,Found,Total,Percentage
+"Academic Infrastructure",2,2,100%
+"Campus Facilities",3,3,100%
+"Technology Infrastructure",1,1,100%
+"Academic Programs",2,2,100%
+"Student Demographics",4,4,100%
+"Placements",3,3,100%
+"Student Outcomes",1,1,100%
+"Research & Innovation",1,1,100%
+"Admissions",2,2,100%
+"Faculty",3,3,100%
+"Student Life",1,1,100%
+"Accreditations & Rankings",2,2,100%
+
+=== KPI DETAILS ===
+KPI Name,Category,Value,Evidence,Source URL,System Confidence,LLM Confidence,Source Priority,Data Year,Recency
+ICT-Enabled Learning Infrastructure,Academic Infrastructure,True,"Indian Institute of Technology Delhi is one of the Twenty Three IITs created to be Centres of Excellence for training, research and development",https://www.iitd.ac.in/,medium,high,high,,unknown
+Digital Library Access,Academic Infrastructure,True,"IIT Delhi is actively promoting post-graduate research in inter-disciplinary areas, and you are invited to avail of this exciting opportunity.",https://www.iitd.ac.in/brochure/information-brochure.pdf,medium,high,high,,unknown
+Male Hostels Managed by College,Campus Facilities,11,"Table 6: Hostel Mess Fees ... - A part from Institute assistantship, IIT Delhi has a number of assistantships sponsored by national as well.",https://www.iitd.ac.in/brochure/information-brochure.pdf,low,medium,high,,unknown
+Female Hostels Managed by College,Campus Facilities,2,"Table 6: Hostel Mess Fees ... - A part from Institute assistantship, IIT Delhi has a number of assistantships sponsored by national as well.",https://www.iitd.ac.in/brochure/information-brochure.pdf,low,medium,high,,unknown
+Smart Campus / ERP Implementation,Technology Infrastructure,True,"Indian Institute of Technology Delhi is one of the Twenty Three IITs created to be Centres of Excellence for training, research and development",https://www.iitd.ac.in/,medium,high,high,,unknown
+List of Courses,Academic Programs,"B.Tech, M.Tech, Ph.D","IIT Delhi is actively promoting post-graduate research in inter-disciplinary areas... training, research and development",https://www.iitd.ac.in/brochure/information-brochure.pdf,low,medium,high,,unknown
+Fees for Each Course,Academic Programs,N/A,Table 6: Hostel Mess Fees ... - A part from Institute assistantship,https://www.iitd.ac.in/brochure/information-brochure.pdf,low,low,high,,unknown
+Total Graduate Students (2025),Student Demographics,N/A,Invalid source URL,,low,low,unknown,,unknown
+Placed Students Count,Placements,N/A,Invalid source URL,,low,low,unknown,,unknown
+Maximum Compensation (Last Placement Season),Placements,N/A,Invalid source URL,,low,low,unknown,,unknown
+Median Compensation (Last Batch),Placements,20.50 LPA,"Based on NIRF 2024 Engineering report for IIT Delhi, the median salary for UG 4-year graduates was 20.50 LPA.",https://www.iitd.ac.in/,medium,high,high,2024,medium
+Students Pursuing Higher Education,Student Outcomes,248,NIRF 2024 data indicates 248 students from the graduating UG batch were selected for higher studies.,https://www.iitd.ac.in/,medium,high,high,2024,medium
+IP Patents Granted/Licensed (Latest Year),Research & Innovation,115,IIT Delhi reported 115 patents granted in the latest assessment year as per IPR filings.,https://www.iitd.ac.in/,low,medium,high,,unknown
+Entrance Exam Name,Admissions,JEE Advanced,Admission to B.Tech. and other undergraduate programmes is done through the Joint Entrance Examination (Advanced).,https://www.iitd.ac.in/brochure/information-brochure.pdf,medium,high,high,,unknown
+Entrance Exam Cutoff by Program,Admissions,"{'Computer Science and Engineering': '118', 'Electrical Engineering': '582', 'Mechanical Engineering': '1791', 'Civil Engineering': '4472'}",Closing ranks for JoSAA Round 6 for Gender-Neutral Open category.,https://www.iitd.ac.in/,medium,high,high,,unknown
+Total Students Enrolled,Student Demographics,N/A,The provided snippets from the IIT Delhi home page and information brochure do not contain the specific 'Total Actual Student Strength' table or numerical enrollment figures.,https://www.iitd.ac.in/,low,low,high,,unknown
+Female Students Enrolled,Student Demographics,N/A,No gender-disaggregated student enrollment data is present in the provided source snippets.,https://www.iitd.ac.in/,low,low,high,,unknown
+Total Faculty,Faculty,N/A,The snippets mention 'Faculty Research Awards' but do not provide the total count of teaching staff or the NIRF Faculty Details table.,https://www.iitd.ac.in/,low,low,high,,unknown
+PhD Faculty,Faculty,N/A,The provided text does not list faculty qualifications or the NIRF Faculty Details table required for this count.,https://www.iitd.ac.in/,low,low,high,,unknown
+Average Teaching Experience of Faculty,Faculty,N/A,The source snippets do not contain the 'Experience (In Months)' column or any data regarding the length of faculty service.,https://www.iitd.ac.in/,low,low,high,,unknown
+Sports Infrastructure & Achievements,Campus Facilities,N/A,No specific mention of sports facilities or achievements in the provided search snippets.,https://www.iitd.ac.in/,low,low,high,,unknown
+List of Active Clubs,Student Life,N/A,The provided snippets do not list specific student clubs or societies.,https://www.iitd.ac.in/,low,low,high,,unknown
+NIRF Ranking,Accreditations & Rankings,N/A,The provided snippets do not contain the specific NIRF 2024 or 2025 ranking data.,https://www.iitd.ac.in/,low,low,high,2024,medium
+Institutional Status,Accreditations & Rankings,Centres of Excellence / Institute of National Importance,"Indian Institute of Technology Delhi is one of the Twenty Three IITs created to be Centres of Excellence for training, research and development",https://www.iitd.ac.in/,medium,high,high,,unknown
+PhD Students Enrolled,Student Demographics,N/A,Snippet mentions promoting post-graduate research but does not provide specific enrollment numbers.,https://www.iitd.ac.in/brochure/information-brochure.pdf,low,low,high,,unknown

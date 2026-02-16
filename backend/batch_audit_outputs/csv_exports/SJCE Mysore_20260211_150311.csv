@@ -1,0 +1,52 @@
+College Name,"SJCE Mysore"
+
+=== AUDIT OVERVIEW ===
+Audit Date,"2026-02-11 15:03:11"
+Total KPIs,25
+Data Found,25
+Data Not Found,0
+High Confidence,10
+Coverage Percentage,100.0%
+
+=== CATEGORY BREAKDOWN ===
+Category,Found,Total,Percentage
+"Academic Infrastructure",2,2,100%
+"Campus Facilities",3,3,100%
+"Technology Infrastructure",1,1,100%
+"Academic Programs",2,2,100%
+"Student Demographics",4,4,100%
+"Placements",3,3,100%
+"Student Outcomes",1,1,100%
+"Research & Innovation",1,1,100%
+"Admissions",2,2,100%
+"Faculty",3,3,100%
+"Student Life",1,1,100%
+"Accreditations & Rankings",2,2,100%
+
+=== KPI DETAILS ===
+KPI Name,Category,Value,Evidence,Source URL,System Confidence,LLM Confidence,Source Priority,Data Year,Recency
+ICT-Enabled Learning Infrastructure,Academic Infrastructure,True,The college provides ICT enabled classrooms and seminar halls for effective teaching-learning process.,https://sjce.ac.in/infrastructure/,medium,high,high,,unknown
+Digital Library Access,Academic Infrastructure,True,"Library has access to e-resources like IEEE, Science Direct, Springer, and Taylor & Francis through VTU Consortium.",https://sjce.ac.in/library/,medium,high,high,,unknown
+Male Hostels Managed by College,Campus Facilities,2,SJCE provides hostel facilities for boys with two blocks: the Old Block and the New Block.,https://sjce.ac.in/hostels/,low,high,high,,unknown
+Female Hostels Managed by College,Campus Facilities,1,The college has a separate hostel for girls located within the campus premises.,https://sjce.ac.in/hostels/,low,high,high,,unknown
+Smart Campus / ERP Implementation,Technology Infrastructure,N/A,Implementation of JSSSTU Student Portal and ERP for academic management and fee payment.,,low,high,medium,,unknown
+List of Courses,Academic Programs,N/A,"SJCE offers 12 undergraduate programs (B.E), 11 postgraduate programs (M.Tech, MBA, MCA) and doctoral programs in various engineering and science disciplines.",,low,high,medium,,unknown
+Fees for Each Course,Academic Programs,N/A,"Annual tuition fees for B.E via KCET is approximately 96,574 INR and via COMEDK is 2,61,077 INR. PG courses range from 60,000 to 80,000 per annum.",,low,medium,medium,,unknown
+Total Graduate Students (2025),Student Demographics,N/A,Total number of students graduating in minimum stipulated time for the most recent NIRF reporting cycle (UG 4-year) was 942.,,low,high,critical,2024,medium
+Placed Students Count,Placements,N/A,"Out of 942 graduating students, 815 students were placed through campus recruitment.",,low,high,critical,2024,medium
+Maximum Compensation (Last Placement Season),Placements,N/A,The highest package offered during the recent placement season reached 54.75 LPA for a student from the CSE department.,,low,high,medium,,unknown
+Median Compensation (Last Batch),Placements,8.00 LPA,Median salary of placed graduates (Amount in Rs.) 800000. (From NIRF 2024 Engineering Report),https://sjce.ac.in/wp-content/uploads/2024/02/NIRF-2024-Engineering.pdf,medium,high,critical,2024,medium
+Students Pursuing Higher Education,Student Outcomes,112,"No. of students selected for Higher Studies: 112 (UG 4-year program, 2022-23 batch)",https://sjce.ac.in/wp-content/uploads/2024/02/NIRF-2024-Engineering.pdf,medium,high,critical,2024,medium
+IP Patents Granted/Licensed (Latest Year),Research & Innovation,12,"No. of Patents Published: 12, No. of Patents Granted: 0 (Calendar year 2022)",https://sjce.ac.in/wp-content/uploads/2024/02/NIRF-2024-Engineering.pdf,medium,high,critical,2024,medium
+Entrance Exam Name,Admissions,N/A,Admission to UG programs is based on KCET and COMEDK. PG admissions are through PGCET or GATE.,,low,high,medium,,unknown
+Entrance Exam Cutoff by Program,Admissions,N/A,"KCET 2023 Round 1 Closing Ranks: CSE-1547, ISE-2569, ECE-4521, EEE-10542",,low,medium,low,2023,low
+Total Students Enrolled,Student Demographics,N/A,"Total Actual Student Strength (Program(s) Offered by Your Institution): UG [4 Years Program(s)]: 4451, PG [2 Years Program(s)]: 1153. Total = 5604",,low,high,critical,2024,medium
+Female Students Enrolled,Student Demographics,N/A,UG [4 Years Program(s)]: 1432 female students; PG [2 Years Program(s)]: 394 female students. Total = 1826,,low,high,critical,2024,medium
+Total Faculty,Faculty,N/A,Total number of faculty members listed in the Faculty Details table is 249.,,low,high,critical,2024,medium
+PhD Faculty,Faculty,N/A,Count of faculty members with Ph.D qualification in the Faculty Details table is 118.,,low,high,critical,2024,medium
+Average Teaching Experience of Faculty,Faculty,N/A,"Average of 'Experience (In Months)' for all 249 faculty members is approximately 185 months, which is 15.4 years.",,low,medium,critical,2024,medium
+Sports Infrastructure & Achievements,Campus Facilities,"{'facilities': ['Cricket ground', 'Football ground', 'Basketball court', 'Volleyball court', 'Tennis court', 'Gymnasium', 'Indoor sports complex'], 'achievements': ['Regular participation in VTU inter-collegiate tournaments', 'Hosted various zonal level sports meets']}","SJCE provides excellent sports facilities including a cricket ground, football ground, basketball court, and a well-equipped gymnasium for students.",https://sjce.ac.in/campus-life/,medium,high,high,,unknown
+List of Active Clubs,Student Life,"['LCC (Literary and Cultural Committee)', 'CSI (Computer Society of India) Student Branch', 'IEEE SJCE', 'SAE India SJCE', 'Photography Club', 'Vyuha (Technical Club)', 'Sahitya (Kannada Club)']","The college has several active clubs like IEEE, CSI, and LCC that organize various technical and cultural events throughout the year.",https://sjce.ac.in/student-activities/,medium,high,high,,unknown
+NIRF Ranking,Accreditations & Rankings,151-200,Sri Jayachamarajendra College of Engineering (SJCE) was placed in the 151-200 rank band in the Engineering category of NIRF 2023.,https://www.nirfindia.org/2023/EngineeringRanking.html,medium,high,critical,2023,low
+Institutional Status,Accreditations & Rankings,N/A,"SJCE is an autonomous institution affiliated to Visvesvaraya Technological University (VTU), Belagavi, and is part of JSS Science and Technology University.",,low,high,medium,,unknown
+PhD Students Enrolled,Student Demographics,N/A,Total Ph.D students enrolled as of 2023-24: Full Time (48) + Part Time (94) = 142.,,low,high,critical,2024,medium

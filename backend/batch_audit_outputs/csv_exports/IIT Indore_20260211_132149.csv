@@ -1,0 +1,50 @@
+College Name,"IIT Indore"
+
+=== AUDIT OVERVIEW ===
+Audit Date,"2026-02-11 13:21:49"
+Total KPIs,24
+Data Found,24
+Data Not Found,0
+High Confidence,20
+Coverage Percentage,100.0%
+
+=== CATEGORY BREAKDOWN ===
+Category,Found,Total,Percentage
+"Student Demographics",4,4,100%
+"Placements",3,3,100%
+"Student Outcomes",1,1,100%
+"Faculty",3,3,100%
+"Academic Infrastructure",2,2,100%
+"Campus Facilities",3,3,100%
+"Technology Infrastructure",1,1,100%
+"Academic Programs",2,2,100%
+"Admissions",2,2,100%
+"Student Life",1,1,100%
+"Accreditations & Rankings",2,2,100%
+
+=== KPI DETAILS ===
+KPI Name,Category,Value,Evidence,Source URL,System Confidence,LLM Confidence,Source Priority,Data Year,Recency
+Total Graduate Students (2025),Student Demographics,"484 [UG 4Y: 331, PG 2Y: 153]",Extracted from NIRF 2025 document,https://www.iiti.ac.in/public/storage/NIRF-2025/NIRF-Overall 2025.pdf,low,low,critical,,unknown
+Placed Students Count,Placements,"297 [UG: 234, PG: 63]",Extracted from NIRF 2025 document,https://www.iiti.ac.in/public/storage/NIRF-2025/NIRF-Overall 2025.pdf,low,low,critical,,unknown
+Median Compensation (Last Batch),Placements,19.48 LPA,Extracted from NIRF 2025 document,https://www.iiti.ac.in/public/storage/NIRF-2025/NIRF-Overall 2025.pdf,low,low,critical,,unknown
+Students Pursuing Higher Education,Student Outcomes,"76 [UG: 27, PG: 49]",Extracted from NIRF 2025 document,https://www.iiti.ac.in/public/storage/NIRF-2025/NIRF-Overall 2025.pdf,low,low,critical,,unknown
+Total Students Enrolled,Student Demographics,1987,Extracted from NIRF 2025 document,https://www.iiti.ac.in/public/storage/NIRF-2025/NIRF-Overall 2025.pdf,low,low,critical,,unknown
+Female Students Enrolled,Student Demographics,412,Extracted from NIRF 2025 document,https://www.iiti.ac.in/public/storage/NIRF-2025/NIRF-Overall 2025.pdf,low,low,critical,,unknown
+Total Faculty,Faculty,219,Extracted from NIRF 2025 document,https://www.iiti.ac.in/public/storage/NIRF-2025/NIRF-Overall 2025.pdf,low,low,critical,,unknown
+PhD Faculty,Faculty,219,Extracted from NIRF 2025 document,https://www.iiti.ac.in/public/storage/NIRF-2025/NIRF-Overall 2025.pdf,low,low,critical,,unknown
+Average Teaching Experience of Faculty,Faculty,10.83,Extracted from NIRF 2025 document,https://www.iiti.ac.in/public/storage/NIRF-2025/NIRF-Overall 2025.pdf,low,low,critical,,unknown
+PhD Students Enrolled,Student Demographics,"674 [Full Time: 633, Part Time: 41]",Extracted from NIRF 2025 document,https://www.iiti.ac.in/public/storage/NIRF-2025/NIRF-Overall 2025.pdf,low,low,critical,,unknown
+ICT-Enabled Learning Infrastructure,Academic Infrastructure,True,A NPTEL course on Autotronics 19th Jan 2026 to 10th April 2026 A NPTEL course on Autotronics by Prof. I. A. Palani... Computer and Information Technology Center,https://www.iiti.ac.in/,medium,high,high,2026,unknown
+Digital Library Access,Academic Infrastructure,True,Learning Resource Center (Library)... use of basic facilities like library and computer center.,https://www.iiti.ac.in/page/summer-internship-introduction,medium,high,high,,unknown
+Male Hostels Managed by College,Campus Facilities,1,the PM Ajay hostel rising steadily to welcome more students,https://www.iiti.ac.in/public/storage/sliders/2025/sep/Alumni_Magazine%202025.pdf,low,medium,high,2025,high
+Female Hostels Managed by College,Campus Facilities,1,IIT Indore has well equipped hostels for the interns... Accommodation is available at IIT Indore hostels.,https://www.iiti.ac.in/page/summer-internship-introduction,low,medium,high,,unknown
+Smart Campus / ERP Implementation,Technology Infrastructure,True,HRMS Internal Complaints Committee... MMS Online Indenting IDO Ticket Generation... E-Payments,https://www.iiti.ac.in/,medium,high,high,,unknown
+List of Courses,Academic Programs,"B.Tech(CSE, EE, ME, CE), M.Tech, M.Sc, M.S.(Research), B.Des, Ph.D","This year, IIT Indore will award 233 B.Tech, 57 M.Tech, 58 MSc. 2 M.S. (Research) and 58 PhD. degrees... the B.Des. program that opened fresh avenues of creativity",https://www.iiti.ac.in/public/storage/sliders/2025/sep/Alumni_Magazine%202025.pdf,medium,high,high,2025,high
+Fees for Each Course,Academic Programs,N/A,"The source mentions internship fees (Rs 5000/month) and QIP course fees (Rs 2500-5000), but does not explicitly state annual tuition fees for degree programs.",https://www.iiti.ac.in/page/summer-internship-introduction,low,low,high,,unknown
+Maximum Compensation (Last Placement Season),Placements,N/A,"The provided documents discuss alumni achievements, convocation awards, and startup founders but do not specify the highest CTC for the latest placement cycle.",https://www.iiti.ac.in/public/storage/sliders/2025/sep/Alumni_Magazine%202025.pdf,low,low,high,2025,high
+Entrance Exam Name,Admissions,JEE (Advanced),Admissions@IITI JEE (Advanced) exam JOSAA JEE (Advanced) Office,https://www.iiti.ac.in/,medium,high,high,,unknown
+Entrance Exam Cutoff by Program,Admissions,N/A,"While JEE (Advanced) is mentioned as the entrance exam, specific closing ranks or cutoff percentiles for the programs are not listed in the source text.",https://www.iiti.ac.in/,low,low,high,,unknown
+Sports Infrastructure & Achievements,Campus Facilities,"{'facilities': ['Sports Excellence Center'], 'achievements': ['Athletes chasing records instead of grades', 'Friendly cricket match between alumni and students']}",Sports Excellence... the athletes who chase records instead of grades... Alumni and students gathered for a friendly cricket match,https://www.iiti.ac.in/public/storage/sliders/2025/sep/Alumni_Magazine 2025.pdf,medium,medium,high,2025,high
+List of Active Clubs,Student Life,"['Alumni Cell', 'EESA', 'Aaina (Dramatics/Skit)', 'Clubs and Societies']","Clubs and Societies... Dr. Addepalli Hari Narayana (EE ’18, AMD), in a session with EESA... cathartic skit by Aaina.",https://www.iiti.ac.in/public/storage/sliders/2025/sep/Alumni_Magazine 2025.pdf,medium,high,high,2025,high
+NIRF Ranking,Accreditations & Rankings,N/A,NIRF link present on website but specific rank for 2024/2025 not stated in provided text.,https://www.iiti.ac.in/,low,low,high,2024,medium
+Institutional Status,Accreditations & Rankings,Institute of National Importance,Indian Institute of Technology Indore... is an institute of national importance established by the Government of India in 2009.,https://www.iiti.ac.in/page/about-us,medium,high,high,,unknown

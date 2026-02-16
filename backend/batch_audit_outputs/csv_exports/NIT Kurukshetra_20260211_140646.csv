@@ -1,0 +1,52 @@
+College Name,"NIT Kurukshetra"
+
+=== AUDIT OVERVIEW ===
+Audit Date,"2026-02-11 14:06:46"
+Total KPIs,25
+Data Found,25
+Data Not Found,0
+High Confidence,25
+Coverage Percentage,100.0%
+
+=== CATEGORY BREAKDOWN ===
+Category,Found,Total,Percentage
+"Academic Infrastructure",2,2,100%
+"Campus Facilities",3,3,100%
+"Technology Infrastructure",1,1,100%
+"Academic Programs",2,2,100%
+"Student Demographics",4,4,100%
+"Placements",3,3,100%
+"Student Outcomes",1,1,100%
+"Research & Innovation",1,1,100%
+"Admissions",2,2,100%
+"Faculty",3,3,100%
+"Student Life",1,1,100%
+"Accreditations & Rankings",2,2,100%
+
+=== KPI DETAILS ===
+KPI Name,Category,Value,Evidence,Source URL,System Confidence,LLM Confidence,Source Priority,Data Year,Recency
+ICT-Enabled Learning Infrastructure,Academic Infrastructure,True,"The Institute has 11 Lecture Halls (L-1 to L-11) equipped with ICT facilities like Projectors, Audio systems and Internet connectivity.",https://nitkkr.ac.in/?page_id=581,medium,high,high,,unknown
+Digital Library Access,Academic Infrastructure,True,"The Library has a rich collection of e-resources including e-journals, e-books and databases accessible through the campus network.",https://nitkkr.ac.in/?page_id=457,medium,high,high,,unknown
+Male Hostels Managed by College,Campus Facilities,11,There are 11 Boys' Hostels (H-1 to H-11) in the Institute campus.,https://nitkkr.ac.in/?page_id=615,medium,high,high,,unknown
+Female Hostels Managed by College,Campus Facilities,4,There are 4 Girls' Hostels (GH-1 to GH-4) in the Institute campus.,https://nitkkr.ac.in/?page_id=615,medium,high,high,,unknown
+Smart Campus / ERP Implementation,Technology Infrastructure,True,The Institute has implemented an ERP system for academic and administrative processes including student registration and fee payment.,https://nitkkr.ac.in/?page_id=1432,medium,high,high,,unknown
+List of Courses,Academic Programs,"B.Tech(CE, CSE, EE, ECE, ME, PIE, IT), M.Tech(Civil, Electrical, ECE, ME, CSE, Physics, Chemistry), MBA, MCA, Ph.D","The institute offers B.Tech, M.Tech, MBA, MCA and PhD courses in various specializations including Civil, Computer, Electrical, Electronics, Mechanical, IT and PIE.",https://nitkkr.ac.in/?page_id=611,medium,high,high,,unknown
+Fees for Each Course,Academic Programs,"{'B.Tech': 125000, 'M.Tech': 70000, 'MBA': 100000, 'MCA': 70000}","Tuition fee for B.Tech is approx 62,500 per semester. M.Tech and MCA tuition fees are approx 35,000 per semester.",https://nitkkr.ac.in/wp-content/uploads/2023/07/Fee-Structure-2023-24.pdf,medium,medium,high,2023,low
+Total Graduate Students (2025),Student Demographics,1124,Total number of students graduating in minimum stipulated time for UG 4-year and PG 2-year programs combined based on current intake trends.,https://www.nirfindia.org/2024/EngineeringRanking.html,low,medium,critical,2024,medium
+Placed Students Count,Placements,853,Number of students placed: 853 out of total eligible students in the 2023-24 placement drive.,https://nitkkr.ac.in/?page_id=15535,medium,high,high,2023,low
+Maximum Compensation (Last Placement Season),Placements,62.75 LPA,The highest package offered during the 2023-24 placement season was 62.75 LPA.,https://nitkkr.ac.in/?page_id=15535,medium,high,high,2023,low
+Median Compensation (Last Batch),Placements,13.00 LPA,Median salary of placed graduates (Amount in Rs.) for UG [4 Years Program(s)]: 1300000 (Thirteen Lakhs),https://www.nitkkr.ac.in/wp-content/uploads/2024/02/NIRF-2024-Engineering.pdf,medium,high,critical,2024,medium
+Students Pursuing Higher Education,Student Outcomes,110,No. of students selected for Higher Studies: 110 (for UG 4-year programs in 2022-23),https://www.nitkkr.ac.in/wp-content/uploads/2024/02/NIRF-2024-Engineering.pdf,medium,high,critical,2024,medium
+IP Patents Granted/Licensed (Latest Year),Research & Innovation,46,No. of Patents Published: 38; No. of Patents Granted: 8 (Total: 46 for the year 2022),https://www.nitkkr.ac.in/wp-content/uploads/2024/02/NIRF-2024-Engineering.pdf,medium,high,critical,2024,medium
+Entrance Exam Name,Admissions,JEE Main,Admission to B.Tech. Programs is based on the performance in Joint Entrance Examination (JEE Main),https://nitkkr.ac.in/?page_id=581,medium,high,high,,unknown
+Entrance Exam Cutoff by Program,Admissions,"{'Computer Engineering': '8242', 'Information Technology': '10985', 'Electronics and Communication Engineering': '15494', 'Mechanical Engineering': '27684', 'Civil Engineering': '41505'}","JoSAA 2023 Round 6 Closing Ranks (Gender-Neutral, Open Category, Other State)",https://josaa.admissions.nic.in/selection/cutoff/cutoff.aspx,medium,high,high,2023,low
+Total Students Enrolled,Student Demographics,5174,Total Actual Student Strength (Program(s) Offered by Your Institution): UG [4 Years Program(s)]: 3843; PG [2 Year Program(s)]: 800; PG [3 Year Program(s)]: 273; PhD: 258. Total = 5174.,https://nitkkr.ac.in/wp-content/uploads/2024/02/NIRF-2024-Engineering.pdf,medium,high,critical,2024,medium
+Female Students Enrolled,Student Demographics,1042,Sum of female students across programs: UG (744) + PG 2yr (191) + PG 3yr (32) + PhD (75) = 1042.,https://nitkkr.ac.in/wp-content/uploads/2024/02/NIRF-2024-Engineering.pdf,medium,high,critical,2024,medium
+Total Faculty,Faculty,268,The Faculty Details section of NIRF 2024 lists 268 faculty members in the comprehensive table.,https://nitkkr.ac.in/wp-content/uploads/2024/02/NIRF-2024-Engineering.pdf,medium,high,critical,2024,medium
+PhD Faculty,Faculty,251,"Out of 268 faculty members listed in the NIRF 2024 Faculty Details table, 251 hold a Ph.D. qualification.",https://nitkkr.ac.in/wp-content/uploads/2024/02/NIRF-2024-Engineering.pdf,medium,high,critical,2024,medium
+Average Teaching Experience of Faculty,Faculty,14.8,"Average of 'Experience (In Months)' for all 268 faculty members is approximately 177.6 months, which is 14.8 years.",https://nitkkr.ac.in/wp-content/uploads/2024/02/NIRF-2024-Engineering.pdf,medium,medium,critical,2024,medium
+Sports Infrastructure & Achievements,Campus Facilities,"{'facilities': ['Cricket ground', 'Football ground', 'Hockey ground', 'Athletics track', 'Lawn Tennis courts', 'Basketball courts', 'Volleyball courts', 'Badminton courts', 'Gymnasium', 'Swimming Pool', 'Table Tennis'], 'achievements': ['Regular participation in All India Inter-NIT Sports Meet', 'Host of various zonal level sports competitions']}",The Institute has a well-equipped Sports Department with facilities for various indoor and outdoor games including a gymnasium and swimming pool.,https://nitkkr.ac.in/?page_id=544,medium,high,high,,unknown
+List of Active Clubs,Student Life,"['Microbus', 'Technobyte', 'Electroreck', 'Mechsoc', 'Infrastructure', 'Literary and Debating Club', 'Music and Dramatic Club', 'Fine Arts and Photography Club', 'Spic Macay', 'Shiksha', 'Saathi']","The institute has various technical and cultural clubs like Microbus, Technobyte, and Literary and Debating Club for student development.",https://nitkkr.ac.in/?page_id=612,medium,high,high,,unknown
+NIRF Ranking,Accreditations & Rankings,Engineering: 58,NIT Kurukshetra ranked 58th in the Engineering category in NIRF 2023.,https://www.nirfindia.org/2023/EngineeringRanking.html,medium,high,critical,2023,low
+Institutional Status,Accreditations & Rankings,Institute of National Importance,"National Institute of Technology, Kurukshetra is an Institution of National Importance under the NITSER Act.",https://nitkkr.ac.in/?page_id=2,medium,high,high,,unknown
+PhD Students Enrolled,Student Demographics,1056,"Full Time: 642, Part Time: 414. Total = 1056 (as per NIRF 2024 data for 2023-24 session).",https://nitkkr.ac.in/wp-content/uploads/2024/02/NIRF-2024-Overall.pdf,medium,high,critical,2024,medium

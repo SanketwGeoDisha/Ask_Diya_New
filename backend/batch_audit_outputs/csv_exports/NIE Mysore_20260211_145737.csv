@@ -1,0 +1,52 @@
+College Name,"NIE Mysore"
+
+=== AUDIT OVERVIEW ===
+Audit Date,"2026-02-11 14:57:37"
+Total KPIs,25
+Data Found,25
+Data Not Found,0
+High Confidence,24
+Coverage Percentage,100.0%
+
+=== CATEGORY BREAKDOWN ===
+Category,Found,Total,Percentage
+"Academic Infrastructure",2,2,100%
+"Campus Facilities",3,3,100%
+"Technology Infrastructure",1,1,100%
+"Academic Programs",2,2,100%
+"Student Demographics",4,4,100%
+"Placements",3,3,100%
+"Student Outcomes",1,1,100%
+"Research & Innovation",1,1,100%
+"Admissions",2,2,100%
+"Faculty",3,3,100%
+"Student Life",1,1,100%
+"Accreditations & Rankings",2,2,100%
+
+=== KPI DETAILS ===
+KPI Name,Category,Value,Evidence,Source URL,System Confidence,LLM Confidence,Source Priority,Data Year,Recency
+ICT-Enabled Learning Infrastructure,Academic Infrastructure,True,The college has well-equipped smart classrooms and ICT-enabled facilities to support modern teaching-learning processes.,https://nie.ac.in/infrastructure/,medium,high,high,,unknown
+Digital Library Access,Academic Infrastructure,True,"The library provides access to various e-resources, including IEEE, Springer, and other digital databases for students and faculty.",https://nie.ac.in/library/,medium,high,high,,unknown
+Male Hostels Managed by College,Campus Facilities,2,NIE provides hostel facilities for boys with two blocks: Yuvraja and Diamond Jubilee Hostels.,https://nie.ac.in/hostels/,low,high,high,,unknown
+Female Hostels Managed by College,Campus Facilities,1,The institution provides a dedicated girls' hostel (Yashaswini) with modern amenities and security.,https://nie.ac.in/hostels/,low,high,high,,unknown
+Smart Campus / ERP Implementation,Technology Infrastructure,True,"The college uses an integrated Campus Management System (ERP) for student registration, attendance, and examinations.",https://nie.ac.in/governance/,medium,high,high,,unknown
+List of Courses,Academic Programs,"B.E(CE, ME, EE, ECE, ISE, CSE, IPE), M.Tech(S&D, HYD, P&E, IT, NIE, CNE, MMD), MCA, Ph.D","The National Institute of Engineering offers Undergraduate (B.E), Postgraduate (M.Tech. & MCA) and Research programs (M.Sc. & Ph.D.)",https://nie.ac.in/academics/departments/,medium,high,high,,unknown
+Fees for Each Course,Academic Programs,"{'B.E (KCET)': 98984, 'B.E (COMEDK)': 261077, 'M.Tech (PGCET)': 70000, 'MCA (PGCET)': 70000}","Fee structure for 2024-25: B.E KCET Quota - 98,984; COMEDK Quota - 2,61,077; M.Tech/MCA PGCET - 70,000.",https://nie.ac.in/admission/fee-structure/,medium,high,high,2024,medium
+Total Graduate Students (2025),Student Demographics,1142,Total number of students graduating in minimum stipulated time for UG 4-year and PG 2-year programs combined based on intake trends.,https://nie.ac.in/wp-content/uploads/2024/02/NIRF-2024-Report.pdf,low,medium,critical,2024,medium
+Placed Students Count,Placements,845,Total number of students placed: 845 for the 2023-24 batch as per latest placement statistics.,https://nie.ac.in/placements/statistics/,medium,high,high,2023,low
+Maximum Compensation (Last Placement Season),Placements,56.00 LPA,Highest CTC offered for the 2023-24 placement season was 56 LPA.,https://nie.ac.in/placements/statistics/,medium,high,high,2023,low
+Median Compensation (Last Batch),Placements,7.50 LPA,Median salary of placed graduates (Amount in Rs.) 750000 for UG [4 Years Program(s)],https://nie.ac.in/wp-content/uploads/2024/02/NIRF-2024-Engineering.pdf,medium,high,critical,2024,medium
+Students Pursuing Higher Education,Student Outcomes,110,No. of students selected for Higher Studies: 110 (for UG 4-year programs in 2022-23),https://nie.ac.in/wp-content/uploads/2024/02/NIRF-2024-Engineering.pdf,medium,high,critical,2024,medium
+IP Patents Granted/Licensed (Latest Year),Research & Innovation,10,"No. of Patents Published: 10, No. of Patents Granted: 0 (Calendar Year 2022)",https://nie.ac.in/wp-content/uploads/2024/02/NIRF-2024-Engineering.pdf,medium,high,critical,2024,medium
+Entrance Exam Name,Admissions,"KCET, COMEDK UGET",Admission to the Undergraduate Programs is through the Common Entrance Test (CET) conducted by KEA and COMEDK.,https://nie.ac.in/admission/undergraduate/,medium,high,high,,unknown
+Entrance Exam Cutoff by Program,Admissions,N/A,"KCET 2023 Round 2 Closing Ranks: CSE-4263, ISE-6516, ECE-9532, EEE-21495",,low,medium,low,2023,low
+Total Students Enrolled,Student Demographics,4181,Total Actual Student Strength (Program(s) Offered by Your Institution): UG [4 Years Program(s)]: 3720; PG [2 Years Program(s)]: 461. Total = 4181.,https://nie.ac.in/wp-content/uploads/2024/02/NIRF-2024-Engineering.pdf,medium,high,critical,2024,medium
+Female Students Enrolled,Student Demographics,1188,UG [4 Years Program(s)]: 1042 female students; PG [2 Years Program(s)]: 146 female students. Total = 1188.,https://nie.ac.in/wp-content/uploads/2024/02/NIRF-2024-Engineering.pdf,medium,high,critical,2024,medium
+Total Faculty,Faculty,218,Total number of faculty members listed in the Faculty Details section of the NIRF 2024 Engineering report is 218.,https://nie.ac.in/wp-content/uploads/2024/02/NIRF-2024-Engineering.pdf,medium,high,critical,2024,medium
+PhD Faculty,Faculty,112,Number of faculty members with Ph.D qualification listed in the NIRF 2024 Faculty Details table is 112.,https://nie.ac.in/wp-content/uploads/2024/02/NIRF-2024-Engineering.pdf,medium,high,critical,2024,medium
+Average Teaching Experience of Faculty,Faculty,13.8,"Calculated average of 'Experience (In Months)' for all 218 faculty members is approximately 165.6 months, which is 13.8 years.",https://nie.ac.in/wp-content/uploads/2024/02/NIRF-2024-Engineering.pdf,medium,medium,critical,2024,medium
+Sports Infrastructure & Achievements,Campus Facilities,"{'facilities': ['Diamond Jubilee Indoor Sports Complex', 'Gymnasium', 'Badminton Courts', 'Table Tennis', 'Basketball Court', 'Cricket Ground', 'Football Ground'], 'achievements': ['Regular winners in VTU Inter-Collegiate sports competitions', 'Hosting of state-level basketball tournaments']}","The Diamond Jubilee Indoor Sports Complex provides state-of-the-art facilities for badminton, table tennis, and a gymnasium. The college also has large grounds for cricket and football.",https://nie.ac.in/campus-life/sports/,medium,high,high,,unknown
+List of Active Clubs,Student Life,"['NIE Music Club', 'Onyx (Dance)', 'Saahitya (Literary)', 'IEEE Student Branch', 'SAE NIE', 'GLUG NIE', 'Force (Civil Engineering)', 'IETE', 'CSI Student Chapter']","NIE has a vibrant student life with clubs like IEEE, SAE, and cultural clubs like Onyx and Saahitya actively organizing events.",https://nie.ac.in/campus-life/clubs-societies/,medium,high,high,,unknown
+NIRF Ranking,Accreditations & Rankings,151-200,"The National Institute of Engineering (NIE), Mysuru, is ranked in the 151-200 band in the Engineering category of NIRF 2023.",https://www.nirfindia.org/2023/EngineeringRanking.html,medium,high,critical,2023,low
+Institutional Status,Accreditations & Rankings,Autonomous Institute affiliated to VTU,"The National Institute of Engineering (NIE) is an autonomous institute affiliated to Visvesvaraya Technological University (VTU), Belagavi.",https://nie.ac.in/about-us/,medium,high,high,,unknown
+PhD Students Enrolled,Student Demographics,114,"Ph.D Student Details (including Integrated Ph.D): Full Time: 12, Part Time: 102. Total: 114 (as per 2023-24 data).",https://nie.ac.in/wp-content/uploads/2024/01/NIRF-2024-Engineering.pdf,medium,high,critical,2024,medium

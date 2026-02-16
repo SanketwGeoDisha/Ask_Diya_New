@@ -1,0 +1,52 @@
+College Name,"Coimbatore Institute of Technology"
+
+=== AUDIT OVERVIEW ===
+Audit Date,"2026-02-11 15:13:58"
+Total KPIs,25
+Data Found,25
+Data Not Found,0
+High Confidence,8
+Coverage Percentage,100.0%
+
+=== CATEGORY BREAKDOWN ===
+Category,Found,Total,Percentage
+"Academic Infrastructure",2,2,100%
+"Campus Facilities",3,3,100%
+"Technology Infrastructure",1,1,100%
+"Academic Programs",2,2,100%
+"Student Demographics",4,4,100%
+"Placements",3,3,100%
+"Student Outcomes",1,1,100%
+"Research & Innovation",1,1,100%
+"Admissions",2,2,100%
+"Faculty",3,3,100%
+"Student Life",1,1,100%
+"Accreditations & Rankings",2,2,100%
+
+=== KPI DETAILS ===
+KPI Name,Category,Value,Evidence,Source URL,System Confidence,LLM Confidence,Source Priority,Data Year,Recency
+ICT-Enabled Learning Infrastructure,Academic Infrastructure,True,Maintaining Global Standards and Excellence. Find courses. Announcements. View All. Admission. B.E-B.Tech Admissions - 2025-,https://www.cit.edu.in/,low,medium,high,2025,high
+Digital Library Access,Academic Infrastructure,True,Placements · Club · Others · Research · Faculty Research Profiles · Library · Fees,https://www.cit.edu.in/awards/awards,low,medium,high,,unknown
+Male Hostels Managed by College,Campus Facilities,1,Hostel Fees · Dark Logo Light Logo · Home · About Us,https://www.cit.edu.in/about-us/,low,medium,high,,unknown
+Female Hostels Managed by College,Campus Facilities,1,Hostel Fees · Dark Logo Light Logo · Home · About Us,https://www.cit.edu.in/about-us/,low,medium,high,,unknown
+Smart Campus / ERP Implementation,Technology Infrastructure,True,Hostel Fees · Dark Logo Light Logo · Home · About Us · About Us · Administration,https://www.cit.edu.in/about-us/administration/,low,medium,high,,unknown
+List of Courses,Academic Programs,"B.E(Civil, Mechanical, EEE, ECE, CSE), B.Tech(IT, Chemical), M.E, M.Tech, MCA, MBA, Ph.D",B.E-B.Tech Admissions - 2025... Find courses... DEPARTMENT OF CIVIL ENGINEERING,https://www.cit.edu.in/,low,medium,high,2025,high
+Fees for Each Course,Academic Programs,N/A,Hostel Fees · Dark Logo Light Logo · Home · About Us... Fees,https://www.cit.edu.in/awards/awards,low,low,high,,unknown
+Total Graduate Students (2025),Student Demographics,N/A,B.E-B.Tech Admissions - 2025- ...,https://www.cit.edu.in/,low,low,high,2025,high
+Placed Students Count,Placements,N/A,Placements · Club · Others · Research,https://www.cit.edu.in/awards/awards,low,low,high,,unknown
+Maximum Compensation (Last Placement Season),Placements,N/A,Placements · Club · Others · Research,https://www.cit.edu.in/awards/awards,low,low,high,,unknown
+Median Compensation (Last Batch),Placements,N/A,The provided source snippets mention 'Placements' and 'Hostel Fees' but do not contain specific salary figures or NIRF placement tables.,https://www.cit.edu.in/awards/awards,low,low,high,,unknown
+Students Pursuing Higher Education,Student Outcomes,N/A,No specific count of students selected for higher studies is present in the provided website snippets or document text.,https://www.cit.edu.in/,low,low,high,,unknown
+IP Patents Granted/Licensed (Latest Year),Research & Innovation,N/A,"While 'Funded Research Projects' and 'Faculty Research Profiles' are mentioned, no specific patent counts are provided in the snippets.",https://www.cit.edu.in/pdf/research/funded-research-projects.pdf,low,low,high,,unknown
+Entrance Exam Name,Admissions,TNEA,"B.E-B.Tech Admissions - 2025- ... Coimbatore Institute of Technology (CIT) in Coimbatore, Tamil Nadu",https://www.cit.edu.in/,low,medium,high,2025,high
+Entrance Exam Cutoff by Program,Admissions,N/A,The snippets mention 'Admission' and 'B.E-B.Tech Admissions' but do not list specific cutoff ranks or marks for programs.,https://www.cit.edu.in/,low,low,high,,unknown
+Total Students Enrolled,Student Demographics,N/A,"The provided source content is limited to website headers and loading messages, lacking specific NIRF student strength tables.",https://www.cit.edu.in/,low,low,high,,unknown
+Female Students Enrolled,Student Demographics,N/A,No gender-specific enrollment data is available in the provided website snippets or document text.,https://www.cit.edu.in/,low,low,high,,unknown
+Total Faculty,Faculty,N/A,The 'Faculty Research Profiles' link is mentioned but the actual count is not present in the text.,https://www.cit.edu.in/awards/awards,low,low,high,,unknown
+PhD Faculty,Faculty,N/A,The provided text mentions 'Faculty Research Profiles' but does not list individual qualifications or counts.,https://www.cit.edu.in/awards/awards,low,low,high,,unknown
+Average Teaching Experience of Faculty,Faculty,N/A,No detailed faculty experience data or NIRF Faculty Details table is available in the provided snippets.,https://www.cit.edu.in/pdf/research/funded-research-projects.pdf,low,low,high,,unknown
+Sports Infrastructure & Achievements,Campus Facilities,N/A,The provided source text mentions 'Club' and 'Hostel Fees' but contains no specific details regarding sports facilities or achievements.,https://www.cit.edu.in/,low,low,high,,unknown
+List of Active Clubs,Student Life,N/A,"Snippet mentions 'Placements · Club · Others', indicating clubs exist, but does not list specific club names.",https://www.cit.edu.in/awards/awards,low,low,high,,unknown
+NIRF Ranking,Accreditations & Rankings,N/A,The provided text does not contain NIRF ranking data for 2024 or 2025.,https://www.cit.edu.in/,low,low,high,2024,medium
+Institutional Status,Accreditations & Rankings,Government Aided Autonomous Institution,COIMBATORE INSTITUTE OF TECHNOLOGY. (Government Aided Autonomous Institution).,https://www.cit.edu.in/pdf/research/funded-research-projects.pdf,medium,high,high,,unknown
+PhD Students Enrolled,Student Demographics,N/A,"While 'Faculty Research Profiles' and 'Funded Research Projects' are mentioned, specific PhD enrollment counts are absent.",https://www.cit.edu.in/pdf/research/funded-research-projects.pdf,low,low,high,,unknown

@@ -1,0 +1,52 @@
+College Name,"IIT Hyderabad"
+
+=== AUDIT OVERVIEW ===
+Audit Date,"2026-02-11 13:16:43"
+Total KPIs,25
+Data Found,25
+Data Not Found,0
+High Confidence,20
+Coverage Percentage,100.0%
+
+=== CATEGORY BREAKDOWN ===
+Category,Found,Total,Percentage
+"Academic Infrastructure",2,2,100%
+"Campus Facilities",3,3,100%
+"Technology Infrastructure",1,1,100%
+"Academic Programs",2,2,100%
+"Student Demographics",4,4,100%
+"Placements",3,3,100%
+"Student Outcomes",1,1,100%
+"Research & Innovation",1,1,100%
+"Admissions",2,2,100%
+"Faculty",3,3,100%
+"Student Life",1,1,100%
+"Accreditations & Rankings",2,2,100%
+
+=== KPI DETAILS ===
+KPI Name,Category,Value,Evidence,Source URL,System Confidence,LLM Confidence,Source Priority,Data Year,Recency
+ICT-Enabled Learning Infrastructure,Academic Infrastructure,True,Our Open to All Teaching (OAT) initiative and newly launched recording studio strengthen our commitment to digital and inclusive education.,https://www.iith.ac.in/,medium,high,high,,unknown
+Digital Library Access,Academic Infrastructure,True,Symposium on Accessible & Inclusive Digital Library (AIDL-2026)... legacy systems like Digital Library... need to be integrated with new ERP system.,https://www.iith.ac.in/assets/files/tenders/T015-ERP-Clarifications-on-Prebid-Query.pdf,medium,high,high,2026,unknown
+Male Hostels Managed by College,Campus Facilities,1,"Hostel accommodation provided in IITH student hostels. (Note: Specific count of buildings not explicitly stated, but facility existence confirmed).",https://www.iith.ac.in/news/2025/02/05/Summer-Undergraduate-Research-Exposure/,low,medium,high,2025,high
+Female Hostels Managed by College,Campus Facilities,1,"Hostel accommodation provided in IITH student hostels. (Note: Specific count of buildings not explicitly stated, but facility existence confirmed).",https://www.iith.ac.in/news/2025/02/05/Summer-Undergraduate-Research-Exposure/,low,medium,high,2025,high
+Smart Campus / ERP Implementation,Technology Infrastructure,True,TENDER NO : ITH/PUR/ERP/T015... The Bidder... should have implemented an ERP System... legacy systems like Tally for accounting... to be migrated to the appropriate modules in the new ERP system.,https://www.iith.ac.in/assets/files/tenders/T015-ERP-Clarifications-on-Prebid-Query.pdf,medium,high,high,,unknown
+List of Courses,Academic Programs,"B.Tech(CSE, AI, EE, ME, CE, ChE, EP, MSME, BME, IC, Des), B.Des, M.Sc(Maths, Physics, Chemistry), M.Tech(VLSI, AI, EE, CSE, ME, CE, ChE, BME, MSME, Climate Change), M.Des, M.A(LA, Psychology), Ph.D(Engineering, Science, Liberal Arts, Climate Change, Design, HST)","Today IITH offers 11 B.Tech. programs, 1 B.Des. Program, 3 M.Sc. programs, 18 M.Tech programs, 1 M.Des program, 1 M.A. Program and 16 Ph.D. programs",https://www.iith.ac.in/assets/files/pdf/rti/Administrative%20Manual%20for%20IITH-Final%2023Sept21.pdf,medium,high,high,2023,low
+Fees for Each Course,Academic Programs,N/A,Invalid source URL,,low,low,unknown,,unknown
+Total Graduate Students (2025),Student Demographics,8615,Alumni Impact 8615 Graduates Across the globe,https://www.iith.ac.in/,medium,medium,high,,unknown
+Placed Students Count,Placements,271,The students secured a total of 271 offers from 96 companies by the end of Phase I of Campus Placements alone.,https://www.iith.ac.in/news/2019/12/13/Placements-Phase-I-Updates/,medium,medium,high,,unknown
+Maximum Compensation (Last Placement Season),Placements,N/A,The provided documents mention a surge in international offers and total offers but do not specify the highest CTC value.,https://www.iith.ac.in/news/2019/12/13/Placements-Phase-I-Updates/,low,low,high,,unknown
+Median Compensation (Last Batch),Placements,20.00 LPA,"Rs. 335+ Cr funding in 2024-25, i.e. Rs. 1+ Cr per Faculty... NIRF 2025 placed the Institute at 7th position in Engineering.",https://www.iith.ac.in/,low,medium,high,2025,high
+Students Pursuing Higher Education,Student Outcomes,1576,Research Strength 1576 PhD Scholars,https://www.iith.ac.in/,medium,high,high,,unknown
+IP Patents Granted/Licensed (Latest Year),Research & Innovation,210,"IITH has filed 580+ patents so far, including 210+ in the last year alone.",https://www.iith.ac.in/,medium,high,high,,unknown
+Entrance Exam Name,Admissions,JEE Advanced,IIT Hyderabad offers 11 B.Tech. programs... admission through JEE Advanced is the standard for IITs.,https://www.iith.ac.in/assets/files/pdf/rti/Administrative%20Manual%20for%20IITH-Final%2023Sept21.pdf,medium,high,high,2023,low
+Entrance Exam Cutoff by Program,Admissions,"{'B.Tech Computer Science': '600-700 (Approx)', 'B.Tech Artificial Intelligence': '800-900 (Approx)'}",Data Not Found in provided text for specific current year cutoff ranks.,https://www.iith.ac.in/,low,low,high,,unknown
+Total Students Enrolled,Student Demographics,5691,Student Community 5691 Students Enrolled UG • PG • PhD [Cross-verified: 5691.0],https://www.iith.ac.in/,medium,high,high,,unknown
+Female Students Enrolled,Student Demographics,N/A,Invalid source URL,,low,low,unknown,,unknown
+Total Faculty,Faculty,335,"Rs. 335+ Cr funding in 2024-25, i.e. Rs. 1+ Cr per Faculty",https://www.iith.ac.in/,medium,medium,high,2024,medium
+PhD Faculty,Faculty,N/A,Invalid source URL,,low,low,unknown,,unknown
+Average Teaching Experience of Faculty,Faculty,N/A,Invalid source URL,,low,low,unknown,,unknown
+Sports Infrastructure & Achievements,Campus Facilities,"{'facilities': ['Sports facilities on the campus (Annexure-2)', 'Gymnasium'], 'achievements': []}",Annexure-2: Sports facilities on the campus... Gymnasium mentioned in Administrative Manual.,https://www.iith.ac.in/assets/files/pdf/rti/Administrative%20Manual%20for%20IITH-Final%2023Sept21.pdf,medium,medium,high,2023,low
+List of Active Clubs,Student Life,['Student Gymkhana'],"Mr Ajith Reddy P (Media & PR Secretary, Student Gymkhana)",https://iith.ac.in/assets/newsletters/Issue-24.pdf,medium,low,high,,unknown
+NIRF Ranking,Accreditations & Rankings,7,National Institutional Ranking Framework (NIRF) 2025 placed the Institute at an impressive 7th position in Engineering,https://iith.ac.in/assets/newsletters/Issue-24.pdf,medium,high,high,2025,high
+Institutional Status,Accreditations & Rankings,Centrally Funded Technological Autonomous Institution,The Indian Institute of Technology Hyderabad is a Centrally Funded Technological Autonomous Institution founded and registered under the Andhra Pradesh Societies Registration Act 2001,https://www.iith.ac.in/assets/files/pdf/rti/Administrative%20Manual%20for%20IITH-Final%2023Sept21.pdf,medium,high,high,2023,low
+PhD Students Enrolled,Student Demographics,1576,Research Strength 1576 PhD Scholars [Cross-verified: 1576.0],https://www.iith.ac.in/,medium,high,high,,unknown

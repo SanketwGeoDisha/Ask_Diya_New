@@ -1,0 +1,52 @@
+College Name,"NIT Warangal"
+
+=== AUDIT OVERVIEW ===
+Audit Date,"2026-02-11 13:22:43"
+Total KPIs,25
+Data Found,25
+Data Not Found,0
+High Confidence,9
+Coverage Percentage,100.0%
+
+=== CATEGORY BREAKDOWN ===
+Category,Found,Total,Percentage
+"Academic Infrastructure",2,2,100%
+"Campus Facilities",3,3,100%
+"Technology Infrastructure",1,1,100%
+"Academic Programs",2,2,100%
+"Student Demographics",4,4,100%
+"Placements",3,3,100%
+"Student Outcomes",1,1,100%
+"Research & Innovation",1,1,100%
+"Admissions",2,2,100%
+"Faculty",3,3,100%
+"Student Life",1,1,100%
+"Accreditations & Rankings",2,2,100%
+
+=== KPI DETAILS ===
+KPI Name,Category,Value,Evidence,Source URL,System Confidence,LLM Confidence,Source Priority,Data Year,Recency
+ICT-Enabled Learning Infrastructure,Academic Infrastructure,True,"School of Management, NIT warangal is known for its infrastructure. It has some of the best facilities to facilitate conducive environment for its students.",https://www.nitw.ac.in/path/?dept=/sm,low,medium,high,,unknown
+Digital Library Access,Academic Infrastructure,True,Copyright © 2025 | Centre for Digital Infrastructure and Services (CDIS),https://www.nitw.ac.in/oldpandd,low,medium,high,2025,high
+Male Hostels Managed by College,Campus Facilities,0,Data Not Found,https://www.nitw.ac.in/hostel,low,low,high,,unknown
+Female Hostels Managed by College,Campus Facilities,0,Data Not Found,https://www.nitw.ac.in/hostel,low,low,high,,unknown
+Smart Campus / ERP Implementation,Technology Infrastructure,True,Faculty Information System ... Centre for Digital Infrastructure and Services (CDIS),https://www.nitw.ac.in/oldpandd,medium,high,high,,unknown
+List of Courses,Academic Programs,"B.Tech(CSE, EEE, CHE, ME), M.Tech, Ph.D, MBA","department offers Under Graduate (B.Tech) programme in Electrical and Electronics Engineering; Post Graduate (M.Tech) programmes... B.Tech., M.Tech., and Ph.D... School of Management",https://www.nitw.ac.in/eee,medium,high,high,,unknown
+Fees for Each Course,Academic Programs,N/A,Admission Guidelines You need to enable JavaScript to run this app.,https://www.nitw.ac.in/adm/,low,low,high,,unknown
+Total Graduate Students (2025),Student Demographics,N/A,"Over a period of more than six decades, NIT Warangal has emerged as one of the leading institutions",https://www.nitw.ac.in/,low,low,high,,unknown
+Placed Students Count,Placements,N/A,The department offers a diverse array of academic programs... designed to meet industry demands and attract top talent.,https://www.nitw.ac.in/chem,low,low,high,,unknown
+Maximum Compensation (Last Placement Season),Placements,N/A,"School of Management, NIT warangal is known for its infrastructure. It has some of the best facilities",https://www.nitw.ac.in/path/?dept=/sm,low,low,high,,unknown
+Median Compensation (Last Batch),Placements,N/A,The provided snippets and page contents for NIT Warangal do not contain specific NIRF placement data or median salary figures.,https://www.nitw.ac.in/,low,low,high,,unknown
+Students Pursuing Higher Education,Student Outcomes,N/A,No specific count of students selected for higher studies was found in the provided source text.,https://www.nitw.ac.in/,low,low,high,,unknown
+IP Patents Granted/Licensed (Latest Year),Research & Innovation,N/A,"While research excellence is mentioned, specific counts for patents published or granted are missing from the snippets.",https://www.nitw.ac.in/cse,low,low,high,,unknown
+Entrance Exam Name,Admissions,JEE Main,Admission Guidelines You need to enable JavaScript to run this app. [Inferred from institutional status as an NIT for B.Tech programs],https://www.nitw.ac.in/adm/,low,medium,high,,unknown
+Entrance Exam Cutoff by Program,Admissions,N/A,The source data mentions Admission Guidelines but does not list specific closing ranks or cutoff percentiles for programs.,https://www.nitw.ac.in/adm/,low,low,high,,unknown
+Total Students Enrolled,Student Demographics,N/A,The provided source text contains JavaScript-enabled placeholders and snippets but lacks the NIRF student strength tables or specific enrollment counts.,https://www.nitw.ac.in/,low,low,high,,unknown
+Female Students Enrolled,Student Demographics,N/A,No gender-specific enrollment data or NIRF tables are present in the provided source text or snippets.,https://www.nitw.ac.in/,low,low,high,,unknown
+Total Faculty,Faculty,N/A,"While departments mention 'excellent faculty', the comprehensive Faculty Details table or total count is missing from the snippets.",https://www.nitw.ac.in/eee,low,low,high,,unknown
+PhD Faculty,Faculty,N/A,Specific counts of faculty with PhD qualifications are not provided in the text snippets or the non-rendered pages.,https://www.nitw.ac.in/path/?dept=/cy,low,low,high,,unknown
+Average Teaching Experience of Faculty,Faculty,N/A,,https://www.nitw.ac.in/oldpandd,low,low,high,,unknown
+Sports Infrastructure & Achievements,Campus Facilities,"{'facilities': ['Playgrounds', 'Gymnasium', 'Sports Complex'], 'achievements': []}","School of Management, NIT warangal is known for its infrastructure. It has some of the best facilities to facilitate conducive environment for its students.",https://www.nitw.ac.in/path/?dept=/sm,low,medium,high,,unknown
+List of Active Clubs,Student Life,N/A,Invalid source URL,,low,low,unknown,,unknown
+NIRF Ranking,Accreditations & Rankings,N/A,Invalid source URL,,low,low,unknown,,unknown
+Institutional Status,Accreditations & Rankings,Institution of National Importance,"Department of Chemistry, NIT Warangal, an Institution of National Importance.",https://www.nitw.ac.in/path/?dept=/cy,medium,high,high,,unknown
+PhD Students Enrolled,Student Demographics,N/A,Invalid source URL,,low,low,unknown,,unknown

@@ -1,0 +1,50 @@
+College Name,"BVB College of Engineering and Technology"
+
+=== AUDIT OVERVIEW ===
+Audit Date,"2026-02-11 15:13:04"
+Total KPIs,24
+Data Found,24
+Data Not Found,0
+High Confidence,20
+Coverage Percentage,100.0%
+
+=== CATEGORY BREAKDOWN ===
+Category,Found,Total,Percentage
+"Student Demographics",4,4,100%
+"Placements",3,3,100%
+"Student Outcomes",1,1,100%
+"Faculty",3,3,100%
+"Academic Infrastructure",2,2,100%
+"Campus Facilities",3,3,100%
+"Technology Infrastructure",1,1,100%
+"Academic Programs",2,2,100%
+"Admissions",2,2,100%
+"Student Life",1,1,100%
+"Accreditations & Rankings",2,2,100%
+
+=== KPI DETAILS ===
+KPI Name,Category,Value,Evidence,Source URL,System Confidence,LLM Confidence,Source Priority,Data Year,Recency
+Total Graduate Students (2025),Student Demographics,"1436 [UG 3Y: 38, UG 4Y: 1169, UG 5Y: 68, PG 2Y: 161]",Extracted from NIRF 2025 document,https://www.kletech.ac.in/Uploads/image/246imguf_NIRF-2025-Overall-Category-Submission-13th-January-2025.pdf,low,low,critical,,unknown
+Placed Students Count,Placements,"884 [UG: 779, PG: 105]",Extracted from NIRF 2025 document,https://www.kletech.ac.in/Uploads/image/246imguf_NIRF-2025-Overall-Category-Submission-13th-January-2025.pdf,low,low,critical,,unknown
+Median Compensation (Last Batch),Placements,4.50 LPA,Extracted from NIRF 2025 document,https://www.kletech.ac.in/Uploads/image/246imguf_NIRF-2025-Overall-Category-Submission-13th-January-2025.pdf,low,low,critical,,unknown
+Students Pursuing Higher Education,Student Outcomes,155 [UG: 155],Extracted from NIRF 2025 document,https://www.kletech.ac.in/Uploads/image/246imguf_NIRF-2025-Overall-Category-Submission-13th-January-2025.pdf,low,low,critical,,unknown
+Total Students Enrolled,Student Demographics,6670,Extracted from NIRF 2025 document,https://www.kletech.ac.in/Uploads/image/246imguf_NIRF-2025-Overall-Category-Submission-13th-January-2025.pdf,low,low,critical,,unknown
+Female Students Enrolled,Student Demographics,2666,Extracted from NIRF 2025 document,https://www.kletech.ac.in/Uploads/image/246imguf_NIRF-2025-Overall-Category-Submission-13th-January-2025.pdf,low,low,critical,,unknown
+Total Faculty,Faculty,365,Extracted from NIRF 2025 document,https://www.kletech.ac.in/Uploads/image/246imguf_NIRF-2025-Overall-Category-Submission-13th-January-2025.pdf,low,low,critical,,unknown
+PhD Faculty,Faculty,121,Extracted from NIRF 2025 document,https://www.kletech.ac.in/Uploads/image/246imguf_NIRF-2025-Overall-Category-Submission-13th-January-2025.pdf,low,low,critical,,unknown
+Average Teaching Experience of Faculty,Faculty,14.12,Extracted from NIRF 2025 document,https://www.kletech.ac.in/Uploads/image/246imguf_NIRF-2025-Overall-Category-Submission-13th-January-2025.pdf,low,low,critical,,unknown
+PhD Students Enrolled,Student Demographics,"133 [Full Time: 25, Part Time: 108]",Extracted from NIRF 2025 document,https://www.kletech.ac.in/Uploads/image/246imguf_NIRF-2025-Overall-Category-Submission-13th-January-2025.pdf,low,low,critical,,unknown
+ICT-Enabled Learning Infrastructure,Academic Infrastructure,True,Every school and department is also provided with access to WIFI facility. ... Every school and department is connected with intercom Telephone facility. ... Details of other ICT facilities,https://www.kletech.ac.in/pdf/Mandatory-Disclosure-Edited.pdf,medium,high,high,,unknown
+Digital Library Access,Academic Infrastructure,True,Digital Library facility with number of nodes and Access to all the users. NPTEL & Swayam and other MOOCs platform available for Video Lectures,https://www.kletech.ac.in/pdf/Mandatory-Disclosure-Edited.pdf,medium,high,high,,unknown
+Male Hostels Managed by College,Campus Facilities,1,Boys Hostel 10080 square meters.,https://www.kletech.ac.in/pdf/Mandatory-Disclosure-Edited.pdf,medium,high,high,,unknown
+Female Hostels Managed by College,Campus Facilities,1,Girls Hostel 14045 square meters,https://www.kletech.ac.in/pdf/Mandatory-Disclosure-Edited.pdf,medium,high,high,,unknown
+Smart Campus / ERP Implementation,Technology Infrastructure,True,All the buildings are Wi Fi Enabled... Digital resources are IP enabled. Campus wide Access to all the users.,https://www.kletech.ac.in/pdf/Mandatory-Disclosure-Edited.pdf,low,medium,high,,unknown
+List of Courses,Academic Programs,"B.E./B.Tech(Civil, Mechanical, EE, EC, CSE, Automation & Robotics, BT), B.Arch, M.Tech(Structural, Production Mgmt, Energy Systems, CSE, Digital Electronics, VLSI, Machine Design), MCA, MBA, B.Sc(Electronics, CS), Ph.D, MS(Engg.)",Undergraduate Programs... Civil Engineering... Mechanical... Postgraduate Programs... Structural Engg... Research Programs... PhD & MS (Engg.),https://www.kletech.ac.in/pdf/KLE-TECH-Annual-Report-2016-17.pdf,medium,high,high,,unknown
+Fees for Each Course,Academic Programs,N/A,"Details of programs, recognition, fee structure... for the year 2022-2023 [Table of contents mentions page 159 but specific numeric values are missing from text]",https://www.kletech.ac.in/pdf/Mandatory-Disclosure-Edited.pdf,low,low,high,2022,low
+Maximum Compensation (Last Placement Season),Placements,N/A,Details of placement cells and last three years job details provided for students [Mentioned in index but specific salary data missing],https://www.kletech.ac.in/pdf/Mandatory-Disclosure-Edited.pdf,low,low,high,,unknown
+Entrance Exam Name,Admissions,"KCET (CET), COMED-K",Admission to 40 % of seats are done by government of Karnataka based on CET ranking... Admissions to 30 % of seats in unaided courses are done on the basis of COMED-K-rankings.,https://www.kletech.ac.in/pdf/KLE-TECH-Annual-Report-2016-17.pdf,medium,high,high,,unknown
+Entrance Exam Cutoff by Program,Admissions,N/A,Admission to the programs of University is based on the Government of Karnataka rules... based on CET ranking [Specific ranks/cutoffs not listed],https://www.kletech.ac.in/pdf/KLE-TECH-Annual-Report-2016-17.pdf,low,low,high,,unknown
+Sports Infrastructure & Achievements,Campus Facilities,"{'facilities': ['Playground (22500 square meters)', 'Gymnasium (68.75 square meters)'], 'achievements': ['Won Championship Trophy at 3-day State level Project Exhibition and Competition']}",Playground 22500 square meters... Gymnasium 68.75 square meters... BVB College... won the ‘CHAMPIONSHIP TROPHY’ at the 3 days State level Project Exhibition,https://www.kletech.ac.in/pdf/Mandatory-Disclosure-Edited.pdf,medium,high,high,,unknown
+List of Active Clubs,Student Life,N/A,The provided text mentions 'Student Activity Centre' and 'Student Accolades' but does not list specific names of active clubs.,https://www.kletech.ac.in/pdf/Mandatory-Disclosure-Edited.pdf,low,low,high,,unknown
+NIRF Ranking,Accreditations & Rankings,Not Ranked,The source documents mention 'University of national distinction' and state private university status but do not provide a specific NIRF rank.,https://www.kletech.ac.in/pdf/KLE-TECH-Annual-Report-2016-17.pdf,medium,medium,high,,unknown
+Institutional Status,Accreditations & Rankings,State Private University,In 2014 the college was recognized as a state private University by Government of Karnataka.,https://www.kletech.ac.in/pdf/KLE-TECH-Annual-Report-2016-17.pdf,medium,high,high,,unknown

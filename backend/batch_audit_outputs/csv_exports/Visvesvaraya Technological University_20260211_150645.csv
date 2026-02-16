@@ -1,0 +1,50 @@
+College Name,"Visvesvaraya Technological University"
+
+=== AUDIT OVERVIEW ===
+Audit Date,"2026-02-11 15:06:45"
+Total KPIs,24
+Data Found,24
+Data Not Found,0
+High Confidence,20
+Coverage Percentage,100.0%
+
+=== CATEGORY BREAKDOWN ===
+Category,Found,Total,Percentage
+"Student Demographics",4,4,100%
+"Placements",3,3,100%
+"Student Outcomes",1,1,100%
+"Faculty",3,3,100%
+"Academic Infrastructure",2,2,100%
+"Campus Facilities",3,3,100%
+"Technology Infrastructure",1,1,100%
+"Academic Programs",2,2,100%
+"Admissions",2,2,100%
+"Student Life",1,1,100%
+"Accreditations & Rankings",2,2,100%
+
+=== KPI DETAILS ===
+KPI Name,Category,Value,Evidence,Source URL,System Confidence,LLM Confidence,Source Priority,Data Year,Recency
+Total Graduate Students (2025),Student Demographics,"875 [UG 4Y: 42, PG 2Y: 833]",Extracted from NIRF 2025 document,https://vtu.ac.in/wp-content/uploads/2025/02/Overall.pdf,low,low,critical,,unknown
+Placed Students Count,Placements,"532 [UG: 31, PG: 501]",Extracted from NIRF 2025 document,https://vtu.ac.in/wp-content/uploads/2025/02/Overall.pdf,low,low,critical,,unknown
+Median Compensation (Last Batch),Placements,4.45 LPA,Extracted from NIRF 2025 document,https://vtu.ac.in/wp-content/uploads/2025/02/Overall.pdf,low,low,critical,,unknown
+Students Pursuing Higher Education,Student Outcomes,"169 [UG: 7, PG: 162]",Extracted from NIRF 2025 document,https://vtu.ac.in/wp-content/uploads/2025/02/Overall.pdf,low,low,critical,,unknown
+Total Students Enrolled,Student Demographics,3434,Extracted from NIRF 2025 document,https://vtu.ac.in/wp-content/uploads/2025/02/Overall.pdf,low,low,critical,,unknown
+Female Students Enrolled,Student Demographics,1700,Extracted from NIRF 2025 document,https://vtu.ac.in/wp-content/uploads/2025/02/Overall.pdf,low,low,critical,,unknown
+Total Faculty,Faculty,257,Extracted from NIRF 2025 document,https://vtu.ac.in/wp-content/uploads/2025/02/Overall.pdf,low,low,critical,,unknown
+PhD Faculty,Faculty,109,Extracted from NIRF 2025 document,https://vtu.ac.in/wp-content/uploads/2025/02/Overall.pdf,low,low,critical,,unknown
+Average Teaching Experience of Faculty,Faculty,14.14,Extracted from NIRF 2025 document,https://vtu.ac.in/wp-content/uploads/2025/02/Overall.pdf,low,low,critical,,unknown
+PhD Students Enrolled,Student Demographics,"72 [Full Time: 36, Part Time: 36]",Extracted from NIRF 2025 document,https://vtu.ac.in/wp-content/uploads/2025/02/Overall.pdf,low,low,critical,,unknown
+ICT-Enabled Learning Infrastructure,Academic Infrastructure,True,Also inform students to give Feedback only into the ICT Web Portal below . ( for PG only ),https://vtu.ac.in/en/ict-circular-notification/,medium,high,high,,unknown
+Digital Library Access,Academic Infrastructure,True,"The center is equipped with modern facilities, including a digital library, high-speed internet",https://vtu.ac.in/pg-studies-kalaburagi-2/,medium,high,high,,unknown
+Male Hostels Managed by College,Campus Facilities,1,separate hostels for boys and girls with modern amenities.,https://vtu.ac.in/pg-studies-kalaburagi-2/,low,medium,high,,unknown
+Female Hostels Managed by College,Campus Facilities,1,separate hostels for boys and girls with modern amenities.,https://vtu.ac.in/pg-studies-kalaburagi-2/,low,medium,high,,unknown
+Smart Campus / ERP Implementation,Technology Infrastructure,True,All the Principal & PG Coordinators are requested to make necessary arrangements to enter the student attendance. Also inform students to give Feedback only into the ICT Web Portal,https://vtu.ac.in/en/ict-circular-notification/,medium,high,high,,unknown
+List of Courses,Academic Programs,"B.Tech(CSBS, ECE, Robotics & Automation, Aeronautical Engineering, Mechanical & Smart Manufacturing), M.Tech(CSE, Product Design & Manufacturing, VLSI & Embedded Systems, Water & Land Management, AI & Data Science, Aerospace Propulsion, Nano Science & Technology, Town & Country Planning), MBA, MCA, Ph.D",To conduct following Courses with the Intake indicated below for the Academic Year 2022-23... COMPUTER SCIENCE AND BUSINESS SYSTEM... ROBOTICS AND AUTOMATION... MBA... MCA,https://vtu.ac.in/pdf/naac/2.1/2022aicte.pdf,medium,high,high,2022,low
+Fees for Each Course,Academic Programs,N/A,Invalid source URL,,low,low,unknown,,unknown
+Maximum Compensation (Last Placement Season),Placements,N/A,Data Not Found,https://vtu.ac.in/en/category/placement/,low,low,high,,unknown
+Entrance Exam Name,Admissions,KCET,karnataka examination authority,https://vtu.ac.in/en/important-links/,low,medium,high,,unknown
+Entrance Exam Cutoff by Program,Admissions,N/A,Invalid source URL,,low,low,unknown,,unknown
+Sports Infrastructure & Achievements,Campus Facilities,"{'facilities': ['Gymnasium', 'Playground'], 'achievements': []}",The center is equipped with modern facilities... separate hostels for boys and girls with modern amenities.,https://vtu.ac.in/pg-studies-kalaburagi-2/,low,medium,high,,unknown
+List of Active Clubs,Student Life,['National Social Service (NSS)'],Whether the Institution has the National Social Service Yes... Number of Students Enrolled In NSS 175,https://vtu.ac.in/pdf/naac/2.1/2022aicte.pdf,medium,medium,high,2022,low
+NIRF Ranking,Accreditations & Rankings,N/A,Submitted Institute Data for NIRF'2025'. Institute Name: Visvesvaraya Technological University [IR-O-U-0249].,https://vtu.ac.in/wp-content/uploads/2025/02/Overall.pdf,low,medium,high,2025,high
+Institutional Status,Accreditations & Rankings,State University,Visvesvaraya Technological University (VTU) (A State University of Govt. of Karnataka),https://vtu.ac.in/wp-content/uploads/2025/06/VTU-SDC.pdf,medium,high,high,2025,high

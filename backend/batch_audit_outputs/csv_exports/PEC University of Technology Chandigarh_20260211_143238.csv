@@ -1,0 +1,52 @@
+College Name,"PEC University of Technology Chandigarh"
+
+=== AUDIT OVERVIEW ===
+Audit Date,"2026-02-11 14:32:38"
+Total KPIs,25
+Data Found,25
+Data Not Found,0
+High Confidence,25
+Coverage Percentage,100.0%
+
+=== CATEGORY BREAKDOWN ===
+Category,Found,Total,Percentage
+"Academic Infrastructure",2,2,100%
+"Campus Facilities",3,3,100%
+"Technology Infrastructure",1,1,100%
+"Academic Programs",2,2,100%
+"Student Demographics",4,4,100%
+"Placements",3,3,100%
+"Student Outcomes",1,1,100%
+"Research & Innovation",1,1,100%
+"Admissions",2,2,100%
+"Faculty",3,3,100%
+"Student Life",1,1,100%
+"Accreditations & Rankings",2,2,100%
+
+=== KPI DETAILS ===
+KPI Name,Category,Value,Evidence,Source URL,System Confidence,LLM Confidence,Source Priority,Data Year,Recency
+ICT-Enabled Learning Infrastructure,Academic Infrastructure,True,PEC has well-equipped smart classrooms and ICT-enabled lecture halls to facilitate modern teaching-learning processes.,https://pec.ac.in/infrastructure,medium,high,high,,unknown
+Digital Library Access,Academic Infrastructure,True,"The library provides access to various e-resources, including IEEE, Springer, and ScienceDirect, through its digital portal.",https://pec.ac.in/library,medium,high,high,,unknown
+Male Hostels Managed by College,Campus Facilities,4,"There are four boys' hostels: Shivalik, Kurukshetra, Himalaya, and Aravali.",https://pec.ac.in/hostels,low,high,high,,unknown
+Female Hostels Managed by College,Campus Facilities,2,The institute has two girls' hostels: Kalpana Chawla and Vindhya.,https://pec.ac.in/hostels,low,high,high,,unknown
+Smart Campus / ERP Implementation,Technology Infrastructure,True,"PEC uses an Academic Management System (ERP) for student registration, attendance, and result processing.",https://pec.ac.in/academic-management-system,medium,high,high,,unknown
+List of Courses,Academic Programs,"B.Tech(CSE, ECE, ME, EE, CE, PE, MME, AE), M.Tech(VLSI, AI, CSE, EE, ME, CE, ECE), Ph.D","PEC offers B.Tech in 8 disciplines and M.Tech in various specializations including VLSI and AI, along with PhD programs.",https://pec.ac.in/academic-programs,medium,high,high,,unknown
+Fees for Each Course,Academic Programs,"{'B.Tech': 176000, 'M.Tech': 105000, 'Ph.D': 60000}","Annual tuition fee for B.Tech is approx 1.76 Lakhs, M.Tech is 1.05 Lakhs per year as per latest fee structure.",https://pec.ac.in/fee-structure,medium,high,high,,unknown
+Total Graduate Students (2025),Student Demographics,842,"Based on NIRF 2024 data for the 2023-24 graduating batch, total students graduating in minimum stipulated time was 842.",https://pec.ac.in/nirf,medium,medium,critical,2024,medium
+Placed Students Count,Placements,615,"Out of the graduating batch, 615 students were placed in various sectors during the 2023-24 placement cycle.",https://pec.ac.in/placement-statistics,medium,high,high,2023,low
+Maximum Compensation (Last Placement Season),Placements,83.00 LPA,The highest package offered during the 2023-24 placement season stood at 83 LPA.,https://pec.ac.in/placements,medium,high,high,2023,low
+Median Compensation (Last Batch),Placements,10.00 LPA,Median salary of placed graduates (Amount in Rs.) 1000000 (Ten Lakhs) for UG 4-year program in NIRF 2024 Engineering report.,https://pec.ac.in/nirf,medium,high,critical,2024,medium
+Students Pursuing Higher Education,Student Outcomes,54,No. of students selected for Higher Studies: 54 for the 2022-23 graduating batch in NIRF 2024 report.,https://pec.ac.in/nirf,medium,high,critical,2024,medium
+IP Patents Granted/Licensed (Latest Year),Research & Innovation,15,"No. of Patents Published: 12, No. of Patents Granted: 3. Total = 15 for the year 2023.",https://pec.ac.in/nirf,medium,high,critical,2023,low
+Entrance Exam Name,Admissions,JEE Main,Admission to B.Tech. programs is based on the performance in JEE (Main) and counseling through JoSAA/CSAB.,https://pec.ac.in/admissions,medium,high,high,,unknown
+Entrance Exam Cutoff by Program,Admissions,"{'Computer Science and Engineering': '10542', 'Electronics and Communication Engineering': '18921', 'Electrical Engineering': '27456', 'Mechanical Engineering': '38210', 'Civil Engineering': '52145'}","JEE Main 2023 Round 6 Closing Ranks (Gender-Neutral, Open Category, Other State): CSE-10542, ECE-18921.",https://josaa.admissions.nic.in/Counseling/seatallotmentresult/currentorcr.aspx,medium,high,high,2023,low
+Total Students Enrolled,Student Demographics,3141,Total Actual Student Strength (Program(s) Offered by Your Institution): UG [4 Years Program(s)]: 2627; PG [2 Years Program(s)]: 514. Total = 3141.,https://pec.ac.in/sites/default/files/nirf/NIRF_2023_Engineering.pdf,medium,high,critical,2023,low
+Female Students Enrolled,Student Demographics,530,No. of Female Students: UG [4 Years Program(s)]: 446; PG [2 Years Program(s)]: 84. Total = 530.,https://pec.ac.in/sites/default/files/nirf/NIRF_2023_Engineering.pdf,medium,high,critical,2023,low
+Total Faculty,Faculty,169,Faculty Details: Total number of faculty members listed in the NIRF 2023 report is 169.,https://pec.ac.in/sites/default/files/nirf/NIRF_2023_Engineering.pdf,medium,high,critical,2023,low
+PhD Faculty,Faculty,158,Count of faculty members with Ph.D qualification in the Faculty Details table is 158 out of 169.,https://pec.ac.in/sites/default/files/nirf/NIRF_2023_Engineering.pdf,medium,high,critical,2023,low
+Average Teaching Experience of Faculty,Faculty,14.8,"Average of 'Experience (In Months)' for 169 faculty members is approximately 177.6 months, which is 14.8 years.",https://pec.ac.in/sites/default/files/nirf/NIRF_2023_Engineering.pdf,medium,medium,critical,2023,low
+Sports Infrastructure & Achievements,Campus Facilities,"{'facilities': ['Cricket Ground', 'Football Ground', 'Hockey Ground', 'Athletics Track', 'Lawn Tennis Courts', 'Basketball Courts', 'Volleyball Courts', 'Badminton Courts', 'Gymnasium', 'Swimming Pool', 'Squash Courts'], 'achievements': ['Regular participation in Inter-IIT/NIT and All India Inter-University championships', 'Annual Sports Meet (PECFEST sports events)']}","The institute has a vast sports complex with facilities for cricket, football, hockey, athletics, tennis, basketball, volleyball, badminton, squash, and a swimming pool.",https://pec.ac.in/facilities/sports,medium,high,high,,unknown
+List of Active Clubs,Student Life,"['Music Club', 'Dramatics Club', 'Art and Photography Club', 'Speakers Association & Study Circle (SAASC)', 'Projection and Design Club', 'Rotaract Club', 'IEEE PEC', 'ASME PEC', 'SAE PEC', 'ACM PEC', 'Entrepreneurship Cell (E-Cell)', 'Communication, Information and Media Cell (CIM)', 'NSS', 'NCC']","PEC has several active clubs including technical societies like IEEE, ASME and cultural clubs like Music, Dramatics, and SAASC.",https://pec.ac.in/student-activities/clubs,medium,high,high,,unknown
+NIRF Ranking,Accreditations & Rankings,101-150,"Punjab Engineering College (Deemed to be University), Chandigarh ranked in the 101-150 band in Engineering category in NIRF 2024.",https://www.nirfindia.org/Rankings/2024/EngineeringRanking.html,medium,high,critical,2024,medium
+Institutional Status,Accreditations & Rankings,Deemed to be University,"Punjab Engineering College (PEC) is a Deemed to be University under Section 3 of the UGC Act, 1956.",https://pec.ac.in/about-pec,medium,high,high,,unknown
+PhD Students Enrolled,Student Demographics,568,"Full Time: 342, Part Time: 226. Total Ph.D students pursuing doctoral program till 2023-24: 568.",https://pec.ac.in/sites/default/files/NIRF-2024.pdf,medium,high,critical,2024,medium

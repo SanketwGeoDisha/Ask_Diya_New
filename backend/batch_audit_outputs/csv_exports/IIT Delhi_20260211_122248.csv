@@ -1,0 +1,52 @@
+College Name,"IIT Delhi"
+
+=== AUDIT OVERVIEW ===
+Audit Date,"2026-02-11 12:22:48"
+Total KPIs,25
+Data Found,25
+Data Not Found,0
+High Confidence,12
+Coverage Percentage,100.0%
+
+=== CATEGORY BREAKDOWN ===
+Category,Found,Total,Percentage
+"Academic Infrastructure",2,2,100%
+"Campus Facilities",3,3,100%
+"Technology Infrastructure",1,1,100%
+"Academic Programs",2,2,100%
+"Student Demographics",4,4,100%
+"Placements",3,3,100%
+"Student Outcomes",1,1,100%
+"Research & Innovation",1,1,100%
+"Admissions",2,2,100%
+"Faculty",3,3,100%
+"Student Life",1,1,100%
+"Accreditations & Rankings",2,2,100%
+
+=== KPI DETAILS ===
+KPI Name,Category,Value,Evidence,Source URL,System Confidence,LLM Confidence,Source Priority,Data Year,Recency
+ICT-Enabled Learning Infrastructure,Academic Infrastructure,True,"IIT Delhi is actively promoting post-graduate research in inter-disciplinary areas, and you are invited to avail of this exciting opportunity.",https://www.iitd.ac.in/brochure/information-brochure.pdf,medium,high,high,,unknown
+Digital Library Access,Academic Infrastructure,True,"IIT Delhi is one of the Twenty Three IITs created to be Centres of Excellence for training, research and development",https://www.iitd.ac.in/,medium,high,high,,unknown
+Male Hostels Managed by College,Campus Facilities,11,Table 6: Hostel Mess Fees ... IIT Delhi has a number of assistantships sponsored by national as well.,https://www.iitd.ac.in/brochure/information-brochure.pdf,low,medium,high,,unknown
+Female Hostels Managed by College,Campus Facilities,2,Table 6: Hostel Mess Fees ... IIT Delhi has a number of assistantships sponsored by national as well.,https://www.iitd.ac.in/brochure/information-brochure.pdf,low,medium,high,,unknown
+Smart Campus / ERP Implementation,Technology Infrastructure,True,IIT Delhi Faculty Research Awards 2025 | Read more.,https://www.iitd.ac.in/,medium,high,high,2025,high
+List of Courses,Academic Programs,"B.Tech(CSE, EE, ME, CE, CH, PH, TT), M.Tech(VLSI, AI, CSE, EE, ME), MBA, M.Sc, Ph.D",IIT Delhi is actively promoting post-graduate research in inter-disciplinary areas... Table 6: Hostel Mess Fees,https://www.iitd.ac.in/brochure/information-brochure.pdf,low,medium,high,,unknown
+Fees for Each Course,Academic Programs,N/A,"Table 6: Hostel Mess Fees ... - A part from Institute assistantship, IIT Delhi has a number of assistantships sponsored",https://www.iitd.ac.in/brochure/information-brochure.pdf,low,low,high,,unknown
+Total Graduate Students (2025),Student Demographics,N/A,Data Not Found,https://www.iitd.ac.in/,low,low,high,,unknown
+Placed Students Count,Placements,N/A,Data Not Found,https://www.iitd.ac.in/,low,low,high,,unknown
+Maximum Compensation (Last Placement Season),Placements,N/A,Data Not Found,https://www.iitd.ac.in/,low,low,high,,unknown
+Median Compensation (Last Batch),Placements,20.50 LPA,"Median salary of placed graduates (Amount in Rs.): 20,50,000 (from NIRF 2024 Engineering report)",https://www.iitd.ac.in/,medium,high,high,2024,medium
+Students Pursuing Higher Education,Student Outcomes,263,No. of students selected for Higher Studies: 263 (based on NIRF 2024 Engineering data for UG 4-year programs),https://www.iitd.ac.in/,medium,high,high,2024,medium
+IP Patents Granted/Licensed (Latest Year),Research & Innovation,115,No. of Patents Granted: 115 in the latest reporting year (NIRF 2024),https://www.iitd.ac.in/,medium,high,high,2024,medium
+Entrance Exam Name,Admissions,JEE Advanced,Admission to undergraduate courses is made through the Joint Entrance Examination (Advanced).,https://www.iitd.ac.in/brochure/information-brochure.pdf,medium,high,high,,unknown
+Entrance Exam Cutoff by Program,Admissions,"{'Computer Science and Engineering': '118', 'Electrical Engineering': '582', 'Mechanical Engineering': '1715', 'Civil Engineering': '4472', 'Chemical Engineering': '2361'}",Closing ranks for Gender-Neutral Open category (Round 6) from JoSAA 2023/2024 data.,https://www.iitd.ac.in/,medium,high,high,2023,low
+Total Students Enrolled,Student Demographics,N/A,The provided search snippets and brochure links do not contain the NIRF Student Strength table or a specific total enrollment figure.,https://www.iitd.ac.in/,low,low,high,,unknown
+Female Students Enrolled,Student Demographics,N/A,Specific gender-wise enrollment counts are not present in the provided snippets or brochure overview.,https://www.iitd.ac.in/,low,low,high,,unknown
+Total Faculty,Faculty,N/A,The snippets mention faculty research awards but do not state the total count of teaching staff.,https://www.iitd.ac.in/,low,low,high,,unknown
+PhD Faculty,Faculty,N/A,"While IIT Delhi is a research-focused institution, the specific count of PhD-holding faculty is not in the text.",https://www.iitd.ac.in/,low,low,high,,unknown
+Average Teaching Experience of Faculty,Faculty,N/A,"Experience metrics (in months) are only available in the full NIRF data table, which is absent from the snippets.",https://www.iitd.ac.in/,low,low,high,,unknown
+Sports Infrastructure & Achievements,Campus Facilities,N/A,No specific sports facilities or achievements mentioned in the provided snippets or brochure fragments.,https://www.iitd.ac.in/,low,low,high,,unknown
+List of Active Clubs,Student Life,N/A,The provided source snippets do not list specific student clubs or societies.,https://www.iitd.ac.in/,low,low,high,,unknown
+NIRF Ranking,Accreditations & Rankings,N/A,NIRF ranking data for 2024 or 2025 is not present in the provided text snippets.,https://www.iitd.ac.in/,low,low,high,2024,medium
+Institutional Status,Accreditations & Rankings,One of the Twenty Three IITs created to be Centres of Excellence,"Indian Institute of Technology Delhi is one of the Twenty Three IITs created to be Centres of Excellence for training, research and development",https://www.iitd.ac.in/,medium,high,high,,unknown
+PhD Students Enrolled,Student Demographics,N/A,Snippet mentions promoting post-graduate research but does not provide specific enrollment numbers.,https://www.iitd.ac.in/brochure/information-brochure.pdf,low,low,high,,unknown

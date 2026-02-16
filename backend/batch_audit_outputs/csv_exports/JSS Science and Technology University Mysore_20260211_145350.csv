@@ -1,0 +1,52 @@
+College Name,"JSS Science and Technology University Mysore"
+
+=== AUDIT OVERVIEW ===
+Audit Date,"2026-02-11 14:53:50"
+Total KPIs,25
+Data Found,25
+Data Not Found,0
+High Confidence,1
+Coverage Percentage,100.0%
+
+=== CATEGORY BREAKDOWN ===
+Category,Found,Total,Percentage
+"Academic Infrastructure",2,2,100%
+"Campus Facilities",3,3,100%
+"Technology Infrastructure",1,1,100%
+"Academic Programs",2,2,100%
+"Student Demographics",4,4,100%
+"Placements",3,3,100%
+"Student Outcomes",1,1,100%
+"Research & Innovation",1,1,100%
+"Admissions",2,2,100%
+"Faculty",3,3,100%
+"Student Life",1,1,100%
+"Accreditations & Rankings",2,2,100%
+
+=== KPI DETAILS ===
+KPI Name,Category,Value,Evidence,Source URL,System Confidence,LLM Confidence,Source Priority,Data Year,Recency
+ICT-Enabled Learning Infrastructure,Academic Infrastructure,N/A,The university provides ICT enabled classrooms with smart boards and digital learning tools to enhance the teaching-learning process.,,low,high,medium,,unknown
+Digital Library Access,Academic Infrastructure,N/A,"The library has a rich collection of e-resources, including e-journals and e-books accessible through the digital library portal.",,low,high,medium,,unknown
+Male Hostels Managed by College,Campus Facilities,N/A,The campus provides accommodation for boys in two separate blocks (Block A and Block B) managed by the university.,,low,medium,medium,,unknown
+Female Hostels Managed by College,Campus Facilities,N/A,A dedicated girls' hostel is available within the campus providing safe and secure accommodation.,,low,medium,medium,,unknown
+Smart Campus / ERP Implementation,Technology Infrastructure,N/A,Implementation of JSSSTU Student Portal and ERP for academic management and student services.,,low,high,medium,,unknown
+List of Courses,Academic Programs,N/A,"Offers Undergraduate (B.E), Postgraduate (M.Tech, MBA, MCA, M.Sc) and Doctoral programs across various engineering and management disciplines.",,low,high,medium,,unknown
+Fees for Each Course,Academic Programs,N/A,Annual tuition fee for B.E via COMEDK is approximately 2.35 Lakhs; Management quota varies by branch up to 4.5L.,,low,medium,medium,,unknown
+Total Graduate Students (2025),Student Demographics,N/A,Total number of students graduating in minimum stipulated time for the 2023-24 cycle was 1138; projected 1150 for 2025.,,low,medium,critical,2024,medium
+Placed Students Count,Placements,N/A,"Out of 1020 eligible students, 854 students were placed in various companies during the 2023-24 placement drive.",,low,high,medium,2023,low
+Maximum Compensation (Last Placement Season),Placements,N/A,The highest package offered during the recent placement season reached 54.75 LPA by Palo Alto Networks.,,low,high,medium,,unknown
+Median Compensation (Last Batch),Placements,N/A,Median salary of placed graduates (Amount in Rs.) for UG [4 Years Program(s)]: 720000,,low,high,critical,2024,medium
+Students Pursuing Higher Education,Student Outcomes,N/A,No. of students selected for Higher Studies: 142 (UG 4-year programs),,low,high,critical,2024,medium
+IP Patents Granted/Licensed (Latest Year),Research & Innovation,N/A,"No. of Patents Published: 11, No. of Patents Granted: 0 (Calendar Year 2022)",,low,high,critical,2024,medium
+Entrance Exam Name,Admissions,N/A,Admission to UG programs is based on KCET and COMEDK scores; PG through PGCET or GATE.,,low,high,medium,,unknown
+Entrance Exam Cutoff by Program,Admissions,N/A,"KCET 2023 Round 1 closing ranks for General Merit: CSE 1745, ISE 2956, ECE 5432.",,low,medium,low,2023,low
+Total Students Enrolled,Student Demographics,N/A,Based on NIRF 2024 Engineering report: Total Actual Student Strength (All programs) = 4590 (UG) + 1103 (PG) = 5693.,,low,high,critical,2024,medium
+Female Students Enrolled,Student Demographics,N/A,NIRF 2024 Engineering: Female students = 1432 (UG) + 413 (PG) = 1845.,,low,high,critical,2024,medium
+Total Faculty,Faculty,N/A,Total number of faculty members listed in the NIRF 2024 Engineering Faculty Details table is 248.,,low,high,critical,2024,medium
+PhD Faculty,Faculty,N/A,Count of faculty members with Ph.D. qualification in the NIRF 2024 Engineering Faculty Details table is 142.,,low,high,critical,2024,medium
+Average Teaching Experience of Faculty,Faculty,N/A,"Average of 'Experience (In Months)' for 248 faculty members is approx 170.4 months, which is 14.2 years.",,low,medium,critical,2024,medium
+Sports Infrastructure & Achievements,Campus Facilities,N/A,"The campus provides extensive sports facilities including cricket, football, and basketball courts along with a well-equipped gymnasium and indoor sports complex.",,low,high,medium,,unknown
+List of Active Clubs,Student Life,N/A,"Active student clubs include technical societies like IEEE, CSI, and SAE, alongside cultural clubs like LCC and Sahitya.",,low,high,medium,,unknown
+NIRF Ranking,Accreditations & Rankings,151-200,JSS Science and Technology University (SJCE) is ranked in the 151-200 band in the Engineering category by NIRF 2023.,https://www.nirfindia.org/2023/EngineeringRanking.html,medium,high,critical,2023,low
+Institutional Status,Accreditations & Rankings,N/A,JSS Science and Technology University is established under the JSS Science and Technology University Act No. 43 of 2013.,,low,high,medium,,unknown
+PhD Students Enrolled,Student Demographics,N/A,Total Ph.D students pursuing doctoral program till 2022-23: Full Time (42) + Part Time (206) = 248.,,low,high,critical,2024,medium

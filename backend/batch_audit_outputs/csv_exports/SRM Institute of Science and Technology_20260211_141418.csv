@@ -1,0 +1,52 @@
+College Name,"SRM Institute of Science and Technology"
+
+=== AUDIT OVERVIEW ===
+Audit Date,"2026-02-11 14:14:18"
+Total KPIs,25
+Data Found,25
+Data Not Found,0
+High Confidence,24
+Coverage Percentage,100.0%
+
+=== CATEGORY BREAKDOWN ===
+Category,Found,Total,Percentage
+"Academic Infrastructure",2,2,100%
+"Campus Facilities",3,3,100%
+"Technology Infrastructure",1,1,100%
+"Academic Programs",2,2,100%
+"Student Demographics",4,4,100%
+"Placements",3,3,100%
+"Student Outcomes",1,1,100%
+"Research & Innovation",1,1,100%
+"Admissions",2,2,100%
+"Faculty",3,3,100%
+"Student Life",1,1,100%
+"Accreditations & Rankings",2,2,100%
+
+=== KPI DETAILS ===
+KPI Name,Category,Value,Evidence,Source URL,System Confidence,LLM Confidence,Source Priority,Data Year,Recency
+ICT-Enabled Learning Infrastructure,Academic Infrastructure,True,SRMIST uses ICT enabled tools including online resources for effective teaching and learning process. All the classrooms are ICT enabled.,https://www.srmist.edu.in/naac/ssr-2023/criteria-2/2-3-2/,medium,high,high,2023,low
+Digital Library Access,Academic Infrastructure,True,"The library has a rich collection of e-resources, including e-journals, e-books, and databases, accessible through the Digital Library.",https://www.srmist.edu.in/library/digital-library/,medium,high,high,,unknown
+Male Hostels Managed by College,Campus Facilities,14,There are 14 blocks for men (boys) hostels in the Kattankulathur campus including international hostels.,https://www.srmist.edu.in/hostel/kattankulathur-campus-hostels/,medium,high,high,,unknown
+Female Hostels Managed by College,Campus Facilities,7,There are 7 blocks for women (girls) hostels in the Kattankulathur campus.,https://www.srmist.edu.in/hostel/kattankulathur-campus-hostels/,medium,high,high,,unknown
+Smart Campus / ERP Implementation,Technology Infrastructure,True,"SRMIST has implemented an ERP system (SRM Academia) for managing student data, attendance, and academic records.",https://academia.srmist.edu.in/,medium,high,high,,unknown
+List of Courses,Academic Programs,"B.Tech(CSE, ECE, ME, CE, EE, IT, BT, AE, RA, SWE, DS, AI), M.Tech(VLSI, AI, DS, ES, SE, BT), MBA, BBA, B.Arch, M.Arch, MBBS, BDS, B.Sc, M.Sc, Ph.D","SRMIST offers a wide range of undergraduate, postgraduate and doctoral programs in Engineering, Management, Medicine and Health Sciences, Science and Humanities.",https://www.srmist.edu.in/academics/programs-offered/,medium,high,high,,unknown
+Fees for Each Course,Academic Programs,"{'B.Tech (CSE)': 450000, 'B.Tech (ECE/ME)': 250000, 'MBA': 400000, 'MBBS': 2500000, 'B.Sc': 75000, 'BBA': 125000}","Annual tuition fees for B.Tech CSE is 4.5 Lakhs, while other core branches range from 2.5 Lakhs per annum.",https://www.srmist.edu.in/admission-india/engineering/fees/tuition-fee/,medium,high,high,,unknown
+Total Graduate Students (2025),Student Demographics,7842,Total number of students graduating in minimum stipulated time for the 2023-24 cycle (reported for 2025 projection) is 7842.,https://www.srmist.edu.in/wp-content/uploads/2024/02/NIRF-2024-Engineering.pdf,medium,medium,critical,2024,medium
+Placed Students Count,Placements,7305,No. of students placed: 7305 out of 7842 graduating students in the engineering department.,https://www.srmist.edu.in/wp-content/uploads/2024/02/NIRF-2024-Engineering.pdf,medium,high,critical,2024,medium
+Maximum Compensation (Last Placement Season),Placements,1.10 Cr,SRMIST student secures a record-breaking package of 1.1 Crore per annum from Amazon Software Development Center.,https://www.srmist.edu.in/placements/highlights/,medium,high,high,,unknown
+Median Compensation (Last Batch),Placements,4.50 LPA,Median salary of placed graduates (Amount in Rs.) for UG [4 Years Program(s)]: 450000 (Four Lakh Fifty Thousand) in NIRF 2024 Engineering report.,https://www.srmist.edu.in/wp-content/uploads/2024/02/NIRF-2024-Engineering.pdf,medium,high,critical,2024,medium
+Students Pursuing Higher Education,Student Outcomes,1157,No. of students selected for Higher Studies: 1157 for UG [4 Years Program(s)] in the 2022-23 academic year.,https://www.srmist.edu.in/wp-content/uploads/2024/02/NIRF-2024-Engineering.pdf,medium,high,critical,2024,medium
+IP Patents Granted/Licensed (Latest Year),Research & Innovation,147,No. of Patents Published: 112; No. of Patents Granted: 35. Total = 147 for the calendar year 2023.,https://www.srmist.edu.in/wp-content/uploads/2024/02/NIRF-2024-Engineering.pdf,medium,high,critical,2024,medium
+Entrance Exam Name,Admissions,SRMJEEE,Admission to B.Tech is based on the SRM Joint Engineering Entrance Examination (SRMJEEE).,https://www.srmist.edu.in/admission-india/,medium,high,high,,unknown
+Entrance Exam Cutoff by Program,Admissions,N/A,"Closing ranks for SRMJEEE typically range from 10,000 for CSE to 50,000 for other branches at the Kattankulathur campus.",,low,medium,low,,unknown
+Total Students Enrolled,Student Demographics,52714,"Total Actual Student Strength (Program(s) Offered by Your Institution): 52,714 (Sum of all UG and PG programs across all years)",https://www.srmist.edu.in/wp-content/uploads/2023/02/NIRF-2023-OVERALL.pdf,medium,high,critical,2023,low
+Female Students Enrolled,Student Demographics,15814,"Total Female Students across all programs: 15,814 (calculated from NIRF 2023 student strength tables)",https://www.srmist.edu.in/wp-content/uploads/2023/02/NIRF-2023-OVERALL.pdf,medium,high,critical,2023,low
+Total Faculty,Faculty,3341,"Total number of faculty members listed in the Faculty Details section: 3,341",https://www.srmist.edu.in/wp-content/uploads/2023/02/NIRF-2023-OVERALL.pdf,medium,high,critical,2023,low
+PhD Faculty,Faculty,1982,"Faculty with Ph.D qualification: 1,982 (extracted from Faculty Details table qualification column)",https://www.srmist.edu.in/wp-content/uploads/2023/02/NIRF-2023-OVERALL.pdf,medium,high,critical,2023,low
+Average Teaching Experience of Faculty,Faculty,11.2,"Average experience calculated from 'Experience (In Months)' column across 3,341 faculty members: 134.4 months / 12",https://www.srmist.edu.in/wp-content/uploads/2023/02/NIRF-2023-OVERALL.pdf,low,medium,critical,2023,low
+Sports Infrastructure & Achievements,Campus Facilities,"{'facilities': ['Indoor Stadium', 'Cricket Ground', 'Football Field', 'Basketball Courts', 'Tennis Courts', 'Volleyball Courts', 'Gymnasium', 'Athletics Track'], 'achievements': ['Consistent winners in Inter-University tournaments', 'Host of National level sports meets', 'Scholarships for elite athletes']}","SRMIST provides extensive sports facilities including an indoor stadium, cricket ground, and multiple courts for basketball and tennis, supporting national-level athletes.",https://www.srmist.edu.in/campus-life/sports/,medium,high,high,,unknown
+List of Active Clubs,Student Life,"['Aakash', 'Aeromodelling Club', 'Creative Arts Club', 'Dance Club', 'Drama Club', 'Environment Club', 'Literary Society', 'Music Club', 'Photography Club', 'Robotics Club', 'Self Defense Club']","The Directorate of Student Affairs oversees various clubs including Robotics, Aeromodelling, and various cultural societies like the Music and Dance clubs.",https://www.srmist.edu.in/campus-life/student-affairs/clubs-and-societies/,medium,high,high,,unknown
+NIRF Ranking,Accreditations & Rankings,12,SRM Institute of Science and Technology has been ranked 12th in the University category by NIRF 2024.,https://www.nirfindia.org/Rankings/2024/UniversityRanking.html,medium,high,critical,2024,medium
+Institutional Status,Accreditations & Rankings,Deemed to be University,"SRM Institute of Science and Technology is a Deemed to be University under Section 3 of the UGC Act, 1956.",https://www.srmist.edu.in/about-us/,medium,high,high,,unknown
+PhD Students Enrolled,Student Demographics,1842,Total Ph.D students pursuing doctoral program till 2023-24: Full Time (1210) + Part Time (632) = 1842.,https://www.srmist.edu.in/wp-content/uploads/2024/02/NIRF-2024-Overall.pdf,medium,high,critical,2024,medium

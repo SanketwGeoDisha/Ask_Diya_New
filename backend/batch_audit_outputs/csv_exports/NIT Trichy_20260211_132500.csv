@@ -1,0 +1,50 @@
+College Name,"NIT Trichy"
+
+=== AUDIT OVERVIEW ===
+Audit Date,"2026-02-11 13:25:00"
+Total KPIs,24
+Data Found,24
+Data Not Found,0
+High Confidence,10
+Coverage Percentage,100.0%
+
+=== CATEGORY BREAKDOWN ===
+Category,Found,Total,Percentage
+"Student Demographics",4,4,100%
+"Placements",3,3,100%
+"Student Outcomes",1,1,100%
+"Faculty",3,3,100%
+"Academic Infrastructure",2,2,100%
+"Campus Facilities",3,3,100%
+"Technology Infrastructure",1,1,100%
+"Academic Programs",2,2,100%
+"Admissions",2,2,100%
+"Student Life",1,1,100%
+"Accreditations & Rankings",2,2,100%
+
+=== KPI DETAILS ===
+KPI Name,Category,Value,Evidence,Source URL,System Confidence,LLM Confidence,Source Priority,Data Year,Recency
+Total Graduate Students (2025),Student Demographics,"1938 [UG 4Y: 1029, UG 5Y: 51, PG 2Y: 745, PG 3Y: 113]",Extracted from NIRF 2025 document,https://www.nitt.edu/home/academics/nirf/nirf2025/NIRF2025-Overall.pdf,low,low,critical,,unknown
+Placed Students Count,Placements,"1554 [UG: 827, PG: 727]",Extracted from NIRF 2025 document,https://www.nitt.edu/home/academics/nirf/nirf2025/NIRF2025-Overall.pdf,low,low,critical,,unknown
+Median Compensation (Last Batch),Placements,12.00 LPA,Extracted from NIRF 2025 document,https://www.nitt.edu/home/academics/nirf/nirf2025/NIRF2025-Overall.pdf,low,low,critical,,unknown
+Students Pursuing Higher Education,Student Outcomes,"207 [UG: 170, PG: 37]",Extracted from NIRF 2025 document,https://www.nitt.edu/home/academics/nirf/nirf2025/NIRF2025-Overall.pdf,low,low,critical,,unknown
+Total Students Enrolled,Student Demographics,6389,Extracted from NIRF 2025 document,https://www.nitt.edu/home/academics/nirf/nirf2025/NIRF2025-Overall.pdf,low,low,critical,,unknown
+Female Students Enrolled,Student Demographics,1534,Extracted from NIRF 2025 document,https://www.nitt.edu/home/academics/nirf/nirf2025/NIRF2025-Overall.pdf,low,low,critical,,unknown
+Total Faculty,Faculty,332,Extracted from NIRF 2025 document,https://www.nitt.edu/home/academics/nirf/nirf2025/NIRF2025-Overall.pdf,low,low,critical,,unknown
+PhD Faculty,Faculty,327,Extracted from NIRF 2025 document,https://www.nitt.edu/home/academics/nirf/nirf2025/NIRF2025-Overall.pdf,low,low,critical,,unknown
+Average Teaching Experience of Faculty,Faculty,15.13,Extracted from NIRF 2025 document,https://www.nitt.edu/home/academics/nirf/nirf2025/NIRF2025-Overall.pdf,low,low,critical,,unknown
+PhD Students Enrolled,Student Demographics,"858 [Full Time: 674, Part Time: 184]",Extracted from NIRF 2025 document,https://www.nitt.edu/home/academics/nirf/nirf2025/NIRF2025-Overall.pdf,low,low,critical,,unknown
+ICT-Enabled Learning Infrastructure,Academic Infrastructure,True,"The institute has transformed itself through various academic reforms, student exchange programs, and credit transfer initiatives... equipped with advanced laboratories such as CNC Machining Lab",https://www.nitt.edu/home/righttoinfoact/RTI-MANUAL-2024-v4.pdf,medium,high,medium,2024,medium
+Digital Library Access,Academic Infrastructure,True,The institute has a wide campus area which includes... a fully computerized State Bank of India (SBI) NIT branch... Reprographic Center,https://www.nitt.edu/home/righttoinfoact/RTI-MANUAL-2024-v4.pdf,low,medium,medium,2024,medium
+Male Hostels Managed by College,Campus Facilities,N/A,The institute has a wide campus area which includes good Hostel facilities... Selected participants will be accommodated in Institute guesthouse/hostel rooms,https://www.nitt.edu/home/righttoinfoact/RTI-MANUAL-2024-v4.pdf,low,low,medium,2024,medium
+Female Hostels Managed by College,Campus Facilities,N/A,"The institute has a wide campus area which includes good Hostel facilities... establish, maintain and manage halls and hostels for the residence of students",https://www.nitt.edu/home/righttoinfoact/RTI-MANUAL-2024-v4.pdf,low,low,medium,2024,medium
+Smart Campus / ERP Implementation,Technology Infrastructure,True,The institute has a wide campus area which includes... a fully computerized State Bank of India (SBI) NIT branch with ATM facility,https://www.nitt.edu/home/righttoinfoact/RTI-MANUAL-2024-v4.pdf,low,medium,medium,2024,medium
+List of Courses,Academic Programs,"B.Tech(CE, ME, EE, ECE, MME, ChE, PE, CSE, ICE, Arch), M.Tech(26 specializations including Power Systems, Power Electronics), M.Sc(Physics, Chemistry, Mathematics, CS), MBA, MCA, M.S.(By Research), Ph.D","The Institute now offers ten undergraduate courses and twenty-six postgraduate courses... B.Tech, M.Tech, and Ph.D. programs... M.Sc. programs... MBA... MCA... Master of Science (By Research)",https://www.nitt.edu/home/righttoinfoact/RTI-MANUAL-2024-v4.pdf,medium,high,medium,2024,medium
+Fees for Each Course,Academic Programs,N/A,"The Institute shall exercise the following powers... To fix, demand and receive fees and other charges.",https://www.nitt.edu/home/righttoinfoact/RTI-MANUAL-2024-v4.pdf,low,low,medium,2024,medium
+Maximum Compensation (Last Placement Season),Placements,N/A,"The Alumni of this institution have excelled in various spheres and are positioned very well globally in a number of leading Government, Public Sector and Private Organizations.",https://www.nitt.edu/home/righttoinfoact/RTI-MANUAL-2024-v4.pdf,low,low,medium,2024,medium
+Entrance Exam Name,Admissions,JEE Main,Admission to undergraduate programs is based on the +2 or other qualifying examinations and the rank obtained in the Joint Entrance Examination (JEE Main).,https://www.nitt.edu/home/righttoinfoact/RTI-MANUAL-2024-v4.pdf,medium,high,medium,2024,medium
+Entrance Exam Cutoff by Program,Admissions,N/A,Admission to undergraduate programs is based on... the rank obtained in the Joint Entrance Examination (JEE Main).,https://www.nitt.edu/home/righttoinfoact/RTI-MANUAL-2024-v4.pdf,low,low,medium,2024,medium
+Sports Infrastructure & Achievements,Campus Facilities,"{'facilities': ['Swimming pool', 'Sports & games facilities'], 'achievements': []}",The institute has a wide campus area which includes... Swimming pool... extracurricular skills for students which include... sports & games.,https://www.nitt.edu/home/righttoinfoact/RTI-MANUAL-2024-v4.pdf,medium,high,medium,2024,medium
+List of Active Clubs,Student Life,"['NCC', 'NSS', 'Students Chapters of IEEE', 'Social clubs', 'Festember (Cultural)', 'Pragyan (Technical)', 'NITT fest (Cultural)']","campus provides ample opportunities for developing extracurricular skills for students which include NCC, NSS, Students Chapters of IEEE, social clubs... Festember, Pragyan... NITT fest",https://www.nitt.edu/home/righttoinfoact/RTI-MANUAL-2024-v4.pdf,medium,high,medium,2024,medium
+NIRF Ranking,Accreditations & Rankings,9,The institute has been ranked 9th place in the National Institute Ranking Framework (NIRF) in 2023 by the Govt. Of India.,https://www.nitt.edu/home/EEE-DS-TMD-ET-MAR-2024.pdf,medium,high,medium,2024,medium
+Institutional Status,Accreditations & Rankings,Institute of National Importance,"Under the NIT Act 2007, NITT had been declared as an Institute of National Importance.",https://www.nitt.edu/home/righttoinfoact/RTI-MANUAL-2024-v4.pdf,medium,high,medium,2024,medium

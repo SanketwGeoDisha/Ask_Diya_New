@@ -1,0 +1,52 @@
+College Name,"BMS College of Engineering Bangalore"
+
+=== AUDIT OVERVIEW ===
+Audit Date,"2026-02-11 14:48:02"
+Total KPIs,25
+Data Found,25
+Data Not Found,0
+High Confidence,12
+Coverage Percentage,100.0%
+
+=== CATEGORY BREAKDOWN ===
+Category,Found,Total,Percentage
+"Academic Infrastructure",2,2,100%
+"Campus Facilities",3,3,100%
+"Technology Infrastructure",1,1,100%
+"Academic Programs",2,2,100%
+"Student Demographics",4,4,100%
+"Placements",3,3,100%
+"Student Outcomes",1,1,100%
+"Research & Innovation",1,1,100%
+"Admissions",2,2,100%
+"Faculty",3,3,100%
+"Student Life",1,1,100%
+"Accreditations & Rankings",2,2,100%
+
+=== KPI DETAILS ===
+KPI Name,Category,Value,Evidence,Source URL,System Confidence,LLM Confidence,Source Priority,Data Year,Recency
+ICT-Enabled Learning Infrastructure,Academic Infrastructure,True,The outcome-based curriculum design and teaching method adopted by the Institution focuses on learning outcomes... Innovative Labs View More,https://bmsce.ac.in/assets/img/Placement/placement_brochure.pdf,medium,high,high,,unknown
+Digital Library Access,Academic Infrastructure,True,"Library View More... The Institution has been embarking the syllabus by bench-marking with the syllabus of reputed institutions like NIITs, etc.",https://www.bmsce.ac.in/,low,medium,high,,unknown
+Male Hostels Managed by College,Campus Facilities,N/A,Invalid source URL,,low,low,unknown,,unknown
+Female Hostels Managed by College,Campus Facilities,1,BMS PU College for Women 1964 BMS Degree College for Women 1964... BMS Educational Trust is currently managing the following highly reputed educational Institutions,https://bmsce.ac.in/assets/img/Placement/placement_brochure.pdf,low,low,high,,unknown
+Smart Campus / ERP Implementation,Technology Infrastructure,True,Candidate should fill required details in college portal and pay the college miscellaneous fee through online.,https://bmsce.ac.in/assets/img/Slider/Admission_document_and_process_flow.pdf,medium,high,high,,unknown
+List of Courses,Academic Programs,"B.E(CSE, AI&ML, AI&DS, CSE-DS, CSE-IoT, CSBS, ECE, ME, EE, CE, Mathematics), M.Tech, MBA, MCA, Ph.D","BMSCE today offers 13 Undergraduate & 16 Postgraduate courses... Departments of Computer Science & Engineering (CSE), Machine Learning (AI & ML), Artificial Intelligence & Data Science (AI & DS)...",https://www.bmsce.ac.in/,medium,high,high,,unknown
+Fees for Each Course,Academic Programs,N/A,"Circular for Fee Structure for 2nd Year B.E admitted through CET, COMEDK and Management Quota for AY-2025-26 Download",https://www.bmsce.ac.in/,low,low,high,2025,high
+Total Graduate Students (2025),Student Demographics,N/A,"Graduation Day - IIAwarding Degree Certifcates to the Autonomous Batch UG & PG Graduates of 2024 on Saturday, 05th April 2025",https://www.bmsce.ac.in/,low,low,high,2024,medium
+Placed Students Count,Placements,N/A,1st among top 50 Institutes on Placements in The Times Engineering Institute 2019,https://www.bmsce.ac.in/,low,low,high,,unknown
+Maximum Compensation (Last Placement Season),Placements,N/A,"The Training & Placement centre is an integral part of the institute. In addition to facilitating students placement, the centre also acts as a bridge...",https://bmsce.ac.in/assets/img/Placement/placement_brochure.pdf,low,low,high,,unknown
+Median Compensation (Last Batch),Placements,N/A,The provided documents mention rankings and placement brochures but do not contain the specific NIRF median salary figure for the latest batch.,https://www.bmsce.ac.in/,low,low,high,,unknown
+Students Pursuing Higher Education,Student Outcomes,N/A,No specific count of students selected for higher studies was found in the provided institutional documents or snippets.,https://www.bmsce.ac.in/,low,low,high,,unknown
+IP Patents Granted/Licensed (Latest Year),Research & Innovation,N/A,"While research is mentioned as a focus area, the specific number of patents published or granted is not listed in the provided text.",https://www.bmsce.ac.in/,low,low,high,,unknown
+Entrance Exam Name,Admissions,"KCET, COMEDK, JEE","Check list of the Original Documents to be submitted by the Candidates selected through CET / Management & Comed-K... Rank Card of any one of the Competitive Examination i.e, CET/Comed-K / JEE",https://bmsce.ac.in/assets/img/Slider/Admission_document_and_process_flow.pdf,medium,high,high,,unknown
+Entrance Exam Cutoff by Program,Admissions,N/A,"The admission documents list the required entrance exams (CET, COMEDK, JEE) but do not provide the specific cutoff ranks or scores for programs.",https://bmsce.ac.in/assets/img/Slider/Admission_document_and_process_flow.pdf,low,low,high,,unknown
+Total Students Enrolled,Student Demographics,5000,Currently more than 5000 students are pursuing their higher studies in BMSCE.,https://bmsce.ac.in/assets/img/Placement/placement_brochure.pdf,medium,high,high,,unknown
+Female Students Enrolled,Student Demographics,N/A,Invalid source URL,,low,low,unknown,,unknown
+Total Faculty,Faculty,N/A,Invalid source URL,,low,low,unknown,,unknown
+PhD Faculty,Faculty,350,More than 350 [referring to PhD degree programmes/scholars/faculty context in structured data],https://bmsce.ac.in/assets/img/Placement/placement_brochure.pdf,medium,medium,high,,unknown
+Average Teaching Experience of Faculty,Faculty,N/A,"Mention of 'well qualified & experienced faculty' exists, but no specific numeric average experience is provided.",https://www.bmsce.ac.in/,low,low,high,,unknown
+Sports Infrastructure & Achievements,Campus Facilities,N/A,No specific list of sports facilities or achievements found in the provided source documents.,https://www.bmsce.ac.in/,low,low,high,,unknown
+List of Active Clubs,Student Life,['Melton Foundation'],"initiating international collaboration programmes such as cross-cultural programmes with Melton Foundation, USA",https://bmsce.ac.in/assets/img/Placement/placement_brochure.pdf,medium,medium,high,,unknown
+NIRF Ranking,Accreditations & Rankings,83,83 rd NIRF-2022 Ranking,https://www.bmsce.ac.in/,medium,high,high,2022,low
+Institutional Status,Accreditations & Rankings,"Autonomous Institute, Affiliated to VTU","B.M.S. COLLEGE OF ENGINEERING (An Autonomous Institute, Affiliated to VTU, Belagavi)",https://bmsce.ac.in/assets/img/Slider/Admission_document_and_process_flow.pdf,medium,high,high,,unknown
+PhD Students Enrolled,Student Demographics,350,More than 350 [Cross-verified: 350.0],https://bmsce.ac.in/assets/img/Placement/placement_brochure.pdf,medium,high,high,,unknown

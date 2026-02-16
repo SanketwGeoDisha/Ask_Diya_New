@@ -1,0 +1,46 @@
+College Name,"BITS Pilani"
+
+=== AUDIT OVERVIEW ===
+Audit Date,"2026-02-11 14:08:40"
+Total KPIs,21
+Data Found,21
+Data Not Found,0
+High Confidence,17
+Coverage Percentage,100.0%
+
+=== CATEGORY BREAKDOWN ===
+Category,Found,Total,Percentage
+"Student Demographics",4,4,100%
+"Placements",3,3,100%
+"Student Outcomes",1,1,100%
+"Academic Infrastructure",2,2,100%
+"Campus Facilities",3,3,100%
+"Technology Infrastructure",1,1,100%
+"Academic Programs",2,2,100%
+"Admissions",2,2,100%
+"Student Life",1,1,100%
+"Accreditations & Rankings",2,2,100%
+
+=== KPI DETAILS ===
+KPI Name,Category,Value,Evidence,Source URL,System Confidence,LLM Confidence,Source Priority,Data Year,Recency
+Total Graduate Students (2025),Student Demographics,"3753 [UG 4Y: 2883, PG 2Y: 870]",Extracted from NIRF 2025 document,https://www.bits-pilani.ac.in/wp-content/uploads/Overall_NIRF-2025.pdf,low,low,critical,,unknown
+Placed Students Count,Placements,"3394 [UG: 2554, PG: 840]",Extracted from NIRF 2025 document,https://www.bits-pilani.ac.in/wp-content/uploads/Overall_NIRF-2025.pdf,low,low,critical,,unknown
+Median Compensation (Last Batch),Placements,17.70 LPA,Extracted from NIRF 2025 document,https://www.bits-pilani.ac.in/wp-content/uploads/Overall_NIRF-2025.pdf,low,low,critical,,unknown
+Students Pursuing Higher Education,Student Outcomes,"330 [UG: 310, PG: 20]",Extracted from NIRF 2025 document,https://www.bits-pilani.ac.in/wp-content/uploads/Overall_NIRF-2025.pdf,low,low,critical,,unknown
+Total Students Enrolled,Student Demographics,13551,Extracted from NIRF 2025 document,https://www.bits-pilani.ac.in/wp-content/uploads/Overall_NIRF-2025.pdf,low,low,critical,,unknown
+Female Students Enrolled,Student Demographics,2307,Extracted from NIRF 2025 document,https://www.bits-pilani.ac.in/wp-content/uploads/Overall_NIRF-2025.pdf,low,low,critical,,unknown
+PhD Students Enrolled,Student Demographics,"2126 [Full Time: 1651, Part Time: 475]",Extracted from NIRF 2025 document,https://www.bits-pilani.ac.in/wp-content/uploads/Overall_NIRF-2025.pdf,low,low,critical,,unknown
+ICT-Enabled Learning Infrastructure,Academic Infrastructure,True,"All classrooms are centrally air conditioned and are equipped with computers, projectors, screens, speakers and black-boards.",https://www.bits-pilani.ac.in/pilani/management/facilities/,medium,high,high,,unknown
+Digital Library Access,Academic Infrastructure,True,"Over 20,000 electronic resources, including databases, journals and ebooks. ... Library e-services",https://www.bits-pilani.ac.in/pilani/management/facilities/,medium,high,high,,unknown
+Male Hostels Managed by College,Campus Facilities,1,"The Higher Degree Students... will get a hostel room allotted... male student, his parents may stay with him... male guardian will get to stay temporarily in a boys’ hostel",https://www.bits-pilani.ac.in/wp-content/uploads/Information_anti_ragging_hostel_allotment_July_2017.pdf,low,medium,high,,unknown
+Female Hostels Managed by College,Campus Facilities,1,"Dr. Surekha Bhanot Warden, Meera Bhawan (Girls)... Ms Mallika Upadhaya Hostel Superintendent (Girls)",https://www.bits-pilani.ac.in/wp-content/uploads/Information_anti_ragging_hostel_allotment_July_2017.pdf,low,medium,high,,unknown
+Smart Campus / ERP Implementation,Technology Infrastructure,True,"The allotment of rooms is random and computerized. ... Computer software development for student records, time-table, admission process",https://www.bits-pilani.ac.in/centre-for-research-on-educational-innovation-institutional-development/,medium,high,high,,unknown
+List of Courses,Academic Programs,"B.E.(Chemical, Civil, CS, EE, Electronics & Computer, ECE, E&I, Manufacturing, ME), B.Pharm, M.Sc.(Biological Sciences, Chemistry, Economics, General Studies, Mathematics, Physics), MBA, M.E.(Biotechnology, Chemical, Civil, CS, Design, Embedded Systems, Manufacturing, ME, Microelectronics, Software Systems), M.Pharm, MPH, Ph.D",B.E.(Chemical) B.E.(Civil) B.E.(Computer Science) B.E.(Electrical and Electronics)... Higher Degree MBA... Doctoral Programmes,https://www.bits-pilani.ac.in/,medium,high,high,,unknown
+Fees for Each Course,Academic Programs,N/A,The provided text mentions a scrutiny fee of Rs. 100 but does not list annual tuition fees for academic programs.,https://www.bits-pilani.ac.in/wp-content/uploads/Scrutiny_Form_REVISED.pdf,low,low,high,,unknown
+Maximum Compensation (Last Placement Season),Placements,N/A,"Average annual salary was ‡ 20.7 LPA... approximately 3,000 students secured offers... 3200 placement offers.",https://www.bits-pilani.ac.in/BITSology/BITSology-Jan-2024/,low,medium,high,2024,medium
+Entrance Exam Name,Admissions,BITSAT,Admission Integrated first degree... BITSAT IMPORTANT CONTACTS,https://www.bits-pilani.ac.in/,medium,high,high,,unknown
+Entrance Exam Cutoff by Program,Admissions,N/A,BITSAT Admissions and Aspirants Alert... How many students are in your Class: 1050 (First Degree),https://www.bits-pilani.ac.in/wp-content/uploads/Information_anti_ragging_hostel_allotment_July_2017.pdf,low,low,high,,unknown
+Sports Infrastructure & Achievements,Campus Facilities,"{'facilities': ['Sports festivals', 'Playgrounds', 'Gymnasium'], 'achievements': ['Project Kratos ranked first in India and second in Asia at International University Rover challenge', 'Ranked first in All India Case Study competition at IIM Ahmedabad']}","Students organize International-level festivals (sports,cultural & technical)... Project Kratos, a student run team ranked first in India, and second all over Asia",https://www.bits-pilani.ac.in/placements/goa/,medium,high,high,,unknown
+List of Active Clubs,Student Life,"['Business and Entrepreneurship Clubs', 'Consulting Competitions', '180 DC', 'IFSA', 'ShARE', 'BITS Embryo']","many Business and Entrepreneurship Clubs have flourished... 180 DC, IFSA, ShARE chapters of the BITS Pilani campus partner... BITS Embryo",https://www.bits-pilani.ac.in/wp-content/uploads/BITS_Pilani_Placement_Brochure_2024-25.pdf,medium,high,high,2024,medium
+NIRF Ranking,Accreditations & Rankings,N/A,Invalid source URL,,low,low,unknown,,unknown
+Institutional Status,Accreditations & Rankings,Deemed University,"This centre was established with financial support from the University Grants Commission, New Delhi... possibly the highest among self-sustained institutions.",https://www.bits-pilani.ac.in/centre-for-research-on-educational-innovation-institutional-development/,medium,high,high,,unknown

@@ -1,0 +1,52 @@
+College Name,"COEP Pune"
+
+=== AUDIT OVERVIEW ===
+Audit Date,"2026-02-11 14:42:13"
+Total KPIs,25
+Data Found,25
+Data Not Found,0
+High Confidence,1
+Coverage Percentage,100.0%
+
+=== CATEGORY BREAKDOWN ===
+Category,Found,Total,Percentage
+"Academic Infrastructure",2,2,100%
+"Campus Facilities",3,3,100%
+"Technology Infrastructure",1,1,100%
+"Academic Programs",2,2,100%
+"Student Demographics",4,4,100%
+"Placements",3,3,100%
+"Student Outcomes",1,1,100%
+"Research & Innovation",1,1,100%
+"Admissions",2,2,100%
+"Faculty",3,3,100%
+"Student Life",1,1,100%
+"Accreditations & Rankings",2,2,100%
+
+=== KPI DETAILS ===
+KPI Name,Category,Value,Evidence,Source URL,System Confidence,LLM Confidence,Source Priority,Data Year,Recency
+ICT-Enabled Learning Infrastructure,Academic Infrastructure,N/A,"COEP has state-of-the-art ICT infrastructure including smart classrooms, high-speed internet, and digital learning tools for effective pedagogy.",,low,high,medium,,unknown
+Digital Library Access,Academic Infrastructure,N/A,"The Central Library provides access to various e-resources, including IEEE, ScienceDirect, and other digital databases for students.",,low,high,medium,,unknown
+Male Hostels Managed by College,Campus Facilities,N/A,"The hostel campus has 10 buildings in all, of which 8 are for boys and 2 are for girls.",,low,high,medium,,unknown
+Female Hostels Managed by College,Campus Facilities,N/A,"The hostel campus has 10 buildings in all, of which 8 are for boys and 2 are for girls.",,low,high,medium,,unknown
+Smart Campus / ERP Implementation,Technology Infrastructure,N/A,COEP uses an indigenously developed Management Information System (MIS) for academic and administrative processes.,,low,high,medium,,unknown
+List of Courses,Academic Programs,N/A,"COEP offers B.Tech in 8 specializations, M.Tech in 24 specializations, MBA, and PhD programs across various engineering disciplines.",,low,high,medium,,unknown
+Fees for Each Course,Academic Programs,N/A,"Fees for B.Tech is approx 90,600 per annum, M.Tech is 1,13,500 and MBA is 2,05,000 for open category students.",,low,high,medium,,unknown
+Total Graduate Students (2025),Student Demographics,N/A,Total number of students graduating in minimum stipulated time for the UG 4-year program was 680 and PG 2-year was 162.,,low,medium,critical,2024,medium
+Placed Students Count,Placements,N/A,"Out of the graduating students, 580 UG students and 135 PG students were placed through campus recruitment.",,low,high,medium,,unknown
+Maximum Compensation (Last Placement Season),Placements,N/A,The highest package offered during COEP Tech placements 2023-24 was INR 50.5 LPA.,,low,high,medium,2023,low
+Median Compensation (Last Batch),Placements,N/A,"Median salary of placed graduates (Amount in Rs.) for UG [4 Years Program(s)]: 9,70,000 in NIRF 2024 report.",,low,high,critical,2024,medium
+Students Pursuing Higher Education,Student Outcomes,N/A,No. of students selected for Higher Studies: 142 for the 2022-23 graduating batch in UG 4-year programs.,,low,high,critical,2024,medium
+IP Patents Granted/Licensed (Latest Year),Research & Innovation,N/A,"No. of Patents Published: 21, No. of Patents Granted: 5. Total = 26 for the year 2023.",,low,high,critical,2024,medium
+Entrance Exam Name,Admissions,N/A,"Admission to B.Tech is through MHT-CET conducted by State Common Entrance Test Cell, Maharashtra and JEE Main.",,low,high,medium,,unknown
+Entrance Exam Cutoff by Program,Admissions,N/A,"MHT-CET 2023 Round 1 closing percentiles for General category: Comp 99.92, IT 99.85, ENTC 99.72.",,low,medium,medium,2023,low
+Total Students Enrolled,Student Demographics,N/A,Total Actual Student Strength (Program(s) Offered by Your Institution): UG [4 Years Program(s)]: 3108; PG [2 Years Program(s)]: 851. Total = 3959.,,low,high,critical,2024,medium
+Female Students Enrolled,Student Demographics,N/A,UG [4 Years Program(s)]: 912 Female students; PG [2 Years Program(s)]: 272 Female students. Total = 1184.,,low,high,critical,2024,medium
+Total Faculty,Faculty,N/A,Faculty Details table in NIRF 2024 shows 242 entries for teaching staff.,,low,high,critical,2024,medium
+PhD Faculty,Faculty,N/A,"Out of 242 faculty members listed in the Faculty Details table, 198 hold a Ph.D qualification.",,low,high,critical,2024,medium
+Average Teaching Experience of Faculty,Faculty,N/A,Average experience calculated from 'Experience (In Months)' column for 242 faculty members is approximately 185 months.,,low,medium,critical,2024,medium
+Sports Infrastructure & Achievements,Campus Facilities,N/A,"COEP has a playground for cricket, football, hockey. It hosts 'Zest', a national level annual sports festival. Facilities include a gymnasium and various indoor/outdoor courts.",,low,high,medium,,unknown
+List of Active Clubs,Student Life,N/A,"The college has a vibrant culture with clubs like Robot Study Circle, COEP Motorsports, and the Satellite Team (CSAT) which launched 'Swayam'.",,low,high,medium,,unknown
+NIRF Ranking,Accreditations & Rankings,77,"COEP Technological University Pune (formerly College of Engineering, Pune) ranked 77 in the Engineering category in NIRF 2024.",https://www.nirfindia.org/Rankings/2024/EngineeringRanking.html,medium,high,critical,2024,medium
+Institutional Status,Accreditations & Rankings,N/A,"The Government of Maharashtra converted the College of Engineering, Pune into a Unitary Public University (COEP Technological University) in 2022.",,low,high,medium,2022,low
+PhD Students Enrolled,Student Demographics,N/A,Total Ph.D students pursuing doctoral program till 2023-24: Full Time (182) + Part Time (270).,,low,high,critical,2024,medium

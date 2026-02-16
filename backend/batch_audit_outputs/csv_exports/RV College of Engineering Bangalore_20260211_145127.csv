@@ -1,0 +1,52 @@
+College Name,"RV College of Engineering Bangalore"
+
+=== AUDIT OVERVIEW ===
+Audit Date,"2026-02-11 14:51:27"
+Total KPIs,25
+Data Found,25
+Data Not Found,0
+High Confidence,25
+Coverage Percentage,100.0%
+
+=== CATEGORY BREAKDOWN ===
+Category,Found,Total,Percentage
+"Academic Infrastructure",2,2,100%
+"Campus Facilities",3,3,100%
+"Technology Infrastructure",1,1,100%
+"Academic Programs",2,2,100%
+"Student Demographics",4,4,100%
+"Placements",3,3,100%
+"Student Outcomes",1,1,100%
+"Research & Innovation",1,1,100%
+"Admissions",2,2,100%
+"Faculty",3,3,100%
+"Student Life",1,1,100%
+"Accreditations & Rankings",2,2,100%
+
+=== KPI DETAILS ===
+KPI Name,Category,Value,Evidence,Source URL,System Confidence,LLM Confidence,Source Priority,Data Year,Recency
+ICT-Enabled Learning Infrastructure,Academic Infrastructure,True,"RVCE has implemented ICT-enabled classrooms, e-learning resources, and digital laboratories to enhance the teaching-learning process.",https://rvce.edu.in/ict-enabled-learning,medium,high,high,,unknown
+Digital Library Access,Academic Infrastructure,True,"The library provides access to various e-resources, including IEEE, Springer, and ScienceDirect, through its digital library portal.",https://rvce.edu.in/library-resources,medium,high,high,,unknown
+Male Hostels Managed by College,Campus Facilities,4,"There are four exclusive hostels for boys: Cauvery, Krishna, Sir M Visvesvaraya, and Chamundi blocks.",https://rvce.edu.in/hostel-facilities,low,high,high,,unknown
+Female Hostels Managed by College,Campus Facilities,1,The college provides on-campus hostel facilities for girls in the Diamond Jubilee Block.,https://rvce.edu.in/hostel-facilities,low,high,high,,unknown
+Smart Campus / ERP Implementation,Technology Infrastructure,True,"RVCE utilizes an integrated Campus Management System (ERP) for student records, attendance, and academic management.",https://rvce.edu.in/campus-management-system,medium,high,high,,unknown
+List of Courses,Academic Programs,"B.E(AS, BT, CH, CV, CS, CY, CD, EC, EE, ET, IE, IS, ME), M.Tech(BT, CE, CS, CN, DC, EE, MD, PE, SE, VLSI), MCA","RVCE offers 13 Under Graduate Engineering programmes, 16 Master Degree programmes and Doctoral Studies.",https://rvce.edu.in/about-us,medium,high,high,,unknown
+Fees for Each Course,Academic Programs,"{'B.E (KCET)': 96574, 'B.E (COMEDK)': 244372, 'B.E (Management)': 1100000, 'M.Tech (PGCET)': 70000, 'MCA': 80000}","Annual tuition fee for COMEDK is Rs. 2,44,372. Management quota for CS is approx 11L per year.",https://rvce.edu.in/rvce-fees-structure,low,medium,high,,unknown
+Total Graduate Students (2025),Student Demographics,1184,Total number of students graduating in minimum stipulated time (UG 4y + PG 2y) for the most recent NIRF cycle.,https://rvce.edu.in/sites/default/files/NIRF-2024-Engineering.pdf,medium,high,critical,2024,medium
+Placed Students Count,Placements,943,Number of students placed: 943 out of 1050 eligible students in the 2023-24 cycle.,https://rvce.edu.in/placement-statistics,medium,high,high,2023,low
+Maximum Compensation (Last Placement Season),Placements,92.00 LPA,Highest salary offered was 92 LPA for the batch of 2023-24.,https://rvce.edu.in/placement-statistics,medium,high,high,2023,low
+Median Compensation (Last Batch),Placements,10.00 LPA,Median salary of placed graduates (Amount in Rs.) for UG [4 Years Program(s)]: 1000000 (Ten Lakhs) as per NIRF 2024 report.,https://rvce.edu.in/sites/default/files/NIRF-2024.pdf,medium,high,critical,2024,medium
+Students Pursuing Higher Education,Student Outcomes,182,No. of students selected for Higher Studies: 182 for the 2022-23 graduating batch in UG 4-year programs.,https://rvce.edu.in/sites/default/files/NIRF-2024.pdf,medium,high,critical,2024,medium
+IP Patents Granted/Licensed (Latest Year),Research & Innovation,115,No. of Patents Published: 98; No. of Patents Granted: 17. Total = 115 for the calendar year 2023.,https://rvce.edu.in/sites/default/files/NIRF-2024.pdf,medium,high,critical,2024,medium
+Entrance Exam Name,Admissions,"KCET, COMEDK UGET",Admission to UG programs is based on Karnataka Common Entrance Test (KCET) and COMEDK UGET ranks.,https://rvce.edu.in/b-e-admissions,medium,high,high,,unknown
+Entrance Exam Cutoff by Program,Admissions,"{'Computer Science Engineering': '242 (KCET)', 'Information Science Engineering': '415 (KCET)', 'Electronics & Communication Engineering': '958 (KCET)', 'Data Science': '384 (KCET)'}","KCET 2023 Round 1 Closing Ranks: CS 242, IS 415, ECE 958, Data Science 384.",https://cetonline.karnataka.gov.in/kea/,medium,medium,high,2023,low
+Total Students Enrolled,Student Demographics,5607,Total Actual Student Strength (Program(s) Offered by Your Institution): UG [4 Years Program(s)]: 4455; PG [2 Year Program(s)]: 1152. Total = 5607,https://rvce.edu.in/sites/default/files/NIRF-2024-Engineering.pdf,medium,high,critical,2024,medium
+Female Students Enrolled,Student Demographics,1478,UG [4 Years Program(s)]: 1146 female students; PG [2 Year Program(s)]: 332 female students. Total = 1478,https://rvce.edu.in/sites/default/files/NIRF-2024-Engineering.pdf,medium,high,critical,2024,medium
+Total Faculty,Faculty,358,Total number of faculty members listed in the Faculty Details section of NIRF 2024 report is 358.,https://rvce.edu.in/sites/default/files/NIRF-2024-Engineering.pdf,medium,high,critical,2024,medium
+PhD Faculty,Faculty,234,Count of faculty members with Ph.D qualification in the Faculty Details table of NIRF 2024 report is 234.,https://rvce.edu.in/sites/default/files/NIRF-2024-Engineering.pdf,medium,high,critical,2024,medium
+Average Teaching Experience of Faculty,Faculty,16.2,"Average of 'Experience (In Months)' for 358 faculty members is approximately 194.4 months, which is 16.2 years.",https://rvce.edu.in/sites/default/files/NIRF-2024-Engineering.pdf,medium,medium,critical,2024,medium
+Sports Infrastructure & Achievements,Campus Facilities,"{'facilities': ['Cricket Field', 'Football Field', 'Basketball Court', 'Volleyball Court', 'Badminton Courts', 'Table Tennis', 'Gymnasium', 'Track and Field'], 'achievements': ['Regular winners in VTU Inter-Collegiate Sports Competitions', 'Hosting of VTU level tournaments', 'Student representation at National and International levels']}","The college provides facilities for both indoor and outdoor games... including cricket, football, basketball, and a well-equipped gymnasium.",https://rvce.edu.in/sports-infrastructure,medium,high,high,,unknown
+List of Active Clubs,Student Life,"['Team Chimera', 'Team Ashwa', 'Team Jatayu', 'Team Garuda', 'Debating Society', 'Rotaract Club', 'Raag', 'Culturals - Alaap', 'Entrepreneurship Development Cell', 'IEEE RVCE', 'NCC', 'NSS']","RVCE has numerous technical and cultural clubs including Team Ashwa, Team Chimera, and the Debating Society.",https://rvce.edu.in/student-clubs,medium,high,high,,unknown
+NIRF Ranking,Accreditations & Rankings,94,RV College of Engineering ranked 94th in the Engineering category in NIRF 2024.,https://www.nirfindia.org/Rankings/2024/EngineeringRanking.html,medium,high,critical,2024,medium
+Institutional Status,Accreditations & Rankings,Autonomous Institution affiliated to Visvesvaraya Technological University (VTU),"RVCE is an autonomous institution affiliated to Visvesvaraya Technological University, Belagavi.",https://rvce.edu.in/about-us,medium,high,high,,unknown
+PhD Students Enrolled,Student Demographics,321,Total Ph.D students enrolled as of 2023-24: Full Time (42) + Part Time (279) = 321.,https://rvce.edu.in/sites/default/files/NIRF-2024.pdf,medium,high,critical,2024,medium

@@ -1,0 +1,52 @@
+College Name,"IIT Bombay"
+
+=== AUDIT OVERVIEW ===
+Audit Date,"2026-02-11 12:13:30"
+Total KPIs,25
+Data Found,25
+Data Not Found,0
+High Confidence,12
+Coverage Percentage,100.0%
+
+=== CATEGORY BREAKDOWN ===
+Category,Found,Total,Percentage
+"Academic Infrastructure",2,2,100%
+"Campus Facilities",3,3,100%
+"Technology Infrastructure",1,1,100%
+"Academic Programs",2,2,100%
+"Student Demographics",4,4,100%
+"Placements",3,3,100%
+"Student Outcomes",1,1,100%
+"Research & Innovation",1,1,100%
+"Admissions",2,2,100%
+"Faculty",3,3,100%
+"Student Life",1,1,100%
+"Accreditations & Rankings",2,2,100%
+
+=== KPI DETAILS ===
+KPI Name,Category,Value,Evidence,Source URL,System Confidence,LLM Confidence,Source Priority,Data Year,Recency
+ICT-Enabled Learning Infrastructure,Academic Infrastructure,True,Resources for Teaching and Research... Resources for Teaching... Continuing and Executive Education Programmes,https://www.iitb.ac.in/sites/www.iitb.ac.in/files/2024-05/Faculty-Handbook-2024.pdf,medium,high,high,2024,medium
+Digital Library Access,Academic Infrastructure,True,"Central Library, IIT Bombay... Leveraging Digital Tools for IPR Protection and Preservation... digitalization",https://www.iitb.ac.in/ipriks/sites/default/files/2025-12/souvenir.pdf,medium,high,high,2025,high
+Male Hostels Managed by College,Campus Facilities,18,Hostel fees for the Autumn Semester 2024-25... IIT Bombay reserves the right to revise the Hostel Fee structure,https://www.iitb.ac.in/newacadhome/balanceFeeUG2024.jsp,low,medium,high,2024,medium
+Female Hostels Managed by College,Campus Facilities,2,Hostel fees for the Autumn Semester 2024-25... All students have to pay the 'Semester Mess Advance' before taking possession of their hostel rooms.,https://www.iitb.ac.in/newacadhome/balanceFeeUG2022.jsp,low,medium,high,2022,low
+Smart Campus / ERP Implementation,Technology Infrastructure,True,ERP-SAP Activities... This must be completed before arrival on ASC Portal,https://www.iitb.ac.in/sites/www.iitb.ac.in/files/2024-05/Faculty-Handbook-2024.pdf,medium,high,high,2024,medium
+List of Courses,Academic Programs,"B.Tech(CSE, CE, ME, EE, B.Des), M.Tech(CSE, CE, Remote Sensing), MS(CSE), Ph.D","MTech in Computer Science and Engineering (CSE), MS in Computer Science and Engineering (CSE), B.Tech programme students, Computer Science and Remote Sensing under Civil Engineering",https://www.iitb.ac.in/sites/www.iitb.ac.in/files/2025-08/All%20applications%20and%20Appeals%20of%20Annual%202024-2025.pdf,medium,high,high,2025,high
+Fees for Each Course,Academic Programs,"{'B.Tech (General/EWS/OBC)': 200000, 'B.Tech (SC/ST/PwD)': 0, 'B.Des (General/EWS/OBC)': 200000, 'B.Des (SC/ST/PwD)': 0}","Tuition Fee - Statutory fees. 100000 [per semester]. GEN, EWS, OBC-NCL: 1,23,350/- [Total Academic Fee], SC, ST, PwD: 23,350/- [Total Academic Fee]",https://www.iitb.ac.in/newacadhome/balanceFeeUG2024.jsp,medium,high,high,2024,medium
+Total Graduate Students (2025),Student Demographics,N/A,Invalid source URL,,low,low,unknown,,unknown
+Placed Students Count,Placements,59,Total no. of students enrolled for the academic year 2023-24... M.Tech. in Computer Science & Engg. (CSE) is 59,https://www.iitb.ac.in/sites/www.iitb.ac.in/files/2025-08/All%20applications%20and%20Appeals%20of%20Annual%202024-2025.pdf,medium,medium,high,2025,high
+Maximum Compensation (Last Placement Season),Placements,N/A,Highest salary offered... Ongoing. Report will be available in August 2024.,https://www.iitb.ac.in/sites/www.iitb.ac.in/files/2025-08/All%20applications%20and%20Appeals%20of%20Annual%202024-2025.pdf,low,low,high,2025,high
+Median Compensation (Last Batch),Placements,N/A,The provided RTI documents mention average and highest salary requests but do not explicitly state the final median value for the last batch.,https://www.iitb.ac.in/sites/www.iitb.ac.in/files/2025-08/All%20applications%20and%20Appeals%20of%20Annual%202024-2025.pdf,low,low,high,2025,high
+Students Pursuing Higher Education,Student Outcomes,N/A,Invalid source URL,,low,low,unknown,,unknown
+IP Patents Granted/Licensed (Latest Year),Research & Innovation,N/A,"While the Dean (R&D) is noted to lead patent filing, the specific count of patents granted or published for the latest year is not stated.",https://www.iitb.ac.in/sites/www.iitb.ac.in/files/2024-05/Faculty-Handbook-2024.pdf,low,low,high,2024,medium
+Entrance Exam Name,Admissions,"JEE (Advanced), UCEED, INMO",Fees applicable for students admitted through JEE (Advanced) 2024... admitted through INMO 2024... admitted through UCEED 2024,https://www.iitb.ac.in/newacadhome/balanceFeeUG2024.jsp,medium,high,high,2024,medium
+Entrance Exam Cutoff by Program,Admissions,N/A,The source data provides detailed fee structures for various admission categories but does not list the closing ranks or cutoff scores.,https://www.iitb.ac.in/newacadhome/balanceFeeUG2024.jsp,low,low,high,2024,medium
+Total Students Enrolled,Student Demographics,N/A,Invalid source URL,,low,low,unknown,,unknown
+Female Students Enrolled,Student Demographics,N/A,Invalid source URL,,low,low,unknown,,unknown
+Total Faculty,Faculty,N/A,Invalid source URL,,low,low,unknown,,unknown
+PhD Faculty,Faculty,N/A,Invalid source URL,,low,low,unknown,,unknown
+Average Teaching Experience of Faculty,Faculty,N/A,Invalid source URL,,low,low,unknown,,unknown
+Sports Infrastructure & Achievements,Campus Facilities,"{'facilities': ['Gymnasium', 'Swimming Pool', 'Athletics Track', 'Indoor Sports Complex', 'Playgrounds'], 'achievements': []}","Mention of 'Gymnasium', 'Swimming Pool' and campus amenities in Faculty Handbook 2024 and campus life descriptions.",https://www.iitb.ac.in/sites/www.iitb.ac.in/files/2024-05/Faculty-Handbook-2024.pdf,low,medium,high,2024,medium
+List of Active Clubs,Student Life,"['PT&D Cell', 'URA Cell for Human Values', 'Society of Applied Microwave Electronics Engineering and Research (SAMEER)']",Mention of 'URA Cell for Human Values' and 'PT&D Cell' in academic and administrative documents.,https://www.iitb.ac.in/newacadhome/balanceFeeUG2024.jsp,medium,medium,high,2024,medium
+NIRF Ranking,Accreditations & Rankings,N/A,Invalid source URL,,low,low,unknown,,unknown
+Institutional Status,Accreditations & Rankings,Institute of National Importance,The act stipulates that the IITs are institutions of national importance and prescribes the broad framework of their governance.,https://www.iitb.ac.in/sites/www.iitb.ac.in/files/2024-05/Faculty-Handbook-2024.pdf,medium,high,high,2024,medium
+PhD Students Enrolled,Student Demographics,N/A,Invalid source URL,,low,low,unknown,,unknown

@@ -1,0 +1,52 @@
+College Name,"PES University Bangalore"
+
+=== AUDIT OVERVIEW ===
+Audit Date,"2026-02-11 14:52:27"
+Total KPIs,25
+Data Found,25
+Data Not Found,0
+High Confidence,12
+Coverage Percentage,100.0%
+
+=== CATEGORY BREAKDOWN ===
+Category,Found,Total,Percentage
+"Academic Infrastructure",2,2,100%
+"Campus Facilities",3,3,100%
+"Technology Infrastructure",1,1,100%
+"Academic Programs",2,2,100%
+"Student Demographics",4,4,100%
+"Placements",3,3,100%
+"Student Outcomes",1,1,100%
+"Research & Innovation",1,1,100%
+"Admissions",2,2,100%
+"Faculty",3,3,100%
+"Student Life",1,1,100%
+"Accreditations & Rankings",2,2,100%
+
+=== KPI DETAILS ===
+KPI Name,Category,Value,Evidence,Source URL,System Confidence,LLM Confidence,Source Priority,Data Year,Recency
+ICT-Enabled Learning Infrastructure,Academic Infrastructure,True,PES University has smart classrooms and uses PESU Academy as its Learning Management System (LMS) for academic delivery.,https://pes.edu/infrastructure/,medium,high,medium,,unknown
+Digital Library Access,Academic Infrastructure,True,"The library provides access to various e-resources, including IEEE, Springer, and ScienceDirect, through its digital portal.",https://pes.edu/library/,medium,high,medium,,unknown
+Male Hostels Managed by College,Campus Facilities,2,PES University provides on-campus hostel facilities for boys including the New Boys Hostel and the old block.,https://pes.edu/hostels/,low,medium,medium,,unknown
+Female Hostels Managed by College,Campus Facilities,1,The university offers a dedicated girls' hostel block with modern amenities on the campus.,https://pes.edu/hostels/,low,medium,medium,,unknown
+Smart Campus / ERP Implementation,Technology Infrastructure,N/A,"PESU Academy is the comprehensive ERP system used for student records, attendance, and academic management.",,low,high,medium,,unknown
+List of Courses,Academic Programs,"B.Tech(CSE, ECE, ME, EE, CE, BT), M.Tech(CSE, VLSI, ME), MBA, BBA, MCA, B.Des, B.Arch, B.Pharm, Pharm.D, LL.B, Ph.D","PES University offers B.Tech, M.Tech, MBA, BBA, MCA, B.Des, B.Arch, B.Pharm, Pharm.D, and Law programs across its campuses.",https://pes.edu/programs/,medium,high,medium,,unknown
+Fees for Each Course,Academic Programs,"{'B.Tech': 480000, 'BBA': 220000, 'MBA': 600000, 'B.Des': 380000, 'MCA': 250000}",B.Tech annual tuition fee is approximately 4.8 Lakhs per annum for PESSAT quota.,https://pes.edu/pessat/fee-structure/,medium,high,medium,,unknown
+Total Graduate Students (2025),Student Demographics,2450,Estimated based on total intake capacity across undergraduate and postgraduate programs for the 2021-2025 cycle.,https://pes.edu/nirf/,low,medium,critical,2021,low
+Placed Students Count,Placements,1850,"Over 1,800 students from the graduating batch secured offers during the campus recruitment drive.",https://pes.edu/placements/,medium,high,medium,,unknown
+Maximum Compensation (Last Placement Season),Placements,65.00 LPA,The highest package offered to a student of the 2024 batch was 65 LPA.,https://pes.edu/placements/,medium,high,medium,2024,medium
+Median Compensation (Last Batch),Placements,8.00 LPA,Median salary of placed graduates (Amount in Rs.) for UG [4 Years Program(s)]: 800000,https://pes.edu/wp-content/uploads/2024/02/NIRF-2024-Engineering.pdf,medium,high,critical,2024,medium
+Students Pursuing Higher Education,Student Outcomes,185,No. of students selected for Higher Studies: 185 (UG 4-year programs),https://pes.edu/wp-content/uploads/2024/02/NIRF-2024-Engineering.pdf,medium,high,critical,2024,medium
+IP Patents Granted/Licensed (Latest Year),Research & Innovation,31,No. of Patents Published: 28; No. of Patents Granted: 3. Total: 31,https://pes.edu/wp-content/uploads/2024/02/NIRF-2024-Engineering.pdf,medium,high,critical,2024,medium
+Entrance Exam Name,Admissions,"PESSAT, KCET, JEE Main","Admission to B.Tech is based on PESSAT (University level), KCET (State level), and JEE Main.",https://pes.edu/admissions/,medium,high,medium,,unknown
+Entrance Exam Cutoff by Program,Admissions,"{'Computer Science Engineering': '1004 (KCET Rank)', 'Electronics & Communication Engineering': '3381 (KCET Rank)', 'Mechanical Engineering': '18553 (KCET Rank)', 'Electrical & Electronics Engineering': '9125 (KCET Rank)'}",KCET 2023 Round 1 closing ranks for general category at PES University (Ring Road Campus).,https://cetonline.karnataka.gov.in/kea/,low,medium,high,2023,low
+Total Students Enrolled,Student Demographics,15488,"Total Actual Student Strength (Program(s) Offered by Your Institution): Sum of UG [4 Years Program(s)]: 11335, UG [5 Years Program(s)]: 1000, PG [2 Year Program(s)]: 3153.",https://pes.edu/wp-content/uploads/2024/02/NIRF-2024-OVERALL.pdf,medium,high,critical,2024,medium
+Female Students Enrolled,Student Demographics,4646,"Sum of Female Students across UG 4-year (3400), UG 5-year (300), and PG 2-year (946) programs as per NIRF 2024 data.",https://pes.edu/wp-content/uploads/2024/02/NIRF-2024-OVERALL.pdf,medium,high,critical,2024,medium
+Total Faculty,Faculty,622,Total number of faculty members listed in the Faculty Details section of the NIRF 2024 report.,https://pes.edu/wp-content/uploads/2024/02/NIRF-2024-OVERALL.pdf,medium,high,critical,2024,medium
+PhD Faculty,Faculty,318,Count of faculty members with Ph.D. qualification listed in the Faculty Details table of the NIRF 2024 report.,https://pes.edu/wp-content/uploads/2024/02/NIRF-2024-OVERALL.pdf,medium,high,critical,2024,medium
+Average Teaching Experience of Faculty,Faculty,11.8,"Average of 'Experience (In Months)' for all faculty members divided by 12, based on NIRF 2024 faculty data.",https://pes.edu/wp-content/uploads/2024/02/NIRF-2024-OVERALL.pdf,low,medium,critical,2024,medium
+Sports Infrastructure & Achievements,Campus Facilities,"{'facilities': ['Cricket Ground', 'Football Field', 'Basketball Courts', 'Badminton Courts', 'Table Tennis', 'Gymnasium', 'Yoga Center'], 'achievements': ['Regular participation in Inter-University tournaments', 'Host of Spirit-PES University sports fest']}","PES University provides world-class sports facilities including cricket, football, and basketball courts, hosting annual sports fests like Spirit.",https://pes.edu/campus-life/,medium,high,medium,,unknown
+List of Active Clubs,Student Life,"['ACM Student Chapter', 'IEEE PESU', 'Equinox', 'Aeolus', 'Team Haya', 'Ninaada', 'Trance', 'Aatmatrisha', 'The Quotient Quiz Club', 'Write Angle']","Student clubs at PES include technical chapters like ACM and IEEE, and cultural clubs like Ninaada and Trance.",https://pes.edu/clubs/,medium,high,medium,,unknown
+NIRF Ranking,Accreditations & Rankings,101-150,"In the NIRF 2024 rankings, PES University was placed in the 101-150 band in the Engineering category.",https://www.nirfindia.org/Rankings/2024/EngineeringRanking.html,medium,high,critical,2024,medium
+Institutional Status,Accreditations & Rankings,Private University,"PES University, Bangalore is established under the PES University Act, 2012 (Karnataka Act No. 16 of 2013).",https://pes.edu/about/,medium,high,medium,,unknown
+PhD Students Enrolled,Student Demographics,612,"Full Time: 124, Part Time: 488. Total Ph.D students pursuing doctoral program till 2023-24.",https://pes.edu/wp-content/uploads/2024/02/NIRF-2024.pdf,medium,high,critical,2024,medium

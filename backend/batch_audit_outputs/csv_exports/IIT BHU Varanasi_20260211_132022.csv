@@ -1,0 +1,50 @@
+College Name,"IIT BHU Varanasi"
+
+=== AUDIT OVERVIEW ===
+Audit Date,"2026-02-11 13:20:22"
+Total KPIs,24
+Data Found,24
+Data Not Found,0
+High Confidence,20
+Coverage Percentage,100.0%
+
+=== CATEGORY BREAKDOWN ===
+Category,Found,Total,Percentage
+"Student Demographics",4,4,100%
+"Placements",3,3,100%
+"Student Outcomes",1,1,100%
+"Faculty",3,3,100%
+"Academic Infrastructure",2,2,100%
+"Campus Facilities",3,3,100%
+"Technology Infrastructure",1,1,100%
+"Academic Programs",2,2,100%
+"Admissions",2,2,100%
+"Student Life",1,1,100%
+"Accreditations & Rankings",2,2,100%
+
+=== KPI DETAILS ===
+KPI Name,Category,Value,Evidence,Source URL,System Confidence,LLM Confidence,Source Priority,Data Year,Recency
+Total Graduate Students (2025),Student Demographics,"1704 [UG 4Y: 1073, UG 5Y: 319, PG 2Y: 312]",Extracted from NIRF 2025 document,https://www.iitbhu.ac.in/contents/iitbhu/docs/nirf_2025_overall_report.pdf,low,low,critical,,unknown
+Placed Students Count,Placements,"1493 [UG: 1269, PG: 224]",Extracted from NIRF 2025 document,https://www.iitbhu.ac.in/contents/iitbhu/docs/nirf_2025_overall_report.pdf,low,low,critical,,unknown
+Median Compensation (Last Batch),Placements,20.00 LPA,Extracted from NIRF 2025 document,https://www.iitbhu.ac.in/contents/iitbhu/docs/nirf_2025_overall_report.pdf,low,low,critical,,unknown
+Students Pursuing Higher Education,Student Outcomes,"200 [UG: 113, PG: 87]",Extracted from NIRF 2025 document,https://www.iitbhu.ac.in/contents/iitbhu/docs/nirf_2025_overall_report.pdf,low,low,critical,,unknown
+Total Students Enrolled,Student Demographics,7374,Extracted from NIRF 2025 document,https://www.iitbhu.ac.in/contents/iitbhu/docs/nirf_2025_overall_report.pdf,low,low,critical,,unknown
+Female Students Enrolled,Student Demographics,1431,Extracted from NIRF 2025 document,https://www.iitbhu.ac.in/contents/iitbhu/docs/nirf_2025_overall_report.pdf,low,low,critical,,unknown
+Total Faculty,Faculty,351,Extracted from NIRF 2025 document,https://www.iitbhu.ac.in/contents/iitbhu/docs/nirf_2025_overall_report.pdf,low,low,critical,,unknown
+PhD Faculty,Faculty,347,Extracted from NIRF 2025 document,https://www.iitbhu.ac.in/contents/iitbhu/docs/nirf_2025_overall_report.pdf,low,low,critical,,unknown
+Average Teaching Experience of Faculty,Faculty,15.1,Extracted from NIRF 2025 document,https://www.iitbhu.ac.in/contents/iitbhu/docs/nirf_2025_overall_report.pdf,low,low,critical,,unknown
+PhD Students Enrolled,Student Demographics,"1196 [Full Time: 1123, Part Time: 73]",Extracted from NIRF 2025 document,https://www.iitbhu.ac.in/contents/iitbhu/docs/nirf_2025_overall_report.pdf,low,low,critical,,unknown
+ICT-Enabled Learning Infrastructure,Academic Infrastructure,True,Three smart lecture theatre complexes have been established and equipped with LCD projector in each classrooms alongwith the backup of the electricity.,https://www.iitbhu.ac.in/contents/institute/dean/doaa/doc/annual_report_english_2023-24.pdf,medium,high,high,2023,low
+Digital Library Access,Academic Infrastructure,True,"Electronic resources such as e-journals, e-books, databases, etc. made available by the Central Library, IIT (BHU) are for academic use.",https://www.iitbhu.ac.in/cf/cis,medium,high,high,,unknown
+Male Hostels Managed by College,Campus Facilities,1,Venue and time for the Registration For Boys - Prafulla Chandra Ray [Hostel],https://www.iitbhu.ac.in/acad/fresher,low,medium,high,,unknown
+Female Hostels Managed by College,Campus Facilities,1,Venue and time for the Registration ... For Girls - GSMC(Extension) [Hostel],https://www.iitbhu.ac.in/acad/fresher,low,medium,high,,unknown
+Smart Campus / ERP Implementation,Technology Infrastructure,True,"Online profile registration, add/drop courses... transcripts has keen automated and taken care by the examination unit. The office of the Dean (Academic Affairs) has totally automated.",https://www.iitbhu.ac.in/contents/institute/dean/doaa/doc/annual_report_english_2023-24.pdf,medium,high,high,2023,low
+List of Courses,Academic Programs,"B.Tech(Ceramic, Chemical, Civil, CSE, EE, Electronics, ME, Met, Mining, Pharma), IDD(B.Tech+M.Tech in 14 disciplines), B.Arch, M.Tech(13 disciplines), M.Pharm, M.Sc(Physics, Chemistry), Ph.D(17 departments)","The institute offers Ph.D. Programmes in 17 departments... M.Tech. programme in 13 disciplines, M.Pharm. programme in one discipline... B.Tech. programmes in 10 engineering departments, Dual Degree",https://www.iitbhu.ac.in/contents/institute/dean/doaa/doc/annual_report_english_2023-24.pdf,medium,high,high,2023,low
+Fees for Each Course,Academic Programs,N/A,"Fee Structure of B.Tech./B.Arch., Academic Session 2025-26 [Link present but content not rendered in text]",https://www.iitbhu.ac.in/acad/fresher,low,low,high,2025,high
+Maximum Compensation (Last Placement Season),Placements,N/A,Training and Placement Cell... [Section mentioned in Annual Report but specific CTC values not provided in the snippet],https://www.iitbhu.ac.in/contents/institute/dean/doaa/doc/annual_report_english_2023-24.pdf,low,low,high,2023,low
+Entrance Exam Name,Admissions,JEE (Advanced),"Candidates for admission to the 4-Year B.Tech., 5-Year B.Arch. and 5-Year Dual Degree programmes were selected through JEE (Advanced)",https://www.iitbhu.ac.in/contents/institute/dean/doaa/doc/annual_report_english_2023-24.pdf,medium,high,high,2023,low
+Entrance Exam Cutoff by Program,Admissions,N/A,Admissions to the Programme take place annually... through the Joint Entrance Examination-Main (JEE-Main) and Joint Entrance Examination-Advanced (JEE-Advanced),https://www.iitbhu.ac.in/dept/che,low,low,high,,unknown
+Sports Infrastructure & Achievements,Campus Facilities,"{'facilities': ['Gymkhana', 'Technical clubs', 'Cultural festivals'], 'achievements': ['Centenary year of excellence', 'Centrally organized technical and cultural festivals']}",The DoSA is also the ex-officio President of the Students' Parliament and the Chief Counsellor of the IIT (BHU) Gymkhana. Activities range from technical clubs to cultural festivals.,https://www.iitbhu.ac.in/acad/fresher,medium,medium,high,,unknown
+List of Active Clubs,Student Life,"['Technical Clubs', 'Cultural Clubs', 'Institute Festivals Teams', ""Students' Gymkhana Clubs""]",Activities range from technical clubs to cultural festivals... All the student activities are organized in coordination with the Secretaries and the Joint Secretaries of the various Clubs.,https://www.iitbhu.ac.in/acad/fresher,medium,high,high,,unknown
+NIRF Ranking,Accreditations & Rankings,N/A,Nirf National Ranking Calendar,https://www.iitbhu.ac.in/,low,low,high,,unknown
+Institutional Status,Accreditations & Rankings,Institution of National Importance,"make them institutions of national importance, it is hereby declared that each such institution is an institution of national importance... Indian Institute of Technology (Banaras Hindu University)",https://www.iitbhu.ac.in/contents/institute/admin/doc/it_act_amended.pdf,medium,high,high,,unknown

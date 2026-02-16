@@ -1,0 +1,52 @@
+College Name,"IIT Bombay"
+
+=== AUDIT OVERVIEW ===
+Audit Date,"2026-02-11 12:53:52"
+Total KPIs,25
+Data Found,25
+Data Not Found,0
+High Confidence,8
+Coverage Percentage,100.0%
+
+=== CATEGORY BREAKDOWN ===
+Category,Found,Total,Percentage
+"Academic Infrastructure",2,2,100%
+"Campus Facilities",3,3,100%
+"Technology Infrastructure",1,1,100%
+"Academic Programs",2,2,100%
+"Student Demographics",4,4,100%
+"Placements",3,3,100%
+"Student Outcomes",1,1,100%
+"Research & Innovation",1,1,100%
+"Admissions",2,2,100%
+"Faculty",3,3,100%
+"Student Life",1,1,100%
+"Accreditations & Rankings",2,2,100%
+
+=== KPI DETAILS ===
+KPI Name,Category,Value,Evidence,Source URL,System Confidence,LLM Confidence,Source Priority,Data Year,Recency
+ICT-Enabled Learning Infrastructure,Academic Infrastructure,True,The impact of artificial intelligence (AI) on library services is investigated in this study... As AI keeps on transforming information access and service delivery across sectors,https://www.iitb.ac.in/ipriks/sites/default/files/2025-12/souvenir.pdf,medium,high,high,2025,high
+Digital Library Access,Academic Infrastructure,True,"libraries with Intellectual Property Rights (IPR) literacy, digital infrastructure... can serve as an agent of change... digitalization... digital archives",https://www.iitb.ac.in/ipriks/sites/default/files/2025-12/souvenir.pdf,medium,high,high,2025,high
+Male Hostels Managed by College,Campus Facilities,N/A,"No specific count of male hostels was found in the provided documents, though hostel fees are mentioned.",https://www.iitb.ac.in/newacadhome/balanceFeeUG2024.jsp,low,low,high,2024,medium
+Female Hostels Managed by College,Campus Facilities,N/A,The provided text mentions hostel fees and mess advances but does not specify the number of female hostels.,https://www.iitb.ac.in/newacadhome/balanceFeeUG2024.jsp,low,low,high,2024,medium
+Smart Campus / ERP Implementation,Technology Infrastructure,True,Interfaces To SOLAR ( System Online Links to Academic Records)... This must be completed before arrival on ASC Portal,https://www.iitb.ac.in/newacadhome/balanceFeeUG2024.jsp,medium,high,high,2024,medium
+List of Courses,Academic Programs,"B.Tech(CSE, ME, CE), M.Tech(CSE, MEMS), MS(CSE), Ph.D(MEMS, CRNTS)","MTech in Computer Science and Engineering (CSE), MS in Computer Science and Engineering (CSE), PhD Admission | Metallurgical Engineering and Materials Science",https://www.iitb.ac.in/sites/www.iitb.ac.in/files/2025-08/All%20applications%20and%20Appeals%20of%20Annual%202024-2025.pdf,medium,high,high,2025,high
+Fees for Each Course,Academic Programs,"{'B.Tech (General/EWS/OBC)': 246700, 'B.Tech (SC/ST/PwD)': 46700, 'B.Tech (Foreign)': 646700}","Academic fees for the Autumn Semester 2024-25 1,23,350/-. Annualized by doubling semester fee.",https://www.iitb.ac.in/newacadhome/balanceFeeUG2024.jsp,medium,high,high,2024,medium
+Total Graduate Students (2025),Student Demographics,N/A,Invalid source URL,,low,low,unknown,,unknown
+Placed Students Count,Placements,59,Placement Data for Academic Year 2023-24... M.Tech. in Computer Science & Engg. (CSE) is 59,https://www.iitb.ac.in/sites/www.iitb.ac.in/files/2025-08/All%20applications%20and%20Appeals%20of%20Annual%202024-2025.pdf,medium,medium,high,2025,high
+Maximum Compensation (Last Placement Season),Placements,N/A,Invalid source URL,,low,low,unknown,,unknown
+Median Compensation (Last Batch),Placements,N/A,The provided RTI documents mention placement data for MTech and MS in CSE as 'ongoing' or 'enclosed' in separate pages not fully visible in the text snippet.,https://www.iitb.ac.in/sites/www.iitb.ac.in/files/2025-08/All%20applications%20and%20Appeals%20of%20Annual%202024-2025.pdf,low,low,high,2025,high
+Students Pursuing Higher Education,Student Outcomes,N/A,Invalid source URL,,low,low,unknown,,unknown
+IP Patents Granted/Licensed (Latest Year),Research & Innovation,N/A,The document discusses IPR roles and blockchain for TK but does not list the specific count of patents granted to IIT Bombay for the latest year.,https://www.iitb.ac.in/ipriks/sites/default/files/2025-12/souvenir.pdf,low,low,high,2025,high
+Entrance Exam Name,Admissions,JEE (Advanced),Fees applicable for students admitted through JEE (Advanced) 2024,https://www.iitb.ac.in/newacadhome/balanceFeeUG2024.jsp,medium,high,high,2024,medium
+Entrance Exam Cutoff by Program,Admissions,N/A,The documents provide fee structures and placement RTI requests but do not list specific closing ranks or cutoff scores for programs.,https://www.iitb.ac.in/newacadhome/balanceFeeUG2024.jsp,low,low,high,2024,medium
+Total Students Enrolled,Student Demographics,N/A,Invalid source URL,,low,low,unknown,,unknown
+Female Students Enrolled,Student Demographics,N/A,Invalid source URL,,low,low,unknown,,unknown
+Total Faculty,Faculty,N/A,The RTI log mentions 'Average salary of all teaching staff' but does not provide the total count of staff members.,https://www.iitb.ac.in/sites/www.iitb.ac.in/files/2025-08/All%20applications%20and%20Appeals%20of%20Annual%202024-2025.pdf,low,low,high,2025,high
+PhD Faculty,Faculty,N/A,Invalid source URL,,low,low,unknown,,unknown
+Average Teaching Experience of Faculty,Faculty,N/A,Invalid source URL,,low,low,unknown,,unknown
+Sports Infrastructure & Achievements,Campus Facilities,N/A,No specific sports facilities or achievements mentioned in the provided conference souvenir or fee circular documents.,https://www.iitb.ac.in/ipriks/sites/default/files/2025-12/souvenir.pdf,low,low,high,2025,high
+List of Active Clubs,Student Life,N/A,The provided source documents do not list active student clubs or societies.,https://www.iitb.ac.in/ipriks/sites/default/files/2025-12/souvenir.pdf,low,low,high,2025,high
+NIRF Ranking,Accreditations & Rankings,N/A,,https://www.iitb.ac.in/sites/www.iitb.ac.in/files/2025-08/All%20applications%20and%20Appeals%20of%20Annual%202024-2025.pdf,low,low,high,2025,high
+Institutional Status,Accreditations & Rankings,Institute of National Importance,The Indian Institute of Technology Bombay (IIT Bombay) is one of the higher Institutes of... [implied as IIT],https://www.iitb.ac.in/newacadhome/MTECH_BROUCHURE2025-26.pdf,medium,high,high,2025,high
+PhD Students Enrolled,Student Demographics,N/A,Invalid source URL,,low,low,unknown,,unknown
