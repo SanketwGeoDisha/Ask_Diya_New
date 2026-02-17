@@ -436,22 +436,16 @@ class NIRFCollector:
         base_domain = f"{parsed.scheme}://{parsed.netloc}"
         
         # Common NIRF URL patterns (ordered by likelihood)
+        # OPTIMIZED: Reduced to top 20 most common patterns for speed (from 40+)
         url_patterns = [
             '/nirf',
             '/NIRF',
             '/ranking',
             '/Ranking',
             '/rankings',
-            '/Rankings',
             '/nirf-ranking',
             '/nirf-rankings',
             '/nirf-data',
-            '/nirfdata',
-            '/nirf_ranking',
-            '/nirf_rankings',
-            '/national-ranking',
-            '/india-ranking',
-            '/institutional-ranking',
             '/nirf.php',
             '/ranking.php',
             '/nirf.html',
@@ -459,11 +453,12 @@ class NIRFCollector:
             '/nirf-2025',
             '/nirf-2024',
             '/pages/nirf',
-            '/pages/ranking',
             '/about/nirf',
-            '/about/ranking',
-            '/academics/nirf',
-            '/academics/ranking',
+            # Common file upload directory patterns (checked separately via fetch_and_parse_directory)
+            '/uploads/nirf',
+            '/files/nirf',
+            '/pdf/nirf',
+            '/documents/nirf',
         ]
         
         # Add Drupal-specific patterns for file directories
@@ -499,12 +494,31 @@ class NIRFCollector:
                     discovered.add(url)
                     logger.info(f"    ✓ Found NIRF page: {url}")
                     
-                    # Look for additional NIRF document links
+                    # Look for additional NIRF document links (both absolute and relative)
                     pdf_pattern = re.compile(r'(https?://[^\s"\'<>]+\.pdf)', re.IGNORECASE)
                     for pdf_url in pdf_pattern.findall(html):
                         if self._is_nirf_related(pdf_url):
                             discovered.add(pdf_url)
                             logger.info(f"    ✓ Found NIRF PDF: {pdf_url}")
+                    
+                    # Look for relative PDF links (href="/path/file.pdf" or href="file.pdf")
+                    href_pdf_pattern = re.compile(r'href=["\']([^"\']+\.pdf)["\']', re.IGNORECASE)
+                    for href in href_pdf_pattern.findall(html):
+                        abs_pdf_url = urljoin(url, href)
+                        if self._is_nirf_related(abs_pdf_url):
+                            discovered.add(abs_pdf_url)
+                            logger.info(f"    ✓ Found NIRF PDF (relative): {abs_pdf_url}")
+                    
+                    # Check for directory listing pages (Apache/Nginx style)
+                    # Pattern: <a href="filename.pdf">filename.pdf</a> or similar
+                    # Also catch patterns like: >2.JawaharlalNehru...pdf<
+                    directory_link_pattern = re.compile(r'<a[^>]*href=["\']([^"\']*\.pdf)["\'][^>]*>([^<]+)</a>', re.IGNORECASE)
+                    for href, link_text in directory_link_pattern.findall(html):
+                        abs_pdf_url = urljoin(url, href)
+                        # For directory listings, be more permissive - check if any NIRF-related keywords
+                        if any(keyword in abs_pdf_url.lower() for keyword in ['nirf', 'rank', 'overall', 'engineering', 'management']):
+                            discovered.add(abs_pdf_url)
+                            logger.info(f"    ✓ Found directory listing PDF: {abs_pdf_url}")
                     
                     # Look for React app static/media PDFs (common pattern)
                     static_media_pattern = re.compile(r'(https?://[^\s"\'<>]+/static/media/[^\s"\'<>]+\.pdf)', re.IGNORECASE)
@@ -525,6 +539,133 @@ class NIRFCollector:
                 except:
                     pass
             
+            # DEDICATED: Fetch and parse upload directories to discover ALL PDFs
+            # This handles cases like jntuh.ac.in where PDFs have unique names like "2.JawaharlalNehru...pdf"
+            logger.info(f"    Fetching upload directories to discover NIRF PDFs...")
+            upload_directories = [
+                '/uploads/nirf/',
+                '/uploads/nirf',
+                '/uploads/ranking/',
+                '/uploads/rankings/',
+                '/files/nirf/',
+                '/files/ranking/',
+                '/pdf/nirf/',
+                '/documents/nirf/',
+                '/nirf/',
+                '/ranking/',
+            ]
+            
+            async def fetch_and_parse_directory(directory_path):
+                url = f"{base_domain}{directory_path}"
+                pdf_links = set()
+                try:
+                    async with session.get(url, ssl=False, allow_redirects=True, 
+                                          timeout=aiohttp.ClientTimeout(total=5)) as response:
+                        if response.status == 200:
+                            html = await response.text()
+                            logger.info(f"    Fetched directory: {url} ({len(html)} chars)")
+                            
+                            # Pattern 1: Standard href links <a href="file.pdf">...</a>
+                            href_pattern = re.compile(r'<a[^>]*href=["\']([^"\']*\.pdf)["\']', re.IGNORECASE)
+                            href_matches = href_pattern.findall(html)
+                            for href in href_matches:
+                                abs_url = urljoin(url, href)
+                                pdf_links.add(abs_url)
+                            if href_matches:
+                                logger.info(f"      Pattern 1 (href): Found {len(href_matches)} PDFs")
+                                for pdf_url in list(pdf_links)[-3:]:  # Show last 3
+                                    logger.info(f"        - {pdf_url}")
+                            
+                            # Pattern 2: Naked PDF URLs in the HTML (for JSON responses or data attributes)
+                            naked_url_pattern = re.compile(r'(?:https?:)?//[^\s"\'<>]+\.pdf[^\s"\'<>]*', re.IGNORECASE)
+                            naked_matches = naked_url_pattern.findall(html)
+                            for match in naked_matches:
+                                if match.startswith('//'):
+                                    abs_url = f"https:{match}"
+                                else:
+                                    abs_url = match
+                                pdf_links.add(abs_url)
+                            if naked_matches:
+                                logger.info(f"      Pattern 2 (naked URL): Found {len(naked_matches)} PDFs")
+                            
+                            # Pattern 3: Relative paths that end with .pdf
+                            relative_pattern = re.compile(r'(?:href|src)=["\']([^"\']+\.pdf)["\']', re.IGNORECASE)
+                            relative_matches = relative_pattern.findall(html)
+                            for match in relative_matches:
+                                abs_url = urljoin(url, match)
+                                pdf_links.add(abs_url)
+                            if relative_matches:
+                                logger.info(f"      Pattern 3 (relative): Found {len(relative_matches)} PDFs")
+                            
+                            # Pattern 4: Any filename-like pattern ending in .pdf (catches directory listings)
+                            # This catches patterns like: >2.JawaharlalNehru...pdf< in directory listings
+                            filename_pattern = re.compile(r'[>"\s]([^\s<>"]+\.pdf)[\s<"]', re.IGNORECASE)
+                            filename_matches = filename_pattern.findall(html)
+                            for match in filename_matches:
+                                # Check if it's already an absolute URL
+                                if match.startswith('http'):
+                                    pdf_links.add(match)
+                                else:
+                                    abs_url = urljoin(url, match)
+                                    pdf_links.add(abs_url)
+                            if filename_matches:
+                                logger.info(f"      Pattern 4 (filename): Found {len(filename_matches)} PDFs")
+                                # Show ALL filename matches since these are important
+                                for match in filename_matches[:10]:  # Limit to 10 for readability
+                                    abs_url = urljoin(url, match) if not match.startswith('http') else match
+                                    logger.info(f"        - {match} -> {abs_url}")
+                            
+                            if pdf_links:
+                                logger.info(f"    Extracted {len(pdf_links)} PDFs from {directory_path}")
+                            else:
+                                logger.info(f"    No PDFs found in {directory_path}")
+                            
+                            return pdf_links
+                except Exception as e:
+                    logger.debug(f"    Failed to fetch directory {directory_path}: {e}")
+                return set()
+            
+            # Fetch all directories in parallel
+            dir_results = await asyncio.gather(*[fetch_and_parse_directory(d) for d in upload_directories])
+            
+            # Collect PDFs from directories
+            directory_pdf_count = 0
+            all_directory_pdfs = []
+            for pdf_set in dir_results:
+                for pdf_url in pdf_set:
+                    # For directory-discovered PDFs, be VERY permissive - any PDF in these directories is likely NIRF-related
+                    # Check for NIRF-related keywords OR numbers (catches files like "2.JawaharlalNehru...pdf")
+                    url_lower = pdf_url.lower()
+                    has_nirf_keyword = any(kw in url_lower for kw in ['nirf', 'rank', 'overall', 'engineering', 
+                                                                        'management', 'jawaharlal', 'university', 
+                                                                        'college', 'institute', '2025', '2024', '2023'])
+                    # Also accept if it's in a NIRF directory (path contains /nirf/ or /ranking/)
+                    in_nirf_directory = '/nirf/' in url_lower or '/ranking/' in url_lower
+                    
+                    if has_nirf_keyword or in_nirf_directory:
+                        discovered.add(pdf_url)
+                        directory_pdf_count += 1
+                        all_directory_pdfs.append(pdf_url)
+                        logger.info(f"    ✓ PDF {directory_pdf_count}: {pdf_url}")
+                
+                # Early termination: If we found 5+ PDFs from directories, we likely have what we need
+                if directory_pdf_count >= 5:
+                    logger.info(f"    Found {directory_pdf_count} PDFs from directories - skipping Drupal/filename probing")
+                    discovered.update(all_directory_pdfs)
+                    return discovered
+            
+            if directory_pdf_count > 0:
+                logger.info(f"    ========================================")
+                logger.info(f"    DIRECTORY DISCOVERY SUMMARY:")
+                logger.info(f"    Total PDFs found: {directory_pdf_count}")
+                logger.info(f"    ========================================")
+                # Show all discovered PDFs
+                for idx, pdf_url in enumerate(all_directory_pdfs, 1):
+                    logger.info(f"    [{idx}] {pdf_url}")
+                logger.info(f"    ========================================")
+            else:
+                logger.info(f"    No PDFs found in upload directories")
+            
             # Now try Drupal-specific PDF patterns (PARALLEL PROBING)
             logger.info(f"    Probing {len(drupal_patterns)} Drupal CMS file patterns...")
             
@@ -540,7 +681,7 @@ class NIRFCollector:
                     full_url = f"{base_domain}{pattern}"
                     try:
                         async with session.head(full_url, ssl=False, allow_redirects=True,
-                                              timeout=aiohttp.ClientTimeout(total=5)) as response:
+                                              timeout=aiohttp.ClientTimeout(total=3)) as response:
                             if response.status == 200:
                                 return full_url
                     except:
@@ -560,6 +701,78 @@ class NIRFCollector:
                 # Early termination: Stop if we found 3+ PDFs (likely have what we need)
                 if found_pdfs >= 3:
                     logger.info(f"    Found {found_pdfs} PDFs, stopping Drupal probe early")
+                    break
+            
+            # Probe common PDF filenames in upload directories (/uploads/nirf/, /files/nirf/, etc.)
+            logger.info(f"    Probing common NIRF PDF filenames in upload directories...")
+            
+            # Common NIRF PDF filename patterns
+            pdf_filename_patterns = [
+                # Overall rankings
+                'NIRF-Overall-2025.pdf',
+                'NIRF-OVERALL-2025.pdf',
+                'nirf-overall-2025.pdf',
+                'NIRF_Overall_2025.pdf',
+                'overall-2025.pdf',
+                'Overall-2025.pdf',
+                # Engineering rankings
+                'NIRF-Engineering-2025.pdf',
+                'NIRF-ENGINEERING-2025.pdf',
+                'nirf-engineering-2025.pdf',
+                'Engineering-2025.pdf',
+                # Generic patterns (numbers + overall/engineering)
+                '*OVERALL*.pdf',  # Will match files containing OVERALL
+                '*Overall*.pdf',
+                '*overall*.pdf',
+                '*Engineering*.pdf',
+                '*ENGINEERING*.pdf',
+            ]
+            
+            # Upload directory paths to check
+            upload_dirs = [
+                '/uploads/nirf/',
+                '/files/nirf/',
+                '/pdf/nirf/',
+                '/documents/nirf/',
+                '/uploads/ranking/',
+                '/files/ranking/',
+            ]
+            
+            # Try each combination (directory + filename)
+            pdf_probe_patterns = []
+            for directory in upload_dirs:
+                for filename in pdf_filename_patterns[:8]:  # Top 8 patterns to avoid too many requests
+                    if '*' not in filename:  # Skip wildcard patterns for direct probe
+                        pdf_probe_patterns.append(f"{directory}{filename}")
+            
+            # Probe PDF patterns in batches
+            pdf_found_count = 0
+            batch_size = 15
+            for i in range(0, len(pdf_probe_patterns), batch_size):
+                batch = pdf_probe_patterns[i:i + batch_size]
+                
+                async def probe_pdf_pattern(pattern):
+                    full_url = f"{base_domain}{pattern}"
+                    try:
+                        async with session.head(full_url, ssl=False, allow_redirects=True,
+                                              timeout=aiohttp.ClientTimeout(total=3)) as response:
+                            if response.status == 200:
+                                return full_url
+                    except:
+                        pass
+                    return None
+                
+                results = await asyncio.gather(*[probe_pdf_pattern(p) for p in batch])
+                
+                for url in results:
+                    if url:
+                        discovered.add(url)
+                        pdf_found_count += 1
+                        logger.info(f"    ✓ Found upload directory NIRF PDF: {url}")
+                
+                # Early stop if we found enough PDFs
+                if pdf_found_count >= 4:
+                    logger.info(f"    Found {pdf_found_count} PDFs in upload directories")
                     break
         
         return discovered
@@ -970,6 +1183,12 @@ class NIRFCollector:
             score += 3.0  # PDFs are valuable
         elif url_lower.endswith(('.xls', '.xlsx')):
             score += 4.0  # Excel files often have raw data
+        
+        # URL path bonus - prefer /uploads/nirf/ over Drupal auto-generated paths
+        if '/uploads/nirf/' in url_lower or '/uploads/ranking/' in url_lower:
+            score += 5.0  # Strong preference for upload directories (more reliable)
+        elif '/sites/' in url_lower and '/files/' in url_lower:
+            score += 1.0  # Drupal paths (sometimes broken/auto-generated)
         
         # Keyword bonuses
         if 'data' in url_lower and 'template' in url_lower:

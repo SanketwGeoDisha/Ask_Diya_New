@@ -78,6 +78,7 @@ class APIKeyExhaustedException(Exception):
 # Selective SSL verification - only disable for known problematic domains
 PROBLEMATIC_SSL_DOMAINS = [
     'some-old-college-site.ac.in',  # Add specific domains here as needed
+    'amity.edu',  # Amity University domains have SSL certificate issues
 ]
 
 def should_verify_ssl(url: str) -> bool:
@@ -1205,6 +1206,12 @@ class CollegeKPIAuditor:
         
         seen_urls = set()
         
+        # Extract college domain for filtering
+        college_domain = None
+        if college_website_url:
+            college_domain = urlparse(college_website_url).netloc
+            logger.info(f"[DISCLOSURE] Will filter to domain: {college_domain}")
+        
         # Execute disclosure searches in parallel
         def run_disclosure_search(query):
             return self.search_official_sources(query, num_results=10, restrict_to_site=college_website_url)
@@ -1217,6 +1224,13 @@ class CollegeKPIAuditor:
                     for r in result["official_results"]:
                         url = r.get('url', '')
                         if url and url not in seen_urls:
+                            # STRICT: Only accept URLs from the college domain
+                            if college_domain:
+                                result_domain = urlparse(url).netloc
+                                if college_domain != result_domain:
+                                    logger.debug(f"[DISCLOSURE] Filtering out non-college URL: {url} (not from {college_domain})")
+                                    continue
+                            
                             seen_urls.add(url)
                             # Check if it's a PDF
                             if url.lower().endswith('.pdf'):
@@ -1227,10 +1241,15 @@ class CollegeKPIAuditor:
         logger.info(f"Found {len(disclosure_data['pages'])} disclosure pages and {len(disclosure_data['pdfs'])} PDFs")
         return disclosure_data
 
-    def fetch_disclosure_page_and_pdfs(self, page_url: str, max_pdfs: int = 3) -> Dict[str, Any]:
+    def fetch_disclosure_page_and_pdfs(self, page_url: str, max_pdfs: int = 3, campus_path: Optional[str] = None) -> Dict[str, Any]:
         """
         Fetch a disclosure page and extract PDF links from it.
         Returns page content plus any linked PDF content.
+        
+        Args:
+            page_url: URL of the disclosure page to fetch
+            max_pdfs: Maximum number of PDFs to extract
+            campus_path: If provided (e.g., 'gwalior'), only include PDFs from this campus
         """
         result = {
             "page_content": None,
@@ -1261,6 +1280,16 @@ class CollegeKPIAuditor:
                     else:
                         # Relative to current path
                         full_url = '/'.join(page_url.rsplit('/', 1)[:-1]) + '/' + href
+                    
+                    # Campus filtering: if campus_path is provided, only include PDFs from that campus
+                    if campus_path:
+                        parsed_pdf = urlparse(full_url)
+                        pdf_path_lower = parsed_pdf.path.lower()
+                        
+                        # Skip PDFs from other campuses
+                        if f"/{campus_path.lower()}/" not in pdf_path_lower and not pdf_path_lower.startswith(f"/{campus_path.lower()}"):
+                            logger.debug(f"[CAMPUS FILTER] Excluding PDF from different campus: {full_url}")
+                            continue
                     
                     # Filter for disclosure-related PDFs
                     href_lower = href.lower()
@@ -1594,17 +1623,7 @@ class CollegeKPIAuditor:
     async def get_college_website_from_gemini(self, college_name: str, client) -> Optional[str]:
         """Ask Gemini to provide the official website URL for the college"""
         try:
-            prompt = f"""What is the official website URL for {college_name}?
-
-Provide ONLY the complete base URL (no paths or pages).
-
-Examples:
-- IIT Bombay → https://www.iitb.ac.in
-- BITS Pilani → https://www.bits-pilani.ac.in
-- Anna University → https://www.annauniv.edu
-- Chandigarh University → https://www.cuchd.in
-
-{college_name} → """
+            prompt = f"What is the base URL for {college_name}?"
             
             response = client.models.generate_content(
                 model='gemini-2.5-flash',
@@ -1620,57 +1639,53 @@ Examples:
             logger.info(f"[GEMINI] Raw response: '{raw_text}'")
             
             # Clean up the response - remove markdown, extra whitespace, etc.
-            url = raw_text.replace('```', '').replace('`', '').strip()
+            url = raw_text.replace('```', '').replace('`', '').replace('**', '').replace('*', '').strip()
             
             # Remove common prefixes if present
-            for prefix in ['Official Website URL:', 'URL:', 'Website:', 'Answer:']:
-                if url.startswith(prefix):
-                    url = url[len(prefix):].strip()
+            for prefix in ['Official Website URL:', 'URL:', 'Website:', 'Answer:', 'The base URL for', 'is:']:
+                if prefix in url:
+                    url = url.split(prefix)[-1].strip()
             
             # Extract URL if it's in a sentence using regex
             import re
-            url_match = re.search(r'https?://[a-zA-Z0-9][-a-zA-Z0-9._]*\.[a-zA-Z]{2,}[^\s<>"{}|\\^`\[\]]*', url)
+            
+            # First try to extract complete URL with protocol
+            url_match = re.search(r'https?://[a-zA-Z0-9][-a-zA-Z0-9._/]*\.[a-zA-Z]{2,}[^\s<>"{}|\\^`\[\]*]*', url)
             if url_match:
                 url = url_match.group(0)
                 logger.info(f"[GEMINI] Extracted URL from text: {url}")
+            else:
+                # Try to extract domain without protocol (e.g., "www.jntuh.ac.in" or "jntuh.ac.in")
+                domain_match = re.search(r'\b(?:www\.)?[a-zA-Z0-9][-a-zA-Z0-9.]*\.[a-zA-Z]{2,}\b', url)
+                if domain_match:
+                    domain = domain_match.group(0)
+                    # Add https:// prefix
+                    url = f"https://{domain}"
+                    logger.info(f"[GEMINI] Extracted domain and added protocol: {url}")
             
-            # Clean trailing punctuation
-            url = url.rstrip('.,;:')
+            # Clean trailing punctuation and markdown
+            url = url.rstrip('.,;:*/')
             
             if url.startswith('http'):
-                # Extract base URL
+                # Parse and validate URL structure
                 parsed = urlparse(url)
-                # Validate domain has proper TLD (at least 2 chars after last dot)
                 if parsed.netloc and '.' in parsed.netloc:
-                    # Check that the TLD (after last dot) is at least 2 characters
-                    # This filters out incomplete domains like "www.iitr" (missing ".ac.in")
-                    parts = parsed.netloc.split('.')
-                    tld = parts[-1].lower() if len(parts) > 0 else ""
-                    
-                    # Common valid TLDs for educational institutions
-                    valid_tlds = ['in', 'edu', 'com', 'org', 'net', 'gov', 'ac']
-                    
-                    # Check if TLD is valid OR if domain has at least 3 parts (e.g., www.iitb.ac.in)
-                    if len(tld) >= 2 and len(parts) >= 2:
-                        # For 2-part domains (www.xxx), TLD must be from known list
-                        # For 3+ part domains (www.xxx.yyy.zzz), allow any TLD ≥2 chars
-                        if len(parts) == 2 and tld not in valid_tlds:
-                            logger.warning(f"[GEMINI] Invalid TLD for 2-part domain: {tld} (domain={parsed.netloc})")
-                            return None
+                    # Basic validation: ensure domain has at least 6 chars
+                    if len(parsed.netloc) >= 6:
+                        # Return the full URL as provided by Gemini (including path if present)
+                        final_url = f"{parsed.scheme}://{parsed.netloc}{parsed.path}"
+                        # Clean up the URL
+                        final_url = final_url.rstrip('/')
+                        if not final_url:
+                            final_url = f"{parsed.scheme}://{parsed.netloc}"
                         
-                        # Additional check: domain should be at least 6 chars (e.g., "aa.in")
-                        if len(parsed.netloc) >= 6:
-                            base_url = f"{parsed.scheme}://{parsed.netloc}"
-                            logger.info(f"[GEMINI] Identified official website: {base_url}")
-                            return base_url
-                        else:
-                            logger.warning(f"[GEMINI] Domain too short: {parsed.netloc}")
-                            return None
+                        logger.info(f"[GEMINI] Identified official website: {final_url}")
+                        return final_url
                     else:
-                        logger.warning(f"[GEMINI] Incomplete domain. TLD='{tld}', parts={parts}")
+                        logger.warning(f"[GEMINI] Domain too short: {parsed.netloc}")
                         return None
                 else:
-                    logger.warning(f"[GEMINI] Invalid domain. Parsed: scheme={parsed.scheme}, netloc='{parsed.netloc}', path={parsed.path}")
+                    logger.warning(f"[GEMINI] Invalid domain: {parsed.netloc}")
                     return None
             
             logger.warning(f"[GEMINI] Could not extract valid URL from response: '{url}'")
@@ -1826,13 +1841,16 @@ Examples:
         
         return "Other Official"
 
-    async def gather_official_data(self, college_name: str, progress_callback=None, college_website_url: Optional[str] = None) -> Dict[str, Any]:
+    async def gather_official_data(self, college_name: str, progress_callback=None, college_website_url: Optional[str] = None, nirf_available: bool = False) -> Dict[str, Any]:
         """
         Gather data ONLY from official sources with ACTUAL page content:
         1. Official College Website (fetched content)
         2. Public Disclosure (AICTE/UGC)
         3. NIRF Search Results
         4. NAAC Documents
+        
+        Args:
+            nirf_available: If False, performs more comprehensive website search
         """
         
         clean_name = college_name.strip()
@@ -1841,6 +1859,13 @@ Examples:
         target_location = self._extract_location_from_name(college_name)
         if target_location:
             logger.info(f"[LOCATION FILTER] Detected target location: {target_location}")
+        
+        # Adjust search depth based on NIRF availability
+        max_pages_to_fetch = 8 if nirf_available else 15  # Fetch more pages when NIRF not available
+        search_results_per_query = 8 if nirf_available else 12  # More search results when no NIRF
+        
+        if not nirf_available:
+            logger.info(f"[COMPREHENSIVE SEARCH] NIRF not available - fetching up to {max_pages_to_fetch} pages from official website")
         
         all_data = {
             "official_website": [],
@@ -1883,6 +1908,13 @@ Examples:
                 f'"{clean_name}" placement statistics 2024 2025',
                 f'"{clean_name}" PhD research scholars doctoral students enrollment',
             ]
+            # Add more comprehensive queries when NIRF not available
+            if not nirf_available:
+                official_queries.extend([
+                    f'"{clean_name}" admissions intake students',
+                    f'"{clean_name}" programs courses offered',
+                    f'"{clean_name}" about history establishment',
+                ])
             if abbreviation:
                 official_queries.append(f'"{abbreviation}" official')
         else:
@@ -1892,14 +1924,27 @@ Examples:
                 f'"{clean_name}" placement statistics 2024 2025',
                 f'"{clean_name}" PhD research scholars doctoral students enrollment',
             ]
+            if not nirf_available:
+                official_queries.extend([
+                    f'site:.ac.in OR site:.edu.in "{clean_name}" admissions students',
+                    f'site:.ac.in OR site:.edu.in "{clean_name}" about history',
+                ])
             if abbreviation:
                 official_queries.append(f'site:.ac.in OR site:.edu.in "{abbreviation}" official')
         
         official_urls_to_fetch = set()
         
+        # Extract campus path from college URL if it's campus-specific
+        campus_path = None
+        if college_website_url:
+            parsed_college_url = urlparse(college_website_url)
+            if parsed_college_url.path.strip('/'):
+                campus_path = parsed_college_url.path.strip('/').split('/')[0]
+                logger.info(f"[CAMPUS FILTER] Detected campus path: /{campus_path}/ - will filter search results")
+        
         # Execute searches in parallel using ThreadPoolExecutor
         def run_search(query):
-            return self.search_official_sources(query, num_results=8, restrict_to_site=college_website_url)
+            return self.search_official_sources(query, num_results=search_results_per_query, restrict_to_site=college_website_url)
         
         with ThreadPoolExecutor(max_workers=4) as executor:
             future_to_query = {executor.submit(run_search, q): q for q in official_queries}
@@ -1916,6 +1961,16 @@ Examples:
                             if college_domain != result_domain:
                                 logger.debug(f"Filtering out non-college URL: {url} (not from {college_domain})")
                                 continue
+                            
+                            # If campus-specific URL, filter by campus path
+                            if campus_path:
+                                parsed_url = urlparse(url)
+                                url_path = parsed_url.path.lower()
+                                
+                                # Check if URL belongs to the same campus
+                                if f"/{campus_path.lower()}/" not in url_path and not url_path.startswith(f"/{campus_path.lower()}"):
+                                    logger.debug(f"[CAMPUS FILTER] Excluding URL from different campus: {url}")
+                                    continue
                         
                         # Add source priority classification
                         priority = SourcePriorityClassifier.get_source_priority(url)
@@ -1942,7 +1997,9 @@ Examples:
         if progress_callback:
             await progress_callback("Fetching official website content...", 40)
         
-        urls_to_fetch = [u for u in list(official_urls_to_fetch)[:8] if u not in all_data["fetched_urls"]]
+        urls_to_fetch = [u for u in list(official_urls_to_fetch)[:max_pages_to_fetch] if u not in all_data["fetched_urls"]]
+        
+        logger.info(f"[OFFICIAL WEBSITE] Fetching {len(urls_to_fetch)} pages from college website")
         
         def fetch_url(url):
             try:
@@ -1970,6 +2027,51 @@ Examples:
         # Search for public disclosure pages and PDFs
         disclosure_data = self.search_public_disclosure(clean_name, abbreviation, college_website_url)
         
+        # Apply campus-specific filtering when we have a branch-specific URL
+        campus_path_for_filtering = None  # Store for later use
+        if college_website_url:
+            parsed_college_url = urlparse(college_website_url)
+            campus_path = parsed_college_url.path.strip('/').split('/')[0] if parsed_college_url.path.strip('/') else None
+            
+            if campus_path:
+                campus_path_for_filtering = campus_path  # Store for use in PDF fetching
+                # This is a campus-specific URL (e.g., /gwalior/, /mumbai/)
+                logger.info(f"[CAMPUS FILTER] Detected campus path: /{campus_path}/ - filtering disclosure results")
+                
+                # Filter pages
+                original_page_count = len(disclosure_data.get("pages", []))
+                filtered_pages = []
+                for page in disclosure_data.get("pages", []):
+                    page_url = page.get('url', '')
+                    parsed_page = urlparse(page_url)
+                    page_path = parsed_page.path.lower()
+                    
+                    # Check if page belongs to the same campus
+                    if f"/{campus_path.lower()}/" in page_path or page_path.startswith(f"/{campus_path.lower()}"):
+                        filtered_pages.append(page)
+                    else:
+                        logger.debug(f"[CAMPUS FILTER] Excluding page from different campus: {page_url}")
+                
+                disclosure_data["pages"] = filtered_pages
+                logger.info(f"[CAMPUS FILTER] Pages: {len(filtered_pages)}/{original_page_count} after campus filtering")
+                
+                # Filter PDFs
+                original_pdf_count = len(disclosure_data.get("pdfs", []))
+                filtered_pdfs = []
+                for pdf in disclosure_data.get("pdfs", []):
+                    pdf_url = pdf.get('url', '')
+                    parsed_pdf = urlparse(pdf_url)
+                    pdf_path = parsed_pdf.path.lower()
+                    
+                    # Check if PDF belongs to the same campus
+                    if f"/{campus_path.lower()}/" in pdf_path or pdf_path.startswith(f"/{campus_path.lower()}"):
+                        filtered_pdfs.append(pdf)
+                    else:
+                        logger.debug(f"[CAMPUS FILTER] Excluding PDF from different campus: {pdf_url}")
+                
+                disclosure_data["pdfs"] = filtered_pdfs
+                logger.info(f"[CAMPUS FILTER] PDFs: {len(filtered_pdfs)}/{original_pdf_count} after campus filtering")
+        
         # Apply location filtering to disclosure pages
         disclosure_pages = disclosure_data.get("pages", [])
         if target_location and disclosure_pages:
@@ -1992,7 +2094,7 @@ Examples:
                 await progress_callback("Fetching Public Disclosure pages and PDFs...", 48)
             
             def fetch_disclosure_with_pdfs(page_url):
-                return self.fetch_disclosure_page_and_pdfs(page_url, max_pdfs=2)
+                return self.fetch_disclosure_page_and_pdfs(page_url, max_pdfs=2, campus_path=campus_path_for_filtering)
             
             with ThreadPoolExecutor(max_workers=4) as executor:
                 future_to_page = {executor.submit(fetch_disclosure_with_pdfs, url): url for url in disclosure_pages_to_fetch[:3]}
@@ -2126,12 +2228,22 @@ Examples:
         # Convert set to list for JSON serialization
         all_data["fetched_urls"] = list(all_data["fetched_urls"])
         
+        # Log summary of data collected
+        website_pages = len(all_data["official_website_content"])
+        disclosure_docs = len(all_data.get("public_disclosure_content", []))
+        total_sources = len(all_data["official_website"]) + len(all_data["nirf"]) + len(all_data["naac"]) + len(all_data["public_disclosure"])
+        
+        if not nirf_available:
+            logger.info(f"[DATA COLLECTION SUMMARY - NO NIRF] Collected from official website:")
+            logger.info(f"  - {website_pages} website pages fetched and parsed")
+            logger.info(f"  - {disclosure_docs} disclosure documents processed")
+            logger.info(f"  - {total_sources} total search results found")
+        else:
+            logger.info(f"[DATA COLLECTION SUMMARY] {total_sources} sources, {website_pages} pages, {disclosure_docs} disclosures")
+        
         if progress_callback:
-            total_sources = len(all_data["official_website"]) + len(all_data["nirf"]) + len(all_data["naac"]) + len(all_data["public_disclosure"])
-            content_pages = len(all_data["official_website_content"])
-            disclosure_docs = len(all_data.get("public_disclosure_content", []))
             kpi_sources = sum(len(v.get("search_results", [])) for v in all_data.get("kpi_specific_data", {}).values())
-            await progress_callback(f"Data collection complete. {total_sources} sources, {disclosure_docs} disclosure docs, {content_pages} pages fetched", 98)
+            await progress_callback(f"Data collection complete. {total_sources} sources, {disclosure_docs} disclosure docs, {website_pages} pages fetched", 98)
         
         return all_data
 
@@ -2242,6 +2354,10 @@ Examples:
     async def extract_kpi_with_strict_sources(self, college_name: str, kpis_batch: List[Dict], 
                                                search_data: Dict[str, Any], client) -> List[Dict]:
         """Extract KPI values using Gemini with STRICT official source validation and per-KPI data"""
+        
+        # Log extraction start
+        kpi_names = [kpi['name'] for kpi in kpis_batch]
+        logger.info(f"[KPI EXTRACTION] Calling Gemini API for {len(kpis_batch)} KPIs: {kpi_names[:3]}...")
         
         # Build structured data from official sources - prioritize FULL content
         source_sections = []
@@ -2417,6 +2533,9 @@ MANDATORY: Extract ALL {len(kpis_batch)} KPIs. Provide both value AND your confi
         }
 
         try:
+            # Log prompt size for debugging
+            logger.info(f"[KPI EXTRACTION] Sending prompt to Gemini (size: {len(prompt)} chars, {len(search_content)} chars of source data)")
+            
             # Use modern google-genai client API with Gemini 3 Flash
             response = client.models.generate_content(
                 model="gemini-3-flash-preview",
@@ -2428,6 +2547,8 @@ MANDATORY: Extract ALL {len(kpis_batch)} KPIs. Provide both value AND your confi
                     thinking_config=types.ThinkingConfig(thinking_budget=1024)  # Low thinking for speed
                 )
             )
+            
+            logger.info(f"[KPI EXTRACTION] Received response from Gemini API")
             
             text = response.text.strip()
             
@@ -2528,6 +2649,10 @@ MANDATORY: Extract ALL {len(kpis_batch)} KPIs. Provide both value AND your confi
                         "source_priority": "unknown",
                         "confidence": "low"
                     })
+            
+            # Log completion
+            found_count = sum(1 for r in validated_results if r.get('value') != 'Data Not Found')
+            logger.info(f"[KPI EXTRACTION] Completed: {found_count}/{len(validated_results)} KPIs found")
             
             return validated_results
             
@@ -3137,19 +3262,27 @@ MANDATORY: Extract ALL {len(kpis_batch)} KPIs. Provide both value AND your confi
         else:
             logger.warning(f"[PHASE 1] No NIRF Overall document found")
             missing_kpis = [kpi['name'] for kpi in self.kpis_data]
+            logger.info(f"[PHASE 1] Will search official college website comprehensively for all {len(missing_kpis)} KPIs")
         
         # ======== PHASE 3: SEARCH FOR MISSING KPIs ========
         all_results = nirf_extracted_kpis.copy() if nirf_extracted_kpis else []
         
+        # Determine if we need comprehensive website search (when NIRF not available)
+        nirf_available = nirf_overall_doc is not None
+        
         if missing_kpis:
             if progress_callback:
-                await progress_callback(f"Searching for {len(missing_kpis)} missing KPIs...", 45)
+                search_mode = "official website" if not nirf_available else "additional sources"
+                await progress_callback(f"Searching {search_mode} for {len(missing_kpis)} KPIs...", 45)
             
-            logger.info(f"[PHASE 3] Searching for {len(missing_kpis)} missing KPIs")
+            if not nirf_available:
+                logger.info(f"[PHASE 3] NIRF not available - performing comprehensive official website search for {len(missing_kpis)} missing KPIs")
+            else:
+                logger.info(f"[PHASE 3] Searching for {len(missing_kpis)} missing KPIs")
             
             # Gather additional data sources for missing KPIs
             try:
-                search_data = await self.gather_official_data(college_name, progress_callback, college_website_url)
+                search_data = await self.gather_official_data(college_name, progress_callback, college_website_url, nirf_available=nirf_available)
             except Exception as e:
                 if "cancelled" in str(e).lower():
                     logger.info(f"Audit cancelled during Phase 3 data gathering")
@@ -3194,6 +3327,10 @@ MANDATORY: Extract ALL {len(kpis_batch)} KPIs. Provide both value AND your confi
                             logger.info(f"Audit cancelled during batch {batch_num}")
                             return all_results  # Return what we have so far
                         raise
+                
+                # LOG START OF EXTRACTION
+                kpi_names = [kpi['name'] for kpi in batch]
+                logger.info(f"[PHASE 3] Starting extraction batch {batch_num}/{total_batches}: {kpi_names}")
                 
                 try:
                     batch_results = await self.extract_kpi_with_strict_sources(
